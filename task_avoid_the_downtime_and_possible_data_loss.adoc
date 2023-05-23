@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_the_downtime_and_possible_data_loss.html 
+keywords: downtime, data loss, avoid downtime, avoid data loss 
+summary: Fornisce informazioni su come evitare il downtime e la possibile perdita di dati. 
+---
+= Evitare il downtime e la possibile perdita di dati
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Quando accedi a Digital Advisor e noterai il badge rosso sul widget *Availability and Protection*, puoi intraprendere azioni per risolvere i rischi critici. Senza la correzione del firmware, questi dischi sono vulnerabili a diventare inutilizzabili dopo un certo numero di ore di accensione. Risolvere questo problema eviterebbe sia il downtime che la possibile perdita di dati.
+
+.Fasi
+. Accedere a Digital Advisor.
+. Fare clic su *azioni* nel widget *disponibilità e protezione*.image:Availability and protection_image 1 downtime and data loss.png["Disponibilità  widget di protezione"]
++
+Per i rischi di protezione ad alto impatto, seguire l'azione consigliata per aggiornare il firmware del disco.
+
+. Fare clic sul collegamento *Risk Name* per visualizzare il riepilogo dei rischi.image:Risk summary_image 2 downtime and data loss.png["Riepilogo dei rischi"]
+. Fare clic sulla scheda *rischi unici*, quindi fare clic sul collegamento nella colonna *azione correttiva*.image:Corrective action_image 3 downtime and data loss.png["Azione correttiva"]
++
+Digital Advisor genera script o playbook personalizzati Ansible per aggiornare il firmware del disco richiesto, inclusi i file del firmware del disco.
+
+. Fare clic sull'icona *Ansible "A"* per generare e scaricare gli script.image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["Firmware AFF e FAS"]
+

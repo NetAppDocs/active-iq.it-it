@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_activeiq_features.html 
+keywords: digital advisor, features, upgrade, support offering 
+summary: Fornisce informazioni su dashboard, elenchi di controllo, funzioni e widget. 
+---
+= Comprendere le funzionalità di Digital Advisor
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile visualizzare lo stato generale del sistema storage, informazioni di alto livello sullo stato di salute del sistema, inventario, pianificazione, aggiornamenti e informazioni preziose a livello di elenco di controllo utilizzando Digital Advisor.
+
+Quando si accede a Digital Advisor per la prima volta, è possibile creare una lista di controllo o cercare un nome cliente, un nome di sito, un nome di gruppo, un StorageGRID, un nome host, Cluster, numero di serie o ID di sistema.
+
+È inoltre necessario conoscere i colori applicati alle schede, che indicano la gravità e il tipo di rischi.
+
+Di seguito sono riportate alcune delle funzioni di Digital Advisor:
+
+* Visualizza più liste di controllo, utili e pratiche viste a colpo d'occhio delle informazioni
+* Ottieni informazioni su tutti i rischi per il tuo sistema storage e sulle azioni per mitigarne i rischi
+* Mitigare i rischi con Active IQ Unified Manager
+* Aggiorna il tuo sistema storage
+* Visualizza il rapporto di efficienza dello storage, lo spazio logico utilizzato, lo spazio fisico utilizzato e i dati totali salvati per i sistemi storage che eseguono ONTAP 9.1 e versioni successive
+* Analizza le performance dei tuoi dispositivi di storage visualizzando il formato grafico dei dati delle performance
+* Ottieni informazioni su hardware e software scaduti o prossimi alla scadenza entro i prossimi 6 mesi
+* Aggiornare il firmware ONTAP utilizzando Ansible
+* Scopri i dettagli sui sistemi che hanno superato il 90% di capacità o stanno per arrivare al 90% di capacità
+* Visualizza informazioni dettagliate sulla configurazione fisica e logica, tra cui un riepilogo della configurazione del cluster e del nodo, le informazioni sul Tier locale e sul volume, l'interfaccia di rete e le informazioni sulle porte, un diagramma dello stack con informazioni dettagliate su dischi e shelf e alcune visualizzazioni dei cavi
+* Fornire informazioni e informazioni cross-stack utili per la risoluzione dei problemi, le valutazioni degli upgrade, la convalida della soluzione e la migrazione
+* Verificare la compatibilità degli host e fornire consigli per l'aggiornamento di sistemi operativi, driver e firmware host
+* Ottieni esattamente ciò che vuoi trovare in modo più intelligente e veloce
+
+
+
+NOTE: Puoi aggiornare l'offerta di supporto dal widget *Configuration* sulla dashboard del sistema per ottenere informazioni sulla base installata e ricevere supporto personalizzato.

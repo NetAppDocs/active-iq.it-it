@@ -1,0 +1,43 @@
+---
+sidebar: sidebar 
+permalink: task_view_API_catalog.html 
+keywords: API Catalog, APIs, integrate data, view catalog 
+summary: Fornisce informazioni sulle API disponibili nel catalogo API. 
+---
+= Utilizzare il catalogo API per eseguire le API
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Il catalogo API consente di sfogliare le categorie e le API disponibili all'interno di ciascuna di queste categorie.
+
+Utilizzando un token di accesso valido e gli input corretti per i campi obbligatori, è possibile effettuare una chiamata di prova per un'API.
+
+.Fasi
+. Dal menu *Quick Links* (Collegamenti rapidi), fare clic su *API Services* (servizi API).
+. Fare clic su link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*Sfoglia*"] Sotto l'icona *API Catalog*.
++
+Viene visualizzato il catalogo API.
+
+. Selezionare un'API qualsiasi
+. Nella parte superiore della pagina, spostare il pulsante su "Experiment" (esperimento).
+. Dalla barra di navigazione a sinistra, espandere le categorie e selezionare qualsiasi API per visualizzare informazioni dettagliate.
+. Espandere l'API.
+. Fare clic sul pulsante *Try it out* (prova) a destra.
+. Fornire i parametri richiesti e fare clic su *Esegui* per visualizzare i risultati.
++
+È inoltre possibile esaminare la sezione *Responses* dell'API per comprendere meglio i dati che verranno restituiti. È possibile fare clic su *valore di esempio* per visualizzare il formato dei dati oppure fare clic su *modello* e fare clic sui cart per espandere le sezioni per visualizzare la definizione di ciascun elemento.
+
+
+
+Facendo scorrere il pulsante di selezione sulla vista *Code*, è possibile visualizzare gli esempi di codice in varie lingue.

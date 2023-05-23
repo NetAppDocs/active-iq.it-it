@@ -1,0 +1,38 @@
+---
+sidebar: sidebar 
+permalink: task_generate_tokens_API_services.html 
+keywords: generate token, access token, refresh token, API services 
+summary: Fornisce informazioni su come generare un token per accedere alle API. 
+---
+= Generare token per utilizzare le API
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È facile registrarsi ai servizi API e generare token.
+
+.Fasi
+. Dal menu *Quick Links* (Collegamenti rapidi), fare clic su *API Services* (servizi API).
+. Fare clic su *Registra*.
+. Compilare il modulo di richiesta di autorizzazione e fare clic su *Invia*.
++
+L'attivazione è automatica e dovrebbe essere istantanea. Una volta autorizzati a utilizzare le API di Digital Advisor, è possibile generare token da utilizzare per le chiamate API programmatiche. È inoltre possibile utilizzare questi token per eseguire la "prova" dall'interno del catalogo API. Una volta ottenuti a livello di programmazione, i token vengono sempre forniti in due insiemi: Un token di accesso e un token di aggiornamento. Il token di accesso deve essere passato per utilizzare correttamente tutte le API (ad eccezione di una - il token Refresh viene utilizzato per ottenere a livello di programmazione un nuovo set di token).
+
+. Nella pagina servizi API principali, fare clic su *genera token* per visualizzare e scaricare il token di accesso e il token di aggiornamento per richiamare le API.
++
+Il portale offre diversi modi per salvare uno o entrambi i token nell'insieme. È possibile copiarli negli Appunti, scaricarli come file di testo o visualizzarli come testo normale.
+
+
+
+
+NOTE: È necessario scaricare e salvare il token di accesso e il token di aggiornamento per un utilizzo successivo. I token di accesso scadono un'ora dopo la generazione e i token di refresh devono essere rigenerati, manualmente, ogni 7 giorni e installati nell'applicazione. A tale scopo, non è necessario accedere all'applicazione. Tuttavia, dopo 90 giorni, è necessario accedere all'applicazione per ottenere un nuovo token di accesso e refresh.

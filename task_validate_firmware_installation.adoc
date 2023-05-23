@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: task_validate_firmware_installation.html 
+keywords: validate, firmware, firmware installation 
+summary: 'Fornisce informazioni su come convalidare l"installazione del firmware.' 
+---
+= Convalidare l'installazione del firmware
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Dopo l'esecuzione del manuale, accedere al cluster come amministratore del cluster.
+
+
+
+== Convalidare l'installazione del firmware del disco
+
+.Fasi
+. Verificare che il firmware del disco sia installato:
++
+[listing]
+----
+::*> storage disk show -fields firmware-revision,model
+disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
++
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage disk show].
+
+. Verificare che il nuovo firmware NVMe Flash cache sia installato:
++
+[listing]
+----
+::*> system controller flash-cache show
+----
++
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system controller flash-cache show].
+
+
+
+
+
+== Convalidare l'installazione del firmware dello shelf
+
+.Fasi
+. Verificare che il nuovo firmware dello shelf sia aggiornato:
++
+[listing]
+----
+::*> system node run -node * -command sysconfig -v
+----
++
+Nell'output, verificare che il firmware di ogni shelf sia aggiornato al livello desiderato. Ad esempio:
+
++
+[listing]
+----
+Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
+----
++
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system node run].
+
+. Verificare che il nuovo firmware ACP sia aggiornato:
++
+[listing]
+----
+::*> storage shelf acp module show -instance
+----
++
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[show del modulo acp dello shelf di storage].
+
+. Verificare che la modalità ACP desiderata sia configurata:
++
+[listing]
+----
+::*> storage shelf acp show
+----
++
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp show].
+
+. Modificare la modalità ACP (canale):
++
+[listing]
+----
+::*> storage shelf acp configure -channel [in-band | out-of-band]
+----
++
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp configure].
+
+
+
+
+
+== Convalida dell'installazione del firmware SP/BMC
+
+Il manuale Ansible Playbook per gli aggiornamenti del firmware di Service Processor/BMC è abilitato con un'opzione per verificare l'installazione del firmware SP/BMC più recente sul controller. Una volta completata la verifica (gli aggiornamenti potrebbero richiedere un tempo massimo di due ore), Ansible Playbook applica gli aggiornamenti del firmware dello switch interno effettuando la connessione alla console SP/BMC.
+
+Le informazioni relative al guasto e al successo delle installazioni del firmware SP/BMC e del firmware dello switch interno verranno notificate al termine dell'esecuzione di Ansible Playbook. Seguire la procedura indicata nel manuale Ansible Playbook nel caso in cui l'installazione del firmware SP/BMC/firmware switch interno non riesca.

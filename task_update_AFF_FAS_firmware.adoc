@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_update_AFF_FAS_firmware.html 
+keywords: update, AFF, FAS firmware, firmware 
+summary: Fornisce informazioni su come aggiornare il firmware AFF e FAS. 
+---
+= Scarica il pacchetto di automazione Ansible del firmware AFF e FAS
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È necessario aggiornare il firmware AFF e FAS utilizzando Ansible per ridurre i rischi identificati e mantenere aggiornato il sistema storage.
+
+
+
+== Prima di iniziare
+
+Prima di aggiornare il firmware AFF e FAS utilizzando Ansible, è necessario:
+
+* link:https://netapp.io/2018/10/08/getting-started-with-netapp-and-ansible-install-ansible/["Installare e configurare Ansible sul sistema storage"]
+* link:https://netapp.io/2019/09/17/coming-together-nicely/["Installare Ansible 2.9 con raccolte sul sistema storage"]
+* Aggiorna il tuo sistema storage a ONTAP 9.1 o versione successiva
+* Configurare l'account con un ruolo di amministratore
+
+
+.Fasi
+. Fare clic su un widget wellness nella dashboard o fare clic su *View All Actions* (Visualizza tutte le azioni) per visualizzare un elenco di tutte le azioni e i rischi.
+. Fare clic su *firmware Upgrade* (aggiornamento firmware) per visualizzare tutti i rischi di aggiornamento del firmware.
+. Fare clic su *Update AFF and FAS firmware* (Aggiorna firmware e aggiornamento firmware) per visualizzare tutti i pacchetti di aggiornamento disponibili oppure fare clic su image:update_ansible.png["Aggiorna Ansible"] accanto a ciascun rischio per aggiornare il pacchetto specifico in base a tale rischio.
+. Fare clic su *Download* per scaricare i file zip e aggiornare il sistema di storage.
++
+Il file zip contiene quanto segue:
+
++
+** Ansible Playbook - un file YAML contenente lo script Ansible per eseguire gli aggiornamenti del firmware del disco, dello shelf e del processore di servizio.
+** Inventario - un file YAML contenente i dettagli dei sistemi applicabili agli aggiornamenti del firmware.
+** I pacchetti di dischi, shelf e processori di servizio/firmware BMC sono denominati rispettivamente *all.zip*, *all_shelf_fw.zip* e *<SP/BMC>_<version_number>_fw.zip*.
+
+
+
+
+
+NOTE: L'aggiunta manuale di cluster e controller al file di inventario non è supportata.

@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: task_compare_config_drift_template.html 
+keywords: config deviation, drift, configuration, compare template 
+summary: Fornisce informazioni per confrontare un modello di deriva della configurazione. 
+---
+= Confrontare un modello di deriva della configurazione
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile confrontare le configurazioni del sistema e del cluster e rilevare le deviazioni di configurazione quasi in tempo reale.
+
+.Fasi
+. Nel riquadro di sinistra, fare clic su *Config Drift*.
+. Selezionare uno dei modelli esistenti o fare clic su *Add Template* (Aggiungi modello) per aggiungere un nuovo modello.
+. Generare un report di deriva della configurazione
++
+È possibile generare un report immediatamente o pianificarne la generazione su base settimanale o mensile.
+
+
+
+[cols="50,50"]
+|===
+| Per generare immediatamente un report | Per pianificare la generazione del report su base settimanale o mensile 
+
+
+ a| 
+. Selezionare una categoria e fornire i valori richiesti per il report.
+. Selezionare l'opzione *include only drift* (Includi solo derive) per scaricare solo le modifiche della deviazione di configurazione.
+. Fare clic su *Invia*.
+. link:task_generate_reports.html["Scarica e visualizza il report di deriva della configurazione"].
+. Eseguire Ansible Playbook (incluso nel report di deriva della configurazione) per ridurre le derive.
+
+ a| 
+. Fare clic sulla scheda *Schedule Report* (Pianifica report).
+. Selezionare una categoria e fornire i valori richiesti per il report.
+. Selezionare l'opzione *include only drift* (Includi solo derive) per scaricare solo le modifiche della deviazione di configurazione.
+. Selezionare la frequenza del report.
+. Selezionare la data di inizio e la data di fine del report.
+. Fare clic su *Invia*.
+. link:task_generate_reports.html["Scarica e visualizza il report di deriva della configurazione"].
+. Eseguire Ansible Playbook (incluso nel report di deriva della configurazione) per ridurre le derive.
+
+
+|===
+Viene inviata un'e-mail con i dettagli della deviazione di configurazione tra i sistemi selezionati.

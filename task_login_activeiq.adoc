@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_login_activeiq.html 
+keywords: login, log in 
+summary: 'Fornisce informazioni per l"accesso a Digital Advisor.' 
+---
+= Accedere a Digital Advisor
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Per accedere a Digital Advisor, è necessario disporre di una credenziale valida per il sito del supporto NetApp. Se non si dispone di un account e si sta per iniziare, fare clic su link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["qui"].
+
+.Fasi
+. Fare clic su link:https://activeiq.netapp.com/?source=onlinedocs["qui"] Per accedere a Digital Advisor.
++
+Digital Advisor mostra i sistemi con un contratto di supporto valido. Se i contratti scadono, viene assegnato un periodo di tolleranza di 90 giorni in cui i sistemi continuano a essere visibili. In seguito, i sistemi non possono essere ricercati o visualizzati in Digital Advisor.
+
+. Inserisci il tuo nome utente e la password e fai clic su *Accedi*.
+

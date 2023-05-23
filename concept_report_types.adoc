@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: concept_report_types.html 
+keywords: reports, report types, reporting, performance reports 
+summary: 'Fornisce informazioni sui diversi tipi di report disponibili per l"utente.' 
+---
+= Tipi di report
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Digital Advisor offre una vasta gamma di opzioni di reporting che consentono di monitorare e gestire lo stato di salute del sistema e il successo delle operazioni.
+
+Di seguito sono riportati i tipi di report disponibili in Digital Advisor:
+
+[cols="30,70"]
+|===
+| Nome report | Descrizione 
+
+
+| Piani Upgrade Advisor 7-Mode | Fornisce un report sul piano di upgrade Advisor per i sistemi 7-mode. Questo report include informazioni sul partner ha. 
+
+
+| Inventario di Ansible | Fornisce un file di inventario Ansible che elenca tutti i dettagli di inventario del sistema per regione o sito. Questo file può essere utilizzato per l'automazione. 
+
+
+| Capacità ed efficienza | Fornisce informazioni sulla capacità e sull'efficienza a livello di cluster, cliente, sito, gruppo, elenco di controllo e nodo. 
+
+
+| Report di ClusterViewer | Fornisce informazioni su uno o più cluster a livello di cliente e lista di controllo. È possibile generare questo report solo per la lista di controllo con un massimo di 100 nodi. 
+
+
+| FabricPool | Fornisce informazioni su inattivo, freddo, attivo, caldo, su più livelli, e dati non monitorati. Questo report include anche il playbook Ansible per l'abilitazione di report di dati inattivi su aggregati disabilitati. 
+
+
+| Inventario | Fornisce informazioni sulla base di installazione per un elenco di controllo, un cliente, un sito o livelli di gruppo selezionati. Questo report può essere generato sia come download diretto dalla pagina Dettagli inventario che come generazione dalla pagina Report. 
+
+
+| Densità io | Io Density Report fornisce informazioni sui picchi delle operazioni input-output per i clienti in termini di consumo e densità di dati e metadati. 
+
+
+| Report sulle performance | Fornisce informazioni, a livello di elenco di controllo, sulle performance di un cluster, nodo, Tier locale (aggregato) e volume. È possibile generare questo report solo per la lista di controllo con un massimo di 100 nodi. 
+
+
+| Configurazione consigliata | Fornisce informazioni sui vari gap di configurazione consigliati per la configurazione della gestione remota, le unità di riserva e i dischi, la coppia ha e lo stato di salute SVM. 
+
+
+| Contratti di supporto / hardware EOS | Fornisce informazioni sull'elenco di controller, shelf e dischi che hanno raggiunto la fine del supporto (EOS). 
+
+
+| Dettagli tecnici del caso | Fornisce un report annuale su tutti i casi tecnici e sul loro stato. 
+
+
+| Consigli per l'aggiornamento (SW e FW) | Report multi-tabbed sulla valuta del software e del firmware e sulle versioni consigliate per ciascun controller o seriale nei criteri di ricerca. 
+
+
+| Report sulle performance dei volumi | Fornisce informazioni sui dettagli delle performance dei volumi a livello di cluster. 
+
+
+| Benessere | Fornisce informazioni sui rischi in sospeso e riconosciuti, sui dettagli dei rischi, sulle azioni correttive e sui sistemi interessati. 
+
+
+| Benessere – aggregato | Fornisce un riepilogo dei rischi in sospeso e del numero di sistemi interessati. 
+|===

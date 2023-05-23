@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_subscribe_to_wellness_review_email.html 
+keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
+summary:  
+---
+= Iscriviti all'e-mail di revisione del benessere
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puoi iscriverti all'e-mail di revisione del benessere per ricevere un'e-mail mensile che riepiloga lo stato del benessere, i sistemi che stanno per essere rinnovati, i sistemi che richiedono un upgrade per i prodotti NetApp della tua base installata. Riceverai un'e-mail di revisione del benessere per visualizzare un riepilogo mensile e intraprendere azioni per i tuoi sistemi. Sono inoltre disponibili opzioni per visualizzare, modificare, condividere ed eliminare le sottoscrizioni. In qualsiasi momento, se decidi di non ricevere l'e-mail, puoi annullare l'iscrizione anche per ricevere l'e-mail.
+
+Una volta attivato l'abbonamento, selezionare una data di inizio quando si aggiunge un abbonamento. Il riepilogo mensile dell'e-mail fornisce una panoramica delle azioni di verifica dello stato di salute, rinnovo, aggiornamento e verifica dello stato di salute. È possibile confermare l'indirizzo e-mail e l'e-mail viene inviata all'indirizzo e-mail specificato. È inoltre possibile eliminare gli abbonamenti.
+
+
+NOTE: Questa funzione è disponibile solo attraverso le offerte di servizi NetApp SupportEdge Advisor e SupportEdge Expert.
+
+.Fasi
+. Nel riquadro di sinistra, fare clic su *Wellness Review*.
+. Fare clic su *Aggiungi abbonamento*.
+. Inserire le informazioni richieste nei campi *Nome abbonamento*, *Scegli categoria*, *Ricerca cliente* e *e-mail* della finestra di dialogo *Aggiungi nuovo abbonamento*.
+. Fare clic su *Subscribe* (Iscriviti).
++
+Una volta completata l'iscrizione, riceverai un messaggio *l'abbonamento è stato aggiunto*.
+
+

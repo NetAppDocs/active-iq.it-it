@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_analyze_wellness_clusters_and_nodes.html 
+keywords: cluster, node, clusterviewer, configuration 
+summary: Fornisce informazioni su ClusterViewer. 
+---
+= Analizzare lo stato di salute di cluster e nodi
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile analizzare lo stato di salute dei cluster e dei nodi utilizzando ClusterViewer, un'unica fonte di informazioni sulla configurazione fisica e logica dei cluster e dei nodi.
+
+ClusterViewer fornisce informazioni, come diagrammi di stack dei nodi, utilizzo ed efficienza dello storage, spazio di crescita nella capacità hardware e così via, che consentono di prendere decisioni informate per migliorare il benessere di cluster e nodi.
+
+È possibile visualizzare visualizzazioni o rappresentazioni grafiche della configurazione fisica dei nodi a livello di cavi, stack e dischi RAID. Puoi anche scaricare le visualizzazioni in formato SVG.
+
+video::FVbb2bbIY9E[youtube,width=848,height=480]
+.Fasi
+. Nel widget *Inventory*, selezionare il cluster o il nodo (host) desiderato.
+. A livello di cluster o nodo, fare clic su *ClusterViewer* accanto al widget *Configuration*.
+. Fare clic sulla scheda *visualizzazione* per visualizzare una rappresentazione grafica del cluster.
+

@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task_view_risks_remediated_unified_manager.html 
+keywords: risks, actions, remediation, corrective action, unified manager 
+summary: Fornisce informazioni per visualizzare i rischi che possono essere risolti automaticamente utilizzando Unified Manager. 
+---
+= Visualizza i rischi che possono essere mitigati automaticamente utilizzando Unified Manager o Ansible Playbook
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puoi analizzare il tuo sistema di storage visualizzando le azioni e i rischi e mitigarli utilizzando Active IQ Unified Manager o il manuale Ansible.
+
+video::XusFvXM7h-E[youtube,width=848,height=480]
+.Fasi
+. Fare clic su *View All Actions* (Visualizza tutte le azioni) nella dashboard.
+. Fare clic su *azioni* per visualizzare i rischi associati alle azioni, fare clic su *rischi* per visualizzare tutti i rischi oppure fare clic su *sistemi interessati* per visualizzare i sistemi che richiedono attenzione.
++
+Se il rischio può essere mitigato utilizzando Active IQ Unified Manager, il image:spanner.png["Chiave"] Viene evidenziata e se il rischio può essere mitigato utilizzando Ansible Playbook, il image:update_ansible.png["Aggiorna Ansible"] viene evidenziata.
+
+
+
+[cols="50,50"]
+|===
+| Per ridurre i rischi con Unified Manager | Ridurre i rischi utilizzando Ansible Playbook 
+
+
+ a| 
+. Fare clic su image:spanner.png["Chiave"] icona.
+. Fare clic su *Correggi* per avviare Active IQ Unified Manager.
+. Fare clic su *Installa* per installare Active IQ Unified Manager 9.7 o versione successiva e utilizzare l'opzione *Correggi*.
+. Fare clic su *Aggiorna* per eseguire l'aggiornamento a Active IQ Unified Manager 9.7 o versione successiva e utilizzare l'opzione *Correggi*.
+
+ a| 
+. Fare clic su image:update_ansible.png["Aggiorna Ansible"] icona.
+. Fare clic su *Download* per scaricare il pacchetto di automazione Ansible del firmware AFF e FAS.
+
+
+|===
+
+NOTE: Per utilizzare l'opzione *Correggi* e le funzionalità del manuale Ansible, è necessario un contratto SupportEdge Advisor o SupportEdge Expert.

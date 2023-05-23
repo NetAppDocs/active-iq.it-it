@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: task_generate_reports.html 
+keywords: reports, generate reports 
+summary: Fornisce informazioni per generare report. 
+---
+= Generare report
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile generare report immediatamente o pianificare la generazione di report su base settimanale o mensile. I report possono essere generati in diversi formati. In base al report selezionato, vengono visualizzati i formati disponibili.
+
+*A proposito di questa attività*
+
+* Non è possibile modificare i report in Digital Advisor. Eliminare il report esistente e crearne uno nuovo.
+
+
+.Fasi
+. Nel riquadro di sinistra, fare clic su *Report*.
+. Fare clic su *Create Report* (Crea report) per generare un nuovo report.
++
+È possibile generare un report immediatamente o pianificarne la generazione su base settimanale o mensile.
+
+
+
+[cols="50,50"]
+|===
+| Per generare immediatamente un report | Per pianificare la generazione del report su base settimanale o mensile 
+
+
+ a| 
+. Selezionare il tipo di report e fornire i valori richiesti per il report.
+. Selezionare il formato del report.
+. Fare clic su *Invia*.
+
+
+
+NOTE: Il report viene salvato in Digital Advisor per 3 giorni.
+ a| 
+. Fare clic sulla scheda *Schedule Report* (Pianifica report).
+. Selezionare il tipo di report e fornire i valori richiesti per il report.
+. Selezionare il formato del report.
+. Selezionare la frequenza del report.
+. Selezionare la data di inizio e la data di fine del report.
+. Fare clic su *Invia*.
+
+
+
+NOTE: I report pianificati esistenti verranno sostituiti quando vengono generati i nuovi report.
+
+|===

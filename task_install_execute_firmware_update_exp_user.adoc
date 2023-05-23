@@ -1,0 +1,133 @@
+---
+sidebar: sidebar 
+permalink: task_install_execute_firmware_update_exp_user.html 
+keywords: install, execute, firmware update, Ansible Playbook, ansible, playbook, docker, experienced user 
+summary: 'Fornisce informazioni su come installare ed eseguire l"aggiornamento del firmware utilizzando Ansible Playbook.' 
+---
+= Installazione ed esecuzione del pacchetto di automazione AFF e FAS (utenti esperti)
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Gli utenti esperti possono installare ed eseguire rapidamente il pacchetto di automazione AFF e FAS firmware ansible.
+
+
+
+== Aggiornamento del firmware con Ansible utilizzando NetApp Docker Image
+
+.Fasi
+. Estrarre l'immagine di Ansible Docker sull'host Linux:
++
+[listing]
+----
+$ docker pull schmots1/netapp-ansible
+Using default tag: latest
+latest: Pulling from schmots1/netapp-ansible
+docker.io/schmots1/netapp-ansible:latest
+----
+. Eseguire l'immagine del docker come container sull'host Linux:
++
+[listing]
+----
+$ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
+----
++
+
+NOTE: Il Playbook Ansible e il file di inventario devono trovarsi nello stesso percorso.
+
+. Eseguire il manuale Ansible Playbook sull'host Linux. Gli aggiornamenti del firmware vengono eseguiti in background per alcune ore.
++
+[listing]
+----
+$ cd <container_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware.yml
+
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: Se gli URL del firmware del disco, del firmware dello shelf e del firmware del processore di servizio sono */http://<web-server>/path/all_shelf_fw.zip*, * http://<web-server>/path/all.zip* e */http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip*, fornire * http://<web-server>/path/* come input per l'URL di base del pacchetto firmware. Se sono presenti cluster con credenziali di accesso diverse, è necessario eseguire Ansible Playbook su ciascun cluster. Non sono necessarie modifiche al file di inventario, in quanto Ansible Playbook salta i cluster per i quali l'accesso non è riuscito.
+
+. Accedere al cluster come amministratore del cluster e verificare che il nuovo firmware del disco sia stato installato:
++
+[listing]
+----
+::> storage disk show -fields firmware-revision,model
+ disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
+
+
+
+
+== Aggiornamento del firmware se Ansible è già in uso
+
+.Fasi
+. Installare Python e Ansible e quindi scaricare i pacchetti Python usando PIP:
++
+[listing]
+----
+$ pip install netapp-lib requests paramiko
+
+Installing collected packages: netapp-lib, requests, paramiko
+Successfully installed netapp-lib-2020.3.12 requests-2.23.0 paramiko-2.7.2
+----
+. Installare NetApp Ansible Collection:
++
+[listing]
+----
+To install the collection only for the current user:
+$ ansible-galaxy collection install netapp.ontap
+
+For universal installation:
+$ ansible-galaxy collection install netapp.ontap -p /usr/share/ansible/collections
+$ chmod -R +rw /usr/share/ansible/collections
+----
+. Assicurarsi che il Playbook Ansible e il file di inventario si trovino nello stesso percorso, quindi eseguire il Playbook Ansible. Gli aggiornamenti del firmware vengono eseguiti in background per alcune ore.
++
+[listing]
+----
+$ cd <playbook_path>
+$ ansible-playbook na_ontap_pb_upgrade_firmware_disk.yml
+
+Enter your ONTAP admin username: ****
+Enter the password for your ONTAP admin user: ****
+Enter the base URL to the firmware package (using HTTP is recommended): http://<web-server>/path/
+PLAY [ONTAP Firmware Upgrade] ****************************************************************
+----
++
+
+NOTE: Se gli URL del firmware del disco, del firmware dello shelf e del firmware del processore di servizio sono */http://<web-server>/path/all_shelf_fw.zip*, * http://<web-server>/path/all.zip* e */http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip*, fornire * http://<web-server>/path/* come input per l'URL di base del pacchetto firmware. Se sono presenti cluster con credenziali di accesso diverse, è necessario eseguire Ansible Playbook su ciascun cluster. Non sono necessarie modifiche al file di inventario, in quanto Ansible Playbook salta i cluster per i quali l'accesso non è riuscito.
+
+. Accedere al cluster come amministratore del cluster e verificare che il nuovo firmware del disco sia stato installato:
++
+[listing]
+----
+::> storage disk show -fields firmware-revision,model
+ disk     firmware-revision model
+--------------- ----------------- ----------------
+1.11.0   NA01              X423_HCOBE900A10
+1.11.1   NA01              X423_HCOBE900A10
+1.11.2   NA01              X423_HCOBE900A10
+1.11.3   NA01              X423_HCOBE900A10
+1.11.4   NA01              X423_HCOBE900A10
+----
+

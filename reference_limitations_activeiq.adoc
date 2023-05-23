@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: reference_limitations_activeiq.html 
+keywords: limitation, issues, not supported, drawbacks 
+summary: Fornisce informazioni sulle limitazioni della release. 
+---
+= Limitazioni note
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Le limitazioni note identificano piattaforme, dispositivi o funzioni non supportate da questa versione del prodotto o che non interagiscono correttamente con esso. Esaminare attentamente queste limitazioni.
+
+Esistono le seguenti limitazioni:
+
+* Per i sistemi storage Data ONTAP che operano solo in 7-Mode (i sistemi storage Data ONTAP che operano in 7-Mode stanno per scadere)
++
+** Grafici delle performance
+** Efficienza dello storage
+
+
+* Upgrade Advisor non supporterà i piani di upgrade per Clustered ONTAP precedenti al 9.0.
+
+
+
+
+== La modifica di una lista di controllo può richiedere 60 minuti per riflettere in Digital Advisor
+
+La modifica di una lista di controllo non aggiorna immediatamente le informazioni di Digital Advisor. Potrebbero essere necessari fino a 60 minuti affinché le modifiche si riflettano in Digital Advisor.
+
+
+
+== Viene visualizzato un report vuoto durante la pianificazione dei report
+
+I report pianificati sono disponibili solo con un contratto di supporto SupportEdge Advisor o SupportEdge Expert. Se i sistemi non sono soggetti a SupportEdge Advisor o a un contratto di supporto SupportEdge Expert, è possibile ottenere un report vuoto durante la pianificazione dei report.
+
+
+
+== I rischi riconosciuti e non riconosciuti possono richiedere 60 minuti per riflettere in Digital Advisor
+
+Lo stato dei rischi riconosciuti e non riconosciuti non si riflette immediatamente in Digital Advisor. Potrebbero essere necessari fino a 60 minuti affinché le modifiche si riflettano in Digital Advisor e nel report del benessere.

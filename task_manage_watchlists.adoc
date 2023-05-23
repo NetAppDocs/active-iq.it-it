@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_manage_watchlists.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: Fornisce informazioni per la gestione delle liste di controllo. 
+---
+= Gestire una lista di controllo
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile visualizzare la dashboard per diverse liste di controllo, modificare i dettagli di una lista di controllo esistente ed eliminare una lista di controllo.
+
+.Fasi
+. Nel riquadro di sinistra, fare clic su *Watchlist*.
++
+Viene visualizzata la schermata *Manage Watchlist* (Gestisci lista di controllo).
+
+. Fare clic sul nome dell'elenco di controllo per visualizzare i dettagli della dashboard dell'elenco di controllo.
+. Fare clic su *Edit* (Modifica) per aggiornare i dettagli della lista di controllo.
+. Fare clic su *Delete* (Elimina) per eliminare la lista di controllo.
+

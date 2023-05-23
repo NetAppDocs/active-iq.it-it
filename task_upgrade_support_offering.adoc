@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: task_upgrade_support_offering.html 
+keywords: upgrade, support offering, supportedge, premium, standard, basic, expert, secure, purchase 
+summary: 'Fornisce informazioni sull"aggiornamento dell"offerta di supporto.' 
+---
+= Aggiorna l'offerta di supporto
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile acquistare un aggiornamento all'offerta di supporto per accedere a più funzionalità e funzionalità di Digital Advisor.
+
+Puoi aggiornare la tua attuale offerta di supporto per ottimizzare la base di installazione con l'aiuto di procedure e correzioni consigliate, automazione dell'upgrade con i playbook Ansible, report e recensioni pratici, supporto personalizzato e così via. L'aggiornamento può essere acquistato quando si rinnovano i contratti di supporto o in qualsiasi altro momento dalla dashboard del sistema (nodo).
+
+
+NOTE: Puoi scegliere l'aggiornamento AIQ solo se attualmente utilizzi le offerte di supporto sicuro di SupportEdge Premium o SupportEdge.
+
+.Fasi
+. Fare clic su *View All Systems* (Visualizza tutti i sistemi) accanto al widget *Inventory* (inventario).
+. Nella dashboard di inventario, selezionare il nodo (host) che si desidera aggiornare. Si viene reindirizzati alla dashboard di sistema o nodo.
+. Fare clic su *Upgrade* nel widget *Configuration*.
++
+image:Configuration widget_Support offering upgrade.PNG["Widget di configurazione"]
+
+. Facoltativamente, fare clic su *Confronta offerte di supporto* per visualizzare la tabella di confronto e scegliere l'offerta di supporto più adatta alle proprie esigenze. In alternativa, fare clic su *Support Offerings* (Offerte di supporto) nel menu di navigazione a sinistra per visualizzare la tabella di confronto.
+. Selezionare il tipo di aggiornamento desiderato.
++
+.. Aggiungi l'aggiornamento AIQ alle tue offerte di supporto sicuro SupportEdge Premium o SupportEdge
+.. Qualsiasi altra richiesta di upgrade
+
+
+. Aggiungere eventuali commenti e fare clic su *Invia*. Una richiesta di acquisto dell'upgrade dell'offerta di supporto viene inviata al team dei rinnovi NetApp.
+

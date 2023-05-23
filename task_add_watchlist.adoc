@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task_add_watchlist.html 
+keywords: dashboard, watchlist, add watchlist 
+summary: Fornisce informazioni per aggiungere un elenco di controllo alla dashboard. 
+---
+= Creare una lista di controllo
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile creare una lista di controllo per accedere a un set di sistemi in modo rapido e semplice. È possibile combinare il set di sistemi in base alla categoria o alla posizione.
+
+.Fasi
+. Nel riquadro di sinistra, fare clic su *Watchlist*
++
+Viene visualizzata la schermata *Manage Watchlist* (Gestisci lista di controllo).
+
+. Fare clic su *Create Watchlist* (Crea lista di controllo).
+. Fornire un nome per la lista di controllo.
+. Fornire i dettagli dei sistemi che si desidera aggiungere all'elenco di controllo.
++
+È possibile aggiungere un massimo di 15,000 sistemi in una categoria e 500 sistemi con un numero di serie.
+
+. Fare clic su *Create Watchlist* (Crea lista di controllo).
++
+Viene visualizzata la dashboard dell'elenco di controllo.
+
+

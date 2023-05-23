@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_view_wellness_history.html 
+keywords: wellness history, risks, wellness, view all actions, risk history, 
+summary: Fornisce informazioni sui rischi di sistema e su come visualizzare la cronologia delle condizioni di salute. 
+---
+= Visualizza la cronologia del benessere
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile visualizzare i rischi di sistema che si verificano negli ultimi tre mesi, in modo da poter apprendere come si stanno facendo straordinari.
+
+Questi rischi sono classificati in quattro tipi di rischi: *Non risolti*, *nuovi*, *risolti* e *riconosciuti*. Sono rappresentati da colori diversi. Il riepilogo di questi rischi è rappresentato da un grafico *Risk History*.
+
+.Fasi
+. Nella dashboard, nel riquadro *Wellness*, fare clic su *View All Actions* (Visualizza tutte le azioni).
+. Fare clic su *Wellness History*.
+. Nel grafico *Risk History*, fare clic sulla categoria per la quale si desidera visualizzare la cronologia dei rischi.
++
+Quando si passa il mouse sulle barre colorate, vengono visualizzate informazioni sul numero di rischi in ciascuna categoria. Facendo clic sulla rispettiva categoria di rischio, le informazioni vengono visualizzate nella tabella *informazioni sul rischio*.
+
++
+Puoi anche scaricare il riepilogo dei rischi in un foglio Excel.
+
+

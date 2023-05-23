@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: concept_get_started_with_health_check_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check dashboard, autosupport, autosupport adoption, recommended configuration, best practices, support, support and entitlements, support contract, contracts, active contracts, expired contracts, nearing-expiration, key recommendations, recommendations,  digital advisor, features, recommended software 
+summary: Fornisce informazioni sulla dashboard, i punteggi di salute, le funzioni e i widget. 
+---
+= Inizia con la dashboard di controllo dello stato di salute
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Questa dashboard fornisce un riepilogo immediato della base installata attraverso i seguenti widget:
+
+* *Adozione AutoSupport*: Visualizza il numero e la percentuale di sistemi con AutoSupport abilitato. È inoltre possibile visualizzare i sistemi contrassegnati come "‘Dallineati", quelli con *HTTPS* e *AutoSupport on Demand* abilitati, nonché *perdita di segnale* per i sistemi che hanno smesso di inviare dati AutoSupport negli ultimi 7 giorni. Per visualizzare il punteggio del controllo dello stato di salute e le informazioni sui sistemi della base di installazione, fare clic sul widget *AutoSupport Adoption*.
+* *Recommended Configuration* (Configurazione consigliata): Visualizza i sistemi conformi e non conformi in base al widget *Recommended Configuration* (Configurazione consigliata). Ti aiuta a intraprendere azioni per garantire che i tuoi sistemi siano ben configurati nella tua base installata. È possibile visualizzare il punteggio fornito nella dashboard e intraprendere azioni in base ai suggerimenti principali forniti in ordine di priorità.
+* *Software consigliato*: Visualizza un elenco consolidato di tutti gli aggiornamenti del software e del firmware e le raccomandazioni sulle valute. È possibile visualizzare i sistemi con AutoSupport abilitato che devono essere alla versione minima o più recente del software o del firmware.
+* *Support & Entitlements*: Visualizza i contratti di supporto scaduti e quelli che si stanno avvicinando alla scadenza entro 6 - 12 mesi. Visualizza piattaforme di fine supporto, dischi, shelf, conformità dei diritti, scadenze in sospeso, e la fine del supporto per piattaforma e hardware non è applicabile. È possibile visualizzare il punteggio del controllo dello stato di salute fornito nella dashboard e intraprendere azioni in base ai suggerimenti principali, forniti in ordine di priorità. Per visualizzare informazioni dettagliate sui contratti di assistenza, fare clic sul widget *Support & Entitlements*. Puoi anche rinnovare i contratti di supporto utilizzando questo widget.
+* *Best Practices*: Visualizza il punteggio del controllo dello stato di salute valutando gli attributi delle Best practice del sistema storage: Performance ed efficienza, disponibilità e protezione, capacità, configurazione e vulnerabilità di sicurezza. Le Best practice di NetApp aiutano a sostenere lo stato di salute del sistema, ottimizzando le performance della base installata.
+* *Casi tecnici*: Fornisce una vista dettagliata della cronologia tecnica del caso, in base al tipo di caso e allo stato aperto o chiuso, in intervalli di tempo selezionabili. È possibile analizzare i gruppi di casi e visualizzare i dettagli del caso tramite link:https://mysupport.netapp.com//["Sito di supporto NetApp"] o altri portali di casi.
+

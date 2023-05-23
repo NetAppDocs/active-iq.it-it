@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: task_add_config_drift_template.html 
+keywords: config deviation, drift, configuration, add template 
+summary: Fornisce informazioni per aggiungere un modello di deriva della configurazione. 
+---
+= Aggiungere un modello di drift di configurazione
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È necessario aggiungere un modello per confrontare le configurazioni di sistema e cluster e rilevare le deviazioni di configurazione quasi in tempo reale. I modelli di drift di configurazione vengono aggiunti utilizzando sistemi che eseguono dati AutoSupport.
+
+*A proposito di questa attività*
+
+Gli attributi di un modello di drift di configurazione sono modificabili e i seguenti gruppi del modello supportano espressioni regolari per alcune sezioni:
+
+[cols="3*"]
+|===
+| Gruppo | Sezione | Attributo 
+
+
+| *AGGREGATO* | AGGR-INFO.XML | nome 
+
+
+| *CLUSTER* | CLUSTER-INFO.XML | nome-cluster 
+
+
+| *LUN* | LUN.XML | nome 
+
+
+| *VSERVER* | VSERVER-INFO.XML | server virtuale 
+
+
+| *RETE* | NETWORK-INTERFACE.XML | vif 
+
+
+| *DNS* | DNS.XML | domini 
+
+
+| *VOLUME* | VOLUME.XML | vol 
+|===
+Utilizzando un'espressione regolare, un utente può creare un report di deriva della configurazione che include derive derivanti da incongruenze di denominazione di volumi, aggregati, cluster e così via. Ad esempio, se viene menzionata un'espressione regolare *nome-aggr** per l'attributo *Nome* della sezione *AGGR-INFO.XML* nel gruppo *AGGREGATO*, i valori dell'attributo senza il prefisso *nome-aggr* vengono contrassegnati come deriva quando viene generato il report di deriva della configurazione.
+
+.Fasi
+. Nel riquadro di sinistra, fare clic su *Config Drift*.
+. Fare clic su *Aggiungi modello*.
+. Fornire i valori richiesti.
+. Facoltativo: È possibile personalizzare il modello modificando i gruppi o eliminando i gruppi non richiesti per un modello.
+. Fare clic su *Aggiungi modello*.
+

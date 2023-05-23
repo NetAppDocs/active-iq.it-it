@@ -1,0 +1,78 @@
+---
+sidebar: sidebar 
+permalink: task_view_performance_graphs.html 
+keywords: performance, performance graph, graphs, digital advisor, performance charts, day, week, 1 month, 2 months, calendar, chart data, performance on node level, graph, node level 
+summary: Fornisce informazioni sulle prestazioni. 
+---
+= Analizzare i grafici delle performance
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+I grafici delle performance consentono di analizzare le performance dei dispositivi storage. È possibile visualizzare grafici dettagliati delle prestazioni per un cluster ONTAP o più nodi di un cluster ONTAP e controller e-Series. Questi grafici forniscono dati storici sulle performance, che possono essere utilizzati per comprendere l'analisi delle tendenze delle performance e dei modelli. È possibile selezionare una data dal calendario per visualizzare i grafici delle performance per un giorno, una settimana, un mese, due mesi e dodici mesi. È possibile selezionare più nodi per visualizzare un particolare grafico contemporaneamente.
+
+È possibile impostare le preferenze, ad esempio visualizzare un grafico per tre nodi o due grafici per tre nodi.
+
+Quando il grafico viene visualizzato per la prima volta, viene preselezionata una scheda di 1 settimana che presenta i dati per una settimana in un formato grafico per facilitare la comprensione di grandi quantità di dati e della relativa relazione tra diverse serie di dati. Se si desidera reimpostare l'intervallo di date, ad esempio, è possibile fare clic sulla scheda 1-Month (1 mese) e selezionare le date nel calendario.
+
+È inoltre disponibile un'opzione per ingrandire il grafico delle prestazioni; vengono visualizzati i singoli punti dati.
+
+video::fWrHYX17xT8[youtube,width=848,height=480]
+.Fasi
+. Nella dashboard, fare clic su *Performance* (prestazioni).
++
+Per i sistemi ONTAP, è possibile fare clic sulla scheda *nodo* per visualizzare le prestazioni di un singolo nodo di un cluster ONTAP, fare clic sulla scheda *livello locale* per visualizzare le prestazioni del livello locale oppure fare clic sulla scheda *volume* per visualizzare le prestazioni del volume. Per impostazione predefinita, vengono visualizzate le prestazioni del cluster.
+
++
+Per i sistemi e-Series, è possibile visualizzare i grafici solo a livello di controller.
+
+
+
+. Selezionare 1 giorno, 1 settimana, 1 mese, 2 mesi o 12 mesi, nel calendario, per visualizzare i dati delle performance in un formato grafico.
++
+Ad esempio, selezionare la scheda 2 mesi per visualizzare i dati per 2 mesi. In questo modo è possibile visualizzare dati specifici per una durata in base ai requisiti di performance.
+
+. Per i cluster e i nodi ONTAP sono disponibili i seguenti grafici delle performance con le metriche richieste:
+
+
+[cols="25,25,25,25"]
+|===
+| Per il cluster | Per nodo | Per livello locale | Per Volume 
+
+
+| IOPS | Utilizzo della CPU - performance di picco (spazio di crescita) | Throughput medio | IOPS 
+
+
+| Throughput di rete | Latenza | Utilizzo medio | Latenza 
+
+
+|  | IOPS |  |  
+
+
+|  | IOPS del protocollo |  |  
+
+
+|  | Throughput di rete |  |  
+|===
+
+NOTE: I grafici delle performance di latenza dei nodi e i grafici delle performance dei volumi sono supportati solo sui sistemi che eseguono ONTAP 9.2 e versioni successive.
+
+. Per i controller e-Series sono disponibili i seguenti grafici delle performance con le metriche richieste:
++
+** Utilizzo della CPU
+** Latenza
+** IOPS
+** Throughput
+
+
+

@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_protect_systems_against_ransomware_risks.html 
+keywords: ransomware, risks, ransomware risks 
+summary:  
+---
+= Proteggere i sistemi dai rischi ransomware
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Quando si accede a Digital Advisor, è possibile visualizzare le *azioni* evidenziate nel widget *ransomware Defense*, che mostra i conteggi dei rischi.
+
+È possibile visualizzare i rischi di creazione, conservazione e ONTAP FPolicy di Snapshot, quindi intraprendere azioni per risolverli.
+
+.Fasi
+. Accedere a Digital Advisor.
+. Fare clic su *azioni* nel widget *ransomware Defense*.
+. Per i rischi visualizzati, controllare il livello di impatto e seguire le azioni consigliate.
+. Fare clic sulla scheda rischi univoci e sul collegamento nella colonna *azione correttiva*.
+. Fare clic sulla scheda *sistemi interessati* per visualizzare i sistemi con rischi.
+. Seguire le azioni correttive consigliate per proteggere i sistemi.
+

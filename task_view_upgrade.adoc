@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_view_upgrade.html 
+keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
+summary: Fornisce informazioni per visualizzare e aggiornare la versione ONTAP del sistema storage. 
+---
+= Aggiornare la versione di ONTAP generando un piano di aggiornamento
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile visualizzare gli aggiornamenti in sospeso del sistema storage e passare a una versione successiva di ONTAP generando un piano di aggiornamento. È inoltre necessario visualizzare l'elenco dei rischi nella scheda *Risk Advisor* che potrebbe essere mitigato a causa dell'aggiornamento.
+
+.Fasi
+. Nella dashboard, visualizzare gli aggiornamenti in sospeso nel widget *Upgrades*.image:upgrade_advisor_widget.png["Upgrade Advisor"]
+. Fare clic sul numero di *azioni* per visualizzare gli aggiornamenti in sospeso.
+. Selezionare l'opzione di aggiornamento richiesta.image:upgrade_options.png["Opzioni di upgrade"]
+. Fare clic sul numero di sistemi visualizzati nel widget per visualizzare la scheda *Upgrade Advisor*.
++
+È inoltre possibile consultare le Note di rilascio per visualizzare informazioni dettagliate sulla release.image:generate_upgrade_plan.png["Generare un piano di upgrade"]
+
+. Visualizzare l'elenco dei rischi nella scheda *Risk Advisor*, insieme al relativo livello di severità, che verrebbe mitigato a causa dell'aggiornamento.
+. Fare clic su *generate Upgrade Plan* (genera piano di aggiornamento) per accedere a *Upgrade Advisor*.
+

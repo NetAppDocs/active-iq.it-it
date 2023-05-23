@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_avoid_a_volume_filling_up_to_prevent_an_outage.html 
+keywords: volume filling up, prevent an outage 
+summary: 'Fornisce informazioni su come evitare il riempimento di un volume per evitare un"interruzione del servizio.' 
+---
+= Evitare il riempimento di un volume per evitare un'interruzione del servizio
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Quando si accede a Digital Advisor e si nota il badge rosso sul widget *Configuration*. Facendo clic sul widget, il volume è pieno al 98% e questo potrebbe causare un'interruzione. La risoluzione di questo problema eviterebbe il riempimento di un volume, il che lo renderebbe di sola lettura, causando il crash e il guasto delle applicazioni che accedono all'IT.
+
+.Fasi
+. Accedere a Digital Advisor.
+. Fare clic su *azioni* nel widget *Configurazione*.image:Configuration_image 1 prevent an outage.png["Widget di configurazione"]
+. Fare clic sulla scheda *rischi unici*. Facendo clic sul collegamento *azione correttiva*, è possibile modificare le soglie di avviso o allocare più spazio al volume.image:Risk summary_image 2 prevent an outage.png["Riepilogo dei rischi"]
+

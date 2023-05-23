@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_renew_support_contracts_for_your_systems.html 
+keywords: renew, renewals, support contracts, support & entitlements, active support contracts, 
+summary: Fornisce informazioni su come rinnovare i contratti di supporto per i sistemi. 
+---
+= Rinnova i contratti di supporto
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+È possibile visualizzare il punteggio e il riepilogo di tutti i contratti di assistenza attivi nella dashboard. È possibile intraprendere azioni in base ai suggerimenti principali forniti in ordine di priorità.
+
+.Fasi
+. Nella dashboard Health Check, fare clic sul widget *Support & Entitlements*.
+. Se uno dei contratti di supporto del sistema è scaduto o sta per scadere, fare clic sul widget *contratti di supporto attivi*.
+. Selezionare le caselle di controllo e fare clic su *Renew* (Rinnova) per avviare il processo di rinnovo per i sistemi selezionati.
+

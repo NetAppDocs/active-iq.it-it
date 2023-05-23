@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: concept_get_more_information.html 
+keywords: overview, information, more details 
+summary: Fornisce ulteriori informazioni su Digital Advisor. 
+---
+= Ulteriori informazioni
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Puoi ottenere aiuto e trovare ulteriori informazioni attraverso varie risorse.
+
+* link:https://community.netapp.com/t5/Active-IQ-Digital-Advisor-and-AutoSupport/ct-p/autosupport-and-my-autosupport["Community NetApp"]
+* link:https://www.netapp.com/us/documentation/active-iq.aspx["Risorse di documentazione"]
+* link:https://www.netapp.com/us/media/tr-4688.pdf["Sicurezza e privacy dei dati di telemetria NetApp"]
+* link:https://www.netapp.com/us/media/tr-4444.pdf["ONTAP AutoSupport e AutoSupport on-demand"]
+

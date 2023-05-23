@@ -1,0 +1,213 @@
+---
+settings:
+  name: Digital Advisor
+  harmony_integration: maestro
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: it-it,us-en,ja-jp,ko-kr,zh-cn,zh-tw,de-de,es-es,fr-fr
+sidebar:
+  entries:
+  - title: Documentazione di Digital Advisor
+    url: "/index.html"
+  - title: Integrazione di Digital Advisor con BlueXP
+    url: "/digital-advisor-integration-with-bluexp.html"
+  - title: Note di rilascio
+    entries:
+    - title: Novità
+      url: "/reference_new_activeiq.html"
+    - title: Limitazioni note
+      url: "/reference_limitations_activeiq.html"
+  - title: Inizia subito
+    entries:
+    - title: Avvio rapido
+      url: "/concept_getting_started_2.html"
+    - title: Comprendere le funzionalità di Digital Advisor
+      url: "/concept_understand_activeiq_features.html"
+    - title: Concetti chiave
+      url: "/concept_key_terms.html"
+    - title: Comprendere AutoSupport
+      url: "/concept_autosupport.html"
+    - title: Accedere a Digital Advisor
+      url: "/task_login_activeiq.html"
+  - title: Provisioning dell'elenco di controllo
+    entries:
+    - title: Panoramica
+      url: "/concept_overview_dashboard.html"
+    - title: Creare una lista di controllo
+      url: "/task_add_watchlist.html"
+    - title: Gestire una lista di controllo
+      url: "/task_manage_watchlists.html"
+  - title: Analizzare gli attributi di benessere
+    entries:
+    - title: Panoramica
+      url: "/concept_overview_wellness.html"
+    - title: Visualizzare il rischio e intraprendere manualmente le azioni correttive
+      url: "/task_view_risk_and_take_action.html"
+    - title: Rilevare la vulnerabilità di sicurezza
+      url: "/task_increase_protection_against_hackers_and_Ransomware_attacks.html"
+    - title: Proteggere i sistemi dai rischi ransomware
+      url: "/task_protect_systems_against_ransomware_risks.html"
+    - title: Visualizzare e riconoscere il rischio
+      url: "/task_view_and_acknowledge_risks.html"
+    - title: Visualizza la cronologia del benessere
+      url: "/task_view_wellness_history.html"
+    - title: Visualizza i rischi che possono essere mitigati automaticamente utilizzando
+        Active IQ Unified Manager o Ansible Playbook
+      url: "/task_view_risks_remediated_unified_manager.html"
+    - title: Evitare il downtime e la possibile perdita di dati
+      url: "/task_avoid_the_downtime_and_possible_data_loss.html"
+    - title: Iscriviti all'e-mail di revisione del benessere
+      url: "/task_subscribe_to_wellness_review_email.html"
+    - title: Rinnovare il software e l'hardware
+      url: "/task_renew_software_and_hardware.html"
+    - title: Analizzare lo stato di salute di cluster e nodi
+      url: "/task_analyze_wellness_clusters_and_nodes.html"
+  - title: Visualizza i dettagli del sistema
+    entries:
+    - title: Visualizza i dettagli dell'inventario
+      url: "/task_view_inventory_details.html"
+    - title: Integrazione con Cloud Insights per visualizzare i dettagli delle macchine
+        virtuali
+      url: "/task-integrating-with-cloud-insights-to-view-vm-details.html"
+    - title: Visualizza informazioni preziose
+      url: "/task_view_valuable_insight_widget.html"
+    - title: Visualizza l'utilizzo della capacità dell'abbonamento Keystone
+      url: "/view_keystone_capacity_utilization.html"
+  - title: Identificazione proattiva dei requisiti di sistema
+    entries:
+    - title: Panoramica
+      url: "/concept_overview_planning.html"
+    - title: Identificare i sistemi che raggiungono i limiti di capacità
+      url: "/task_identify_capacity_system.html"
+    - title: Evitare il riempimento di un volume per evitare un'interruzione del servizio
+      url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
+    - title: Rinnovare il software e l'hardware
+      url: "/task_renew_software_and_hardware.html"
+  - title: Prendi decisioni informate in base ai consigli sul cloud
+    url: "/task-informed-decisions-based-on-cloud-recommendations.html"
+  - title: Identificare le deviazioni della configurazione
+    entries:
+    - title: Panoramica
+      url: "/concept_overview_config_drift.html"
+    - title: Aggiungere un modello di drift di configurazione
+      url: "/task_add_config_drift_template.html"
+    - title: Confrontare un modello di deriva della configurazione
+      url: "/task_compare_config_drift_template.html"
+    - title: Generare un report sulla timeline della deriva
+      url: "/task_generate_drift_timeline_report.html"
+    - title: Gestire un modello
+      url: "/task_manage_template.html"
+  - title: Migliora l'efficienza e le performance del tuo sistema storage
+    entries:
+    - title: Analizza i risparmi in termini di capacità ed efficienza
+      url: "/task_analyze_storage_efficiency.html"
+    - title: Analizzare le performance dello storage
+      url: "/task_view_performance_graphs.html"
+  - title: Analizzare lo stato di salute del sistema storage
+    entries:
+    - title: Panoramica
+      url: "/concept_understand_health_check_dashboard.html"
+    - title: Inizia con la dashboard di controllo dello stato di salute
+      url: "/concept_get_started_with_health_check_dashboard.html"
+    - title: Rinnova i contratti di supporto
+      url: "/task_renew_support_contracts_for_your_systems.html"
+  - title: Effettua l'aggiornamento per ottimizzare la base di installazione
+    entries:
+    - title: Aggiornare la versione ONTAP del sistema storage
+      url: "/task_view_upgrade.html"
+    - title: Aggiorna l'offerta di supporto
+      url: "/task_upgrade_support_offering.html"
+    - title: Aggiorna il firmware di AFF e FAS utilizzando Ansible Playbook
+      entries:
+      - title: Scarica il pacchetto di automazione Ansible del firmware AFF e FAS
+        url: "/task_update_AFF_FAS_firmware.html"
+      - title: Installare ed eseguire il pacchetto di automazione Ansible del firmware
+          AFF e FAS (utenti esperti)
+        url: "/task_install_execute_firmware_update_exp_user.html"
+      - title: Installare ed eseguire il pacchetto di automazione Ansible del firmware
+          AFF e FAS (principianti)
+        entries:
+        - title: Host firmware Files using web server
+          url: "/task_hosting_firmware_files_using_web_server.html"
+        - title: Lavorare con il file di inventario
+          url: "/concept_working_with_inventory_file.html"
+        - title: Esegui il playbook Ansible utilizzando l'immagine di NetApp Docker
+          url: "/task_execute_ansible_playbook_using_docker.html"
+        - title: Esegui il playbook Ansible senza Docker
+          url: "/task_execute_ansible_playbook_without_docker.html"
+        - title: Convalidare l'installazione del firmware
+          url: "/task_validate_firmware_installation.html"
+        - title: Risoluzione dei problemi, feedback e supporto
+          url: "/reference_ansible_troubleshoot_feedback_support.html"
+  - title: Integrare i dati utilizzando le API
+    entries:
+    - title: Panoramica
+      url: "/concept_overview_API_service.html"
+    - title: Generare token per accedere alle API
+      url: "/task_generate_tokens_API_services.html"
+    - title: Utilizzare il catalogo API per eseguire le API
+      url: "/task_view_API_catalog.html"
+  - title: Generare report personalizzati
+    entries:
+    - title: Tipi di report
+      url: "/concept_report_types.html"
+    - title: Generare report
+      url: "/task_generate_reports.html"
+  - title: Domande frequenti
+    url: reference_aiq_faq.html
+  - title: Ulteriori informazioni
+    url: "/concept_get_more_information.html"
+  - title: Note legali
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Inizia subito
+    links:
+    - title: Scopri di più su Digital Advisor
+      url: https://tv.netapp.com/detail/video/6254074753001/what-can-you-do-with-active-iq
+    - title: Guida rapida di Digital Advisor
+      url: concept_getting_started_2.html
+    - title: Concetti chiave
+      url: concept_key_terms.html
+    - title: Creare una lista di controllo
+      url: task_add_watchlist.html
+  - title: Utilizzare Digital Advisor
+    links:
+    - title: Visualizzare i rischi e intraprendere azioni correttive
+      url: task_view_risk_and_take_action.html
+    - title: Rilevare le deviazioni di configurazione
+      url: task_compare_config_drift_template.html
+    - title: Correggi i rischi critici per la sicurezza
+      url: task_increase_protection_against_hackers_and_Ransomware_attacks.html
+    - title: Analizzare le performance dello storage
+      url: task_view_performance_graphs.html
+    - title: Generare report
+      url: task_generate_reports.html
+  - title: Analisi con Digital Advisor
+    links:
+    - title: Visualizza i consigli per l'aggiornamento di ONTAP
+      url: task_view_upgrade.html
+    - title: Prendere decisioni informate in base ai consigli sul cloud
+      url: task-informed-decisions-based-on-cloud-recommendations.html
+    - title: Visualizza l'utilizzo della capacità con l'abbonamento NetApp Keystone
+      url: view_keystone_capacity_utilization.html
+  - title: Più risorse
+    links:
+    - title: Portale Web di Digital Advisor
+      url: https://mysupport.netapp.com/myautosupport/home.html
+    - title: Video di Digital Advisor
+      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
+    - title: Community NetApp – Consulente digitale
+      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
+    - title: Applicazione mobile di Digital Advisor (Android)
+      url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
+    - title: Applicazione per dispositivi mobili (iOS) di Digital Advisor
+      url: https://apps.apple.com/us/app/active-iq/id1230542480
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Tutta la documentazione BlueXP

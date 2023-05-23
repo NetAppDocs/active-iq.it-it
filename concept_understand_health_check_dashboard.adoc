@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: concept_understand_health_check_dashboard.html 
+keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
+summary: Fornisce informazioni per acquisire dimestichezza con la dashboard di controllo dello stato di salute. 
+---
+= Comprendere la dashboard di controllo dello stato di salute
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La dashboard di controllo dello stato di salute di Digital Advisor offre una revisione point-in-time dell'ambiente generale.
+
+In base al punteggio del controllo dello stato di salute, è possibile allineare i sistemi storage alle Best practice NetApp consigliate per facilitare la pianificazione a lungo termine. Consente di monitorare tutti i sistemi in esecuzione su software e hardware attraverso un'interfaccia utente centralizzata. I punteggi di Health Check ti consentono di ottenere rapidamente informazioni sui rischi del sistema. I consigli e le Best practice principali consentono di intraprendere azioni per migliorare lo stato di salute della base installata.
+
+
+NOTE: È possibile accedere alla dashboard di controllo dello stato di salute solo attraverso le offerte di servizi NetApp SupportEdge Advisor e SupportEdge Expert.

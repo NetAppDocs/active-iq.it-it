@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: concept_overview_config_drift.html 
+keywords: config drift, configuration deviation, add template, compare template 
+summary: Fornisce una panoramica della funzione di deriva della configurazione 
+---
+= Comprendere la deviazione della configurazione
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La funzione Config Drift identifica le deviazioni di configurazione confrontando un modello di sistema con un modello di sistema "Golden" o di base. È possibile pianificare report di deriva settimanali o mensili o generarli on-demand. È possibile ridurre alcune deviazioni utilizzando i Playbook Ansible, forniti nel report di deriva della configurazione.
+
+Questa funzione è disponibile solo per i sistemi con contratti Advisor ed Expert Support.
+
+È possibile consultare il seguente diagramma per comprendere il flusso di lavoro per identificare le deviazioni di configurazione e generare il report.
+
+image:config_drift.png["workflow di deriva della configurazione"]
+
+È possibile visualizzare il seguente video per generare ed eseguire un Ansible Playbook per correggere le deviazioni di configurazione:
+
+video::MbkwcZ7xk3Y[youtube,width=848,height=480]
