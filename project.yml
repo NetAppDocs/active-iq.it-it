@@ -115,6 +115,12 @@ sidebar:
       url: "/concept_get_started_with_health_check_dashboard.html"
     - title: Rinnova i contratti di supporto
       url: "/task_renew_support_contracts_for_your_systems.html"
+  - title: Analizza la sostenibilità del tuo sistema storage
+    entries:
+    - title: Scopri di più sul servizio di sostenibilità BlueXP
+      url: "/concept_understand_sustainability_dashboard.html"
+    - title: Inizia con Sustainability Dashboard
+      url: "/concept_get_started_with_sustainability_dashboard.html"
   - title: Effettua l'aggiornamento per ottimizzare la base di installazione
     entries:
     - title: Aggiornare la versione ONTAP del sistema storage

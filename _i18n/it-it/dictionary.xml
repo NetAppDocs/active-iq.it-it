@@ -489,19 +489,7 @@
   <block id="f9d46621c3d43242e4a3984f6d9b49d4" category="doc">Comprendere le funzionalità di Digital Advisor</block>
   <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">È possibile visualizzare lo stato generale del sistema storage, informazioni di alto livello sullo stato di salute del sistema, inventario, pianificazione, aggiornamenti e informazioni preziose a livello di elenco di controllo utilizzando Digital Advisor.</block>
   <block id="4d7ba674630738cac5e8b1e2fed17854" category="paragraph">Di seguito sono riportate alcune delle funzioni di Digital Advisor:</block>
-  <block id="ac1dcbd86bac3c8e0c5adb11006ef7d3" category="list-text">Visualizza più liste di controllo, utili e pratiche viste a colpo d'occhio delle informazioni</block>
-  <block id="9c469876265a6bb1e8b9865685bdea76" category="list-text">Ottieni informazioni su tutti i rischi per il tuo sistema storage e sulle azioni per mitigarne i rischi</block>
   <block id="49e793f563ecf7cab7768c1ec94950d2" category="list-text">Mitigare i rischi con Active IQ Unified Manager</block>
-  <block id="07fbf7c29b885315f5a499828e5d2912" category="list-text">Aggiorna il tuo sistema storage</block>
-  <block id="7c19de9daa4abc4fd87b688f29ba6e89" category="list-text">Visualizza il rapporto di efficienza dello storage, lo spazio logico utilizzato, lo spazio fisico utilizzato e i dati totali salvati per i sistemi storage che eseguono ONTAP 9.1 e versioni successive</block>
-  <block id="4c8438807538fa50db0d24cda516c562" category="list-text">Analizza le performance dei tuoi dispositivi di storage visualizzando il formato grafico dei dati delle performance</block>
-  <block id="25bab72d979d2f781310fbd8a7510d1e" category="list-text">Ottieni informazioni su hardware e software scaduti o prossimi alla scadenza entro i prossimi 6 mesi</block>
-  <block id="582adb4f0e7a3267346145b6b82ce29a" category="list-text">Aggiornare il firmware ONTAP utilizzando Ansible</block>
-  <block id="63a792f0efaeee81d9e7f3ba251637c2" category="list-text">Scopri i dettagli sui sistemi che hanno superato il 90% di capacità o stanno per arrivare al 90% di capacità</block>
-  <block id="3635d6c25949f1a58c70590c42f57462" category="list-text">Visualizza informazioni dettagliate sulla configurazione fisica e logica, tra cui un riepilogo della configurazione del cluster e del nodo, le informazioni sul Tier locale e sul volume, l'interfaccia di rete e le informazioni sulle porte, un diagramma dello stack con informazioni dettagliate su dischi e shelf e alcune visualizzazioni dei cavi</block>
-  <block id="99d2fd1ab881558fd1bfafc670c1e114" category="list-text">Fornire informazioni e informazioni cross-stack utili per la risoluzione dei problemi, le valutazioni degli upgrade, la convalida della soluzione e la migrazione</block>
-  <block id="2eff8449b9983f6e6e5e4c068f551cde" category="list-text">Verificare la compatibilità degli host e fornire consigli per l'aggiornamento di sistemi operativi, driver e firmware host</block>
-  <block id="3ef99ba5d79d98939649058bd12621b4" category="list-text">Ottieni esattamente ciò che vuoi trovare in modo più intelligente e veloce</block>
   <block id="d8d27ee684d88256c60816459952e514" category="admonition">Puoi aggiornare l'offerta di supporto dal widget *Configuration* sulla dashboard del sistema per ottenere informazioni sulla base installata e ricevere supporto personalizzato.</block>
   <block id="b1151aae9531d2f5e85d085e8878cea6" category="summary">Queste FAQ possono essere utili se stai cercando una risposta rapida a una domanda.</block>
   <block id="d081980d8864e66b493d75e555fbb3e9" category="paragraph">Le seguenti domande forniscono risposte alle domande frequenti su Digital Advisor.</block>
@@ -646,7 +634,6 @@
   <block id="a6f53b7c2d98e66115a149a04939e113" category="list-text">Una volta aggiunti o aggiornati in SAP, i nuovi sistemi richiedono un giorno di riflessione in Digital Advisor.</block>
   <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">I sistemi sono sicuri e non si è autorizzati a visualizzare i sistemi protetti.</block>
   <block id="fff04069266603da7d63522615d51f31" category="list-text">Non hai diritto a visualizzare i sistemi.</block>
-  <block id="51f3a0a362446375c682ade41a945286" category="list-text">I sistemi sono inattivi in SAP.</block>
   <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">creare un caso non tecnico</block>
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">qui.</block>
   <block id="9ca5b690fe8bde0ca39f3697552ca80d" category="paragraph">Se non si riesce a visualizzare i sistemi per altri motivi, <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>. Per ulteriori informazioni sul caso non tecnico, fare clic su <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
@@ -1273,4 +1260,75 @@
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Video di Digital Advisor</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Community NetApp – Consulente digitale</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Tutta la documentazione BlueXP</block>
+  <block id="cd58a2289aa9a570f905ace9253b287f" category="list-text">I sistemi sono inattivi o dismessi in SAP.</block>
+  <block id="e90912cb3f8595479987796300c99d6c" category="summary">Fornisce informazioni sulla dashboard, sul punteggio di sostenibilità, sugli ambienti di lavoro e sulle azioni consigliate.</block>
+  <block id="06cdd6dcccb0573b58a1525964134965" category="doc">Inizia con la dashboard di Sustainability</block>
+  <block id="87711a398a7e6a734618da04d3342954" category="paragraph">La dashboard fornisce una valutazione ambientale del sistema storage e informazioni utili per il miglioramento sotto forma di azioni consigliate da NetApp.</block>
+  <block id="de857c4705c01d60f072c89db409bb0f" category="paragraph">*Sustainability Score*: Visualizza il punteggio totale che indica la sostenibilità ambientale dei sistemi storage. È possibile valutare il livello di sostenibilità dei sistemi storage in base alla seguente gamma:</block>
+  <block id="b04fdd8d3c616238ff5067578ec445ae" category="list-text">76 - 100: Indica che la sostenibilità è una priorità assoluta.</block>
+  <block id="d79fa3a278fafc90f05b60fc886ee7a8" category="list-text">51 - 75: Indica un elevato livello di investimento in iniziative di sostenibilità.</block>
+  <block id="8af93586db898b2afff53995435e56cd" category="list-text">26 - 50: Indica buoni progressi verso iniziative di sostenibilità.</block>
+  <block id="129c025cb275919421a73e175f4d6b51" category="list-text">Meno di 25: Indica la necessità di migliorare le pratiche di sostenibilità.</block>
+  <block id="39df01e4d3f96b515477bb91d41693e1" category="paragraph">Puoi vedere la rappresentazione grafica del punteggio fino a 5 settimane, che viene aggiornata su base settimanale. Puoi anche vedere il motivo dell'aumento o della diminuzione del punteggio di sostenibilità passando il mouse sul grafico.</block>
+  <block id="124737733adb9db94833bf1012498225" category="inline-image-macro">Una schermata che mostra il punteggio di sostenibilità insieme al grafico.</block>
+  <block id="a2bc2df13c5a3762142955fb95ab0af5" category="paragraph"><block ref="a2bc2df13c5a3762142955fb95ab0af5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a4ece81a5a89febb339536be98d1458" category="paragraph">*Indicatori ambientali*: Visualizza le proiezioni relative all'alimentazione, all'utilizzo diretto del carbonio e all'emissione di calore per valutare lo stato di salute ambientale del sistema di storage. È possibile visualizzare queste proiezioni mensilmente, trimestrali o annuali selezionando l'intervallo di tempo desiderato dall'elenco a discesa nell'angolo in alto a destra di questa sezione.</block>
+  <block id="d934690f46f773b38d9c65526a88d2a1" category="inline-image-macro">Una schermata che mostra un'icona modificabile.</block>
+  <block id="88ff2e9a0a1bf07b4e3957199ef248f0" category="paragraph">*Carbon mitigation percentuali*: Visualizza la percentuale di riduzione del carbonio in ogni sito/città e i valori di riferimento presentati si basano sulla tua posizione. È possibile regolare la percentuale di riduzione del carbonio per siti specifici facendo clic su <block ref="58945c98e470d270455cd5912e91eb15" category="inline-image-macro-rx" type="image"></block> accanto ai valori percentuali, i numeri di carbone vengono regolati automaticamente.</block>
+  <block id="35c40b1976d1ce98a9121146c10ec009" category="paragraph">*Azioni consigliate*: Visualizza l'elenco delle azioni consigliate per migliorare il punteggio di sostenibilità del sistema storage. Queste azioni possono essere eseguite immediatamente selezionando *Fix*. È possibile espandere la vista facendo clic su *Fix* o sulla freccia in basso e visualizzare il nome del cluster, il punteggio di sostenibilità e il successivo aumento se si procede con l'opzione *Fix*. Nella vista espansa, viene visualizzato anche un messaggio informativo che indica di procedere con l'opzione *Fix*.</block>
+  <block id="707741d275e0975dc229329ccd426a07" category="inline-image-macro">Una schermata che mostra l'elenco delle azioni nella vista espansa.</block>
+  <block id="d1f34a9fa829d3045f1efbad48f775eb" category="paragraph"><block ref="d1f34a9fa829d3045f1efbad48f775eb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="09620871e591b6de487066e0b42c028c" category="paragraph">Se si prevede di affrontare queste azioni in un secondo momento, è possibile spostarle nella scheda *azioni per successive* selezionando *più tardi*. Queste azioni saranno posticipate di 30 giorni. Dopo 30 giorni, queste azioni torneranno automaticamente alla scheda *azioni consigliate*. Puoi anche rivedere le azioni posticipate in qualsiasi momento e spostarle nuovamente nella scheda *azioni consigliate* facendo clic su *considera*.</block>
+  <block id="5f0388a6e35ab1c017b19f9c0c580225" category="paragraph">*Ambienti di lavoro*: Visualizza vari parametri ambientali a livello di cluster della base installata. È possibile visualizzare il punteggio di sostenibilità a livello di cluster, accedere a *ClusterViewer* selezionando il nome del cluster e intraprendere azioni specifiche consigliate da qui per migliorare la sostenibilità.</block>
+  <block id="f2ae849ec2f53979329ed4b00e3cd6eb" category="admonition">Per il momento, sono supportati i sistemi ONTAP con AFF, FAS e CVO.</block>
+  <block id="fb8c863be001fc68522b09f5c7ab5899" category="summary">Fornisce informazioni per acquisire dimestichezza con la dashboard di Sustainability.</block>
+  <block id="df3259aced42e68d1518ac692c0cd25d" category="doc">Scopri di più sul servizio di sostenibilità BlueXP</block>
+  <block id="855d25a326a6ecf64f0190057e34a8a2" category="paragraph">La sostenibilità, come servizio, consente di ridurre il consumo di energia e di lavorare per raggiungere gli obiettivi ambientali. Ciò consente di allineare i sistemi storage con pratiche ecocompatibili e di raggiungere gli obiettivi di sostenibilità.</block>
+  <block id="7a5cdb5829440fd156d521830c546a85" category="section-title">Cosa puoi fare con il servizio di sostenibilità</block>
+  <block id="f6e5c50b1d630128adfb99732b3be16b" category="paragraph">È possibile visualizzare il punteggio di sostenibilità e l'utilizzo previsto di energia, carbonio diretto e calore. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. In base al punteggio di sostenibilità, puoi valutare la tua posizione di sostenibilità generale e implementare le azioni consigliate da NetApp per migliorare il punteggio.</block>
+  <block id="61f3d8e621fe05148bb6346a3da7c9cc" category="paragraph">È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. I dati forniti a livello di cluster possono anche aiutare a identificare i cluster che possono essere spostati in uno storage più efficiente, ottenendo il giusto equilibrio tra performance ed efficienza energetica.</block>
+  <block id="40dc10ad135a4e4dc568a7aa242e346b" category="section-title">Accedi al servizio di sostenibilità</block>
+  <block id="591d6bde7048e0f055f2937e178fe8eb" category="paragraph">È possibile accedere a questo servizio in due modi:</block>
+  <block id="bc321562c41e07c6c7a7c2fcc7819032" category="list-text">*Accesso al servizio di sostenibilità in Digital Advisor*
+È possibile accedere a Digital Advisor e al servizio Sustainability dalla dashboard di Digital Advisor.</block>
+  <block id="e58e5e6ea250c0d33583a97403fee17c" category="inline-image-macro">Una schermata dell'interfaccia utente che fornisce una panoramica della dashboard di Sustainability.</block>
+  <block id="c15bf54bfb138c4f090b02cbeeca69f9" category="paragraph"><block ref="c15bf54bfb138c4f090b02cbeeca69f9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0ff38bbdb0277b0a0d29e6fc78aca4e1" category="paragraph">Per ulteriori informazioni sull'accesso a Digital Advisor, vedere <block ref="ea710f62517834d879fd62e2f2933884" category="inline-link-macro-rx"></block>.</block>
+  <block id="67b2c8af58c710f6cd4521f1f80f8216" category="list-text">*Accesso al servizio di sostenibilità in BlueXP*
+È possibile accedere a BlueXP e al servizio Sustainability dalla categoria *Governance* disponibile nella navigazione a sinistra di BlueXP.</block>
+  <block id="96d0f57ed12b3b53cfcbb2be8d2ecf30" category="inline-image-macro">Una schermata dell'interfaccia utente che fornisce una panoramica della dashboard di Sustainability in BlueXP.</block>
+  <block id="547c7e82193b8c421f80fff741758831" category="paragraph"><block ref="547c7e82193b8c421f80fff741758831" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="8e917942a77709dfd28c155f42a97553" category="inline-link-macro">Scopri di più sull'accesso</block>
+  <block id="8f311d0aee01eb4f3b71cb4a1f717703" category="paragraph">Per accedere a BlueXP, puoi utilizzare le credenziali del sito di supporto NetApp oppure iscriverti per un login cloud NetApp utilizzando la tua email e una password. <block ref="f3eba1008b655e5e66f20213b643dd24" category="inline-link-macro-rx"></block>.</block>
+  <block id="821d1756364d64a3adf1ff448e34d40b" category="section-title">Benefici derivanti dall'utilizzo del servizio di sostenibilità</block>
+  <block id="953321a5ab304bd7d58cf4dd451e32e0" category="paragraph">Il servizio di sostenibilità offre i seguenti vantaggi:</block>
+  <block id="4fdc8f8c48e4ec80848e9368764d4b95" category="list-text">Accelerare le performance</block>
+  <block id="3539435a6de515609cc1b8543224f713" category="list-text">Riduzione dei costi di storage</block>
+  <block id="f12856396bd806cdc7038dbbbc5efcd2" category="list-text">Ridurre l'impatto ambientale</block>
+  <block id="49beaa2702ece5b3496f85b7811e7898" category="list-text">Migliorare l'efficienza energetica</block>
+  <block id="d7ffa2dface411a028c111d92c0574cc" category="list-text">Approfondimenti chiari sulla tua posizione di sostenibilità</block>
+  <block id="f172c78b7f668c77b49c9342501992c0" category="list-text">Consigli pratici basati su ai/ML</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">Costo</block>
+  <block id="520e1d23fab39afcbff2a7abad3b1d89" category="paragraph">NetApp non addebita alcun costo per l'utilizzo del servizio di sostenibilità BlueXP. Puoi utilizzarlo con il tuo contratto di supporto attivo.</block>
+  <block id="0b9c6eef4e3d3a222eb04e910d252339" category="section-title">Licensing</block>
+  <block id="8a85fa75801981e1dba36489f26b604e" category="paragraph">Non è richiesta alcuna licenza speciale per accedere a questo servizio. Puoi utilizzarlo con il tuo contratto di supporto attivo se hai abilitato AutoSupport per i tuoi sistemi.</block>
+  <block id="e9cdfc3ff6e77bfb8ec195d6362f98f9" category="list-text">Visualizza più liste di controllo, utili e pratiche viste a colpo d'occhio delle informazioni.</block>
+  <block id="6af161dea04328fb2cd0c0438e1f8355" category="list-text">Ottieni informazioni su tutti i rischi per il tuo sistema storage e sulle azioni per mitigarne i rischi.</block>
+  <block id="36cec47f7689f0259d19d5b01531f4e9" category="list-text">Mitigare i rischi con Active IQ Unified Manager.</block>
+  <block id="2c1d81e3772d9ef164c64b411ca4e8f2" category="list-text">Aggiorna il tuo sistema storage.</block>
+  <block id="a3724fe4c82d2e588a76d98b41647731" category="list-text">Visualizza il punteggio di sostenibilità e l'utilizzo previsto di energia, carbonio diretto e calore. In base al punteggio di sostenibilità, valuta l'efficienza complessiva dei tuoi sistemi storage e allinea con le azioni consigliate da NetApp per migliorare il punteggio. <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>.</block>
+  <block id="05eae71003a0c12ec28cec072f7339f8" category="list-text">Visualizza il rapporto di efficienza dello storage, lo spazio logico utilizzato, lo spazio fisico utilizzato e i dati totali salvati per i sistemi storage che eseguono ONTAP 9.1 e versioni successive.</block>
+  <block id="125859f7a75ea087ef61995849562e3b" category="list-text">Analizza le performance dei tuoi dispositivi di storage visualizzando il formato grafico dei dati delle performance.</block>
+  <block id="dacf9744e039d2c6cd15d0001ef8a424" category="list-text">Ottieni informazioni su hardware e software scaduti o prossimi alla scadenza entro i prossimi 6 mesi.</block>
+  <block id="bb684054961f57c4a18794310f91e0e7" category="list-text">Aggiornare il firmware ONTAP utilizzando Ansible.</block>
+  <block id="eb1fe695fcd963b57a65eba0363be8d8" category="list-text">Scopri i dettagli sui sistemi che hanno superato il 90% di capacità o stanno per arrivare al 90% di capacità.</block>
+  <block id="7c6c02effa6412237c8c392380180699" category="list-text">Visualizza informazioni dettagliate sulla configurazione fisica e logica, tra cui un riepilogo della configurazione del cluster e del nodo, le informazioni sul Tier locale e sul volume, l'interfaccia di rete e le informazioni sulle porte, un diagramma dello stack con informazioni dettagliate su dischi e shelf e alcune visualizzazioni dei cavi.</block>
+  <block id="d81e9eda4f33de56cfd4c583d99ab437" category="list-text">Fornire informazioni e informazioni cross-stack utili per la risoluzione dei problemi, le valutazioni degli upgrade, la convalida della soluzione e la migrazione.</block>
+  <block id="c2b079f6f62fe899dec7b1a93823c546" category="list-text">Verificare la compatibilità degli host e fornire consigli sugli aggiornamenti per i sistemi operativi host, i driver e .</block>
+  <block id="daea2bcb0af4558719fc040fddad5b69" category="list-text">Ottieni esattamente ciò che vuoi trovare in modo più intelligente e veloce.</block>
+  <block id="325e4e14529c96a60b99d9cecba4d5a6" category="section-title">21 giugno 2023</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="section-title">Dashboard sulla sostenibilità</block>
+  <block id="87dcc2d179cb1551f2eb118866025f06" category="paragraph">Il Dashboard di Sustainability di Digital Advisor offre preziose informazioni sulla sostenibilità ambientale del sistema storage. È possibile visualizzare informazioni come il punteggio di sostenibilità, la percentuale di riduzione del carbonio, l'utilizzo previsto di energia, il carbonio diretto e il calore. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. Valutando il punteggio di sostenibilità, puoi valutare l'efficienza complessiva del tuo sistema storage e allinearlo alle azioni consigliate da NetApp per migliorare la sostenibilità. <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>.</block>
+  <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">Analizza la sostenibilità del tuo sistema storage</block>
+  <block id="718c5101b53c8646db75a2172094f520" category="sidebar">Inizia con Sustainability Dashboard</block>
 </blocks>

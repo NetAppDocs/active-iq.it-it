@@ -23,6 +23,16 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 21 giugno 2023
+
+
+
+=== Dashboard sulla sostenibilità
+
+Il Dashboard di Sustainability di Digital Advisor offre preziose informazioni sulla sostenibilità ambientale del sistema storage. È possibile visualizzare informazioni come il punteggio di sostenibilità, la percentuale di riduzione del carbonio, l'utilizzo previsto di energia, il carbonio diretto e il calore. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. Valutando il punteggio di sostenibilità, puoi valutare l'efficienza complessiva del tuo sistema storage e allinearlo alle azioni consigliate da NetApp per migliorare la sostenibilità. link:concept_understand_sustainability_dashboard.html["Scopri di più"].
+
+
+
 == 22 febbraio 2023
 
 
