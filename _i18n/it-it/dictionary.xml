@@ -630,13 +630,11 @@
   <block id="62b464a696f86c90363b4594cfca87f4" category="paragraph">*Perché la capacità utilizzata aggiunta di ciascun volume non corrisponde alla capacità utilizzata aggregata a livello di nodo?* la capacità utilizzata a livello di nodo include lo spazio riservato per volumi, metadati e copie Snapshot. Include anche lo spazio riservato ai volumi, tipo di garanzia di file o volumi. Pertanto, entrambi potrebbero non corrispondere.</block>
   <block id="d7a018b0994fcd8c73438187d3cd257d" category="paragraph">*Le capacità sono mostrate in Digital Advisor base 2 o base 10?* tutte le capacità visualizzate in Digital Advisor sono di base 2 (dividere per 1024) e rappresentano le capacità in GiB/TIB. Lo storage ONTAP e altri prodotti NetApp visualizzano anche l'utilizzo della capacità nella base 2.</block>
   <block id="5144b142028342a902f17914b7d8eeb1" category="paragraph">Per StorageGRID, le capacità sono visualizzate nella base 10 e l'unità di capacità è espressa in TB.</block>
-  <block id="9b3e70f7ec5801014bd7ba2b043dd460" category="paragraph">*Perché non riesco a trovare alcuni sistemi nella pagina dell'inventario?* potrebbe non essere possibile visualizzare alcuni sistemi nella pagina dell'inventario a causa di uno dei seguenti motivi:</block>
   <block id="a6f53b7c2d98e66115a149a04939e113" category="list-text">Una volta aggiunti o aggiornati in SAP, i nuovi sistemi richiedono un giorno di riflessione in Digital Advisor.</block>
   <block id="490faa3ce28cbfbdad8226dd7dc88a66" category="list-text">I sistemi sono sicuri e non si è autorizzati a visualizzare i sistemi protetti.</block>
   <block id="fff04069266603da7d63522615d51f31" category="list-text">Non hai diritto a visualizzare i sistemi.</block>
   <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">creare un caso non tecnico</block>
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">qui.</block>
-  <block id="9ca5b690fe8bde0ca39f3697552ca80d" category="paragraph">Se non si riesce a visualizzare i sistemi per altri motivi, <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>. Per ulteriori informazioni sul caso non tecnico, fare clic su <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
   <block id="bbca9981d6b0f3a88a20d77f9f0b515e" category="summary">Fornisce informazioni sull'utilizzo della capacità con l'abbonamento NetApp Keystone.</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">Visualizza l'utilizzo della capacità con l'abbonamento NetApp Keystone</block>
   <block id="1e113c9e791f55b9d40e5564c75fd42a" category="paragraph">Se si è abbonati al servizio di abbonamento Keystone, è possibile visualizzare il widget abbonamento Keystone nella dashboard di Digital Advisor.</block>
@@ -1260,7 +1258,6 @@
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Video di Digital Advisor</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Community NetApp – Consulente digitale</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Tutta la documentazione BlueXP</block>
-  <block id="cd58a2289aa9a570f905ace9253b287f" category="list-text">I sistemi sono inattivi o dismessi in SAP.</block>
   <block id="e90912cb3f8595479987796300c99d6c" category="summary">Fornisce informazioni sulla dashboard, sul punteggio di sostenibilità, sugli ambienti di lavoro e sulle azioni consigliate.</block>
   <block id="06cdd6dcccb0573b58a1525964134965" category="doc">Inizia con la dashboard di Sustainability</block>
   <block id="87711a398a7e6a734618da04d3342954" category="paragraph">La dashboard fornisce una valutazione ambientale del sistema storage e informazioni utili per il miglioramento sotto forma di azioni consigliate da NetApp.</block>
@@ -1331,4 +1328,8 @@
   <block id="87dcc2d179cb1551f2eb118866025f06" category="paragraph">Il Dashboard di Sustainability di Digital Advisor offre preziose informazioni sulla sostenibilità ambientale del sistema storage. È possibile visualizzare informazioni come il punteggio di sostenibilità, la percentuale di riduzione del carbonio, l'utilizzo previsto di energia, il carbonio diretto e il calore. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. Valutando il punteggio di sostenibilità, puoi valutare l'efficienza complessiva del tuo sistema storage e allinearlo alle azioni consigliate da NetApp per migliorare la sostenibilità. <block ref="2a00df11659d53cc6af50733fabe3a4a" category="inline-link-macro-rx"></block>.</block>
   <block id="10774cfa8212ea83d9277785a67ca25c" category="sidebar">Analizza la sostenibilità del tuo sistema storage</block>
   <block id="718c5101b53c8646db75a2172094f520" category="sidebar">Inizia con Sustainability Dashboard</block>
+  <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">*Perché non riesco a trovare alcuni sistemi in Digital Advisor?*
+Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagina dell'inventario a causa di uno dei seguenti motivi:</block>
+  <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">I sistemi sono inattivi, archiviati o dismessi in SAP.</block>
+  <block id="6d3911d1bc35c7abc342f54857e32dcf" category="paragraph">Se non riesci a visualizzare i sistemi per altri motivi, hai domande o desideri richiedere l'accesso, <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>. Per ulteriori informazioni sul caso non tecnico, fare clic su <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
 </blocks>
