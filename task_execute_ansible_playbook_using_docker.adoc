@@ -34,7 +34,7 @@ Prima di eseguire Ansible Playbook con NetApp docker, devi:
 
 
 .Fasi
-. link:https://docs.docker.com/get-started/["Configurare Docker"].
+. link:https://docs.docker.com/get-started/["Configurare Docker"^].
 . Estrarre l'immagine di NetApp Docker da DockerHub eseguendo il seguente comando:
 +
 [listing]
@@ -46,7 +46,7 @@ latest: Pulling from schmots1/netapp-ansible
 docker.io/schmots1/netapp-ansible:lates
 ----
 +
-Per ulteriori informazioni sul comando di pull di docker, fare riferimento a. link:https://docs.docker.com/engine/reference/commandline/pull/["Documentazione Docker Pull"].
+Per ulteriori informazioni sul comando di pull di docker, fare riferimento a. link:https://docs.docker.com/engine/reference/commandline/pull/["Documentazione Docker Pull"^].
 
 . Eseguire l'immagine Docker come container e accedere al container per eseguire il manuale Ansible.
 . Copiare il percorso della cartella che contiene il Playbook Ansible estratto e i file di inventario, ad esempio *downloaded_playbook_path*. Il Playbook Ansible e i file di inventario devono trovarsi nella stessa cartella per una corretta esecuzione.
@@ -57,7 +57,7 @@ Per ulteriori informazioni sul comando di pull di docker, fare riferimento a. li
 $ docker run -v <downloaded_playbook_path>:/<container_path> -it schmots1/netapp-ansible:latest /bin/bash
 ----
 +
-Il container si avvia e la console si trova nella shell bash del container. Per ulteriori informazioni sul comando Docker Run, fare riferimento a. link:https://docs.docker.com/engine/reference/run/["Documentazione di Docker Run"].
+Il container si avvia e la console si trova nella shell bash del container. Per ulteriori informazioni sul comando Docker Run, fare riferimento a. link:https://docs.docker.com/engine/reference/run/["Documentazione di Docker Run"^].
 
 . Esegui il manuale Ansible all'interno del container usando il comando *ansible-playbook*:
 +
@@ -77,6 +77,6 @@ NOTE: Se sono presenti cluster con credenziali di accesso diverse, è necessario
 
 
 
-Per ulteriori informazioni sul comando *ansible-playbook*, fare riferimento a. link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentazione di Ansible Playbook"] E per eseguire il playbook Ansible in modalità check (dry run), fare riferimento a. link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modalità di controllo"].
+Per ulteriori informazioni sul comando *ansible-playbook*, fare riferimento a. link:https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html["Documentazione di Ansible Playbook"^] E per eseguire il playbook Ansible in modalità check (dry run), fare riferimento a. link:https://docs.ansible.com/ansible/latest/user_guide/playbooks_checkmode.html["Ansible: Modalità di controllo"^].
 
 Dopo aver eseguito il manuale Ansible Playbook, fare riferimento a. link:task_validate_firmware_installation.html["Convalide per l'installazione del firmware"] per istruzioni post-esecuzione.

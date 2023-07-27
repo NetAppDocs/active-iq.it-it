@@ -26,7 +26,6 @@
   <block id="c052aa26952758956923ba904ca5f96a" category="list-text">Fare clic su un collegamento qualsiasi nel riquadro *Tiering*.</block>
   <block id="044be2af3d7a8e5a1f40d130d2438c9f" category="list-text">Fare clic su *Tier Data* per avviare *BlueXP*.</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link-macro">Best practice FabricPool</block>
-  <block id="3099044efaa5a1ef100aa4cec7e2f189" category="paragraph">Per ulteriori informazioni su FabricPool, fare riferimento a. <block ref="d18918d12837aea2df2f7b9b24f83e29" category="inline-link-macro-rx"></block>.</block>
   <block id="f2b4569bc3667af0074e035180a43ef3" category="section-title">Backup e archiviazione</block>
   <block id="ed0d607dcab8c81dc440cde601ff66d5" category="paragraph">Fornisce informazioni sui sistemi di cui eseguire il backup nel cloud. È possibile utilizzare NetApp Cloud Backup per proteggere i sistemi e ripristinarli quando necessario.</block>
   <block id="711f2c81f17519fb6501c1fd6a2ec0bf" category="paragraph">Per il backup nel cloud si consigliano i volumi che soddisfano i seguenti criteri:</block>
@@ -125,17 +124,14 @@
   <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">Esegui Ansible Playbook senza immagine di NetApp Docker</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
   <block id="d51d5ee15f404c2f4f7863bebcde1fac" category="inline-link-macro">Ansible</block>
-  <block id="c4d54d13c97f7b21566ce91cf519f7d1" category="list-text">Installare <block ref="860a6dcfd65a4cc731e87e6d8725ecef" category="inline-link-macro-rx"></block> e. <block ref="086704ee55f1abf90c8de86788d2188f" category="inline-link-macro-rx"></block>.</block>
   <block id="e7c02bb7153fb9b42ed0dd17ac63ab65" category="list-text">Installare i pacchetti Python richiesti usando *pip*:</block>
   <block id="bc9eaf8dbca65e51b0aa7bd8ddc04278" category="list-text">Installare NetApp Ansible collection utilizzando il comando *ansible-galaxy*:</block>
   <block id="5834961728fb1e8689bb80975152a998" category="inline-link-macro">Documentazione Ansible Galaxy</block>
   <block id="509364058559184a4e13280292a2e466" category="inline-link-macro">Pagina NetApp Ansible Collection</block>
-  <block id="9be55a0983d66ca9beb418a166d36252" category="paragraph">Per ulteriori informazioni sul comando ansible-galaxy, fare riferimento a. <block ref="e4d002c66ffff735092421718e986120" category="inline-link-macro-rx"></block> Per ulteriori informazioni su NetApp Ansible Collection, consultare <block ref="ba103299e96a7cc55110b34488ce1c0b" category="inline-link-macro-rx"></block>.</block>
   <block id="338486320c79b4d1c52d4b4142a79ae2" category="list-text">Eseguire il manuale Ansible Playbook utilizzando il comando *ansible-playbook*:</block>
   <block id="bb478311862b399ec7fa1f80b95d035f" category="admonition">Se sono presenti cluster con credenziali di accesso diverse, è necessario eseguire Ansible Playbook su ciascun cluster. Non sono necessarie modifiche al file di inventario, in quanto Ansible Playbook salta i cluster per i quali l'accesso non è riuscito.</block>
   <block id="1714e9fb6abdf2199b4b533dbc09e449" category="inline-link-macro">Documentazione di Ansible Playbook</block>
   <block id="722b950e7c3cbec69bb9c0beac55297d" category="inline-link-macro">Ansible: Modalità di controllo</block>
-  <block id="f727e1702f3053598d515b2bdf4b8161" category="paragraph">Per ulteriori informazioni sul comando *ansible-playbook*, fare riferimento a. <block ref="95109b43eb6e849a8618bd2b4eef7bcf" category="inline-link-macro-rx"></block> E per eseguire il manuale Ansible in modalità check (dry run), fare riferimento a. <block ref="6147f3e62e9f38d3a62da3c9a7f4664b" category="inline-link-macro-rx"></block>.</block>
   <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">Convalide per l'installazione del firmware</block>
   <block id="207d610de4ff42212b921026752872d2" category="paragraph">Dopo aver eseguito il manuale, fare riferimento a. <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> per istruzioni post-esecuzione.</block>
   <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">Fornisce informazioni per visualizzare e aggiornare la versione ONTAP del sistema storage.</block>
@@ -175,17 +171,13 @@
   <block id="27f8f6c7481c543f7ac1c0d9d320816e" category="list-text"><block ref="27f8f6c7481c543f7ac1c0d9d320816e" category="inline-link-macro-rx"></block></block>
   <block id="3570d1e60985f402f1d406b1bb17fabe" category="list-text">Assicurarsi che NetApp Docker sia installato.</block>
   <block id="98b7373d39b238790c1ff24532e0131d" category="inline-link-macro">Configurare Docker</block>
-  <block id="f895e909f4c93c66cfc4db5135b3a996" category="list-text"><block ref="3b2e905f6f93f4d6890d3aa9d597f16a" category="inline-link-macro-rx"></block>.</block>
   <block id="8eecd8834fb5f9cdc5f843b5d2c48c24" category="list-text">Estrarre l'immagine di NetApp Docker da DockerHub eseguendo il seguente comando:</block>
   <block id="037827372e4837bd8ff3497c4130c640" category="inline-link-macro">Documentazione Docker Pull</block>
-  <block id="237179d55c9b9cc55a2a0fc332940b6e" category="paragraph">Per ulteriori informazioni sul comando di pull di docker, fare riferimento a. <block ref="686c6850e2855d2f1580e6ead4c4d5b9" category="inline-link-macro-rx"></block>.</block>
   <block id="0bc0e3827b53abf3b0f9b0fe7b6c6d6e" category="list-text">Eseguire l'immagine Docker come container e accedere al container per eseguire il manuale Ansible.</block>
   <block id="7a08031c1198b73a67d7dbbfc0b2b499" category="list-text">Copiare il percorso della cartella che contiene il Playbook Ansible estratto e i file di inventario, ad esempio *downloaded_playbook_path*. Il Playbook Ansible e i file di inventario devono trovarsi nella stessa cartella per una corretta esecuzione.</block>
   <block id="cb4d462d21cc15559dc794a881088007" category="list-text">Montare la cartella come volume sul contenitore Docker. Ad esempio, per montare la cartella *container_path*, eseguire il seguente comando:</block>
   <block id="b79da91e8b6cad8ff3cbbba97849f5bd" category="inline-link-macro">Documentazione di Docker Run</block>
-  <block id="597afd67fd0e72cb7a70e153b5a0c05b" category="paragraph">Il container si avvia e la console si trova nella shell bash del container. Per ulteriori informazioni sul comando Docker Run, fare riferimento a. <block ref="2fc7d05c935ff6be555d7f63a536aca5" category="inline-link-macro-rx"></block>.</block>
   <block id="e5552704875aa395a98f606393ed284e" category="list-text">Esegui il manuale Ansible all'interno del container usando il comando *ansible-playbook*:</block>
-  <block id="4d4775d2493815cc4f2739862c3cbd05" category="paragraph">Per ulteriori informazioni sul comando *ansible-playbook*, fare riferimento a. <block ref="95109b43eb6e849a8618bd2b4eef7bcf" category="inline-link-macro-rx"></block> E per eseguire il playbook Ansible in modalità check (dry run), fare riferimento a. <block ref="6147f3e62e9f38d3a62da3c9a7f4664b" category="inline-link-macro-rx"></block>.</block>
   <block id="09fb789b79f3191a076b495425e54de6" category="paragraph">Dopo aver eseguito il manuale Ansible Playbook, fare riferimento a. <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> per istruzioni post-esecuzione.</block>
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">Fornisce informazioni per la gestione delle liste di controllo.</block>
   <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">Gestire una lista di controllo</block>
@@ -272,9 +264,7 @@
   <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">Ulteriori informazioni</block>
   <block id="3334f093f94c914eeabb709448d36d67" category="paragraph">Puoi ottenere aiuto e trovare ulteriori informazioni attraverso varie risorse.</block>
   <block id="5d08ea99dda2f857e6edb3d641d26b98" category="inline-link-macro">Informazioni per la risoluzione dei problemi</block>
-  <block id="36625d4a8e3483d42b841caa5eb55b29" category="list-text"><block ref="36625d4a8e3483d42b841caa5eb55b29" category="inline-link-macro-rx"></block></block>
   <block id="e350176e2ca4464b7c8bb3efa4e581fa" category="inline-link-macro">Slack Workspace</block>
-  <block id="fef5c7747fd3b7d85ff39f7b27d6f02f" category="list-text"><block ref="fef5c7747fd3b7d85ff39f7b27d6f02f" category="inline-link-macro-rx"></block></block>
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">Mailto:ng-active-iq-feedback@netapp.com[e-mail]</block>
   <block id="ededec00f7d24950f152983df2ad1f73" category="list-text">Pulsante Support in Digital Advisor per supporto e feedback.</block>
   <block id="834e689bebc0737b35009981790fcddc" category="summary">Fornisce informazioni sullo stato di salute e sui tipi di rischio, che consentono di migliorare il sistema storage.</block>
@@ -324,7 +314,6 @@
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">Utilizzando un token di accesso valido e gli input corretti per i campi obbligatori, è possibile effettuare una chiamata di prova per un'API.</block>
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">Dal menu *Quick Links* (Collegamenti rapidi), fare clic su *API Services* (servizi API).</block>
   <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*Sfoglia*</block>
-  <block id="6b0cf1c3391c27f7ed23a37a7f08e23b" category="list-text">Fare clic su <block ref="fde164deb6e8e46d9dfc690af8d1059d" category="inline-link-macro-rx"></block> Sotto l'icona *API Catalog*.</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">Viene visualizzato il catalogo API.</block>
   <block id="82ee712943040cce957254912d97aba0" category="list-text">Selezionare un'API qualsiasi</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">Nella parte superiore della pagina, spostare il pulsante su "Experiment" (esperimento).</block>
@@ -339,19 +328,13 @@
   <block id="43cf401c92f61570be3a8b8af451acf3" category="paragraph">Dopo l'esecuzione del manuale, accedere al cluster come amministratore del cluster.</block>
   <block id="3d4609be21bd67626ea8848d17b975ec" category="section-title">Convalidare l'installazione del firmware del disco</block>
   <block id="3083d2c1ae7f9607307c4933fafac051" category="list-text">Verificare che il firmware del disco sia installato:</block>
-  <block id="ddaf90ba9130735e22c69470b8ca1105" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage disk show].</block>
   <block id="4a291709986e76671c4e1ef51ec0498d" category="list-text">Verificare che il nuovo firmware NVMe Flash cache sia installato:</block>
-  <block id="e369aca69b6564e01b781fd587d2025c" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system controller flash-cache show].</block>
   <block id="66db453df531af0a73add1cbbef1ceb6" category="section-title">Convalidare l'installazione del firmware dello shelf</block>
   <block id="894f02f1db5e6fbe18ce3d45767d3756" category="list-text">Verificare che il nuovo firmware dello shelf sia aggiornato:</block>
   <block id="2d77282afafc6d5db219df50ea65e332" category="paragraph">Nell'output, verificare che il firmware di ogni shelf sia aggiornato al livello desiderato. Ad esempio:</block>
-  <block id="b30a1cfbe7a32d2e40e04190f7966a31" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system node run].</block>
   <block id="416af856ff2ea6b6a1bf3e9296eb34d8" category="list-text">Verificare che il nuovo firmware ACP sia aggiornato:</block>
-  <block id="caa63608d42a3d23018646f69df48ac9" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[show del modulo acp dello shelf di storage].</block>
   <block id="f1ac933796d7e8a621dc4f778e1ca2a9" category="list-text">Verificare che la modalità ACP desiderata sia configurata:</block>
-  <block id="2c24f319b514a723a1df15f5012dac8a" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp show].</block>
   <block id="7803d493a86a46af8da6da871f5b8190" category="list-text">Modificare la modalità ACP (canale):</block>
-  <block id="2852ca69aef82e487818a169ee3f9ab5" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp configure].</block>
   <block id="0ec4134b90582cc935ee8837f4b79494" category="section-title">Convalida dell'installazione del firmware SP/BMC</block>
   <block id="3caae258f0b7b1933ce92f0c03955521" category="paragraph">Il manuale Ansible Playbook per gli aggiornamenti del firmware di Service Processor/BMC è abilitato con un'opzione per verificare l'installazione del firmware SP/BMC più recente sul controller. Una volta completata la verifica (gli aggiornamenti potrebbero richiedere un tempo massimo di due ore), Ansible Playbook applica gli aggiornamenti del firmware dello switch interno effettuando la connessione alla console SP/BMC.</block>
   <block id="b80d891d0b3572cb38b140778c2439e6" category="paragraph">Le informazioni relative al guasto e al successo delle installazioni del firmware SP/BMC e del firmware dello switch interno verranno notificate al termine dell'esecuzione di Ansible Playbook. Seguire la procedura indicata nel manuale Ansible Playbook nel caso in cui l'installazione del firmware SP/BMC/firmware switch interno non riesca.</block>
@@ -505,7 +488,6 @@
   <block id="6fece82477cde8bae9bdb844907c3dc2" category="list-text">Offerta di supporto errata</block>
   <block id="8d561f83f3c24e7d066a3cd084ed3764" category="paragraph">*Come si crea un caso non tecnico?*</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">qui</block>
-  <block id="85009e822479a8fa21551fa97aad6551" category="list-text">Fare clic su <block ref="ee2c8057dc5018da669c93cf5a6627fa" category="inline-link-macro-rx"></block> Per aprire il "non-Technical Feedback Tool" sul sito del supporto NetApp.</block>
   <block id="b881d2001fba3b1062cec6417c32bb74" category="list-text">Selezionare la categoria appropriata dall'elenco a discesa *Categoria feedback*.</block>
   <block id="12330277a5f9a61a6bc1beddec10eeff" category="list-text">Inserire i dettagli richiesti e fornire ulteriori informazioni nella casella "commenti".</block>
   <block id="014b609750aa0ccedbb6b4212fb3f2df" category="paragraph">Viene creato un caso e viene fornito un numero di caso come riferimento.</block>
@@ -513,7 +495,6 @@
   <block id="ac028435b37412dea24f9b1040cc0dc4" category="paragraph">Per fornire feedback o porre domande, invia un'email a mailto:ng-activeiq-feedback@netapp.com[[[.underline] n. ng-activeiq-feedback@netapp.com].</block>
   <block id="8ddbb4960ae1ce3eafd141c7e16ad702" category="paragraph">*Come posso accedere all'efficienza dello storage in Digital Advisor?*</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="inline-link-macro">Consulente digitale</block>
-  <block id="72ad3932c594cc8330139ca85deb062e" category="list-text">Aprire la home page di <block ref="b14a1f08a6d5b6b71c0d3622c0d1ab6d" category="inline-link-macro-rx"></block>.</block>
   <block id="1f7190b58ba77336a9e9c5d8010a216d" category="list-text">Cercare un cliente, un sito, un gruppo, un cluster o un nodo dalla casella di ricerca in alto a destra per accedere alla relativa dashboard.</block>
   <block id="f30fbe64196609d84d8615d57fc452c4" category="list-text">Fare clic su *Storage Efficiency* (efficienza dello storage) nella barra di navigazione a sinistra.</block>
   <block id="b9fc81c6a264c571164cb5ed34f3d618" category="admonition">Le dashboard create utilizzando una lista di controllo non verranno visualizzate nel widget Storage Efficiency (efficienza dello storage).</block>
@@ -976,18 +957,13 @@
   <block id="dd2f14a8d126300e4d4b5f68789f76c1" category="admonition">L'aggiunta manuale di cluster o controller non è supportata.</block>
   <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">Fornisce ulteriori informazioni su Digital Advisor.</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">Community NetApp</block>
-  <block id="1881e7a42b09973c0262936d8c6638d6" category="list-text"><block ref="1881e7a42b09973c0262936d8c6638d6" category="inline-link-macro-rx"></block></block>
   <block id="2250dada69ecec08ffc29ac659683495" category="inline-link-macro">Risorse di documentazione</block>
-  <block id="177f8a6daba75aef7ca1dc356f119571" category="list-text"><block ref="177f8a6daba75aef7ca1dc356f119571" category="inline-link-macro-rx"></block></block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Sicurezza e privacy dei dati di telemetria NetApp</block>
-  <block id="0c653ba2b8e3812b4f58b7bef8777e11" category="list-text"><block ref="0c653ba2b8e3812b4f58b7bef8777e11" category="inline-link-macro-rx"></block></block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport e AutoSupport on-demand</block>
-  <block id="c60726371723b7c1a53a2242c4905f14" category="list-text"><block ref="c60726371723b7c1a53a2242c4905f14" category="inline-link-macro-rx"></block></block>
   <block id="d30bc95f114574e4f302ff7d56c38197" category="summary">Fornisce informazioni sull'hosting dei file del firmware mediante un server Web.</block>
   <block id="e8d8e943135c6833b6747d1c1486332b" category="doc">Ospitare i file del firmware utilizzando il server Web</block>
   <block id="dc3625ebff827af69b299c8e6fea1420" category="paragraph">Dopo aver scaricato il pacchetto di automazione, i file del firmware dovrebbero essere ospitati su un server Web.</block>
   <block id="5129ab853bf297d4240fcbf65f9e0d46" category="inline-link-macro">Webserver con Python</block>
-  <block id="a55312b673d55580b96948865430bf83" category="paragraph">Il server Web può essere configurato in diversi modi. Per istruzioni su come configurare un semplice server Web utilizzando Python, fare riferimento a. <block ref="f42a69e2fd8a191b3a873ea1d9c49de9" category="inline-link-macro-rx"></block>.</block>
   <block id="48c7c41b72e1d678923ce3571aa65b2d" category="list-title">Fase</block>
   <block id="f48786c9c76c96752daaf8192b199d06" category="list-text">Salvare l'URL di base del server Web. Se gli URL del firmware del disco, del firmware dello shelf e del firmware del processore di servizio sono */http://&lt;web-server&gt;/path/all_shelf_fw.zip*, * http://&lt;web-server&gt;/path/all.zip* e */http://&lt;web-server&gt;/path/&lt;SP/BMC&gt;_&lt;version_number&gt;_fw.zip*, salvare * http://&lt;web-server&gt;/path/* come URL di base.</block>
   <block id="5d15b41ee5ac810b6e7268188476648c" category="paragraph">Il nome del file viene rilevato automaticamente da Ansible Playbook.</block>
@@ -996,21 +972,14 @@
   <block id="5c711ca6514b7bc5e8b54eb7d0514b90" category="paragraph">Questi dati vengono utilizzati dal supporto tecnico NetApp per accelerare la diagnosi e la risoluzione dei problemi e da Digital Advisor per rilevare ed evitare in modo proattivo potenziali problemi. Può anche essere inviato all'organizzazione di supporto interna e a un partner di supporto.</block>
   <block id="5da64b23743d20365a812a148d09b65f" category="admonition">Digital Advisor visualizza i dati relativi a AutoSupport solo per i sistemi i cui dati AutoSupport hanno meno di 60 giorni.</block>
   <block id="e66de45ccd9a8afefe101940b4da6485" category="inline-link-macro">Configurare AutoSupport</block>
-  <block id="f3bfa02908c2ab879d33330f57dce830" category="paragraph">Per i sistemi ONTAP, AutoSupport viene attivato per impostazione predefinita quando si configura il sistema di storage per la prima volta. Dovresti <block ref="54fdd8b22a63e736e8b214bc3b8526e0" category="inline-link-macro-rx"></block> Sui sistemi ONTAP per controllare la modalità di invio delle informazioni AutoSupport al supporto tecnico e all'organizzazione di supporto interna.</block>
   <block id="1bbdc300c5fbfb2d1eb6e80bff986bc4" category="paragraph">Se non si desidera attivare AutoSupport, è possibile utilizzare la funzione di caricamento AutoSupport per caricare manualmente i dati AutoSupport e ricevere consigli e informazioni utili nel proprio ecosistema di storage.</block>
   <block id="a91ebd35c5ab5f4627190f49de7d7617" category="admonition">I dati AutoSupport non contengono dati dell'utente.</block>
   <block id="a6a6e60d8b343bd990173569c80a158f" category="paragraph">Per ulteriori informazioni su AutoSupport, consultare la documentazione appropriata:</block>
   <block id="82433783dcf17ee52968a7749a51c698" category="inline-link-macro">ONTAP (FAS e AFF)</block>
-  <block id="4eb0c54aeb98efae14f5e16b29581405" category="list-text"><block ref="4eb0c54aeb98efae14f5e16b29581405" category="inline-link-macro-rx"></block></block>
-  <block id="4ce5f3a0d296000e2119e87731ead543" category="list-text"><block ref="4ce5f3a0d296000e2119e87731ead543" category="inline-link-macro-rx"></block></block>
   <block id="78e23f0a3cc97f9e8278bd679d396bbb" category="inline-link-macro">SANtricity (e-Series ed EF-Series)</block>
-  <block id="d2b30e7e13ee44c62d545dde14f5cbb1" category="list-text"><block ref="d2b30e7e13ee44c62d545dde14f5cbb1" category="inline-link-macro-rx"></block></block>
   <block id="cc959aa92b96d7ed4154da16e0bc5de4" category="inline-link-macro">Element (NetApp HCI e SolidFire)</block>
-  <block id="4348cd8210353d22e852c9bdde3d5483" category="list-text"><block ref="4348cd8210353d22e852c9bdde3d5483" category="inline-link-macro-rx"></block></block>
   <block id="67c2a0578ac58d1bcfb4fc00eb6e05ba" category="inline-link-macro">Report tecnico - ONTAP AutoSupport e AutoSupport on demand</block>
-  <block id="68f5446fdc2f2edf829bb787c3f313a0" category="list-text"><block ref="68f5446fdc2f2edf829bb787c3f313a0" category="inline-link-macro-rx"></block></block>
   <block id="1629a9318eb60c2f7422a0ca0be6bfcb" category="inline-link-macro">Report tecnico - sicurezza e privacy dei dati di telemetria NetApp</block>
-  <block id="a7601e85e4e519e4d1467321c32fe973" category="list-text"><block ref="a7601e85e4e519e4d1467321c32fe973" category="inline-link-macro-rx"></block></block>
   <block id="39c8987e43727590806ec031b3dd0a86" category="summary">Fornisce informazioni sui termini chiave utilizzati in Digital Advisor.</block>
   <block id="aecb526721c5811e8b940ed95c7e8b18" category="doc">Concetti chiave</block>
   <block id="9d20c3f0e792e5776281264573b1c017" category="paragraph">Quando inizi a utilizzare Digital Advisor, è importante comprendere alcuni dei termini di base che puoi aspettarti di vedere in Digital Advisor.</block>
@@ -1103,8 +1072,6 @@
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">Viene visualizzata la dashboard dell'elenco di controllo.</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">Fornisce informazioni per l'accesso a Digital Advisor.</block>
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">Accedere a Digital Advisor</block>
-  <block id="37590f3349dc615946e2bde66219f592" category="paragraph">Per accedere a Digital Advisor, è necessario disporre di una credenziale valida per il sito del supporto NetApp. Se non si dispone di un account e si sta per iniziare, fare clic su <block ref="967ddad47d4311162e2dc8cf03423cdc" category="inline-link-macro-rx"></block>.</block>
-  <block id="45f615e2033fe61475056e1d49532aee" category="list-text">Fare clic su <block ref="348c59707f27a8ca5472dc7d66de9883" category="inline-link-macro-rx"></block> Per accedere a Digital Advisor.</block>
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisor mostra i sistemi con un contratto di supporto valido. Se i contratti scadono, viene assegnato un periodo di tolleranza di 90 giorni in cui i sistemi continuano a essere visibili. In seguito, i sistemi non possono essere ricercati o visualizzati in Digital Advisor.</block>
   <block id="1dce4feb01121addbdaf71931c469035" category="list-text">Inserisci il tuo nome utente e la password e fai clic su *Accedi*.</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">Fornisce informazioni sulla dashboard, i punteggi di salute, le funzioni e i widget.</block>
@@ -1116,7 +1083,6 @@
   <block id="63d26e96496f498e8ddc517162407ad9" category="list-text">*Support &amp; Entitlements*: Visualizza i contratti di supporto scaduti e quelli che si stanno avvicinando alla scadenza entro 6 - 12 mesi. Visualizza piattaforme di fine supporto, dischi, shelf, conformità dei diritti, scadenze in sospeso, e la fine del supporto per piattaforma e hardware non è applicabile. È possibile visualizzare il punteggio del controllo dello stato di salute fornito nella dashboard e intraprendere azioni in base ai suggerimenti principali, forniti in ordine di priorità. Per visualizzare informazioni dettagliate sui contratti di assistenza, fare clic sul widget *Support &amp; Entitlements*. Puoi anche rinnovare i contratti di supporto utilizzando questo widget.</block>
   <block id="022a011d9b874fb921f0168799a144d0" category="list-text">*Best Practices*: Visualizza il punteggio del controllo dello stato di salute valutando gli attributi delle Best practice del sistema storage: Performance ed efficienza, disponibilità e protezione, capacità, configurazione e vulnerabilità di sicurezza. Le Best practice di NetApp aiutano a sostenere lo stato di salute del sistema, ottimizzando le performance della base installata.</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">Sito di supporto NetApp</block>
-  <block id="9d4e98ef3e858b364953644ba3b9dd42" category="list-text">*Casi tecnici*: Fornisce una vista dettagliata della cronologia tecnica del caso, in base al tipo di caso e allo stato aperto o chiuso, in intervalli di tempo selezionabili. È possibile analizzare i gruppi di casi e visualizzare i dettagli del caso tramite <block ref="524afdbf585c55af8de5660a471d6788" category="inline-link-macro-rx"></block> o altri portali di casi.</block>
   <block id="81a8efa642a6a389343d5ea66b3628e4" category="summary">Fornisce informazioni sui rischi di sistema e su come visualizzare la cronologia delle condizioni di salute.</block>
   <block id="aedc21ab40ffa5085f7e9bc68e9ec4b8" category="doc">Visualizza la cronologia del benessere</block>
   <block id="74d76c2b05d8452b29d401847b93bccc" category="paragraph">È possibile visualizzare i rischi di sistema che si verificano negli ultimi tre mesi, in modo da poter apprendere come si stanno facendo straordinari.</block>
@@ -1152,9 +1118,7 @@
   <block id="6032e7db579fa00df8e3062fcbc04a91" category="paragraph">È necessario aggiornare il firmware AFF e FAS utilizzando Ansible per ridurre i rischi identificati e mantenere aggiornato il sistema storage.</block>
   <block id="1564b29b093f31fb45180a4db5577505" category="paragraph">Prima di aggiornare il firmware AFF e FAS utilizzando Ansible, è necessario:</block>
   <block id="745230e54aaf2b7a27c00a64f7313bd5" category="inline-link-macro">Installare e configurare Ansible sul sistema storage</block>
-  <block id="0094d1b9b17f030f70b103864dd666f5" category="list-text"><block ref="0094d1b9b17f030f70b103864dd666f5" category="inline-link-macro-rx"></block></block>
   <block id="5c5c784bf4fbab90a4f6348de576d5da" category="inline-link-macro">Installare Ansible 2.9 con raccolte sul sistema storage</block>
-  <block id="7e1754c18b818c3a897f7aca76d74aea" category="list-text"><block ref="7e1754c18b818c3a897f7aca76d74aea" category="inline-link-macro-rx"></block></block>
   <block id="b6b47e144c6cacc9e6c8bdaafc85da05" category="list-text">Aggiorna il tuo sistema storage a ONTAP 9.1 o versione successiva</block>
   <block id="15236e2742dc8cb603caee435694fbe2" category="list-text">Configurare l'account con un ruolo di amministratore</block>
   <block id="ffc6cdcd4e33637452d7cabcc86954ab" category="list-text">Fare clic su un widget wellness nella dashboard o fare clic su *View All Actions* (Visualizza tutte le azioni) per visualizzare un elenco di tutte le azioni e i rischi.</block>
@@ -1331,5 +1295,43 @@
   <block id="23c5744a4c274e51948ba5ceeb6db0f9" category="paragraph">*Perché non riesco a trovare alcuni sistemi in Digital Advisor?*
 Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagina dell'inventario a causa di uno dei seguenti motivi:</block>
   <block id="f2c1cd072b0801929f6eda1e5bff8545" category="list-text">I sistemi sono inattivi, archiviati o dismessi in SAP.</block>
-  <block id="6d3911d1bc35c7abc342f54857e32dcf" category="paragraph">Se non riesci a visualizzare i sistemi per altri motivi, hai domande o desideri richiedere l'accesso, <block ref="c55e3409f454389439c394d71613590b" category="inline-link-macro-rx"></block>. Per ulteriori informazioni sul caso non tecnico, fare clic su <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
+  <block id="166fa8245082188f0cd75088bb36f5db" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage disk show^].</block>
+  <block id="2c27c44b6d1d0ed255845c9ffa447dbe" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system controller flash-cache show^].</block>
+  <block id="752e94f47e519cd2bf16fec09ad9f470" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system node run^].</block>
+  <block id="90542ff9ec5b690c4ff349a953987a9f" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[show del modulo acp dello shelf di storage^].</block>
+  <block id="c45f42f02d2bf7bd92e0d26534723c80" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp show^].</block>
+  <block id="d2a56416e501bf47a267c5eb4f202014" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp configure^].</block>
+  <block id="f3ffec30d4e62fd6b4663ba215a643ed" category="list-text">Fare clic su <block ref="92a15a62356fc979cd7db02d3dcebebf" category="inline-link-macro-rx"></block> Per aprire il "non-Technical Feedback Tool" sul sito del supporto NetApp.</block>
+  <block id="3e77ec7dcefb3407f7a4b7c4b8051d1e" category="list-text">Aprire la home page di <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block>.</block>
+  <block id="8dd3258635f25ed56f238af521960f2b" category="paragraph">Se non riesci a visualizzare i sistemi per altri motivi, hai domande o desideri richiedere l'accesso, <block ref="09587a48f092e0d3b236776f889d19c2" category="inline-link-macro-rx"></block>. Per ulteriori informazioni sul caso non tecnico, fare clic su <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
+  <block id="ba117b364c26b06c871a54fc6945f641" category="list-text"><block ref="3eaf8bde6ca57cae1e0245ca6f31a246" category="inline-link-macro-rx"></block>.</block>
+  <block id="472c223fae3612be8aadf50d73eb0809" category="paragraph">Per ulteriori informazioni sul comando di pull di docker, fare riferimento a. <block ref="4b16511182941b47e25fae103f9d15b4" category="inline-link-macro-rx"></block>.</block>
+  <block id="793420e8298f81919bf32aff38b47ae2" category="paragraph">Il container si avvia e la console si trova nella shell bash del container. Per ulteriori informazioni sul comando Docker Run, fare riferimento a. <block ref="2e999d289da5bafdf839ad8763a0ba40" category="inline-link-macro-rx"></block>.</block>
+  <block id="2a0dd6c3bcb96a2f49ec6fd9a82e2f4a" category="paragraph">Per ulteriori informazioni sul comando *ansible-playbook*, fare riferimento a. <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> E per eseguire il playbook Ansible in modalità check (dry run), fare riferimento a. <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>.</block>
+  <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
+  <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
+  <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Il server Web può essere configurato in diversi modi. Per istruzioni su come configurare un semplice server Web utilizzando Python, fare riferimento a. <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>.</block>
+  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">Fare clic su <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> Sotto l'icona *API Catalog*.</block>
+  <block id="6300a3453f44e919baf2a9aa05a8acaf" category="paragraph">È possibile accedere a Digital Advisor da una console basata su Web per creare un elenco di controllo per visualizzare lo stato generale del sistema di storage.</block>
+  <block id="315ad4061cc238e6dcb01825e9ab9572" category="inline-link-macro">creare un account</block>
+  <block id="425f3e0f4d6e9e92e654e9ba5e993d54" category="paragraph">Per accedere a Digital Advisor, è necessario disporre di una credenziale valida per il sito del supporto NetApp. Se non si dispone di un account e si sta per iniziare, passare a. <block ref="6e6f0f52d614dd0ec77faf300e34ad53" category="inline-link-macro-rx"></block>.</block>
+  <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">Accedere alla <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> pagina di accesso.</block>
+  <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">Per i sistemi ONTAP, AutoSupport viene attivato per impostazione predefinita quando si configura il sistema di storage per la prima volta. Dovresti <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> Sui sistemi ONTAP per controllare la modalità di invio delle informazioni AutoSupport al supporto tecnico e all'organizzazione di supporto interna.</block>
+  <block id="c69712b80ef7bcc235093f9221047c47" category="list-text"><block ref="c69712b80ef7bcc235093f9221047c47" category="inline-link-macro-rx"></block></block>
+  <block id="0ecea5b3f45d0b317fc17c67ecadeec6" category="list-text"><block ref="0ecea5b3f45d0b317fc17c67ecadeec6" category="inline-link-macro-rx"></block></block>
+  <block id="2c4b22e05e691d4ce96f7b4e3c02df4c" category="list-text"><block ref="2c4b22e05e691d4ce96f7b4e3c02df4c" category="inline-link-macro-rx"></block></block>
+  <block id="cbf41252f5082da209304e5ca48c34d8" category="list-text"><block ref="cbf41252f5082da209304e5ca48c34d8" category="inline-link-macro-rx"></block></block>
+  <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
+  <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
+  <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">Per ulteriori informazioni su FabricPool, fare riferimento a. <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>.</block>
+  <block id="c9a7e25beb9575351b078da21d059517" category="list-text">*Casi tecnici*: Fornisce una vista dettagliata della cronologia tecnica del caso, in base al tipo di caso e allo stato aperto o chiuso, in intervalli di tempo selezionabili.  È possibile analizzare i gruppi di casi e visualizzare i dettagli del caso tramite <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> o altri portali di casi.</block>
+  <block id="0abfb28c0c42381f5bdaaa9ae0da77db" category="list-text">Installare <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> e. <block ref="b37d22802e31da3263bb8117bdd516f1" category="inline-link-macro-rx"></block>.</block>
+  <block id="4bdc49aacf883a14a18411273872ee96" category="paragraph">Per ulteriori informazioni sul comando ansible-galaxy, fare riferimento a. <block ref="037b694376946e6e330c847bc4e48449" category="inline-link-macro-rx"></block> Per ulteriori informazioni su NetApp Ansible Collection, consultare <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>.</block>
+  <block id="85da219929dec7990a12ce28aff47903" category="paragraph">Per ulteriori informazioni sul comando *ansible-playbook*, fare riferimento a. <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> E per eseguire il manuale Ansible in modalità check (dry run), fare riferimento a. <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>.</block>
+  <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
+  <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
+  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
+  <block id="847b7c4d19d7d7ef0daee103975b7b83" category="list-text"><block ref="847b7c4d19d7d7ef0daee103975b7b83" category="inline-link-macro-rx"></block></block>
+  <block id="0212b08a947e9079148b138fa48a9e62" category="list-text"><block ref="0212b08a947e9079148b138fa48a9e62" category="inline-link-macro-rx"></block></block>
+  <block id="3bb41de04026c13803b9189b287bb05a" category="list-text"><block ref="3bb41de04026c13803b9189b287bb05a" category="inline-link-macro-rx"></block></block>
 </blocks>

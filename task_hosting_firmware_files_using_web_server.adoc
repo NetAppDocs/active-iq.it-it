@@ -21,7 +21,7 @@ summary: 'Fornisce informazioni sull"hosting dei file del firmware mediante un s
 [role="lead"]
 Dopo aver scaricato il pacchetto di automazione, i file del firmware dovrebbero essere ospitati su un server Web.
 
-Il server Web può essere configurato in diversi modi. Per istruzioni su come configurare un semplice server Web utilizzando Python, fare riferimento a. link:https://docs.python.org/3/library/http.server.html["Webserver con Python"].
+Il server Web può essere configurato in diversi modi. Per istruzioni su come configurare un semplice server Web utilizzando Python, fare riferimento a. link:https://docs.python.org/3/library/http.server.html["Webserver con Python"^].
 
 .Fase
 . Salvare l'URL di base del server Web. Se gli URL del firmware del disco, del firmware dello shelf e del firmware del processore di servizio sono */http://<web-server>/path/all_shelf_fw.zip*, * http://<web-server>/path/all.zip* e */http://<web-server>/path/<SP/BMC>_<version_number>_fw.zip*, salvare * http://<web-server>/path/* come URL di base.

@@ -40,7 +40,7 @@ disk     firmware-revision model
 1.11.4   NA01              X423_HCOBE900A10
 ----
 +
-Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage disk show].
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage disk show^].
 
 . Verificare che il nuovo firmware NVMe Flash cache sia installato:
 +
@@ -49,7 +49,7 @@ Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore
 ::*> system controller flash-cache show
 ----
 +
-Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system controller flash-cache show].
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system controller flash-cache show^].
 
 
 
@@ -73,7 +73,7 @@ Nell'output, verificare che il firmware di ogni shelf sia aggiornato al livello 
 Shelf 1: IOM6 Firmware rev. IOM6 A: 0191 IOM3 B: 0191
 ----
 +
-Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system node run].
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[system node run^].
 
 . Verificare che il nuovo firmware ACP sia aggiornato:
 +
@@ -82,7 +82,7 @@ Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore
 ::*> storage shelf acp module show -instance
 ----
 +
-Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[show del modulo acp dello shelf di storage].
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[show del modulo acp dello shelf di storage^].
 
 . Verificare che la modalità ACP desiderata sia configurata:
 +
@@ -91,7 +91,7 @@ Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore
 ::*> storage shelf acp show
 ----
 +
-Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp show].
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp show^].
 
 . Modificare la modalità ACP (canale):
 +
@@ -100,7 +100,7 @@ Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore
 ::*> storage shelf acp configure -channel [in-band | out-of-band]
 ----
 +
-Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp configure].
+Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp configure^].
 
 
 

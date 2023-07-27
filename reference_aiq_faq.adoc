@@ -42,7 +42,7 @@ Problemi come l'impossibilità di visualizzare i sistemi nell'inventario, le dat
 
 *Come si crea un caso non tecnico?*
 
-. Fare clic su link:https://mysupport.netapp.com/site/help["qui"] Per aprire il "non-Technical Feedback Tool" sul sito del supporto NetApp.
+. Fare clic su link:https://mysupport.netapp.com/site/help["qui"^] Per aprire il "non-Technical Feedback Tool" sul sito del supporto NetApp.
 . Selezionare la categoria appropriata dall'elenco a discesa *Categoria feedback*.
 . Inserire i dettagli richiesti e fornire ulteriori informazioni nella casella "commenti".
 . Fare clic su *Invia*.
@@ -60,7 +60,7 @@ Per fornire feedback o porre domande, invia un'email a mailto:ng-activeiq-feedba
 
 *Come posso accedere all'efficienza dello storage in Digital Advisor?*
 
-. Aprire la home page di link:https://activeiq.netapp.com/?source=onlinedocs["Consulente digitale"].
+. Aprire la home page di link:https://activeiq.netapp.com/?source=onlinedocs["Consulente digitale"^].
 . Cercare un cliente, un sito, un gruppo, un cluster o un nodo dalla casella di ricerca in alto a destra per accedere alla relativa dashboard.
 . Fare clic su *Storage Efficiency* (efficienza dello storage) nella barra di navigazione a sinistra.
 
@@ -210,7 +210,7 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
 * I sistemi sono inattivi, archiviati o dismessi in SAP.
 
 
-Se non riesci a visualizzare i sistemi per altri motivi, hai domande o desideri richiedere l'accesso, link:https://mysupport.netapp.com/site/help["creare un caso non tecnico"]. Per ulteriori informazioni sul caso non tecnico, fare clic su <<Caso non tecnico,qui.>>
+Se non riesci a visualizzare i sistemi per altri motivi, hai domande o desideri richiedere l'accesso, link:https://mysupport.netapp.com/site/help["creare un caso non tecnico"^]. Per ulteriori informazioni sul caso non tecnico, fare clic su <<Caso non tecnico,qui.>>
 
 
 

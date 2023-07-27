@@ -19,10 +19,13 @@ summary: 'Fornisce informazioni per l"accesso a Digital Advisor.'
 
 
 [role="lead"]
-Per accedere a Digital Advisor, è necessario disporre di una credenziale valida per il sito del supporto NetApp. Se non si dispone di un account e si sta per iniziare, fare clic su link:https://mysupport.netapp.com/info/web/ECMP1150550.html/["qui"].
+È possibile accedere a Digital Advisor da una console basata su Web per creare un elenco di controllo per visualizzare lo stato generale del sistema di storage.
+
+.Prima di iniziare
+Per accedere a Digital Advisor, è necessario disporre di una credenziale valida per il sito del supporto NetApp. Se non si dispone di un account e si sta per iniziare, passare a. link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["creare un account"^].
 
 .Fasi
-. Fare clic su link:https://activeiq.netapp.com/?source=onlinedocs["qui"] Per accedere a Digital Advisor.
+. Accedere alla link:https://activeiq.netapp.com/?source=onlinedocs["Consulente digitale"^] pagina di accesso.
 +
 Digital Advisor mostra i sistemi con un contratto di supporto valido. Se i contratti scadono, viene assegnato un periodo di tolleranza di 90 giorni in cui i sistemi continuano a essere visibili. In seguito, i sistemi non possono essere ricercati o visualizzati in Digital Advisor.
 
