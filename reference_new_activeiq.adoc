@@ -23,13 +23,26 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 16 luglio 2023
+
+
+
+=== Efficienza dello storage
+
+* L'etichetta *efficienza di archiviazione*, che visualizza il rapporto di efficienza, viene rinominata *riduzione dati*.
+* L'etichetta *dati salvati dall'efficienza di archiviazione* viene rinominata *risparmio riduzione dati*.
+* L'opzione *risparmio senza backup snapshot* viene rinominata *con copie snapshot* insieme a una modifica alla relativa funzionalità. link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#storage-efficiency["Scopri di più"].
+
+
+
+
 == 21 giugno 2023
 
 
 
 === Dashboard sulla sostenibilità
 
-Il Dashboard di Sustainability di Digital Advisor offre preziose informazioni sulla sostenibilità ambientale del sistema storage. È possibile visualizzare informazioni come il punteggio di sostenibilità, la percentuale di riduzione del carbonio, l'utilizzo previsto di energia, il carbonio diretto e il calore. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. Valutando il punteggio di sostenibilità, puoi valutare l'efficienza complessiva del tuo sistema storage e allinearlo alle azioni consigliate da NetApp per migliorare la sostenibilità. link:concept_understand_sustainability_dashboard.html["Scopri di più"].
+La Sustainability Dashboard fornisce preziose informazioni sulla sostenibilità ambientale del tuo sistema storage. È possibile visualizzare informazioni come il punteggio di sostenibilità, la percentuale di riduzione del carbonio, l'utilizzo previsto di energia, il carbonio diretto e il calore. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. Valutando il punteggio di sostenibilità, puoi valutare l'efficienza complessiva del tuo sistema storage e allinearlo alle azioni consigliate da NetApp per migliorare la sostenibilità. link:concept_understand_sustainability_dashboard.html["Scopri di più"].
 
 
 

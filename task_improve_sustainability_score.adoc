@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: task_improve_sustainability_score.html 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp 
+summary: Fornisce le operazioni necessarie per risolvere le azioni consigliate immediatamente o in un secondo momento. 
+---
+= Migliorare il punteggio di sostenibilità
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La dashboard di sostenibilità di BlueXP genera azioni consigliate che puoi utilizzare per migliorare la tua posizione di sostenibilità generale. Puoi visualizzare queste azioni consigliate da NetApp BlueXP o Digital Advisor.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+. Vai a *Sustainability* dalla categoria *Governance* disponibile nella navigazione a sinistra di BlueXP.
+. Andare alla scheda *azioni consigliate*.
++
+** È possibile eseguire queste azioni immediatamente selezionando *Correggi* o indirizzarle in un secondo momento selezionando *più tardi*.
+** Se si prevede di affrontare le azioni immediatamente, selezionare *Correggi*.
++
+*** Espande la vista dell'azione consigliata selezionata. È inoltre possibile espandere la visualizzazione delle azioni consigliate utilizzando la freccia verso il basso. Nella vista espansa, è possibile visualizzare il nome del cluster, il punteggio di sostenibilità e il successivo aumento se si procede con l'opzione *Fix*. È inoltre possibile visualizzare un messaggio informativo che indica di procedere con l'opzione *Fix*.
+  +
+image:recommended_actions.png["Una schermata che mostra l'elenco delle azioni nella vista espansa."]
+*** Nella vista espansa, è possibile selezionare *Correggi* per risolvere immediatamente l'azione.
+
+
+** Se si prevede di eseguire le azioni in un secondo momento, selezionare *più tardi*.
++
+*** Se si seleziona *più tardi*, l'azione consigliata selezionata viene spostata nella scheda *azioni successive*. L'azione selezionata verrà rinviata di 30 giorni. Dopo 30 giorni, questa azione passerà alla scheda *azioni consigliate*.
+*** È inoltre possibile rivedere le azioni posticipate in qualsiasi momento e spostarle nella scheda *azioni consigliate* facendo clic su *considera*.
+ +
+image:actions_for_later.png["Una schermata che mostra le azioni consigliate con l'opzione considera."]
+
+
+
+
+
+
+--
+.Consulente digitale
+--
+. Vai a *Sustainability* dalla categoria *STORAGE HEALTH* disponibile nella navigazione a sinistra del dashboard di Digital Advisor.
+. Andare alla scheda *azioni consigliate*.
++
+** È possibile eseguire queste azioni immediatamente selezionando *Correggi* o indirizzarle in un secondo momento selezionando *più tardi*.
+** Se si prevede di affrontare le azioni immediatamente, selezionare *Correggi*.
++
+*** La vista dell'azione consigliata selezionata si espande. È inoltre possibile espandere la visualizzazione delle azioni consigliate utilizzando la freccia verso il basso. Nella vista espansa, è possibile visualizzare il nome del cluster, il punteggio di sostenibilità e il successivo aumento se si procede con l'opzione *Fix*. È inoltre possibile visualizzare un messaggio informativo che indica di procedere con l'opzione *Fix*.
+  +
+image:recommended_actions.png["Una schermata che mostra l'elenco delle azioni nella vista espansa."]
+*** Nella vista espansa, è possibile selezionare *Correggi* per risolvere immediatamente l'azione.
+
+
+** Se si prevede di eseguire le azioni in un secondo momento, selezionare *più tardi*.
++
+*** Se si seleziona *più tardi*, l'azione consigliata selezionata viene spostata nella scheda *azioni successive*. L'azione selezionata verrà rinviata di 30 giorni. Dopo 30 giorni, questa azione passerà alla scheda *azioni consigliate*.
+*** È inoltre possibile rivedere le azioni posticipate in qualsiasi momento e spostarle nella scheda *azioni consigliate* facendo clic su *considera*.
+ +
+image:actions_for_later.png["Una schermata che mostra le azioni consigliate con l'opzione considera."]
+
+
+
+
+
+
+--
+====

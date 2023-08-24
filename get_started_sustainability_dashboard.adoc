@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: get_started_sustainability_dashboard.html 
+keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
+summary: Inizia subito con il dashboard di sostenibilità BlueXP accedendo a BlueXP o Digital Advisor. 
+---
+= Iniziate con il dashboard Sustainability
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+La dashboard Sustainability fornisce report e punteggi abilitati per AIOps con informazioni utili per migliorare la postura di sostenibilità. Puoi utilizzare NetApp BlueXP o Digital Advisor per visualizzare il dashboard Sustainability.
+
+[role="tabbed-block"]
+====
+.BlueXP
+--
+Per accedere a BlueXP, puoi utilizzare le credenziali del sito di supporto NetApp oppure iscriverti per un login cloud NetApp utilizzando la tua email e una password. Scopri di più link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Accesso a BlueXP"^].
+
+.Fasi
+. Aprire un browser Web e accedere al link:https://console.bluexp.netapp.com/["Console BlueXP"^].
+Viene visualizzata la pagina di accesso a NetApp BlueXP.
+. Accedere a BlueXP.
+. Dal menu di navigazione a sinistra di BlueXP, selezionare *Governance* > *Sustainability*.
+  Viene visualizzato il dashboard Sustainability.
+  +
+image:sustainability_dashboard_bluexp.png["Uno screenshot dell'interfaccia utente che offre una panoramica della dashboard Sustainability in BlueXP."]
+
+
+
+NOTE: Se il dashboard Sustainability non è impostato, viene visualizzata l'opzione *Aggiungi account NSS*. Fornisci le credenziali per il sito di supporto NetApp (NSS) per visualizzare il dashboard Sustainability e i sistemi associati al tuo account.
+
+--
+.Consulente digitale
+--
+Per accedere a Digital Advisor, è possibile utilizzare le credenziali del sito di supporto NetApp.
+
+.Fasi
+. Aprire un browser Web e accedere al link:https://activeiq.netapp.com/?source=onlinedocs["Consulente digitale"^] pagina di accesso.
+. Inserisci il tuo nome utente e la password e fai clic su *Accedi*.
+. Dal menu di navigazione a sinistra, selezionare *INTEGRITÀ ARCHIVIAZIONE* > *Sostenibilità*.
++
+image:sustainability_dashboard.png["Uno screenshot dell'interfaccia utente che fornisce una panoramica del dashboard Sustainability."]
+
+
+
+
+NOTE: L'opzione *Sustainability* è disattivata se l'elenco di controllo non è configurato. Per attivarla, è possibile creare una lista di controllo o eseguire una ricerca utilizzando il nome del cliente, il nome del sito, il nome del gruppo, StorageGRID, il nome host, cluster, numero di serie o ID di sistema. link:concept_overview_dashboard.html["Ulteriori informazioni su watchlist"].
+
+--
+====

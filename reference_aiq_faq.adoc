@@ -72,9 +72,9 @@ NOTE: Le dashboard create utilizzando una lista di controllo non verranno visual
 
 Digital Advisor visualizza i rapporti per i sistemi che eseguono ONTAP 9.1 e versioni successive.
 
-*Qual è la casella di controllo ‘senza snapshot’ nella dashboard dell'efficienza?*
+*Qual è l'opzione "con copie istantanee" sul dashboard efficienza?*
 
-Per impostazione predefinita, Digital Advisor Efficiency Dashboard calcola il rapporto complessivo a livello di cliente, sito, gruppo, cluster e nodo. Il rapporto complessivo include il rapporto tra le seguenti tecnologie di efficienza dello storage:
+La dashboard di Digital Advisor Efficiency calcola il rapporto di riduzione dei dati a più livelli, inclusi cliente, sito, gruppo, cluster, e nodo. Se si attiva l'opzione *con copie Snapshot*, il calcolo del rapporto di riduzione dei dati include le seguenti tecnologie di efficienza dello storage:
 
 * Deduplica
 * Compressione
@@ -83,7 +83,7 @@ Per impostazione predefinita, Digital Advisor Efficiency Dashboard calcola il ra
 * Snapshot
 
 
-Selezionando la casella di controllo *senza snapshot*, Digital Advisor calcola il rapporto di efficienza (rapporto dalle tecnologie di deduplica, compressione, compattazione dei dati e efficienza dello storage dei cloni) a livello di cliente, sito, gruppo, cluster e nodo.
+Per impostazione predefinita, il calcolo del rapporto di riduzione dei dati non include la tecnologia di efficienza dello storage Snapshot.
 
 *Cosa sono i dati fisici utilizzati e i dati logici utilizzati?*
 
@@ -104,13 +104,13 @@ Selezionando la casella di controllo *senza snapshot*, Digital Advisor calcola i
 
 
 
-*Quali istanze di AutoSupport vengono utilizzate per il calcolo dei rapporti di efficienza?*
+*Quali istanze AutoSupport vengono utilizzate per calcolare il rapporto di riduzione dei dati?*
 
-I calcoli vengono eseguiti utilizzando le ultime istanze di AutoSupport attivate dall'utente o settimanali che tendono a contenere la maggior parte delle sezioni necessarie per il calcolo dei rapporti.
+I calcoli vengono eseguiti utilizzando le ultime istanze AutoSupport settimanali o attivate dall'utente che tendono a contenere la maggior parte delle sezioni necessarie per il calcolo del rapporto.
 
-*Quali volumi o aggregati sono esclusi dai calcoli di efficienza?*
+*Quali volumi o aggregati sono esclusi dal calcolo della riduzione dei dati?*
 
-I seguenti oggetti non vengono presi in considerazione durante il calcolo dei rapporti di efficienza:
+I seguenti oggetti non vengono presi in considerazione durante il calcolo del rapporto di riduzione dei dati:
 
 * Aggregati root
 * Volumi offline
@@ -118,13 +118,13 @@ I seguenti oggetti non vengono presi in considerazione durante il calcolo dei ra
 * Volumi di configurazione MCC
 
 
-*Come posso vedere l'andamento dei rapporti di efficienza?*
+*Come posso vedere la tendenza nel rapporto di riduzione dei dati?*
 
-Attualmente, i rapporti di efficienza vengono calcolati in base all'ultima istanza di AutoSupport attivata dall'utente o settimanale. I trend di efficienza possono essere presi in considerazione per una release futura.
+Attualmente, il rapporto di riduzione dei dati viene calcolato in base all'ultima istanza settimanale o attivata dall'utente di AutoSupport. La tendenza può essere presa in considerazione per una versione futura.
 
-*Come vengono calcolati i rapporti a livello di cliente e i risparmi in termini di efficienza?*
+*In che modo vengono calcolati i rapporti a livello di cliente e i risparmi in termini di riduzione dei dati?*
 
-Il dashboard di efficienza dello storage a livello di cliente offre il rapporto di efficienza con e senza copie Snapshot per sistemi AFF e non AFF e sono combinati nella base installata dal cliente per sistemi che eseguono ONTAP 9.1 e versioni successive. I parametri richiesti per i seguenti calcoli sono presi da ONTAP AutoSupport:
+La dashboard di efficienza dello storage a livello cliente offre un rapporto di riduzione dei dati con e senza copie Snapshot per sistemi AFF e non AFF e sono combinate nella base installata presso i clienti per sistemi con ONTAP 9,1 e versioni successive. I parametri richiesti per i seguenti calcoli sono presi da ONTAP AutoSupport:
 
 Senza copie Snapshot (calcolate prima per AGGR):
 
@@ -135,7 +135,7 @@ Senza copie Snapshot (calcolate prima per AGGR):
 | AGGR Logical utilizzato senza copie Snapshot | Dimensione logica utilizzata da volumi, cloni, copie Snapshot nell'aggregato: Dimensione logica utilizzata dalle copie Snapshot 
 
 
-| AGGR fisico utilizzato senza copie Snapshot | Total Physical Used (dimensione fisica utilizzata dalle copie Snapshot / aggregato rapporto se riduzione dati) 
+| AGGR fisico utilizzato senza copie Snapshot | Totale fisico utilizzato (dimensione fisica utilizzata dalle copie Snapshot / rapporto di riduzione dei dati aggregati) 
 
 
 | Rapporto di efficienza del cliente senza copie Snapshot | Somma [AGGR logica utilizzata senza copie Snapshot per tutti gli aggregati e per tutti i nodi di un cliente] / somma [AGGR fisica utilizzata senza copie Snapshot per tutti gli aggregati e per tutti i nodi di un cliente] : 1 
@@ -189,13 +189,13 @@ Calcoli della tabella delle funzionalità di efficienza:
 
 | Snapshot copia i risparmi di backup | Somma di (dimensione logica utilizzata dalle copie Snapshot - dimensione fisica utilizzata dalle copie Snapshot) di tutti gli aggregati di tutti i nodi di un cliente 
 |===
-*Perché l'aggiunta di tutti i risparmi in termini di efficienza individuale non si aggiunge al totale dei dati salvati dall'efficienza dello storage?*
+*Perché l'aggiunta di tutti i singoli risparmi per la riduzione dei dati non si traduce in risparmi per la riduzione dei dati?*
 
-I risparmi in termini di efficienza sono illustrati nella dashboard di efficienza dello storage per volumi e Tier locali (aggregati). Non è possibile aggiungere risparmi di volume e di aggregato in quanto entrambi si verificano in diversi oggetti storage.
+I risparmi legati alla riduzione dei dati sono mostrati nella dashboard di efficienza dello storage per volumi e Tier locali (aggregati).  Non è possibile aggiungere risparmi di volume e di aggregato in quanto entrambi si verificano in diversi oggetti storage.
 
-*Perché le efficienze dello storage sono state riportate come superiori o errate prima di eseguire l'aggiornamento a ONTAP?*
+*Perché la riduzione dei dati è stata segnalata come maggiore o errata prima di eseguire l'aggiornamento a ONTAP?*
 
-L'efficienza dello storage è più elevata quando nel nodo sono presenti volumi di protezione dei dati a causa di un bug in ONTAP. Il problema è stato risolto in ONTAP 9.3P11. L'efficienza dello storage riporta valori corretti o inferiori quando vengono aggiornati da versioni di ONTAP precedenti a 9.3P11 e quando nel nodo sono presenti volumi di protezione dei dati.
+La riduzione dei dati viene mostrata più in alto quando nel nodo sono presenti volumi di protezione dei dati a causa di un bug in ONTAP. Il problema è stato risolto in ONTAP 9.3P11. L'efficienza dello storage riporta valori corretti o inferiori quando vengono aggiornati da versioni di ONTAP precedenti a 9.3P11 e quando nel nodo sono presenti volumi di protezione dei dati.
 
 
 
