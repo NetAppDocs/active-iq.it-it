@@ -42,7 +42,7 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 === Dashboard sulla sostenibilità
 
-La Sustainability Dashboard fornisce preziose informazioni sulla sostenibilità ambientale del tuo sistema storage. È possibile visualizzare informazioni come il punteggio di sostenibilità, la percentuale di riduzione del carbonio, l'utilizzo previsto di energia, il carbonio diretto e il calore. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. Valutando il punteggio di sostenibilità, puoi valutare l'efficienza complessiva del tuo sistema storage e allinearlo alle azioni consigliate da NetApp per migliorare la sostenibilità. link:concept_understand_sustainability_dashboard.html["Scopri di più"].
+La Sustainability Dashboard fornisce preziose informazioni sulla sostenibilità ambientale del tuo sistema storage. È possibile visualizzare informazioni come il punteggio di sostenibilità, la percentuale di riduzione del carbonio, l'utilizzo previsto di energia, il carbonio diretto e il calore. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. Valutando il punteggio di sostenibilità, puoi valutare l'efficienza complessiva del tuo sistema storage e allinearlo alle azioni consigliate da NetApp per migliorare la sostenibilità. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Scopri di più"].
 
 
 
@@ -78,7 +78,7 @@ L'efficienza dello storage SAN e NAS è disponibile, a livello di nodo, per i si
 
 === Digital Advisor integrato con BlueXP
 
-Il consulente digitale Active IQ è stato modificato in Consulente digitale ed è ora integrato in BlueXP, la console di gestione unificata di NetApp per ambienti multicloud ibridi. link:digital-advisor-integration-with-bluexp.html["Scopri di più"].
+Il consulente digitale Active IQ è stato modificato in Consulente digitale ed è ora integrato in BlueXP, la console di gestione unificata di NetApp per ambienti multicloud ibridi. link:https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Scopri di più"].
 
 
 
@@ -88,7 +88,7 @@ Il consulente digitale Active IQ è stato modificato in Consulente digitale ed �
 
 === Inventario
 
-Le informazioni sulle risorse VMware su vCenter, host ESXi e macchine virtuali sono ora incluse nei dettagli dell'inventario, per fornire l'inventario completo dello stack e i controlli di interoperabilità. link:task-integrating-with-cloud-insights-to-view-vm-details.html["Scopri come"].
+Le informazioni sulle risorse VMware su vCenter, host ESXi e macchine virtuali sono ora incluse nei dettagli dell'inventario, per fornire l'inventario completo dello stack e i controlli di interoperabilità. link:https://docs.netapp.com/us-en/active-iq/task-integrating-with-cloud-insights-to-view-vm-details.html["Scopri come"].
 
 
 
@@ -140,7 +140,7 @@ La gestione del ciclo di vita delle informazioni (ILM) per StorageGRID è stata 
 
 === Consigli sul cloud
 
-Fornisce consigli sui carichi di lavoro e sui rispettivi volumi che possono essere spostati in NetApp Cloud Volumes ONTAP, NetApp Cloud Volumes Service e NetApp Cloud Backup (in precedenza AltaVault) utilizzando la replica dei dati SnapMirror. link:task-informed-decisions-based-on-cloud-recommendations.html["Scopri come"].
+Fornisce consigli sui carichi di lavoro e sui rispettivi volumi che possono essere spostati in NetApp Cloud Volumes ONTAP, NetApp Cloud Volumes Service e NetApp Cloud Backup (in precedenza AltaVault) utilizzando la replica dei dati SnapMirror. link:https://docs.netapp.com/us-en/active-iq/task-informed-decisions-based-on-cloud-recommendations.html["Scopri come"].
 
 
 
@@ -249,7 +249,8 @@ Gli utenti di BlueXP possono ora aprire i collegamenti di Digital Advisor in nuo
 === Deriva config
 
 * È possibile clonare un modello per creare una copia del modello originale.
-* È possibile condividere i modelli Golden con altri utenti autorizzati con accesso completo o di sola lettura a questi modelli.link:task_manage_template.html["Scopri come"].
+* È possibile condividere i modelli Golden con altri utenti autorizzati con accesso completo o di sola lettura a questi modelli.
+link:https://docs.netapp.com/us-en/active-iq/task_manage_template.html["Scopri come"].
 
 
 
@@ -318,7 +319,7 @@ Il modulo di visualizzazione stack di ClusterViewer è stato migliorato per incl
 
 === Inventario di Ansible
 
-È ora possibile generare file di inventario Ansible in formato .yml e .ini a livello di area geografica e sito. link:task_view_inventory_details.html["Scopri come"].
+È ora possibile generare file di inventario Ansible in formato .yml e .ini a livello di area geografica e sito. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Scopri come"].
 
 
 
@@ -330,7 +331,7 @@ Dalla schermata di FabricPool Advisor, è possibile attivare la funzione di repo
 
 === Report sulla timeline della deriva
 
-È possibile confrontare i dati AutoSupport degli ultimi 90 giorni e generare un report sulla timeline di deriva. link:task_generate_drift_timeline_report.html["Scopri come"].
+È possibile confrontare i dati AutoSupport degli ultimi 90 giorni e generare un report sulla timeline di deriva. link:https://docs.netapp.com/us-en/active-iq/task_generate_drift_timeline_report.html["Scopri come"].
 
 
 
@@ -438,7 +439,7 @@ La dashboard di controllo dello stato di salute è stata migliorata con una sche
 
 === Previsione della capacità
 
-Il widget Capacity forecast è stato aggiornato con un algoritmo migliorato che tiene conto meglio delle riconfigurazioni del sistema. link:reference_aiq_faq.html#capacity["Scopri di più"].
+Il widget Capacity forecast è stato aggiornato con un algoritmo migliorato che tiene conto meglio delle riconfigurazioni del sistema. link:https://docs.netapp.com/us-en/active-iq/reference_aiq_faq.html#capacity["Scopri di più"].
 
 
 
@@ -518,7 +519,7 @@ Puoi visualizzare le date di fine dei contratti di supporto per hardware, softwa
 === Upgrade dell'offerta di supporto
 
 * L'interfaccia utente è stata migliorata per visualizzare l'offerta di supporto specifica a cui si è abbonati in Digital Advisor.
-* È ora possibile inoltrare una richiesta di aggiornamento dell'abbonamento all'offerta di supporto dalla dashboard di sistema per accedere a ulteriori funzionalità. link:task_upgrade_support_offering.html["Scopri come"].
+* È ora possibile inoltrare una richiesta di aggiornamento dell'abbonamento all'offerta di supporto dalla dashboard di sistema per accedere a ulteriori funzionalità. link:https://docs.netapp.com/us-en/active-iq/task_upgrade_support_offering.html["Scopri come"].
 
 
 
@@ -589,15 +590,15 @@ Questa funzionalità è stata migliorata per confrontare la vostra VM di storage
 
 === Drift Chat per richieste di aggiunta di capacità
 
-Per assistenza in tempo reale sulle richieste di aggiunta di capacità, chattare con un addetto alle vendite direttamente dalla dashboard. link:task_identify_capacity_system.html["Scopri come"].
+Per assistenza in tempo reale sulle richieste di aggiunta di capacità, chattare con un addetto alle vendite direttamente dalla dashboard. link:https://docs.netapp.com/us-en/active-iq/task_identify_capacity_system.html["Scopri come"].
 
 
 
 == 29 aprile 2021
 
-* Ecco come proteggere i tuoi sistemi da hacker e attacchi ransomware. link:task_increase_protection_against_hackers_and_Ransomware_attacks.html["Scopri come"].
-* È possibile evitare il downtime e la possibile perdita di dati. link:task_avoid_the_downtime_and_possible_data_loss.html["Scopri come"].
-* Scopri come evitare il riempimento di un volume per evitare un'interruzione del servizio. link:task_avoid_a_volume_filling_up_to_prevent_an_outage.html["Scopri come"].
+* Ecco come proteggere i tuoi sistemi da hacker e attacchi ransomware. link:https://docs.netapp.com/us-en/active-iq/task_increase_protection_against_hackers_and_Ransomware_attacks.html["Scopri come"].
+* È possibile evitare il downtime e la possibile perdita di dati. link:https://docs.netapp.com/us-en/active-iq/task_avoid_the_downtime_and_possible_data_loss.html["Scopri come"].
+* Scopri come evitare il riempimento di un volume per evitare un'interruzione del servizio. link:https://docs.netapp.com/us-en/active-iq/task_avoid_a_volume_filling_up_to_prevent_an_outage.html["Scopri come"].
 
 
 
@@ -622,7 +623,7 @@ Questa versione offre le seguenti funzionalità:
 
 * Possibilità di modificare gli attributi durante la creazione del modello.
 * Raggruppamento di sezioni AutoSupport.
-* Generare o pianificare un report di deriva della configurazione tra cliente, sito, gruppo, elenco di controllo, cluster, e il nome host. link:task_compare_config_drift_template.html["Scopri come"].
+* Generare o pianificare un report di deriva della configurazione tra cliente, sito, gruppo, elenco di controllo, cluster, e il nome host. link:https://docs.netapp.com/us-en/active-iq/task_compare_config_drift_template.html["Scopri come"].
 
 
 
@@ -695,7 +696,7 @@ I seguenti widget sono stati aggiunti alla dashboard:
 
 === Integrazione dei dati mediante API
 
-È possibile utilizzare le API di Digital Advisor per estrarre i dati di interesse e integrarli direttamente nel workflow aziendale. link:concept_overview_API_service.html["Scopri di più"].
+È possibile utilizzare le API di Digital Advisor per estrarre i dati di interesse e integrarli direttamente nel workflow aziendale. link:https://docs.netapp.com/us-en/active-iq/concept_overview_API_service.html["Scopri di più"].
 
 
 
@@ -725,7 +726,7 @@ Digital Advisor è ora disponibile in tre lingue: Cinese, inglese e giapponese.
 
 === Report
 
-È possibile generare o pianificare report di ClusterViewer per visualizzare informazioni dettagliate sulla configurazione fisica e logica dei sistemi. link:task_generate_reports.html["Scopri come"].
+È possibile generare o pianificare report di ClusterViewer per visualizzare informazioni dettagliate sulla configurazione fisica e logica dei sistemi. link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Scopri come"].
 
 
 
@@ -741,7 +742,7 @@ La dashboard di controllo dello stato di salute di Digital Advisor offre una rev
 
 === Deriva config
 
-Questa funzione consente di confrontare le configurazioni di sistema e cluster e di rilevare le deviazioni di configurazione quasi in tempo reale. link:task_add_config_drift_template.html["Scopri come aggiungere un modello di drift di configurazione"].
+Questa funzione consente di confrontare le configurazioni di sistema e cluster e di rilevare le deviazioni di configurazione quasi in tempo reale. link:https://docs.netapp.com/us-en/active-iq/task_add_config_drift_template.html["Scopri come aggiungere un modello di drift di configurazione"].
 
 
 
@@ -753,13 +754,13 @@ Questa funzione consente di confrontare le configurazioni di sistema e cluster e
 
 === Iscrizione Wellness Review
 
-Puoi iscriverti alla ricezione di notifiche via email mensili che riepilogano lo stato di salute dei sistemi, che si stanno avvicinando alle date di rinnovo e richiedono un aggiornamento per i prodotti NetApp della tua base installata. link:task_subscribe_to_wellness_review_email.html["Iscriviti ora"].
+Puoi iscriverti alla ricezione di notifiche via email mensili che riepilogano lo stato di salute dei sistemi, che si stanno avvicinando alle date di rinnovo e richiedono un aggiornamento per i prodotti NetApp della tua base installata. link:https://docs.netapp.com/us-en/active-iq/task_subscribe_to_wellness_review_email.html["Iscriviti ora"].
 
 
 
 === Report
 
-È possibile utilizzare la funzione dei report per generare report immediatamente o per pianificare la generazione di report su base settimanale o mensile. link:task_generate_reports.html["Scopri come"].
+È possibile utilizzare la funzione dei report per generare report immediatamente o per pianificare la generazione di report su base settimanale o mensile. link:https://docs.netapp.com/us-en/active-iq/task_generate_reports.html["Scopri come"].
 
 
 
@@ -783,7 +784,7 @@ Il caricamento manuale del AutoSupport è stato migliorato per migliorare l'espe
 
 La documentazione è stata migliorata per includere informazioni sul download, l'installazione e l'esecuzione del pacchetto di automazione ansible del firmware AFF e FAS.
 
-link:task_update_AFF_FAS_firmware.html["Scopri come aggiornare il firmware di AFF e FAS utilizzando Ansible Playbook"].
+link:https://docs.netapp.com/us-en/active-iq/task_update_AFF_FAS_firmware.html["Scopri come aggiornare il firmware di AFF e FAS utilizzando Ansible Playbook"].
 
 
 
@@ -793,7 +794,7 @@ link:task_update_AFF_FAS_firmware.html["Scopri come aggiornare il firmware di AF
 
 === Performance
 
-I grafici delle performance sono stati migliorati per consentire di valutare le performance del volume. È possibile spostarsi tra la scheda Node (nodo), la scheda Cluster (cluster), la scheda Local Tier (livello locale) e la scheda Volume (volume) nella stessa schermata. link:task_view_performance_graphs.html["Scopri come"].
+I grafici delle performance sono stati migliorati per consentire di valutare le performance del volume. È possibile spostarsi tra la scheda Node (nodo), la scheda Cluster (cluster), la scheda Local Tier (livello locale) e la scheda Volume (volume) nella stessa schermata. link:https://docs.netapp.com/us-en/active-iq/task_view_performance_graphs.html["Scopri come"].
 
 
 
@@ -825,7 +826,7 @@ Gli attributi di benessere sono stati migliorati per visualizzare tutti i sistem
 
 === Generare report per l'inventario
 
-È ora possibile generare un report dell'elenco di controllo selezionato e inviarlo via email a un massimo di 5 destinatari. link:task_view_inventory_details.html["Scopri come"].
+È ora possibile generare un report dell'elenco di controllo selezionato e inviarlo via email a un massimo di 5 destinatari. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Scopri come"].
 
 
 
@@ -865,7 +866,7 @@ Il widget di inventario è stato migliorato per migliorare l'esperienza utente, 
 
 === Efficienza dello storage
 
-È possibile visualizzare il rapporto di efficienza dello storage e i risparmi del sistema storage con e senza copie Snapshot per sistemi AFF, sistemi non AFF o entrambi. È possibile visualizzare le informazioni sull'efficienza dello storage a livello di nodo. link:task_analyze_storage_efficiency.html["Scopri come"].
+È possibile visualizzare il rapporto di efficienza dello storage e i risparmi del sistema storage con e senza copie Snapshot per sistemi AFF, sistemi non AFF o entrambi. È possibile visualizzare le informazioni sull'efficienza dello storage a livello di nodo. link:https://docs.netapp.com/us-en/active-iq/task_analyze_storage_efficiency.html["Scopri come"].
 
 
 
@@ -921,13 +922,13 @@ Offre l'opzione di riconoscere un rischio se si desidera mitigarlo o se non si �
 
 === Workflow di upgrade
 
-È possibile utilizzare il flusso di lavoro per l'aggiornamento per visualizzare i consigli sull'aggiornamento e un riepilogo delle nuove funzionalità disponibili nella release ONTAP di destinazione. link:task_view_upgrade.html["Scopri come"].
+È possibile utilizzare il flusso di lavoro per l'aggiornamento per visualizzare i consigli sull'aggiornamento e un riepilogo delle nuove funzionalità disponibili nella release ONTAP di destinazione. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Scopri come"].
 
 
 
 === Informazioni preziose
 
-È possibile visualizzare il riepilogo dei benefici ricevuti tramite Digital Advisor e il contratto di supporto. Per i sistemi selezionati, il report sul valore consolida i benefici dell'ultimo anno. link:task_view_valuable_insight_widget.html["Visualizza ora"].
+È possibile visualizzare il riepilogo dei benefici ricevuti tramite Digital Advisor e il contratto di supporto. Per i sistemi selezionati, il report sul valore consolida i benefici dell'ultimo anno. link:https://docs.netapp.com/us-en/active-iq/task_view_valuable_insight_widget.html["Visualizza ora"].
 
 
 
@@ -957,13 +958,13 @@ Le più recenti dashboard di Digital Advisor offrono un'esperienza personalizzat
 
 Ti aiuta a monitorare i tuoi sistemi a colpo d'occhio fornendo informazioni chiave e analisi sui tuoi dati su una o più pagine o schermate. Puoi anche creare fino a 10 dashboard e prendere decisioni di business efficaci.
 
-link:concept_overview_dashboard.html["Scopri di più"].
+link:https://docs.netapp.com/us-en/active-iq/concept_overview_dashboard.html["Scopri di più"].
 
 
 
 === Mitigare i rischi con Active IQ Unified Manager
 
-Puoi visualizzare i rischi e correggerli utilizzando Active IQ Unified Manager. link:task_view_risks_remediated_unified_manager.html["Scopri come"].
+Puoi visualizzare i rischi e correggerli utilizzando Active IQ Unified Manager. link:https://docs.netapp.com/us-en/active-iq/task_view_risks_remediated_unified_manager.html["Scopri come"].
 
 
 
@@ -979,7 +980,7 @@ Fornisce informazioni dettagliate sullo stato del sistema di storage che sono cl
 * Rinnovi
 
 
-Vedere link:concept_overview_wellness.html["Analizzare gli attributi di benessere"] per ulteriori dettagli.
+Vedere link:https://docs.netapp.com/us-en/active-iq/concept_overview_wellness.html["Analizzare gli attributi di benessere"] per ulteriori dettagli.
 
 
 
