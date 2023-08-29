@@ -597,15 +597,6 @@
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">qui.</block>
   <block id="bbca9981d6b0f3a88a20d77f9f0b515e" category="summary">Fornisce informazioni sull'utilizzo della capacità con l'abbonamento NetApp Keystone.</block>
   <block id="b5d0947d6bc5e70f868d560d859163f5" category="doc">Visualizza l'utilizzo della capacità con l'abbonamento NetApp Keystone</block>
-  <block id="1e113c9e791f55b9d40e5564c75fd42a" category="paragraph">Se si è abbonati al servizio di abbonamento Keystone, è possibile visualizzare il widget abbonamento Keystone nella dashboard di Digital Advisor.</block>
-  <block id="da8d3bbd5e630a0cb154a6c5d8885297" category="paragraph">Il widget abbonamento Keystone fornisce un riepilogo dell'utilizzo della capacità per il tuo account. È costituito da grafici di utilizzo della capacità rispetto alla capacità fisica, con snapshot arrotondate agli ultimi cinque minuti. L'utilizzo al di sopra della capacità impegnata (la capacità burst) è contrassegnato in rosso.</block>
-  <block id="6ba7120903e272ef8ff94c3d3cd58f57" category="inline-link-macro">tier di servizi</block>
-  <block id="ce1aa13636f163ff457fae8432a2f4ec" category="paragraph">È possibile visualizzare la dashboard *Keystone - Capacity Utilization*, che analizza i dati nel widget e rappresenta graficamente l'andamento dell'utilizzo della capacità e dell'utilizzo di tutto lo storage sottoscritto <block ref="471fbca756054ddae280268222b19bf9" category="inline-link-macro-rx"></block>, Ad esempio premium, Extreme e standard, associati all'account di abbonamento NetApp Keystone.</block>
-  <block id="986127c46ede44cd6e9ba2b5754cafca" category="inline-link-macro">Capacità del servizio di abbonamento Keystone</block>
-  <block id="27363af66f7c7e4630979587cc9ad936" category="paragraph">È possibile visualizzare <block ref="641f2bb6b5e44be4cae8acd4ce2983c0" category="inline-link-macro-rx"></block> e l'utilizzo di ciascun servizio sottoscritto per il blocco, i file service o lo storage a oggetti nella dashboard.</block>
-  <block id="46b0133ea42a96887a939d9e262c57cf" category="admonition">Gli utenti di Digital Advisor possono scegliere tra ONTAP Collector e AutoSupport per ottenere i dati sull'utilizzo della capacità.</block>
-  <block id="deaf5bbabe29231a9826b313fee569a1" category="inline-link-macro">Dashboard e reporting per l'abbonamento Keystone</block>
-  <block id="706f9582e4d14591a9eeeaf6db8cc6c5" category="paragraph">Per informazioni sull'abbonamento Keystone, vedere <block ref="42d99877a3bdc96c47aeda69738db0f2" category="inline-link-macro-rx"></block>.</block>
   <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">Fornisce informazioni sulle nuove funzioni della release.</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">Novità di Digital Advisor</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:</block>
@@ -1418,4 +1409,7 @@ Viene visualizzata la pagina di accesso a NetApp BlueXP.</block>
   <block id="4ab7ab489ac4d021f39004a1bc70c209" category="paragraph"><block ref="ab7ef85b2ffc5cc75de4e5a966fa1b9d" category="inline-link-macro-rx"></block>.</block>
   <block id="37cce083eef0841e779db21ca8daef7e" category="paragraph">Puoi visualizzare i rischi e correggerli utilizzando Active IQ Unified Manager. <block ref="f4086b11d800cf115240026fc88182a0" category="inline-link-macro-rx"></block>.</block>
   <block id="68eadb44b69eeb166a72c254148cc4c3" category="paragraph">Vedere <block ref="b0240cce700bb082e59a979e57faa1fc" category="inline-link-macro-rx"></block> per ulteriori dettagli.</block>
+  <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">Se sei abbonato ai servizi NetApp Keystone STaaS, puoi visualizzare il widget Keystone Subscription nella dashboard di Digital Advisor.</block>
+  <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone e Digital Advisor</block>
+  <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Il widget abbonamento Keystone fornisce un riepilogo dell'utilizzo della capacità per il tuo account. È costituito da grafici di utilizzo della capacità rispetto alla capacità fisica. Per ulteriori informazioni sui vari livelli di dati di abbonamento e informazioni sull'utilizzo, vedere <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>.</block>
 </blocks>

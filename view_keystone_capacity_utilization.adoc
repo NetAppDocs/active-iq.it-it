@@ -19,15 +19,6 @@ summary: 'Fornisce informazioni sull"utilizzo della capacità con l"abbonamento 
 
 
 [role="lead"]
-Se si è abbonati al servizio di abbonamento Keystone, è possibile visualizzare il widget abbonamento Keystone nella dashboard di Digital Advisor.
+Se sei abbonato ai servizi NetApp Keystone STaaS, puoi visualizzare il widget Keystone Subscription nella dashboard di Digital Advisor.
 
-Il widget abbonamento Keystone fornisce un riepilogo dell'utilizzo della capacità per il tuo account. È costituito da grafici di utilizzo della capacità rispetto alla capacità fisica, con snapshot arrotondate agli ultimi cinque minuti. L'utilizzo al di sopra della capacità impegnata (la capacità burst) è contrassegnato in rosso.
-
-È possibile visualizzare la dashboard *Keystone - Capacity Utilization*, che analizza i dati nel widget e rappresenta graficamente l'andamento dell'utilizzo della capacità e dell'utilizzo di tutto lo storage sottoscritto link:https://docs.netapp.com/us-en/keystone/nkfsosm_performance.html["tier di servizi"^], Ad esempio premium, Extreme e standard, associati all'account di abbonamento NetApp Keystone.
-
-È possibile visualizzare link:https://docs.netapp.com/us-en/keystone/nkfsosm_keystone_service_capacity_definitions.html["Capacità del servizio di abbonamento Keystone"^] e l'utilizzo di ciascun servizio sottoscritto per il blocco, i file service o lo storage a oggetti nella dashboard.
-
-
-NOTE: Gli utenti di Digital Advisor possono scegliere tra ONTAP Collector e AutoSupport per ottenere i dati sull'utilizzo della capacità.
-
-Per informazioni sull'abbonamento Keystone, vedere link:https://docs.netapp.com/us-en/keystone-staas/integrations/aiq-keystone-details.html["Dashboard e reporting per l'abbonamento Keystone"^].
+Il widget abbonamento Keystone fornisce un riepilogo dell'utilizzo della capacità per il tuo account. È costituito da grafici di utilizzo della capacità rispetto alla capacità fisica. Per ulteriori informazioni sui vari livelli di dati di abbonamento e informazioni sull'utilizzo, vedere link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-aiq.html["Keystone e Digital Advisor"^].
