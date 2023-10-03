@@ -23,6 +23,22 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 27 settembre 2023
+
+
+
+=== Upgrade Advisor
+
+È possibile accedere alla pagina di Upgrade Advisor per l'elenco di controllo o il dashboard predefinito utilizzando link:https://activeiq.netapp.com/redirect/upgrade-advisor["Upgrade Advisor"^] collegamento. Se non si dispone di un elenco di controllo o di un pannello di controllo predefinito, fare clic sul collegamento per visualizzare la pagina di ricerca.
+
+
+
+=== Piano di aggiornamento
+
+Il piano di aggiornamento è stato ottimizzato per rimuovere passaggi di aggiornamento ridondanti, modificare informazioni e avvisi e semplificare il piano di backup. I passaggi comuni in tutti i nodi di un cluster sono consolidati e disponibili nella sezione informazioni generali. Per visualizzare il piano migliorato, generare il piano di aggiornamento seguendo i passaggi descritti nella link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Aggiornare la versione ONTAP utilizzando il piano di aggiornamento"].
+
+
+
 == 16 luglio 2023
 
 

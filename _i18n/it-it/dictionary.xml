@@ -135,18 +135,9 @@
   <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">Convalide per l'installazione del firmware</block>
   <block id="207d610de4ff42212b921026752872d2" category="paragraph">Dopo aver eseguito il manuale, fare riferimento a. <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> per istruzioni post-esecuzione.</block>
   <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">Fornisce informazioni per visualizzare e aggiornare la versione ONTAP del sistema storage.</block>
-  <block id="d6917a390639e0a267939dc55858c685" category="doc">Aggiornare la versione di ONTAP generando un piano di aggiornamento</block>
-  <block id="46a187e39eefc3fd35138a494e565b49" category="paragraph">È possibile visualizzare gli aggiornamenti in sospeso del sistema storage e passare a una versione successiva di ONTAP generando un piano di aggiornamento. È inoltre necessario visualizzare l'elenco dei rischi nella scheda *Risk Advisor* che potrebbe essere mitigato a causa dell'aggiornamento.</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor</block>
-  <block id="e9588616576594b7265f748171c85266" category="list-text">Nella dashboard, visualizzare gli aggiornamenti in sospeso nel widget *Upgrades*.<block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="38fafc5e9c9553727750b9510171bb41" category="list-text">Fare clic sul numero di *azioni* per visualizzare gli aggiornamenti in sospeso.</block>
   <block id="64916198004d1ee19b1b50002f51f1a8" category="inline-image-macro">Opzioni di upgrade</block>
-  <block id="6398194d87822fdaa5a4dac58b51a1cd" category="list-text">Selezionare l'opzione di aggiornamento richiesta.<block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="01d220f359ae904005a0944f594a1bcd" category="list-text">Fare clic sul numero di sistemi visualizzati nel widget per visualizzare la scheda *Upgrade Advisor*.</block>
   <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">Generare un piano di upgrade</block>
-  <block id="7438b9deedb82087dad294ad34018afe" category="paragraph">È inoltre possibile consultare le Note di rilascio per visualizzare informazioni dettagliate sulla release.<block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ac73a7625c762ca863d294bc61f64a16" category="list-text">Visualizzare l'elenco dei rischi nella scheda *Risk Advisor*, insieme al relativo livello di severità, che verrebbe mitigato a causa dell'aggiornamento.</block>
-  <block id="281921503952801e23be5489728f4728" category="list-text">Fare clic su *generate Upgrade Plan* (genera piano di aggiornamento) per accedere a *Upgrade Advisor*.</block>
   <block id="cc035831ceccd9eaf04a71fd720c7f1f" category="summary">Fornisce informazioni sulle macchine virtuali in Cloud Insights</block>
   <block id="d152c939b222bcd3e796ea901ac07554" category="doc">Integrazione con Cloud Insights per visualizzare i dettagli delle macchine virtuali</block>
   <block id="79017d339350abc9b4fad94b4618ddbe" category="paragraph">Digital Advisor è ora integrato con la versione di base di Cloud Insights per fornire ai clienti un inventario completo dello stack e controlli di interoperabilità.</block>
@@ -1412,4 +1403,32 @@ Viene visualizzata la pagina di accesso a NetApp BlueXP.</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">Se sei abbonato ai servizi NetApp Keystone STaaS, puoi visualizzare il widget Keystone Subscription nella dashboard di Digital Advisor.</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone e Digital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Il widget abbonamento Keystone fornisce un riepilogo dell'utilizzo della capacità per il tuo account. È costituito da grafici di utilizzo della capacità rispetto alla capacità fisica. Per ulteriori informazioni sui vari livelli di dati di abbonamento e informazioni sull'utilizzo, vedere <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>.</block>
+  <block id="31b9d852bd062a4549ad97725d279a03" category="doc">Aggiornare la versione ONTAP utilizzando un piano di aggiornamento</block>
+  <block id="05101a0f55d1824ea65fdd4aed3a0df5" category="paragraph">Puoi vedere gli upgrade in sospeso del sistema storage ed eseguire l'upgrade a una versione più recente di ONTAP utilizzando un piano di upgrade. È inoltre possibile visualizzare l'elenco dei rischi nella scheda *Risk Advisor*, che verrà attenuata a causa dell'aggiornamento.</block>
+  <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">Nel dashboard, nel widget *Upgrade Advisor*, fare clic sul numero di azioni per visualizzare gli aggiornamenti in sospeso.</block>
+  <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5bd5fef463b4aadc5c62af290cab7b03" category="list-text">Selezionare l'opzione di aggiornamento richiesta.</block>
+  <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="21161aff1728668cb5f36b56c240c89c" category="list-text">Fare clic sul numero di sistemi conformi dall'opzione di aggiornamento selezionata per andare alla pagina *Dettagli aggiornamento* per generare un piano di aggiornamento.</block>
+  <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">Scheda Consulente rischi</block>
+  <block id="0520934f7f277be53d0e5af988901e83" category="list-text">È possibile accedere alla scheda *Risk Advisor* per visualizzare l'elenco dei rischi e il relativo livello di gravità, che verranno attenuati a causa dell'aggiornamento.
+  +
+<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="10df3b7bc0d299d1789736d691e0d81b" category="list-text">È possibile fare clic sul numero di rischi totali per visualizzare l'elenco dei rischi nella scheda *Risk Advisor* se l'opzione di aggiornamento selezionata include *rischi totali*.</block>
+  <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">Rischi totali</block>
+  <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d3a6c12cad96c6c84d2e06211666b7a" category="list-text">Nella scheda *Upgrade Advisor*, fare clic su *genera piano di aggiornamento*.</block>
+  <block id="ee86a97709cbf5c06d97b73c231dde60" category="list-text">Fornire i dettagli nella finestra a comparsa visualizzata. È inoltre possibile selezionare la casella di controllo *Ripristina piano* per includere il piano di backout nel report del piano di aggiornamento.</block>
+  <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">Una finestra a comparsa per compilare i dettagli per inviare la richiesta di generazione del piano di upgrade</block>
+  <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">Andare a *rapporti*. È possibile monitorare lo stato del piano di aggiornamento e scaricarlo una volta disponibile.</block>
+  <block id="c1b382578ccbe1b4821d0b8a7f29e343" category="paragraph">Una volta generato, riceverai anche un'e-mail contenente il piano di aggiornamento.</block>
+  <block id="3cefe062f61e5f64624dd75eec82a381" category="inline-image-macro">Una schermata che mostra lo stato del report del piano di aggiornamento</block>
+  <block id="6f8fd13bf5cb0b5816478a43f298af9e" category="paragraph"><block ref="6f8fd13bf5cb0b5816478a43f298af9e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">27 settembre 2023</block>
+  <block id="ca6933ae0f261efa98f09526aba05bf1" category="paragraph">È possibile accedere alla pagina di Upgrade Advisor per l'elenco di controllo o il dashboard predefinito utilizzando <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> collegamento. Se non si dispone di un elenco di controllo o di un pannello di controllo predefinito, fare clic sul collegamento per visualizzare la pagina di ricerca.</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="section-title">Piano di aggiornamento</block>
+  <block id="bd3f220b24dc61548511364f320ec8ea" category="inline-link-macro">Aggiornare la versione ONTAP utilizzando il piano di aggiornamento</block>
+  <block id="62418fbf78b58ba84b3c5a6987815772" category="paragraph">Il piano di aggiornamento è stato ottimizzato per rimuovere passaggi di aggiornamento ridondanti, modificare informazioni e avvisi e semplificare il piano di backup. I passaggi comuni in tutti i nodi di un cluster sono consolidati e disponibili nella sezione informazioni generali. Per visualizzare il piano migliorato, generare il piano di aggiornamento seguendo i passaggi descritti nella <block ref="90927e731c81adade70cb7e4c40b43bd" category="inline-link-macro-rx"></block>.</block>
 </blocks>
