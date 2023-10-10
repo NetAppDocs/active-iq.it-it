@@ -4,7 +4,7 @@ permalink: task_view_upgrade.html
 keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, pending upgrades 
 summary: Fornisce informazioni per visualizzare e aggiornare la versione ONTAP del sistema storage. 
 ---
-= Aggiornare la versione ONTAP del sistema storage
+= Aggiornare la versione ONTAP dei sistemi storage
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -19,33 +19,35 @@ summary: Fornisce informazioni per visualizzare e aggiornare la versione ONTAP d
 
 
 [role="lead"]
-Puoi vedere gli upgrade in sospeso del sistema storage ed eseguire l'upgrade a una versione più recente di ONTAP utilizzando un piano di upgrade. È inoltre possibile visualizzare l'elenco dei rischi nella scheda *Risk Advisor*, che verrà attenuata a causa dell'aggiornamento.
+Con Upgrade Advisor puoi visualizzare gli aggiornamenti consigliati e creare un piano di upgrade per i tuoi sistemi storage. È possibile visualizzare l'elenco dei rischi nella scheda Risk Advisor associata ai propri sistemi storage e attenuarli se si aggiornano i sistemi storage a una versione più recente di ONTAP.
 
 .Fasi
 . Nel dashboard, nel widget *Upgrade Advisor*, fare clic sul numero di azioni per visualizzare gli aggiornamenti in sospeso.
 +
 image:upgrade_advisor_widget.png["Upgrade Advisor"]
 
-. Selezionare l'opzione di aggiornamento richiesta.
+. Selezionare l'opzione di aggiornamento.
 +
 image:upgrade_options.png["Opzioni di upgrade"]
 
-. Fare clic sul numero di sistemi conformi dall'opzione di aggiornamento selezionata per andare alla pagina *Dettagli aggiornamento* per generare un piano di aggiornamento.
+. Fare clic sul numero di sistemi conformi per generare un piano di aggiornamento.
+Viene visualizzata la pagina *Dettagli aggiornamento*.
 +
 image:generate_upgrade_plan.png["Generare un piano di upgrade"]
 
 +
-** È possibile accedere alla scheda *Risk Advisor* per visualizzare l'elenco dei rischi e il relativo livello di gravità, che verranno attenuati a causa dell'aggiornamento.
+** È possibile andare alla scheda *Risk Advisor* per visualizzare l'elenco dei rischi e il relativo livello di gravità.
   +
 image:view_risks.png["Scheda Consulente rischi"]
-** È possibile fare clic sul numero di rischi totali per visualizzare l'elenco dei rischi nella scheda *Risk Advisor* se l'opzione di aggiornamento selezionata include *rischi totali*.
+** È possibile fare clic sul numero di rischi totali per visualizzare l'elenco dei rischi nella scheda *Risk Advisor* se l'opzione di aggiornamento include *rischi totali*.
 +
 image:total_risks.png["Rischi totali"]
 
 
 
-. Nella scheda *Upgrade Advisor*, fare clic su *genera piano di aggiornamento*.
-. Fornire i dettagli nella finestra a comparsa visualizzata. È inoltre possibile selezionare la casella di controllo *Ripristina piano* per includere il piano di backout nel report del piano di aggiornamento.
+. Nella scheda *Upgrade Advisor*, selezionare i sistemi da aggiornare.
+. Fare clic su *genera piano di aggiornamento*.
+. Fornire i dettagli nella finestra a comparsa visualizzata. È inoltre possibile selezionare la casella di controllo *Ripristina piano* per includere il piano di backout nel piano di aggiornamento.
 +
 image:details_upgrade_plan.png["Una finestra a comparsa per compilare i dettagli per inviare la richiesta di generazione del piano di upgrade"]
 
