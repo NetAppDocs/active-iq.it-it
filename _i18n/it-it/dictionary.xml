@@ -1150,7 +1150,6 @@
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portale Web di Digital Advisor</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Video di Digital Advisor</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Community NetApp – Consulente digitale</block>
-  <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Tutta la documentazione BlueXP</block>
   <block id="e90912cb3f8595479987796300c99d6c" category="summary">Fornisce informazioni sulla dashboard, sul punteggio di sostenibilità, sugli ambienti di lavoro e sulle azioni consigliate.</block>
   <block id="de857c4705c01d60f072c89db409bb0f" category="paragraph">*Sustainability Score*: Visualizza il punteggio totale che indica la sostenibilità ambientale dei sistemi storage. È possibile valutare il livello di sostenibilità dei sistemi storage in base alla seguente gamma:</block>
   <block id="b04fdd8d3c616238ff5067578ec445ae" category="list-text">76 - 100: Indica che la sostenibilità è una priorità assoluta.</block>
@@ -1431,4 +1430,7 @@ Viene visualizzata la pagina *Dettagli aggiornamento*.</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">Fare clic su *genera piano di aggiornamento*.</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">Fornire i dettagli nella finestra a comparsa visualizzata. È inoltre possibile selezionare la casella di controllo *Ripristina piano* per includere il piano di backout nel piano di aggiornamento.</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analizza la sostenibilità dei tuoi sistemi storage</block>
+  <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">04 ottobre 2023</block>
+  <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">Widget di pianificazione</block>
+  <block id="cf75b31aeb339e309fa309a49a276a28" category="paragraph">I conteggi dei consigli per Tech Refresh sono inclusi nel widget di pianificazione della dashboard di livello cliente. Questi consigli aiutano a pianificare le attività di tech refresh dell'hardware quando l'hardware si esaurisce o si sta avvicinando alla fine del supporto.</block>
 </blocks>

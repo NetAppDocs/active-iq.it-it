@@ -23,6 +23,16 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 04 ottobre 2023
+
+
+
+=== Widget di pianificazione
+
+I conteggi dei consigli per Tech Refresh sono inclusi nel widget di pianificazione della dashboard di livello cliente. Questi consigli aiutano a pianificare le attività di tech refresh dell'hardware quando l'hardware si esaurisce o si sta avvicinando alla fine del supporto.
+
+
+
 == 27 settembre 2023
 
 
