@@ -53,5 +53,5 @@ Per ulteriori informazioni su come migliorare il punteggio di sostenibilità, ve
 +
 image:working_environments.png["Schermata dell'interfaccia utente che mostra vari parametri ambientali"]
 
-* Abilitare il monitoraggio dal coslumn *Real-Time Power* per visualizzare i dettagli dell'alimentazione in tempo reale a livello di cluster. Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+* Abilitare il monitoraggio dalla colonna *potenza in tempo reale* per visualizzare i dettagli sull'alimentazione in tempo reale a livello di cluster. Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
 
