@@ -23,13 +23,31 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 16 novembre 2023
+
+
+
+== Lista di controllo
+
+È ora possibile creare un massimo di 100 elenchi di controllo.
+
+
+
+=== Widget di pianificazione
+
+* Raccomandazioni sui tech refresh sono ora disponibili nelle dashboard di watchlist, sito e gruppo.
+* Da oggi puoi vedere i potenziali candidati per i tech refresh quando il numero dei consigli forniti dai tech refresh è zero.
+
+
+
+
 == 04 ottobre 2023
 
 
 
 === Widget di pianificazione
 
-I conteggi dei consigli per Tech Refresh sono inclusi nel widget di pianificazione della dashboard di livello cliente. Questi consigli aiutano a pianificare le attività di tech refresh dell'hardware quando l'hardware si esaurisce o si sta avvicinando alla fine del supporto.
+I conteggi dei consigli degli aggiornamenti tecnici sono inclusi nel widget di pianificazione della dashboard di livello cliente. Questi consigli aiutano a pianificare le attività di tech refresh dell'hardware quando l'hardware si esaurisce o si sta avvicinando alla fine del supporto.
 
 
 
