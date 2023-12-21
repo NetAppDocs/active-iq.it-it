@@ -5,17 +5,14 @@ keywords: Cloud Insights, VMs, virtual machines
 summary: Fornisce informazioni sulle macchine virtuali in Cloud Insights 
 ---
 = Integrazione con Cloud Insights per visualizzare i dettagli delle macchine virtuali
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

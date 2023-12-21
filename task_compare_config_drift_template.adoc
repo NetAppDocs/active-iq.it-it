@@ -5,17 +5,14 @@ keywords: config deviation, drift, configuration, compare template
 summary: Fornisce informazioni per confrontare un modello di deriva della configurazione. 
 ---
 = Confrontare un modello di deriva della configurazione
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

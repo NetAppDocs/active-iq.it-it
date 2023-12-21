@@ -5,17 +5,14 @@ keywords: config deviation, drift, configuration, add template
 summary: Fornisce informazioni per aggiungere un modello di deriva della configurazione. 
 ---
 = Aggiungere un modello di drift di configurazione
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

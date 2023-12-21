@@ -5,17 +5,14 @@ keywords: cloud recommendations, migration, backup and archive, disaster recover
 summary: Fornisce consigli in base ai quali è possibile prendere decisioni informate. 
 ---
 = Prendi decisioni informate in base ai consigli sul cloud
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

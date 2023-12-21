@@ -5,17 +5,14 @@ keywords: firmware, web server, hosting
 summary: 'Fornisce informazioni sull"hosting dei file del firmware mediante un server Web.' 
 ---
 = Ospitare i file del firmware utilizzando il server Web
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

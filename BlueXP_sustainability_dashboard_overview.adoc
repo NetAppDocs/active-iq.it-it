@@ -5,17 +5,14 @@ keywords: activeiq, sustainability dashboard, sustainability score, sustainabili
 summary: Fornisce informazioni sulla dashboard, sul punteggio di sostenibilità, sugli ambienti di lavoro e sulle azioni consigliate. 
 ---
 = Panoramica della dashboard Sustainability
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -24,7 +21,7 @@ La dashboard Sustainability fornisce una valutazione ambientale del tuo sistema 
 image:get_started_sustainability_dashboard.png["Uno screenshot dell'interfaccia utente che mostra il dashboard Sustainability."]
 
 
-NOTE: Per ottenere i migliori risultati dalla dashboard, devi attivare AutoSupport. Se AutoSupport non è abilitato, i dati saranno basati sulle specifiche del prodotto. Per ottenere dettagli sull'alimentazione in tempo reale, è necessario attivare Cloud Insights. Per ulteriori informazioni su come attivare Cloud Insights, vedere link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+NOTE: AutoSupport deve essere abilitato per un calcolo accurato del punteggio di sostenibilità.
 
 *Sustainability Score*: Visualizza il punteggio totale che indica la sostenibilità ambientale dei sistemi storage. È possibile valutare il livello di sostenibilità dei sistemi storage in base alla seguente gamma:
 

@@ -5,17 +5,14 @@ keywords: capacity, space, increase,
 summary: Fornisce informazioni per aumentare la capacità del sistema. 
 ---
 = Identificare i sistemi che raggiungono i limiti di capacità
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

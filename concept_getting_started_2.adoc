@@ -5,17 +5,14 @@ keywords: overview, get started, wellness, performance, configuration, renewal, 
 summary: Aiuta a comprendere i flussi di lavoro e a iniziare a utilizzare Digital Advisor. 
 ---
 = Guida rapida di Digital Advisor
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: renew, hardware, software
 summary: 'Fornisce informazioni per rinnovare il software e l"hardware del sistema storage.' 
 ---
 = Rinnova il software e l'hardware del tuo sistema storage
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

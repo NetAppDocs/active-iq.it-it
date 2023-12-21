@@ -5,17 +5,14 @@ keywords: 'what"s new, features, new'
 summary: Fornisce informazioni sulle nuove funzioni della release. 
 ---
 = Novità di Digital Advisor
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,26 +5,21 @@ keywords: activeiq, sustainability dashboard, recommended actions, digital advis
 summary: Fornisce le fasi necessarie per migliorare il punteggio di sostenibilità attraverso le azioni consigliate. 
 ---
 = Migliorare il punteggio di sostenibilità
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-La dashboard Sustainability genera le azioni consigliate che puoi utilizzare per migliorare il punteggio Sustainability. Puoi visualizzare e implementare queste azioni consigliate da NetApp BlueXP o Digital Advisor.
-
-Puoi migliorare il punteggio di sostenibilità generale e il punteggio di sostenibilità a livello di cluster.
+La dashboard Sustainability fornisce le azioni consigliate che puoi implementare per migliorare il punteggio complessivo di sostenibilità e il punteggio di sostenibilità a livello di cluster.
 
 
-NOTE: AutoSupport deve essere abilitato per calcolare il punteggio di sostenibilità generale e il punteggio di sostenibilità a livello di cluster.
+NOTE: Per ottenere i migliori risultati dalla dashboard, devi attivare AutoSupport. Se AutoSupport non è abilitato, i dati saranno basati sulle specifiche del prodotto. Per ottenere dettagli sull'alimentazione in tempo reale, è necessario attivare Cloud Insights. Per ulteriori informazioni su come attivare Cloud Insights, vedere link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
 
 
 

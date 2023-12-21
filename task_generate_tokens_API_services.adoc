@@ -5,17 +5,14 @@ keywords: generate token, access token, refresh token, API services
 summary: Fornisce informazioni su come generare un token per accedere alle API. 
 ---
 = Generare token per utilizzare le API
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

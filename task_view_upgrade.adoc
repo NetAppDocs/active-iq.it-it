@@ -5,17 +5,14 @@ keywords: upgrade, ONTAP version, upgrade advisor, upgrade plan, risk advisor, p
 summary: Fornisce informazioni per visualizzare e aggiornare la versione ONTAP del sistema storage. 
 ---
 = Aggiornare la versione ONTAP dei sistemi storage
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

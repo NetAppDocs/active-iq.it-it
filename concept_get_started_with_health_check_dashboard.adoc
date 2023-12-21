@@ -5,17 +5,14 @@ keywords: activeiq, health check, health, HCA, health check dashboard, autosuppo
 summary: Fornisce informazioni sulla dashboard, i punteggi di salute, le funzioni e i widget. 
 ---
 = Inizia con la dashboard di controllo dello stato di salute
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: overview, information, more details
 summary: Fornisce ulteriori informazioni su Digital Advisor. 
 ---
 = Ulteriori informazioni
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

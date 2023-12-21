@@ -4,22 +4,19 @@ permalink: get_started_sustainability_dashboard.html
 keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
 summary: Inizia subito con il dashboard di sostenibilità BlueXP accedendo a BlueXP o Digital Advisor. 
 ---
-= Iniziate con il dashboard Sustainability
-:toc: macro
+= Accedere al dashboard Sustainability
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-La dashboard Sustainability fornisce report e punteggi abilitati per AIOps con informazioni utili per migliorare la postura di sostenibilità. Puoi utilizzare NetApp BlueXP o Digital Advisor per visualizzare il dashboard Sustainability.
+La dashboard Sustainability fornisce report e punteggi abilitati per AIOps con informazioni utili per migliorare la postura di sostenibilità. Puoi accedere al dashboard Sustainability tramite NetApp BlueXP o Digital Advisor.
 
 [role="tabbed-block"]
 ====

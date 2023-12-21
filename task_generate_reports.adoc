@@ -5,17 +5,14 @@ keywords: reports, generate reports
 summary: Fornisce informazioni per generare report. 
 ---
 = Generare report
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

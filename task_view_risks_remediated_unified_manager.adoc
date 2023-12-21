@@ -5,17 +5,14 @@ keywords: risks, actions, remediation, corrective action, unified manager
 summary: Fornisce informazioni per visualizzare i rischi che possono essere risolti automaticamente utilizzando Unified Manager. 
 ---
 = Visualizza i rischi che possono essere mitigati automaticamente utilizzando Unified Manager o Ansible Playbook
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

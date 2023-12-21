@@ -5,17 +5,14 @@ keywords: inventory file, file format
 summary: 'Fornisce informazioni sull"utilizzo del file di inventario.' 
 ---
 = Lavorare con il file di inventario
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: overview, provision, dashboard, widget, watchlist
 summary: Fornisce informazioni su dashboard, elenchi di controllo e widget. 
 ---
 = Comprendere la lista di controllo
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
