@@ -16,10 +16,11 @@ summary: 'Fornisce informazioni per l"accesso a Digital Advisor.'
 
 
 [role="lead"]
-È possibile accedere a Digital Advisor da una console basata su Web per creare un elenco di controllo per visualizzare lo stato generale del sistema di storage.
+È possibile accedere a Digital Advisor da una console basata su Web per visualizzare lo stato generale del sistema di storage.
 
 .Prima di iniziare
-Per accedere a Digital Advisor, è necessario disporre di una credenziale valida per il sito del supporto NetApp. Se non si dispone di un account e si sta per iniziare, passare a. link:https://mysupport.netapp.com/info/web/ECMLP2458178.html["creare un account"^].
+Per accedere a Digital Advisor, è necessario disporre di una credenziale valida per il sito del supporto NetApp. Se non disponi di un account e stai per iniziare, consulta il seguente articolo della Knowledge base per creare un account:
+link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_Support_Site_account_as_a_Customer_or_a_Guest_user["Come registrarsi per l'account del sito di assistenza NetApp come cliente o utente ospite"^].
 
 .Fasi
 . Accedere alla link:https://activeiq.netapp.com/?source=onlinedocs["Consulente digitale"^] pagina di accesso.

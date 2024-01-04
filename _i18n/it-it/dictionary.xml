@@ -134,7 +134,6 @@
   <block id="722b950e7c3cbec69bb9c0beac55297d" category="inline-link-macro">Ansible: Modalità di controllo</block>
   <block id="5769cb0edb876ded60913f5ed79c0ed3" category="inline-link-macro">Convalide per l'installazione del firmware</block>
   <block id="207d610de4ff42212b921026752872d2" category="paragraph">Dopo aver eseguito il manuale, fare riferimento a. <block ref="e7460fd6e68b3cae327d70e23589cd2e" category="inline-link-macro-rx"></block> per istruzioni post-esecuzione.</block>
-  <block id="d22d74dd6e0a6c5cd64ecb61ba45759d" category="summary">Fornisce informazioni per visualizzare e aggiornare la versione ONTAP del sistema storage.</block>
   <block id="1e3c19e3742fbfc0e6dd22bb91d109a3" category="inline-image-macro">Upgrade Advisor</block>
   <block id="64916198004d1ee19b1b50002f51f1a8" category="inline-image-macro">Opzioni di upgrade</block>
   <block id="b58373ef1164bbd04be01f9d80e8c58e" category="inline-image-macro">Generare un piano di upgrade</block>
@@ -1196,9 +1195,6 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Il server Web può essere configurato in diversi modi. Per istruzioni su come configurare un semplice server Web utilizzando Python, fare riferimento a. <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>.</block>
   <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">Fare clic su <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> Sotto l'icona *API Catalog*.</block>
-  <block id="6300a3453f44e919baf2a9aa05a8acaf" category="paragraph">È possibile accedere a Digital Advisor da una console basata su Web per creare un elenco di controllo per visualizzare lo stato generale del sistema di storage.</block>
-  <block id="315ad4061cc238e6dcb01825e9ab9572" category="inline-link-macro">creare un account</block>
-  <block id="425f3e0f4d6e9e92e654e9ba5e993d54" category="paragraph">Per accedere a Digital Advisor, è necessario disporre di una credenziale valida per il sito del supporto NetApp. Se non si dispone di un account e si sta per iniziare, passare a. <block ref="6e6f0f52d614dd0ec77faf300e34ad53" category="inline-link-macro-rx"></block>.</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">Accedere alla <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> pagina di accesso.</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">Per i sistemi ONTAP, AutoSupport viene attivato per impostazione predefinita quando si configura il sistema di storage per la prima volta. Dovresti <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> Sui sistemi ONTAP per controllare la modalità di invio delle informazioni AutoSupport al supporto tecnico e all'organizzazione di supporto interna.</block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
@@ -1384,34 +1380,17 @@ Viene visualizzata la pagina di accesso a NetApp BlueXP.</block>
   <block id="fa67fcdec3a9597a8256117c23529953" category="paragraph">Se sei abbonato ai servizi NetApp Keystone STaaS, puoi visualizzare il widget Keystone Subscription nella dashboard di Digital Advisor.</block>
   <block id="580577f00c6e952d8dad642fa30380db" category="inline-link-macro">Keystone e Digital Advisor</block>
   <block id="2f9ac5e4626cf891d09ebda2d18327db" category="paragraph">Il widget abbonamento Keystone fornisce un riepilogo dell'utilizzo della capacità per il tuo account. È costituito da grafici di utilizzo della capacità rispetto alla capacità fisica. Per ulteriori informazioni sui vari livelli di dati di abbonamento e informazioni sull'utilizzo, vedere <block ref="db5795af5cbf28cf9af79d32298b7715" category="inline-link-macro-rx"></block>.</block>
-  <block id="88c21efa97d0237f72649c201f8b8d3e" category="list-text">Nel dashboard, nel widget *Upgrade Advisor*, fare clic sul numero di azioni per visualizzare gli aggiornamenti in sospeso.</block>
-  <block id="aee744d64cc19e679b53b0c639b25694" category="paragraph"><block ref="aee744d64cc19e679b53b0c639b25694" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="63134457816850025801f96a7797e55c" category="paragraph"><block ref="63134457816850025801f96a7797e55c" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="04306a8a1debf79f0ac04ae6415d891b" category="paragraph"><block ref="04306a8a1debf79f0ac04ae6415d891b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d67c629baadb827d64b6f908a024ff7" category="inline-image-macro">Scheda Consulente rischi</block>
   <block id="c406705ee0488217955ba39bbcd3e0f3" category="inline-image-macro">Rischi totali</block>
-  <block id="545606e93056e8efc230dfc45f3dffd2" category="paragraph"><block ref="545606e93056e8efc230dfc45f3dffd2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9b9689199f95721c2dbffc551f8161fa" category="inline-image-macro">Una finestra a comparsa per compilare i dettagli per inviare la richiesta di generazione del piano di upgrade</block>
-  <block id="d9884ccdf942ab0c8a261c9bf340eefe" category="paragraph"><block ref="d9884ccdf942ab0c8a261c9bf340eefe" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5d97ab11aa1e9f44020218850b335941" category="list-text">Andare a *rapporti*. È possibile monitorare lo stato del piano di aggiornamento e scaricarlo una volta disponibile.</block>
-  <block id="c1b382578ccbe1b4821d0b8a7f29e343" category="paragraph">Una volta generato, riceverai anche un'e-mail contenente il piano di aggiornamento.</block>
-  <block id="3cefe062f61e5f64624dd75eec82a381" category="inline-image-macro">Una schermata che mostra lo stato del report del piano di aggiornamento</block>
-  <block id="6f8fd13bf5cb0b5816478a43f298af9e" category="paragraph"><block ref="6f8fd13bf5cb0b5816478a43f298af9e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">27 settembre 2023</block>
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">È possibile accedere alla pagina di Upgrade Advisor per l'elenco di controllo predefinito utilizzando <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> collegamento.</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">Scoprite come generare e visualizzare il piano di aggiornamento</block>
-  <block id="b01f37f1151c1eda43d977dc266311ad" category="list-text">Il piano di upgrade è ottimizzato per rimuovere i passaggi di upgrade ridondanti e semplificare il piano di backout. I passaggi comuni in tutti i nodi di un cluster sono consolidati e disponibili nella sezione informazioni generali del piano di aggiornamento. <block ref="818a7808067ecc2956de5a6af27e7278" category="inline-link-macro-rx"></block>.</block>
   <block id="728961fac8324355b6e6e72caa3fcab4" category="paragraph">La dashboard Sustainability fornisce preziose informazioni sulla sostenibilità ambientale del tuo sistema storage. È possibile visualizzare informazioni come il punteggio di sostenibilità, la percentuale di riduzione del carbonio, l'utilizzo previsto di energia, il carbonio diretto e il calore. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. In base al punteggio di sostenibilità, puoi valutare l'efficienza generale del tuo sistema storage e allinearla alle azioni consigliate da NetApp per migliorare la sostenibilità. <block ref="14f04672b3a078b1589b8f46c67500a4" category="inline-link-macro-rx"></block>.</block>
-  <block id="cdb49ecd8a62ade62c327a64e1695566" category="doc">Aggiornare la versione ONTAP dei sistemi storage</block>
-  <block id="0311d8be615519ede7fdf56e28c4e87a" category="paragraph">Con Upgrade Advisor puoi visualizzare gli aggiornamenti consigliati e creare un piano di upgrade per i tuoi sistemi storage. È possibile visualizzare l'elenco dei rischi nella scheda Risk Advisor associata ai propri sistemi storage e attenuarli se si aggiornano i sistemi storage a una versione più recente di ONTAP.</block>
   <block id="a51f3b59b1e2e55eb492198c5498a7bf" category="list-text">Selezionare l'opzione di aggiornamento.</block>
   <block id="fd23e666b2cc48f70922dc0a25bed60d" category="list-text">Fare clic sul numero di sistemi conformi per generare un piano di aggiornamento.
 Viene visualizzata la pagina *Dettagli aggiornamento*.</block>
-  <block id="075d151109499e2e30fc7ffd634ce560" category="list-text">È possibile andare alla scheda *Risk Advisor* per visualizzare l'elenco dei rischi e il relativo livello di gravità.
-  +
-<block ref="54041361f5c1eaef6bcf2a769063421a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="f4e13f16e7fba0f60794942036b0d5b3" category="list-text">È possibile fare clic sul numero di rischi totali per visualizzare l'elenco dei rischi nella scheda *Risk Advisor* se l'opzione di aggiornamento include *rischi totali*.</block>
-  <block id="ace70623d17cb73b373d377d0c453895" category="list-text">Nella scheda *Upgrade Advisor*, selezionare i sistemi da aggiornare.</block>
   <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">Fare clic su *genera piano di aggiornamento*.</block>
   <block id="06cb9645f9905dac3c50116c8abb865c" category="list-text">Fornire i dettagli nella finestra a comparsa visualizzata. È inoltre possibile selezionare la casella di controllo *Ripristina piano* per includere il piano di backout nel piano di aggiornamento.</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analizza la sostenibilità dei tuoi sistemi storage</block>
@@ -1435,4 +1414,93 @@ Viene visualizzata la pagina *Dettagli aggiornamento*.</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">AutoSupport deve essere abilitato per un calcolo accurato del punteggio di sostenibilità.</block>
   <block id="f1a07ac2a47e6ae773882ceb0f2e9570" category="doc">Accedere al dashboard Sustainability</block>
   <block id="4a94cc80e3bef643a461eac57bc8c9ef" category="paragraph">La dashboard Sustainability fornisce report e punteggi abilitati per AIOps con informazioni utili per migliorare la postura di sostenibilità. Puoi accedere al dashboard Sustainability tramite NetApp BlueXP o Digital Advisor.</block>
+  <block id="be5178143d843340e4e67eba4c9e81e5" category="summary">Fornisce informazioni per visualizzare e aggiornare la versione ONTAP dei tuoi nodi (sistema storage).</block>
+  <block id="8601f406e80391d056c58948aa581fb2" category="doc">Generare un piano di upgrade per i nodi</block>
+  <block id="2bd844d4631a34a970dfaf3be90c4a0b" category="paragraph">Con Upgrade Advisor puoi vedere gli aggiornamenti consigliati e generare un piano di upgrade per i nodi (sistemi storage). È possibile visualizzare l'elenco dei rischi nella scheda Consulente rischi associata ai nodi e attenuarli se si esegue l'aggiornamento a una versione più recente di ONTAP.</block>
+  <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">Nella dashboard, fai clic sul numero di cluster nel widget *Upgrade Advisor*.</block>
+  <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">Uno screenshot che mostra il numero di cluster.</block>
+  <block id="28c5b9b9eefe3c1e8c902c9d79cc6787" category="paragraph"><block ref="28c5b9b9eefe3c1e8c902c9d79cc6787" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a66487996a06c28a71be20aa0af1d26c" category="paragraph">Viene visualizzata la pagina *Upgrade Advisor-ONTAP*.</block>
+  <block id="154c77c413a39ecb8c39b457c5252f40" category="list-text">Disattivare l'opzione *Enhanced Upgrade Advisor*.</block>
+  <block id="8b60d322239e9b30aae8b8fd47a48ce3" category="inline-image-macro">Una schermata che mostra l'attivazione/disattivazione di Upgrade Advisor migliorata è disattivata.</block>
+  <block id="0041204be6f9f2e470c98ebfb3d5b0b0" category="paragraph"><block ref="0041204be6f9f2e470c98ebfb3d5b0b0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="aad5368020cbd683aeba5851f49b4a38" category="paragraph"><block ref="aad5368020cbd683aeba5851f49b4a38" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a7b4dbfcbcafcdcc68cd3071fff921ef" category="paragraph"><block ref="a7b4dbfcbcafcdcc68cd3071fff921ef" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9d13760352c3ef2c67f70c65eb9218c3" category="inline-image-macro">Immagine del pulsante Modifica</block>
+  <block id="42dc80a9f868807808bfb3bd6d3fa3e4" category="list-text">Fare clic su <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> Dalla *versione del sistema operativo di destinazione* per selezionare un'altra versione del sistema operativo di destinazione di un cluster.</block>
+  <block id="81782223768cc597145a7fe6649737aa" category="list-text">È possibile andare alla scheda *Risk Advisor* per visualizzare l'elenco dei rischi e il relativo livello di gravità.
+  +
+<block ref="64ab9e5ee435c8d4125b4c4b2f334200" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="141bbe67ced8a85bfd11063ebb59d88d" category="paragraph"><block ref="141bbe67ced8a85bfd11063ebb59d88d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="13c6c834b23acb47e87a7edcc32e7f88" category="list-text">Nella scheda *Upgrade Advisor*, selezionare i sistemi per un aggiornamento.</block>
+  <block id="f5a352aea6c7a54f54feff2b5821b2f0" category="paragraph"><block ref="f5a352aea6c7a54f54feff2b5821b2f0" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="680ec4642757efc9cf2d150edf5ce5fc" category="list-text">Fare clic su *Invia*.
+Viene visualizzata la pagina *rapporti*.</block>
+  <block id="d983f30395f8346ffd80f3672dfe8b2a" category="list-text">È possibile scaricare il piano di aggiornamento dalla pagina *rapporti* una volta disponibile.</block>
+  <block id="e914294f6ad533c4cc5d44ff79ab35e3" category="inline-link-macro">Cosa fare dopo un aggiornamento di ONTAP</block>
+  <block id="bbc10f30b2ee9ee55d84238475ba20b0" category="paragraph">Dopo l'aggiornamento di ONTAP, è necessario eseguire alcune attività per verificare la disponibilità del cluster. Per ulteriori informazioni, vedere <block ref="49be8ce40deb1a0b7eb5c98a4fed6622" category="inline-link-macro-rx"></block>.</block>
+  <block id="ef2ca72de9895714706408c3a660a3ad" category="summary">Fornire una panoramica di Upgrade Advisor che semplifica la pianificazione di un aggiornamento di ONTAP.</block>
+  <block id="67ee936e795ffe8e8018ac6757105eae" category="paragraph">Upgrade Advisor consente di generare un piano di aggiornamento che includa informazioni dettagliate e dettagliate necessarie per un aggiornamento o un ripristino di ONTAP.</block>
+  <block id="d9b9898ac1165db3daef0e6e50933c02" category="inline-link-macro">Creazione di un piano di upgrade per cluster singolo e multipli</block>
+  <block id="db336d8bf73f1c92f4ed725650c533e9" category="paragraph">Puoi generare piani di upgrade automatici e senza interruzioni per un singolo cluster e più cluster. Puoi visualizzare i consigli di upgrade solo per un singolo cluster, che include un elenco dei rischi associati a un cluster, un report di controllo pre-aggiornamento contenente un elenco di blocchi e avvisi degli upgrade e informazioni su nuove funzionalità e miglioramenti. Per ulteriori informazioni, vedere <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>.</block>
+  <block id="86889b2158b4ac7c9d8fcef2845d3f55" category="admonition">Per ogni cluster in una configurazione MetroCluster, genera un piano di upgrade individuale per ottenere istruzioni complete.</block>
+  <block id="5681200d8f1383312047ace6aad75922" category="inline-link-macro">Genera un piano di upgrade per i nodi</block>
+  <block id="9b7d1ab37e6749081c5ac63cb683b1c4" category="paragraph">Puoi generare piani di upgrade automatici, senza interruzioni e senza interruzioni per i nodi (sistemi storage). È possibile esaminare i percorsi di aggiornamento consigliati e generare un piano di aggiornamento. Per ulteriori informazioni, vedere <block ref="480e8086971f91861d6dfe49fd297465" category="inline-link-macro-rx"></block>.</block>
+  <block id="7b410e5aa098af7d98f180ce6460fdfe" category="inline-link-macro">Prepararsi per un aggiornamento di ONTAP</block>
+  <block id="222865b37915c0c4bc9b2b9bfcf5b07b" category="paragraph">Prima di generare un piano di aggiornamento, è necessario prepararsi per un aggiornamento di ONTAP. Una preparazione adeguata aiuta a identificare e ridurre i potenziali rischi o blocchi di aggiornamento prima di iniziare il processo di aggiornamento. Per ulteriori informazioni, vedere <block ref="ea9d3240085371b5bf3a3755f96d8f6d" category="inline-link-macro-rx"></block>.</block>
+  <block id="0850cf3036348eacfcb9da9c7e6dff71" category="section-title">03 gennaio 2024</block>
+  <block id="9c818280eee76d75834ab648289ae85f" category="inline-link-macro">Scoprite come visualizzare i suggerimenti per l'aggiornamento e generare un piano di aggiornamento.</block>
+  <block id="bdc2200252b96cc6ed0c081012882ca8" category="paragraph">Upgrade Advisor è stato migliorato per fornire piani di upgrade automatici e senza interruzioni per un singolo cluster e più cluster. Puoi vedere i consigli di upgrade solo per un singolo cluster, che include un riepilogo dei rischi, un report di controllo pre-aggiornamento e informazioni su nuove funzionalità e miglioramenti. <block ref="5432771afbfeb8bee17b110b384d0041" category="inline-link-macro-rx"></block></block>
+  <block id="fdee59a37f60e4c66e5c6b1c6c80b2c1" category="list-text">Il piano di upgrade è ottimizzato per rimuovere i passaggi di upgrade ridondanti e semplificare il piano di backout. I passaggi comuni in tutti i nodi di un cluster sono consolidati e disponibili nella sezione informazioni generali del piano di aggiornamento. <block ref="f0e67dfcb5ef41ef22b88debd0952b4f" category="inline-link-macro-rx"></block>.</block>
+  <block id="54c8d286439441f65d676d4c8b3f8e5d" category="paragraph">È possibile accedere a Digital Advisor da una console basata su Web per visualizzare lo stato generale del sistema di storage.</block>
+  <block id="1e483625e81b84fcdebccdf1e8a9446a" category="inline-link-macro">Come registrarsi per l'account del sito di assistenza NetApp come cliente o utente ospite</block>
+  <block id="dd535b546ee88a50134df4a8bcb9ebc7" category="paragraph">Per accedere a Digital Advisor, è necessario disporre di una credenziale valida per il sito del supporto NetApp. Se non disponi di un account e stai per iniziare, consulta il seguente articolo della Knowledge base per creare un account:
+<block ref="b73ff2fa987bdb24b44ced01bb2bd4c6" category="inline-link-macro-rx"></block>.</block>
+  <block id="cb6d856529734d9ca63ed119e0c1bba6" category="summary">Fornisce i passaggi necessari per generare un piano di upgrade per un upgrade o un revert ONTAP riuscito per un singolo cluster e più cluster.</block>
+  <block id="85af6d120b0bc5a9e283fc346b4434ba" category="paragraph">È possibile utilizzare Upgrade Advisor per visualizzare l'elenco dei cluster idonei o non idonei per un aggiornamento. Puoi visualizzare i consigli di upgrade per un cluster idoneo e creare un piano di upgrade. Puoi risolvere i problemi con un cluster non idoneo per renderlo idoneo per un upgrade.</block>
+  <block id="6e394bcec3129051274784fa1f725065" category="paragraph">È possibile seguire questa procedura per generare un piano di upgrade per un singolo cluster e più cluster:</block>
+  <block id="94df3919fe9cfa11e61d8a1c34ab29ac" category="open-title">Singolo cluster</block>
+  <block id="a8a13bd076efa14c76bf4d2412097a76" category="list-text">Verificare che l'opzione *Enhanced Upgrade Advisor* sia attivata.</block>
+  <block id="b8b6bd2d3e7273f469feb9820cd57266" category="inline-image-macro">Una schermata che mostra l'attivazione di Upgrade Advisor avanzato è attiva.</block>
+  <block id="e5030f0aad42928362a1dd6d459850f1" category="paragraph"><block ref="e5030f0aad42928362a1dd6d459850f1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="97bf638dd7855f5b871198e3de655fb7" category="paragraph">Puoi visualizzare un elenco di cluster idonei e non idonei per un upgrade.</block>
+  <block id="b3264e5abfc7f8aa9cbe9bbf2bf2839e" category="list-text">Seleziona un cluster per un upgrade.
+La colonna *versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata. Fare clic su <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> Per selezionare un'altra versione del sistema operativo di destinazione di un cluster.</block>
+  <block id="c25dba4666d739afcf74fafca0e16ec1" category="inline-image-macro">Un'immagine che mostra come selezionare la versione di destinazione.</block>
+  <block id="df54a2761f4e27e29bd65d8ac649e3a9" category="paragraph"><block ref="df54a2761f4e27e29bd65d8ac649e3a9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33934d5a93267aecc3bf0f2c43482311" category="list-text">È possibile fare clic sul numero di nodi nella colonna *nodi* per visualizzare il riepilogo dei nodi di un cluster.</block>
+  <block id="d4586bd723aa7ed4cd56bae25e8c11c6" category="inline-image-macro">Un'immagine che mostra il tipo di problema e la relativa risoluzione.</block>
+  <block id="e56c89382384db93bf68a52b43fa244d" category="list-text">È possibile fare clic su *Risolvi problemi* nella colonna *azione consigliata* per risolvere i problemi relativi a un cluster non idoneo e renderlo idoneo per un aggiornamento.
+ +
+<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6aa4c290298860f81a97d2d4eb92f157" category="list-text">Fare clic su *genera piano di aggiornamento*.
+Verrai reindirizzato alla pagina *Upgrade Recommendation*.</block>
+  <block id="be3de2fbd923b98d3ddce6f87604687b" category="list-text">Nella pagina *Upgrade Recommendation*, è possibile visualizzare i dettagli dei rischi associati a un cluster tramite la scheda *Risk Advisor*. È possibile visualizzare i blocchi degli aggiornamenti, gli avvisi di aggiornamento e le azioni richieste tramite la scheda *verifica pre-aggiornamento* e le informazioni sulle nuove funzionalità e i miglioramenti relativi alla versione del sistema operativo di destinazione selezionata tramite la scheda *funzioni ONTAP migliorate e aggiornate*.</block>
+  <block id="3968a0cc76421e54bc6b6ab94ab3ef6d" category="inline-image-macro">Una schermata che mostra la vista generale della pagina dei suggerimenti per l'aggiornamento.</block>
+  <block id="8cb031ec78addd4251b0d98fadb1f16d" category="paragraph"><block ref="8cb031ec78addd4251b0d98fadb1f16d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7911af84e5893fc16119ebbbd79e0ddd" category="list-text">È possibile selezionare un'altra versione del sistema operativo di destinazione e visualizzare il riepilogo dei rischi, il report di controllo pre-aggiornamento e le informazioni sulle nuove funzionalità e sui miglioramenti correlati a tale versione del sistema operativo di destinazione.</block>
+  <block id="5ff9a8a8f5a8e1185c269de1ae1f16fa" category="inline-image-macro">pulsante export (esporta)</block>
+  <block id="d0ff34d4ed0d434b63065177d69660b4" category="list-text">Fare clic su <block ref="db6dc66ed954c8de99897788c99c122a" category="inline-image-macro-rx" type="image"></block> Per esportare il riepilogo dei rischi in un foglio Excel.</block>
+  <block id="f4c01d8521810198d0aedeb1804292d2" category="list-text">Fare clic su *generate Upgrade Plan* (genera piano di aggiornamento) dalla pagina *Upgrade Recommendation* (raccomandazioni di aggiornamento).</block>
+  <block id="391ae857ef756e131304172e405792b4" category="inline-image-macro">Una finestra a comparsa per compilare i dettagli per inviare la richiesta di generazione del piano di upgrade.</block>
+  <block id="224d1474fa987e54a2ac30c76ea2e21e" category="list-text">Fornire i dettagli nella finestra a comparsa visualizzata.
+  +
+<block ref="b84846bb39db1b32d099a86ab30da18d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ed103c2a26bede51077e4be32d323609" category="list-text">Fare clic su *generate* (genera).
+Viene visualizzata la pagina *rapporti*.</block>
+  <block id="d33dd907f0f2e416c58ccfa29cd01d18" category="inline-image-macro">Una schermata che mostra la posizione in cui si trova View Upgrade Advisor per fare clic. </block>
+  <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">È possibile fare clic su *Visualizza report di Upgrade Advisor* per accedere alla pagina *rapporti*.
+ +
+<block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18e4f5c6e58b95e97aff34068b2ebc6c" category="open-title">Cluster multipli</block>
+  <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">Selezionare i cluster per un aggiornamento.
+La colonna *versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata.è possibile fare clic su <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> Per selezionare un'altra versione del sistema operativo di destinazione di un cluster.</block>
+  <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9fe2ae1dc4e08b83a8b63d06803dd564" category="list-text">È possibile fare clic su *Risolvi problemi* nella colonna *azione consigliata* per risolvere i problemi relativi ai cluster non idonei e renderli idonei per un aggiornamento.
+ +
+<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b323017de005e05ca9af3f3a9807384d" category="list-text">Fornire i dettagli nella finestra a comparsa visualizzata.
+  +
+<block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c99a7dfbdf4d3cd808ff275e0e323d69" category="sidebar">Creazione di un piano di aggiornamento</block>
 </blocks>

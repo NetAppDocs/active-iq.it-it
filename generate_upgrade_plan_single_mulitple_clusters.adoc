@@ -1,0 +1,128 @@
+---
+sidebar: sidebar 
+permalink: generate_upgrade_plan_single_multiple_clusters.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters 
+summary: Fornisce i passaggi necessari per generare un piano di upgrade per un upgrade o un revert ONTAP riuscito per un singolo cluster e più cluster. 
+---
+= Creazione di un piano di upgrade per cluster singolo e multipli
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+È possibile utilizzare Upgrade Advisor per visualizzare l'elenco dei cluster idonei o non idonei per un aggiornamento. Puoi visualizzare i consigli di upgrade per un cluster idoneo e creare un piano di upgrade. Puoi risolvere i problemi con un cluster non idoneo per renderlo idoneo per un upgrade.
+
+È possibile seguire questa procedura per generare un piano di upgrade per un singolo cluster e più cluster:
+
+[role="tabbed-block"]
+====
+.Singolo cluster
+--
+. Nella dashboard, fai clic sul numero di cluster nel widget *Upgrade Advisor*.
++
+image:ua_widget.png["Uno screenshot che mostra il numero di cluster."]
+
++
+Viene visualizzata la pagina *Upgrade Advisor-ONTAP*.
+
+. Verificare che l'opzione *Enhanced Upgrade Advisor* sia attivata.
++
+image:r_enhanced_ua_toggle.png["Una schermata che mostra l'attivazione di Upgrade Advisor avanzato è attiva."]
+
++
+Puoi visualizzare un elenco di cluster idonei e non idonei per un upgrade.
+
+. Seleziona un cluster per un upgrade.
+La colonna *versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata. Fare clic su image:edit_icon.png["Immagine del pulsante Modifica"] Per selezionare un'altra versione del sistema operativo di destinazione di un cluster.
++
+image:r_ua_select_target_OS_version_single_cluster.png["Un'immagine che mostra come selezionare la versione di destinazione."]
+
++
+** È possibile fare clic sul numero di nodi nella colonna *nodi* per visualizzare il riepilogo dei nodi di un cluster.
+** È possibile fare clic su *Risolvi problemi* nella colonna *azione consigliata* per risolvere i problemi relativi a un cluster non idoneo e renderlo idoneo per un aggiornamento.
+ +
+image:r_ua_resolve_issue.png["Un'immagine che mostra il tipo di problema e la relativa risoluzione."]
+
+
+. Fare clic su *genera piano di aggiornamento*.
+Verrai reindirizzato alla pagina *Upgrade Recommendation*.
+. Nella pagina *Upgrade Recommendation*, è possibile visualizzare i dettagli dei rischi associati a un cluster tramite la scheda *Risk Advisor*. È possibile visualizzare i blocchi degli aggiornamenti, gli avvisi di aggiornamento e le azioni richieste tramite la scheda *verifica pre-aggiornamento* e le informazioni sulle nuove funzionalità e i miglioramenti relativi alla versione del sistema operativo di destinazione selezionata tramite la scheda *funzioni ONTAP migliorate e aggiornate*.
++
+image:r_ua_upgrade_recommendation_page.png["Una schermata che mostra la vista generale della pagina dei suggerimenti per l'aggiornamento."]
+
++
+** È possibile selezionare un'altra versione del sistema operativo di destinazione e visualizzare il riepilogo dei rischi, il report di controllo pre-aggiornamento e le informazioni sulle nuove funzionalità e sui miglioramenti correlati a tale versione del sistema operativo di destinazione.
+** Fare clic su image:ua_export_icon.png["pulsante export (esporta)"] Per esportare il riepilogo dei rischi in un foglio Excel.
+
+
+. Fare clic su *generate Upgrade Plan* (genera piano di aggiornamento) dalla pagina *Upgrade Recommendation* (raccomandazioni di aggiornamento).
+. Fornire i dettagli nella finestra a comparsa visualizzata.
+  +
+image:ua_generate_single_clusters_plan.png["Una finestra a comparsa per compilare i dettagli per inviare la richiesta di generazione del piano di upgrade."]
+. Fare clic su *generate* (genera).
+Viene visualizzata la pagina *rapporti*.
+. È possibile scaricare il piano di aggiornamento dalla pagina *rapporti* una volta disponibile.
++
+
+TIP: È possibile fare clic su *Visualizza report di Upgrade Advisor* per accedere alla pagina *rapporti*.
+ +
+image:r_ua_view_reports.png["Una schermata che mostra la posizione in cui si trova View Upgrade Advisor per fare clic. "]
+
+
+
+Dopo l'aggiornamento di ONTAP, è necessario eseguire alcune attività per verificare la disponibilità del cluster. Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Cosa fare dopo un aggiornamento di ONTAP"].
+
+--
+.Cluster multipli
+--
+. Nella dashboard, fai clic sul numero di cluster nel widget *Upgrade Advisor*.
++
+image:ua_widget.png["Uno screenshot che mostra il numero di cluster."]
+
++
+Viene visualizzata la pagina *Upgrade Advisor-ONTAP*.
+
+. Verificare che l'opzione *Enhanced Upgrade Advisor* sia attivata.
++
+image:r_enhanced_ua_toggle.png["Una schermata che mostra l'attivazione di Upgrade Advisor avanzato è attiva."]
+
++
+Puoi visualizzare un elenco di cluster idonei e non idonei per un upgrade.
+
+. Selezionare i cluster per un aggiornamento.
+La colonna *versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata.è possibile fare clic su image:edit_icon.png["Immagine del pulsante Modifica"] Per selezionare un'altra versione del sistema operativo di destinazione di un cluster.
++
+image:r_ua_select_target_OS_version.png["Un'immagine che mostra come selezionare la versione di destinazione."]
+
++
+** È possibile fare clic sul numero di nodi nella colonna *nodi* per visualizzare il riepilogo dei nodi di un cluster.
+** È possibile fare clic su *Risolvi problemi* nella colonna *azione consigliata* per risolvere i problemi relativi ai cluster non idonei e renderli idonei per un aggiornamento.
+ +
+image:r_ua_resolve_issue.png["Un'immagine che mostra il tipo di problema e la relativa risoluzione."]
+
+
+. Fare clic su *genera piano di aggiornamento*.
+. Fornire i dettagli nella finestra a comparsa visualizzata.
+  +
+image:ua_generate_multiple_clusters_plan.png["Una finestra a comparsa per compilare i dettagli per inviare la richiesta di generazione del piano di upgrade."]
+. Fare clic su *generate* (genera).
+Viene visualizzata la pagina *rapporti*.
+. È possibile scaricare il piano di aggiornamento dalla pagina *rapporti* una volta disponibile.
++
+
+TIP: È possibile fare clic su *Visualizza report di Upgrade Advisor* per accedere alla pagina *rapporti*.
+ +
+image:r_ua_view_reports.png["Una schermata che mostra la posizione in cui si trova View Upgrade Advisor per fare clic. "]
+
+
+
+Dopo l'aggiornamento di ONTAP, è necessario eseguire alcune attività per verificare la disponibilità del cluster. Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/ontap/upgrade/task_what_to_do_after_upgrade.html["Cosa fare dopo un aggiornamento di ONTAP"].
+
+--
+====

@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: upgrade_advisor_overview.html 
+keywords: Upgrade Advisor, upgrade plan, ONTAP, upgrade recommendation, clusters, storage systems 
+summary: Fornire una panoramica di Upgrade Advisor che semplifica la pianificazione di un aggiornamento di ONTAP. 
+---
+= Panoramica
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Upgrade Advisor consente di generare un piano di aggiornamento che includa informazioni dettagliate e dettagliate necessarie per un aggiornamento o un ripristino di ONTAP.
+
+Puoi generare piani di upgrade automatici e senza interruzioni per un singolo cluster e più cluster. Puoi visualizzare i consigli di upgrade solo per un singolo cluster, che include un elenco dei rischi associati a un cluster, un report di controllo pre-aggiornamento contenente un elenco di blocchi e avvisi degli upgrade e informazioni su nuove funzionalità e miglioramenti. Per ulteriori informazioni, vedere link:generate_upgrade_plan_single_multiple_clusters.html["Creazione di un piano di upgrade per cluster singolo e multipli"].
+
+
+NOTE: Per ogni cluster in una configurazione MetroCluster, genera un piano di upgrade individuale per ottenere istruzioni complete.
+
+Puoi generare piani di upgrade automatici, senza interruzioni e senza interruzioni per i nodi (sistemi storage). È possibile esaminare i percorsi di aggiornamento consigliati e generare un piano di aggiornamento. Per ulteriori informazioni, vedere link:task_view_upgrade.html["Genera un piano di upgrade per i nodi"].
+
+Prima di generare un piano di aggiornamento, è necessario prepararsi per un aggiornamento di ONTAP. Una preparazione adeguata aiuta a identificare e ridurre i potenziali rischi o blocchi di aggiornamento prima di iniziare il processo di aggiornamento. Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["Prepararsi per un aggiornamento di ONTAP"^].
