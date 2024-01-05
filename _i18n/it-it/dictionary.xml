@@ -1492,7 +1492,6 @@ Viene visualizzata la pagina *rapporti*.</block>
   <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">È possibile fare clic su *Visualizza report di Upgrade Advisor* per accedere alla pagina *rapporti*.
  +
 <block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="18e4f5c6e58b95e97aff34068b2ebc6c" category="open-title">Cluster multipli</block>
   <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">Selezionare i cluster per un aggiornamento.
 La colonna *versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata.è possibile fare clic su <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> Per selezionare un'altra versione del sistema operativo di destinazione di un cluster.</block>
   <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
@@ -1503,4 +1502,8 @@ La colonna *versione del sistema operativo di destinazione* visualizza la versio
   +
 <block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c99a7dfbdf4d3cd808ff275e0e323d69" category="sidebar">Creazione di un piano di aggiornamento</block>
+  <block id="387baf0199e7c9cc944fae94e96448fa" category="section-title">Varie</block>
+  <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">*Perché le funzioni in STATO DI ARCHIVIAZIONE nel riquadro di spostamento di sinistra sono disattivate?*
+La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e dal livello di sistema. Ad esempio, ClusterViewer è disponibile per i sistemi ONTAP e Cloud Volumes ONTAP (CVO) a livello di cluster e di nodo. È possibile passare il mouse sull'icona *i* accanto a ciascuna funzione per informazioni sui tipi e i livelli di sistema applicabili.</block>
+  <block id="568d1629463645988ff4868c31e4cba7" category="open-title">Cluster multipli</block>
 </blocks>
