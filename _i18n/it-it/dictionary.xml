@@ -1136,18 +1136,6 @@
   <block id="3d771951f480b18b116afdfb0da9cb88" category="sidebar">Generare token per accedere alle API</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">Generare report personalizzati</block>
   <block id="af2a4d2810d86aa0169c117f82682f9a" category="sidebar">Domande frequenti</block>
-  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">Scopri di più su Digital Advisor</block>
-  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Utilizzare Digital Advisor</block>
-  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">Visualizzare i rischi e intraprendere azioni correttive</block>
-  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">Rilevare le deviazioni di configurazione</block>
-  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">Correggi i rischi critici per la sicurezza</block>
-  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Analisi con Digital Advisor</block>
-  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">Visualizza i consigli per l'aggiornamento di ONTAP</block>
-  <block id="5649476905365d651ff75a651e4e79a8" category="sidebar">Prendere decisioni informate in base ai consigli sul cloud</block>
-  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Più risorse</block>
-  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portale Web di Digital Advisor</block>
-  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Video di Digital Advisor</block>
-  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Community NetApp – Consulente digitale</block>
   <block id="e90912cb3f8595479987796300c99d6c" category="summary">Fornisce informazioni sulla dashboard, sul punteggio di sostenibilità, sugli ambienti di lavoro e sulle azioni consigliate.</block>
   <block id="de857c4705c01d60f072c89db409bb0f" category="paragraph">*Sustainability Score*: Visualizza il punteggio totale che indica la sostenibilità ambientale dei sistemi storage. È possibile valutare il livello di sostenibilità dei sistemi storage in base alla seguente gamma:</block>
   <block id="b04fdd8d3c616238ff5067578ec445ae" category="list-text">76 - 100: Indica che la sostenibilità è una priorità assoluta.</block>
@@ -1402,7 +1390,6 @@ Viene visualizzata la pagina *Dettagli aggiornamento*.</block>
   <block id="f4547f31c09ed6f71cd2e94db143fffd" category="list-text"><block ref="f4547f31c09ed6f71cd2e94db143fffd" category="inline-link-macro-rx"></block></block>
   <block id="4f0ba3197c25744bb644bb7e83a43b5f" category="list-text"><block ref="4f0ba3197c25744bb644bb7e83a43b5f" category="inline-link-macro-rx"></block></block>
   <block id="dc52fcbf0f80ad7cfad9b3efcbd2df3d" category="list-text">Abilitare il monitoraggio dalla colonna *potenza in tempo reale* per visualizzare i dettagli sull'alimentazione in tempo reale a livello di cluster. Per ulteriori informazioni, vedere <block ref="0287186bd1777b27f244433b8d45ea17" category="inline-link-macro-rx"></block>.</block>
-  <block id="17ee9449f19b1975afdae38c7db7d001" category="admonition">La sostenibilità è supportata dai sistemi AFF, sia A-Series che C-Series, dai sistemi FAS e da Cloud Volumes ONTAP (CVO).</block>
   <block id="20cc757c4cb0c9b6153ae0f56705ae36" category="section-title">16 novembre 2023</block>
   <block id="20015eaa9dc8feb8cbf1eaadb95c6b20" category="paragraph">È ora possibile creare un massimo di 100 elenchi di controllo.</block>
   <block id="752f0c78427b5fffe498798d609a58a7" category="list-text">Raccomandazioni sui tech refresh sono ora disponibili nelle dashboard di watchlist, sito e gruppo.</block>
@@ -1506,4 +1493,9 @@ La colonna *versione del sistema operativo di destinazione* visualizza la versio
   <block id="48c86fda9292a5b410c6b86a0d2e64b7" category="paragraph">*Perché le funzioni in STATO DI ARCHIVIAZIONE nel riquadro di spostamento di sinistra sono disattivate?*
 La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e dal livello di sistema. Ad esempio, ClusterViewer è disponibile per i sistemi ONTAP e Cloud Volumes ONTAP (CVO) a livello di cluster e di nodo. È possibile passare il mouse sull'icona *i* accanto a ciascuna funzione per informazioni sui tipi e i livelli di sistema applicabili.</block>
   <block id="568d1629463645988ff4868c31e4cba7" category="open-title">Cluster multipli</block>
+  <block id="d873b57150944650b53661161f297953" category="admonition">La sostenibilità è supportata dai sistemi AFF, sia A-Series che C-Series, dai sistemi FAS e da Cloud Volumes ONTAP.</block>
+  <block id="82e62a186bc8e1499e10d1400cd762e1" category="section-title">08 febbraio 2024</block>
+  <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Dashboard sulla sostenibilità</block>
+  <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">È ora possibile accedere direttamente alle metriche Sustainability per il dashboard o l'elenco di controllo predefinito utilizzando <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> collegamento.</block>
+  <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">A questo punto è possibile visualizzare le informazioni RPM del disco nella sezione Riepilogo disco, disponibile nella scheda Storage e nei report ClusterViewer.</block>
 </blocks>

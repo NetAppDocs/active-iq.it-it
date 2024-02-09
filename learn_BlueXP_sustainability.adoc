@@ -21,7 +21,7 @@ La sostenibilità, come servizio, consente di ridurre il consumo di energia e di
 È possibile utilizzare il dashboard Sustainability per visualizzare il punteggio di sostenibilità e l'utilizzo previsto di potenza, carbonio diretto e calore dal dashboard Sustainability. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. In base al punteggio di sostenibilità, puoi valutare la postura di sostenibilità e implementare le azioni consigliate da NetApp per migliorare il punteggio. Per ulteriori informazioni sul dashboard Sustainability, visitare il sito Web all'indirizzo link:BlueXP_sustainability_dashboard_overview.html["Panoramica della dashboard Sustainability"].
 
 
-NOTE: La sostenibilità è supportata dai sistemi AFF, sia A-Series che C-Series, dai sistemi FAS e da Cloud Volumes ONTAP (CVO).
+NOTE: La sostenibilità è supportata dai sistemi AFF, sia A-Series che C-Series, dai sistemi FAS e da Cloud Volumes ONTAP.
 
 È possibile visualizzare il seguente video per comprendere il dashboard Sustainability:
 
