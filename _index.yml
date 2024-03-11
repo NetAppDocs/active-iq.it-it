@@ -1,0 +1,61 @@
+---
+indexpage:
+  title: Documentazione di Digital Advisor
+  summary: Il consulente digitale Active IQ (o consulente digitale) consente di ottimizzare
+    l'infrastruttura dati nell'intero cloud ibrido globale fornendo analytics predittivi
+    fruibili e supporto proattivo tramite un portale basato sul cloud e un'app mobile.
+    I servizi basati sul cloud di Digital Advisor sfruttano la saggezza della community
+    e i confronti tra pari ricavati dall'enorme base installata di NetApp, combinando
+    queste informazioni con le funzionalità di telemetria AutoSupport e My AutoSupport
+    per offrire un set avanzato di servizi di analisi senza precedenti.
+  keywords: Digital Advisor, Watchlist, Sustainability, Upgrade Advisor, ONTAP
+  lead: Il consulente digitale Active IQ (o consulente digitale) consente di ottimizzare
+    l'infrastruttura dati nell'intero cloud ibrido globale fornendo analytics predittivi
+    fruibili e supporto proattivo tramite un portale basato sul cloud e un'app mobile.
+    I servizi basati sul cloud di Digital Advisor sfruttano la saggezza della community
+    e i confronti tra pari ricavati dall'enorme base installata di NetApp, combinando
+    queste informazioni con le funzionalità di telemetria AutoSupport e My AutoSupport
+    per offrire un set avanzato di servizi di analisi senza precedenti.
+  tiles:
+  - title: Inizia subito
+    links:
+    - title: Scopri di più su Digital Advisor
+      url: https://tv.netapp.com/detail/video/6254074753001/what-can-you-do-with-active-iq
+    - title: Guida rapida di Digital Advisor
+      url: concept_getting_started_2.html
+    - title: Concetti chiave
+      url: concept_key_terms.html
+    - title: Creare una lista di controllo
+      url: task_add_watchlist.html
+  - title: Utilizzare Digital Advisor
+    links:
+    - title: Visualizzare i rischi e intraprendere azioni correttive
+      url: task_view_risk_and_take_action.html
+    - title: Rilevare le deviazioni di configurazione
+      url: task_compare_config_drift_template.html
+    - title: Correggi i rischi critici per la sicurezza
+      url: task_increase_protection_against_hackers_and_Ransomware_attacks.html
+    - title: Analizzare le performance dello storage
+      url: task_view_performance_graphs.html
+    - title: Generare report
+      url: task_generate_reports.html
+  - title: Analisi con Digital Advisor
+    links:
+    - title: Visualizza i consigli per l'aggiornamento di ONTAP
+      url: task_view_upgrade.html
+    - title: Prendere decisioni informate in base ai consigli sul cloud
+      url: task-informed-decisions-based-on-cloud-recommendations.html
+    - title: Visualizza l'utilizzo della capacità con l'abbonamento NetApp Keystone
+      url: view_keystone_capacity_utilization.html
+  - title: Più risorse
+    links:
+    - title: Portale Web di Digital Advisor
+      url: https://mysupport.netapp.com/myautosupport/home.html
+    - title: Video di Digital Advisor
+      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7kWBxqwLYBchpMW4k9Z6Vum
+    - title: Community NetApp – Consulente digitale
+      url: https://community.netapp.com/t5/Active-IQ-and-AutoSupport/ct-p/autosupport-and-my-autosupport
+    - title: Applicazione mobile di Digital Advisor (Android)
+      url: https://play.google.com/store/apps/details?id=com.netapp.myautosupport
+    - title: Applicazione per dispositivi mobili (iOS) di Digital Advisor
+      url: https://apps.apple.com/us/app/active-iq/id1230542480

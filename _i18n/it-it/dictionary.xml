@@ -400,7 +400,6 @@
   <block id="9b838c4ce633e917e74290b161349c3a" category="list-text">Assicurarsi che il Playbook Ansible e il file di inventario si trovino nello stesso percorso, quindi eseguire il Playbook Ansible. Gli aggiornamenti del firmware vengono eseguiti in background per alcune ore.</block>
   <block id="27c0c1bb0cadc9e37385f3ef549226cb" category="summary">Fornisce informazioni su dashboard, elenchi di controllo e widget.</block>
   <block id="d3e5b7c94097697f92f75fe7c9a676ee" category="doc">Comprendere la lista di controllo</block>
-  <block id="16d182da6aeb172074cbe06d557991cc" category="paragraph">Le liste di controllo consentono di accedere ai sistemi preselezionati all'interno di Digital Advisor in modo rapido e semplice. Se si visualizzano spesso un determinato cliente o un set di sistemi, si consiglia di creare elenchi di controllo. È possibile creare fino a 50 liste di controllo e ciascuna lista di controllo può contenere fino a 15,000 sistemi per categoria o 500 sistemi per numero di serie.</block>
   <block id="fdcefef7d938550393c7f560b2c30cac" category="paragraph">Quando si accede a Digital Advisor per la prima volta, è possibile creare una lista di controllo o cercare un nome cliente, un nome di sito, un nome di gruppo, un StorageGRID, un nome host, Cluster, numero di serie o ID di sistema.</block>
   <block id="dece35eb22b3654f47ea7b34c8d28b05" category="paragraph">È inoltre necessario conoscere i colori applicati alle schede, che indicano la gravità e il tipo di rischi.</block>
   <block id="9f7c9f58bb8756fe75c88f458c094ff5" category="summary">Fornisce informazioni per acquisire dimestichezza con la dashboard di controllo dello stato di salute.</block>
@@ -872,7 +871,6 @@
   <block id="e26d70ef5011218a0e0d472d10f783bb" category="list-text">Nella pagina servizi API principali, fare clic su *genera token* per visualizzare e scaricare il token di accesso e il token di aggiornamento per richiamare le API.</block>
   <block id="99a9cfa523a42e23621796dfca6edb0a" category="paragraph">Il portale offre diversi modi per salvare uno o entrambi i token nell'insieme. È possibile copiarli negli Appunti, scaricarli come file di testo o visualizzarli come testo normale.</block>
   <block id="e404f7c0800eac65e5e44442bb4fd0cc" category="admonition">È necessario scaricare e salvare il token di accesso e il token di aggiornamento per un utilizzo successivo. I token di accesso scadono un'ora dopo la generazione e i token di refresh devono essere rigenerati, manualmente, ogni 7 giorni e installati nell'applicazione. A tale scopo, non è necessario accedere all'applicazione. Tuttavia, dopo 90 giorni, è necessario accedere all'applicazione per ottenere un nuovo token di accesso e refresh.</block>
-  <block id="2d0aa76ea44ffecf44fd1e54e726b8a1" category="summary">Digital Advisor ti consente di ottimizzare la tua infrastruttura dati nel tuo cloud ibrido globale offrendo analisi predittive e supporto proattivo attraverso un portale basato sul cloud e un'app mobile. I servizi basati sul cloud di Digital Advisor sfruttano la saggezza della community e i confronti tra pari ricavati dall'enorme base installata di NetApp, combinando queste informazioni con le funzionalità di telemetria AutoSupport e My AutoSupport per offrire un set avanzato di servizi di analisi senza precedenti.</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="doc">Documentazione di Digital Advisor</block>
   <block id="3be360a5cb329666d65e17b5ecd32b3c" category="summary">Fornisce informazioni sull'utilizzo del file di inventario.</block>
   <block id="69e0d4a3abb68d55b51aa1e3824395d1" category="doc">Lavorare con il file di inventario</block>
@@ -996,11 +994,9 @@
   <block id="0733f4fb920038885a10cd7d7528474a" category="list-text">Seguire le azioni correttive consigliate per proteggere i sistemi.</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">Fornisce informazioni per aggiungere un elenco di controllo alla dashboard.</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">Creare una lista di controllo</block>
-  <block id="a6b5018db137b1873575388bb66fd696" category="paragraph">È possibile creare una lista di controllo per accedere a un set di sistemi in modo rapido e semplice. È possibile combinare il set di sistemi in base alla categoria o alla posizione.</block>
   <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">Nel riquadro di sinistra, fare clic su *Watchlist*</block>
   <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">Fare clic su *Create Watchlist* (Crea lista di controllo).</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">Fornire un nome per la lista di controllo.</block>
-  <block id="d92f20aa0037ca0433951e4c3075ac1e" category="list-text">Fornire i dettagli dei sistemi che si desidera aggiungere all'elenco di controllo.</block>
   <block id="d757f95a394959d080114b15fde1d52e" category="paragraph">È possibile aggiungere un massimo di 15,000 sistemi in una categoria e 500 sistemi con un numero di serie.</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">Viene visualizzata la dashboard dell'elenco di controllo.</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">Fornisce informazioni per l'accesso a Digital Advisor.</block>
@@ -1498,4 +1494,27 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="f66a566e9695faf3a9ac3f398a6e5dcd" category="inline-link-macro">Dashboard sulla sostenibilità</block>
   <block id="abb657094a0038dadd2b0ad8a1f2644b" category="paragraph">È ora possibile accedere direttamente alle metriche Sustainability per il dashboard o l'elenco di controllo predefinito utilizzando <block ref="3bfa14a7a0d533bd50f797d3680bb9e4" category="inline-link-macro-rx"></block> collegamento.</block>
   <block id="3f0a64c1722e89371bae517923a9f798" category="paragraph">A questo punto è possibile visualizzare le informazioni RPM del disco nella sezione Riepilogo disco, disponibile nella scheda Storage e nei report ClusterViewer.</block>
+  <block id="ee994369582acbd0aa1a2c594329160a" category="section-title">29 febbraio 2024</block>
+  <block id="a87afd0ebe87406d33b58f65b33a438b" category="paragraph">Ora puoi creare una watchlist basata sui numeri di iscrizione Keystone e cercare un abbonamento Keystone utilizzando i primi tre caratteri di un numero di iscrizione o il nome della watchlist.</block>
+  <block id="bb6677c30e1599d498cc331db9ae9ac1" category="paragraph">Le liste di controllo consentono di accedere ai sistemi preselezionati all'interno di Digital Advisor in modo rapido e semplice. Se si visualizzano spesso un determinato cliente o un set di sistemi, si consiglia di creare elenchi di controllo. È possibile creare fino a 100 liste di controllo e ciascuna lista di controllo può contenere fino a 15.000 sistemi per categoria o 500 sistemi per numero di serie.</block>
+  <block id="0c9919bc11a911adb7dfe0c3fcfec57e" category="paragraph">Quando si accede a Digital Advisor per la prima volta, è possibile creare una lista di controllo o cercare un nome cliente, un nome sito, un nome gruppo, StorageGRID, un nome host, cluster, numero di serie, ID di sistema o iscrizione Keystone.</block>
+  <block id="696132aa64e1de699fed134cebca0cb4" category="paragraph">È possibile creare una lista di controllo per accedere a un set di sistemi in modo rapido e semplice. È possibile aggiungere i sistemi in base alla categoria o al numero di serie.</block>
+  <block id="8724cab6ff3882b095d7f7a1af087d3c" category="list-text">Selezionare una delle seguenti opzioni per aggiungere i sistemi all'elenco di controllo:</block>
+  <block id="046b77894dfde73619bb48b4dc431dd0" category="list-text">*Categoria*: Questa opzione consente di aggiungere l'intero inventario associato a una categoria specifica, ad esempio gli abbonamenti a clienti, siti, gruppi o Keystone, alla tua lista di controllo.</block>
+  <block id="ca5b91a68ba656cb1cb6cdd4e75f646a" category="inline-link-macro">Ricerca per elenchi di controllo Keystone</block>
+  <block id="a5a3e88ca2e2f72fdd690c7bf4473d53" category="admonition">L'opzione *Keystone Subscription* consente di includere qualsiasi numero di iscrizione associato agli abbonamenti Keystone. Quando si esegue una ricerca in base a una lista di controllo, è possibile visualizzare le iscrizioni nel widget *Keystone Subscriptions* sul dashboard di Digital Advisor. Per ulteriori informazioni, vedere <block ref="6c48397e666066c17d428674ea869bc7" category="inline-link-macro-rx"></block>.</block>
+  <block id="abc045a62577e8c80a76e2f49162b3ae" category="list-text">*Numero di serie*: Questa opzione consente di includere l'inventario nella lista di controllo in base ai numeri di serie specificati. È possibile inserire direttamente il numero di serie o selezionare i numeri di serie da categorie quali cliente, sito o gruppo.</block>
+  <block id="28fa24f22582565336a20a99aac1a3b6" category="sidebar">Il consulente digitale Active IQ (o consulente digitale) consente di ottimizzare l'infrastruttura dati nell'intero cloud ibrido globale fornendo analytics predittivi fruibili e supporto proattivo tramite un portale basato sul cloud e un'app mobile. I servizi basati sul cloud di Digital Advisor sfruttano la saggezza della community e i confronti tra pari ricavati dall'enorme base installata di NetApp, combinando queste informazioni con le funzionalità di telemetria AutoSupport e My AutoSupport per offrire un set avanzato di servizi di analisi senza precedenti.</block>
+  <block id="102d9716e9927264b03dcd24c0dd5cc3" category="sidebar">Scopri di più su Digital Advisor</block>
+  <block id="156203bd2f0dca053d9b9dbd8f8912c7" category="sidebar">Utilizzare Digital Advisor</block>
+  <block id="11d4d5337b73945892437ccbc95a0733" category="sidebar">Visualizzare i rischi e intraprendere azioni correttive</block>
+  <block id="a54afc6b3736cfe74798cc6c434300fc" category="sidebar">Rilevare le deviazioni di configurazione</block>
+  <block id="7a61fe0aacb0733ede2f886638474e22" category="sidebar">Correggi i rischi critici per la sicurezza</block>
+  <block id="6cb30ae6af19fc79cca62d705f6b0744" category="sidebar">Analisi con Digital Advisor</block>
+  <block id="0aace9b9585a40db8e20e3e200feeb89" category="sidebar">Visualizza i consigli per l'aggiornamento di ONTAP</block>
+  <block id="5649476905365d651ff75a651e4e79a8" category="sidebar">Prendere decisioni informate in base ai consigli sul cloud</block>
+  <block id="dfcc398099d6a64026e51ab282e16253" category="sidebar">Più risorse</block>
+  <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portale Web di Digital Advisor</block>
+  <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Video di Digital Advisor</block>
+  <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Community NetApp – Consulente digitale</block>
 </blocks>

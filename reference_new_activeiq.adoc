@@ -20,6 +20,16 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 29 febbraio 2024
+
+
+
+=== Lista di controllo
+
+Ora puoi creare una watchlist basata sui numeri di iscrizione Keystone e cercare un abbonamento Keystone utilizzando i primi tre caratteri di un numero di iscrizione o il nome della watchlist.
+
+
+
 == 08 febbraio 2024
 
 

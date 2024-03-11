@@ -16,8 +16,8 @@ summary: Fornisce informazioni su dashboard, elenchi di controllo e widget.
 
 
 [role="lead"]
-Le liste di controllo consentono di accedere ai sistemi preselezionati all'interno di Digital Advisor in modo rapido e semplice. Se si visualizzano spesso un determinato cliente o un set di sistemi, si consiglia di creare elenchi di controllo. È possibile creare fino a 50 liste di controllo e ciascuna lista di controllo può contenere fino a 15,000 sistemi per categoria o 500 sistemi per numero di serie.
+Le liste di controllo consentono di accedere ai sistemi preselezionati all'interno di Digital Advisor in modo rapido e semplice. Se si visualizzano spesso un determinato cliente o un set di sistemi, si consiglia di creare elenchi di controllo. È possibile creare fino a 100 liste di controllo e ciascuna lista di controllo può contenere fino a 15.000 sistemi per categoria o 500 sistemi per numero di serie.
 
-Quando si accede a Digital Advisor per la prima volta, è possibile creare una lista di controllo o cercare un nome cliente, un nome di sito, un nome di gruppo, un StorageGRID, un nome host, Cluster, numero di serie o ID di sistema.
+Quando si accede a Digital Advisor per la prima volta, è possibile creare una lista di controllo o cercare un nome cliente, un nome sito, un nome gruppo, StorageGRID, un nome host, cluster, numero di serie, ID di sistema o iscrizione Keystone.
 
 È inoltre necessario conoscere i colori applicati alle schede, che indicano la gravità e il tipo di rischi.

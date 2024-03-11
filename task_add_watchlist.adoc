@@ -16,7 +16,10 @@ summary: Fornisce informazioni per aggiungere un elenco di controllo alla dashbo
 
 
 [role="lead"]
-È possibile creare una lista di controllo per accedere a un set di sistemi in modo rapido e semplice. È possibile combinare il set di sistemi in base alla categoria o alla posizione.
+È possibile creare una lista di controllo per accedere a un set di sistemi in modo rapido e semplice. È possibile aggiungere i sistemi in base alla categoria o al numero di serie.
+
+
+NOTE: È possibile aggiungere un massimo di 15,000 sistemi in una categoria e 500 sistemi con un numero di serie.
 
 .Fasi
 . Nel riquadro di sinistra, fare clic su *Watchlist*
@@ -25,9 +28,15 @@ Viene visualizzata la schermata *Manage Watchlist* (Gestisci lista di controllo)
 
 . Fare clic su *Create Watchlist* (Crea lista di controllo).
 . Fornire un nome per la lista di controllo.
-. Fornire i dettagli dei sistemi che si desidera aggiungere all'elenco di controllo.
+. Selezionare una delle seguenti opzioni per aggiungere i sistemi all'elenco di controllo:
 +
-È possibile aggiungere un massimo di 15,000 sistemi in una categoria e 500 sistemi con un numero di serie.
+** *Categoria*: Questa opzione consente di aggiungere l'intero inventario associato a una categoria specifica, ad esempio gli abbonamenti a clienti, siti, gruppi o Keystone, alla tua lista di controllo.
++
+
+NOTE: L'opzione *Keystone Subscription* consente di includere qualsiasi numero di iscrizione associato agli abbonamenti Keystone. Quando si esegue una ricerca in base a una lista di controllo, è possibile visualizzare le iscrizioni nel widget *Keystone Subscriptions* sul dashboard di Digital Advisor. Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-aiq.html#search-by-keystone-watchlists["Ricerca per elenchi di controllo Keystone"^].
+
+** *Numero di serie*: Questa opzione consente di includere l'inventario nella lista di controllo in base ai numeri di serie specificati. È possibile inserire direttamente il numero di serie o selezionare i numeri di serie da categorie quali cliente, sito o gruppo.
+
 
 . Fare clic su *Create Watchlist* (Crea lista di controllo).
 +
