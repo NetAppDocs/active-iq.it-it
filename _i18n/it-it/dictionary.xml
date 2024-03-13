@@ -1517,4 +1517,9 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portale Web di Digital Advisor</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Video di Digital Advisor</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Community NetApp – Consulente digitale</block>
+  <block id="a05a52081b0fa90b1547ef6f59f35788" category="summary">Fornisce informazioni per valutare l'aggiornamento tecnologico del contratto o dell'hardware del supporto tecnico</block>
+  <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="doc">Valutazione di un refresh tecnologico</block>
+  <block id="2d6605eb73e95419014e86f084d39681" category="paragraph">Per sapere se si consiglia un aggiornamento tecnologico per il contratto di supporto tecnico o per l'hardware, è possibile utilizzare l'opzione di aggiornamento tecnologico.</block>
+  <block id="65a5dc35cec4fdb5b8c204304a2ab99a" category="admonition">È possibile accedere a questa funzionalità tramite l'efficienza economica di BlueXP (*Governance &gt; efficienza economica &gt; aggiornamento tecnico*) o tramite il consulente digitale di NetApp (*Dashboard &gt; widget di pianificazione &gt; aggiornamento tecnico*).</block>
+  <block id="26528bfb42ca87e3e5f7846afd863bb0" category="paragraph">Per ulteriori informazioni su questa funzione, vedere <block ref="a230b818a44a7d13155b37e12838fa41" category="inline-link-macro-rx"></block> Nella documentazione BlueXP.</block>
 </blocks>

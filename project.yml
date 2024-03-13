@@ -103,6 +103,8 @@ sidebar:
       url: "/task_identify_capacity_system.html"
     - title: Evitare il riempimento di un volume per evitare un'interruzione del servizio
       url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
+    - title: Valutazione di un refresh tecnologico
+      url: "/evaluate-tech-refresh.html"
     - title: Rinnovare il software e l'hardware
       url: "/task_renew_software_and_hardware.html"
   - title: Prendi decisioni informate in base ai consigli sul cloud
