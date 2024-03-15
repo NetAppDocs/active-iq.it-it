@@ -50,13 +50,13 @@ Quando inizi a utilizzare Digital Advisor, è importante comprendere alcuni dei 
 |===
 * *Widget Wellness:* Visualizza informazioni su performance, efficienza, capacità, impostazioni di configurazione, vulnerabilità di sicurezza, e altri. Determina in modo proattivo i sistemi che hanno superato la capacità o che sono quasi al di sopra del 90%. Inoltre, fornisce informazioni su software e hardware scaduti o in scadenza nei prossimi 6 mesi.
 +
+** *Sicurezza e difesa dal ransomware:* fornisce informazioni sui rischi e sulle azioni correttive associate alle vulnerabilità di sicurezza, al rilevamento, alla prevenzione e al ripristino del ransomware.
 ** *Performance & Efficiency:* Visualizza informazioni sulle performance e sull'efficienza del sistema storage.
 ** *Availability & Protection:* Visualizza informazioni sulla disponibilità e la protezione del sistema storage.
 ** *Capacità:* è costituita da rischi con un attributo di capacità per i valori dell'area di impatto.
 ** *Configurazione:* è costituita da rischi con un attributo di configurazione per i valori dell'area di impatto ordinati con l'impatto più alto.
-** *Le vulnerabilità di sicurezza:* sono costituite da rischi con un attributo di sicurezza per i valori dell'area di impatto.
+** *Sustainability:* Visualizza il numero di azioni consigliate per migliorare il punteggio di sostenibilità a livello di cliente, lista di controllo, sito e gruppo.
 ** *Wellness History:* Visualizza le informazioni sui rischi di sistema che si verificano negli ultimi tre mesi, in modo da poter apprendere come si stanno verificando gli straordinari.
-** *Ransomware Defense:* fornisce informazioni sui rischi e sulle azioni correttive associate al rilevamento, alla prevenzione e al ripristino del ransomware.
 ** *Acknowledge Risks (Ack):* consente di riconoscere i rischi e i sistemi interessati. È possibile riconoscere questi rischi e acquisire familiarità con le azioni che è possibile eseguire per mitigarli.
 ** *Unaccosed Risks (Unaccosed Risks) (Annulla riconoscimento rischi):* consente di annullare il riconoscimento dei rischi e dei sistemi riconosciuti.
 ** *Correggi:* corregge i rischi per il sistema utilizzando Active IQ 9.7 o versioni successive. Fare clic su questo pulsante per avviare UM ed eseguire i passaggi per ridurre i rischi.

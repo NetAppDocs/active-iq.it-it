@@ -16,13 +16,14 @@ summary:
 
 
 [role="lead"]
-Quando si accede a Digital Advisor, è possibile visualizzare le *azioni* evidenziate nel widget *ransomware Defense*, che mostra i conteggi dei rischi.
+Quando accedi a Digital Advisor, puoi visualizzare le *azioni* evidenziate nel widget *sicurezza e difesa dal ransomware*, che mostra i conteggi dei rischi.
 
 È possibile visualizzare i rischi di creazione, conservazione e ONTAP FPolicy di Snapshot, quindi intraprendere azioni per risolverli.
 
 .Fasi
 . Accedere a Digital Advisor.
-. Fare clic su *azioni* nel widget *ransomware Defense*.
+. Fare clic su *azioni* nel widget *sicurezza e difesa dal ransomware*.
+. Deselezionare la casella di controllo *vulnerabilità di protezione*.
 . Per i rischi visualizzati, controllare il livello di impatto e seguire le azioni consigliate.
 . Fare clic sulla scheda rischi univoci e sul collegamento nella colonna *azione correttiva*.
 . Fare clic sulla scheda *sistemi interessati* per visualizzare i sistemi con rischi.

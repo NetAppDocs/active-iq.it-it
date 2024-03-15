@@ -20,13 +20,31 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 15 marzo 2024
+
+
+
+=== Benessere
+
+* Il flusso di lavoro Wellness ora include il widget Sustainability, che fornisce il conteggio delle azioni consigliate a livello di cliente, lista di controllo, sito e gruppo. È possibile fare clic sul numero di azioni per una visualizzazione dettagliata di queste azioni consigliate nel dashboard Sustainability. Per ulteriori informazioni, fare riferimento a. link:https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html["Analizza la sostenibilità dei tuoi sistemi storage"].
+* I widget vulnerabilità di sicurezza e Difesa ransomware nel flusso di lavoro Wellness sono combinati in un unico widget, che ora è chiamato sicurezza e difesa dal ransomware.
+
+
+
+
+=== Dashboard di controllo dello stato
+
+La timeline per i casi tecnici è stata migliorata per visualizzare lo storico completo dei casi per 6 o 12 mesi.
+
+
+
 == 29 febbraio 2024
 
 
 
 === Lista di controllo
 
-Ora puoi creare una watchlist basata sui numeri di iscrizione Keystone e cercare un abbonamento Keystone utilizzando i primi tre caratteri di un numero di iscrizione o il nome della watchlist.
+Ora puoi creare una watchlist basata sui numeri di abbonamento Keystone e cercare un abbonamento Keystone utilizzando i primi tre caratteri di un numero di iscrizione o il nome della watchlist.
 
 
 
