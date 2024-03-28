@@ -16,7 +16,7 @@ summary: Fornisce i passaggi necessari per generare un piano di upgrade per un u
 
 
 [role="lead"]
-È possibile utilizzare Upgrade Advisor per visualizzare l'elenco dei cluster idonei o non idonei per un aggiornamento. Puoi visualizzare i consigli di upgrade per un cluster idoneo e creare un piano di upgrade. Puoi risolvere i problemi con un cluster non idoneo per renderlo idoneo per un upgrade.
+È possibile utilizzare Upgrade Advisor per visualizzare l'elenco dei cluster idonei o non idonei per un aggiornamento. Puoi vedere consigli di upgrade per un cluster idoneo e generare un piano di upgrade. Puoi risolvere i problemi con un cluster non idoneo per renderlo idoneo per un upgrade.
 
 È possibile seguire questa procedura per generare un piano di upgrade per un singolo cluster e più cluster:
 
@@ -31,12 +31,9 @@ image:ua_widget.png["Uno screenshot che mostra il numero di cluster."]
 +
 Viene visualizzata la pagina *Upgrade Advisor-ONTAP*.
 
-. Verificare che l'opzione *Enhanced Upgrade Advisor* sia attivata.
+. Puoi visualizzare un elenco di cluster idonei e non idonei per un upgrade.
 +
 image:r_enhanced_ua_toggle.png["Una schermata che mostra l'attivazione di Upgrade Advisor avanzato è attiva."]
-
-+
-Puoi visualizzare un elenco di cluster idonei e non idonei per un upgrade.
 
 . Seleziona un cluster per un upgrade.
 La colonna *versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata. Fare clic su image:edit_icon.png["Immagine del pulsante Modifica"] Per selezionare un'altra versione del sistema operativo di destinazione di un cluster.
@@ -88,12 +85,9 @@ image:ua_widget.png["Uno screenshot che mostra il numero di cluster."]
 +
 Viene visualizzata la pagina *Upgrade Advisor-ONTAP*.
 
-. Verificare che l'opzione *Enhanced Upgrade Advisor* sia attivata.
+. Puoi visualizzare un elenco di cluster idonei e non idonei per un upgrade.
 +
 image:r_enhanced_ua_toggle.png["Una schermata che mostra l'attivazione di Upgrade Advisor avanzato è attiva."]
-
-+
-Puoi visualizzare un elenco di cluster idonei e non idonei per un upgrade.
 
 . Selezionare i cluster per un aggiornamento.
 La colonna *versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata.è possibile fare clic su image:edit_icon.png["Immagine del pulsante Modifica"] Per selezionare un'altra versione del sistema operativo di destinazione di un cluster.

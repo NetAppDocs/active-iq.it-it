@@ -82,8 +82,6 @@ sidebar:
       url: "/upgrade_advisor_overview.html"
     - title: Creazione di un piano di upgrade per cluster singolo e multipli
       url: "/generate_upgrade_plan_single_multiple_clusters.html"
-    - title: Generare un piano di upgrade per i nodi
-      url: "/task_view_upgrade.html"
   - title: Visualizza i dettagli del sistema
     entries:
     - title: Visualizza i dettagli dell'inventario

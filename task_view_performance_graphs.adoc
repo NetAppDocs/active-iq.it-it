@@ -62,7 +62,7 @@ Ad esempio, selezionare la scheda 2 mesi per visualizzare i dati per 2 mesi. In 
 |  | Throughput di rete |  |  
 |===
 
-NOTE: I grafici delle performance di latenza dei nodi e i grafici delle performance dei volumi sono supportati solo sui sistemi che eseguono ONTAP 9.2 e versioni successive.
+NOTE: I grafici relativi alla latenza dei nodi, al Tier locale (aggregato) e alle performance dei volumi sono supportati solo sui sistemi che eseguono ONTAP 9,2 e versioni successive.
 
 . Per i controller e-Series sono disponibili i seguenti grafici delle performance con le metriche richieste:
 +

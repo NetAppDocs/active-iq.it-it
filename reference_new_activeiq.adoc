@@ -20,6 +20,16 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 28 marzo 2024
+
+
+
+=== Upgrade Advisor
+
+La versione precedente di Upgrade Advisor è ora obsoleta. Puoi utilizzare la versione avanzata di Upgrade Advisor per generare piani di upgrade per un singolo cluster e più cluster. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Scopri come visualizzare consigli sull'upgrade e generare un piano di upgrade."]
+
+
+
 == 15 marzo 2024
 
 
@@ -70,7 +80,7 @@ A questo punto è possibile visualizzare le informazioni RPM del disco nella sez
 
 === Upgrade Advisor
 
-Upgrade Advisor è stato migliorato per fornire piani di upgrade automatici e senza interruzioni per un singolo cluster e più cluster. Puoi vedere i consigli di upgrade solo per un singolo cluster, che include un riepilogo dei rischi, un report di controllo pre-aggiornamento e informazioni su nuove funzionalità e miglioramenti. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Scoprite come visualizzare i suggerimenti per l'aggiornamento e generare un piano di aggiornamento."]
+Upgrade Advisor è stato migliorato per fornire piani di upgrade automatici e senza interruzioni per un singolo cluster e più cluster. Puoi vedere i consigli di upgrade solo per un singolo cluster, che include un riepilogo dei rischi, un report di controllo pre-aggiornamento e informazioni su nuove funzionalità e miglioramenti. link:https://docs.netapp.com/us-en/active-iq/upgrade_advisor_overview.html["Scopri come visualizzare consigli sull'upgrade e generare un piano di upgrade."]
 
 
 
