@@ -20,17 +20,42 @@ Le seguenti domande forniscono risposte alle domande frequenti su Digital Adviso
 
 
 
+== Caso tecnico
+
+*Quando si crea un caso tecnico?*
+
+I casi tecnici vengono creati per richiedere assistenza con qualsiasi prodotto NetApp su problemi tecnici correlati a interruzioni dell'hardware, scarse prestazioni, problemi di dati o richieste di informazioni tecniche.
+
+*Come posso creare un caso tecnico?*
+
+. Fare clic su link:https://mysupport.netapp.com/site/global/dashboard["qui"^] Per aprire il sito del supporto NetApp.
+. Dal menu superiore, fare clic su *casi personali*.
+. Fare clic su *Crea un caso*.
+. Selezionare una categoria, fornire i dettagli richiesti e fare clic su *Nuova ricerca* per cercare un sistema dall'inventario.
+. Dall'elenco dei sistemi visualizzati, selezionare il sistema per creare il caso.
+. Selezionare la priorità per il nuovo caso.
+. Selezionare la categoria appropriata dall'elenco a discesa *Categoria problema*.
+. Immettere la descrizione del problema nel campo Descrizione problema e fare clic su *Procedi*.
+. Fornire ulteriori dettagli sul problema.
+. Fare clic su *Seleziona file* per caricare i file o le immagini che possono aiutare a diagnosticare il problema.
+. Fare clic su *Procedi*.
+. Fornisci i tuoi dettagli di contatto.
+. Fare clic su *Crea caso*.
+
+
+
+
 == Caso non tecnico
 
 *Cos'è un caso non tecnico?*
 
 Problemi come l'impossibilità di visualizzare i sistemi nell'inventario, le date di scadenza del contratto non corrette e così via, che non sono di natura tecnica, sono classificati come casi non tecnici.
 
-*Quando devo creare un caso non tecnico?*
+*Quando si crea un caso non tecnico?*
 
 È necessario creare un caso non tecnico per i seguenti casi:
 
-* Impossibile accedere a determinate funzioni
+* Impossibile accedere a determinate funzioni o richiedere assistenza per qualsiasi funzione di Digital Advisor
 * Sistemi mancanti nell'inventario
 * Decommissionamento di un sistema dalla base di installazione
 * Date dei termini del contratto non corrette o mancanti

@@ -460,9 +460,7 @@
   <block id="73cbb404e3fdd583d819be0e2eb8034e" category="section-title">Caso non tecnico</block>
   <block id="b09ac678fb70485b6003259d225086ea" category="paragraph">*Cos'è un caso non tecnico?*</block>
   <block id="49b0363cd6699cf55e78d722000a5e8c" category="paragraph">Problemi come l'impossibilità di visualizzare i sistemi nell'inventario, le date di scadenza del contratto non corrette e così via, che non sono di natura tecnica, sono classificati come casi non tecnici.</block>
-  <block id="5eb51f8ff81951a471d845f526636e66" category="paragraph">*Quando devo creare un caso non tecnico?*</block>
   <block id="53184e7a4bde7d1975ba90074c0a52d3" category="paragraph">È necessario creare un caso non tecnico per i seguenti casi:</block>
-  <block id="83f77ac81e7b9adec1ae7943c11aef16" category="list-text">Impossibile accedere a determinate funzioni</block>
   <block id="9f289da80756bc405e29b49d51ac81d8" category="list-text">Sistemi mancanti nell'inventario</block>
   <block id="7f03ee6a26eada8c343d4876fe635184" category="list-text">Decommissionamento di un sistema dalla base di installazione</block>
   <block id="e8298308fc4d536ad5a50bc21152434f" category="list-text">Date dei termini del contratto non corrette o mancanti</block>
@@ -1503,4 +1501,23 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="9d10674ae163e749f65c1eeb852cdf2b" category="paragraph">La versione precedente di Upgrade Advisor è ora obsoleta. Puoi utilizzare la versione avanzata di Upgrade Advisor per generare piani di upgrade per un singolo cluster e più cluster. <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
   <block id="09e1051fd25e78ca51d5f56f36581890" category="paragraph">Upgrade Advisor è stato migliorato per fornire piani di upgrade automatici e senza interruzioni per un singolo cluster e più cluster. Puoi vedere i consigli di upgrade solo per un singolo cluster, che include un riepilogo dei rischi, un report di controllo pre-aggiornamento e informazioni su nuove funzionalità e miglioramenti. <block ref="b6cac2681a05b9a8dd19bf0553cd1066" category="inline-link-macro-rx"></block></block>
   <block id="cd798e0859b41c1efded8de089ce45b3" category="paragraph">È possibile utilizzare Upgrade Advisor per visualizzare l'elenco dei cluster idonei o non idonei per un aggiornamento. Puoi vedere consigli di upgrade per un cluster idoneo e generare un piano di upgrade. Puoi risolvere i problemi con un cluster non idoneo per renderlo idoneo per un upgrade.</block>
+  <block id="1f9ef86a19fb9104f4d7a15dcd85da08" category="section-title">Caso tecnico</block>
+  <block id="3a3fe5cea8eb171bc705034869baf974" category="paragraph">*Quando si crea un caso tecnico?*</block>
+  <block id="34146078710488bcb88e2208ddabb74e" category="paragraph">I casi tecnici vengono creati per richiedere assistenza con qualsiasi prodotto NetApp su problemi tecnici correlati a interruzioni dell'hardware, scarse prestazioni, problemi di dati o richieste di informazioni tecniche.</block>
+  <block id="8fa70b8a3fbd3112ebe49465f5e4f6f4" category="paragraph">*Come posso creare un caso tecnico?*</block>
+  <block id="74345213f8d76009dd92f861947ff81d" category="list-text">Fare clic su <block ref="a45cbd48db1a7657ddea8845179b9e30" category="inline-link-macro-rx"></block> Per aprire il sito del supporto NetApp.</block>
+  <block id="ab26c6ed73849626062a39e18c415af0" category="list-text">Dal menu superiore, fare clic su *casi personali*.</block>
+  <block id="97026494f28ea8b85c28720a5dcc49ba" category="list-text">Fare clic su *Crea un caso*.</block>
+  <block id="2017e57b58cd03255505cd1386833eda" category="list-text">Selezionare una categoria, fornire i dettagli richiesti e fare clic su *Nuova ricerca* per cercare un sistema dall'inventario.</block>
+  <block id="3a7cf8f60b6dbf828b28e59d650f69c7" category="list-text">Dall'elenco dei sistemi visualizzati, selezionare il sistema per creare il caso.</block>
+  <block id="d25803d7582f3b219af4a612ad2ec38a" category="list-text">Selezionare la priorità per il nuovo caso.</block>
+  <block id="d58cf7db3887b590a8c6217f53660b52" category="list-text">Selezionare la categoria appropriata dall'elenco a discesa *Categoria problema*.</block>
+  <block id="5b2a1684bf941c030a190eeaca82ea46" category="list-text">Immettere la descrizione del problema nel campo Descrizione problema e fare clic su *Procedi*.</block>
+  <block id="4f42268c65a397c8cddfe11341e788b6" category="list-text">Fornire ulteriori dettagli sul problema.</block>
+  <block id="0d105b5d8aad07987a8fc6ca830c5c98" category="list-text">Fare clic su *Seleziona file* per caricare i file o le immagini che possono aiutare a diagnosticare il problema.</block>
+  <block id="2f88e5cbd35ab951b0bce5a96b06bb36" category="list-text">Fare clic su *Procedi*.</block>
+  <block id="dd270a8aa811a52ca44969147eaf4518" category="list-text">Fornisci i tuoi dettagli di contatto.</block>
+  <block id="06d3f9f9f2de449fd422952b01199c74" category="list-text">Fare clic su *Crea caso*.</block>
+  <block id="04bfee7a9caf8ee1fb8cd6090edec89f" category="paragraph">*Quando si crea un caso non tecnico?*</block>
+  <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">Impossibile accedere a determinate funzioni o richiedere assistenza per qualsiasi funzione di Digital Advisor</block>
 </blocks>
