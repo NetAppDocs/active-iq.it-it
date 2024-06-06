@@ -18,10 +18,10 @@ summary: Fornisce informazioni sulla sostenibilità che consentono di ridurre il
 [role="lead"]
 La sostenibilità, come servizio, consente di ridurre il consumo di energia e di lavorare per raggiungere gli obiettivi ambientali. Ciò consente di allineare i sistemi storage con pratiche ecocompatibili e di raggiungere gli obiettivi di sostenibilità.
 
-È possibile utilizzare il dashboard Sustainability per visualizzare il punteggio di sostenibilità e l'utilizzo previsto di potenza, carbonio diretto e calore dal dashboard Sustainability. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. In base al punteggio di sostenibilità, puoi valutare la postura di sostenibilità e implementare le azioni consigliate da NetApp per migliorare il punteggio. Per ulteriori informazioni sul dashboard Sustainability, visitare il sito Web all'indirizzo link:BlueXP_sustainability_dashboard_overview.html["Panoramica della dashboard Sustainability"].
+È possibile visualizzare il punteggio di sostenibilità e l'utilizzo previsto di potenza, carbonio diretto e calore dal dashboard Sustainability. È possibile regolare la percentuale di riduzione del carbonio per siti specifici. È inoltre possibile visualizzare il punteggio di sostenibilità a livello di cluster. In base al punteggio di sostenibilità, puoi valutare la postura di sostenibilità e implementare le azioni consigliate da NetApp per migliorare il punteggio. Per ulteriori informazioni sul dashboard Sustainability, visitare il sito Web all'indirizzo link:BlueXP_sustainability_dashboard_overview.html["Panoramica della dashboard Sustainability"].
 
 
-NOTE: La sostenibilità è supportata dai sistemi AFF, sia A-Series che C-Series, dai sistemi FAS e da Cloud Volumes ONTAP.
+NOTE: La sostenibilità è supportata dai sistemi Cloud Volumes ONTAP, AFF (A-Series e C-Series), e-Series, FAS e StorageGRID.
 
 È possibile visualizzare il seguente video per comprendere il dashboard Sustainability:
 

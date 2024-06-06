@@ -28,7 +28,7 @@ Di seguito sono riportate alcune delle funzioni di Digital Advisor:
 * Ottieni informazioni su tutti i rischi per il tuo sistema storage e sulle azioni per mitigarne i rischi.
 * Mitigare i rischi con Active IQ Unified Manager.
 * Aggiorna il tuo sistema storage.
-* Visualizza il punteggio di sostenibilità e l'utilizzo previsto di energia, carbonio diretto e calore. In base al punteggio di sostenibilità, valuta l'efficienza complessiva dei tuoi sistemi storage e allinea con le azioni consigliate da NetApp per migliorare il punteggio. link:concept_understand_sustainability_dashboard.html["Scopri di più"].
+* Visualizza il punteggio di sostenibilità e l'utilizzo previsto di energia, carbonio diretto e calore. In base al punteggio di sostenibilità, valuta l'efficienza complessiva dei tuoi sistemi storage e allinea con le azioni consigliate da NetApp per migliorare il punteggio. link:learn_BlueXP_sustainability.html["Scopri di più"^].
 * Visualizzare il rapporto di riduzione dei dati, lo spazio logico utilizzato, lo spazio fisico utilizzato e i dati totali salvati per i sistemi storage che eseguono ONTAP 9,1 e versioni successive.
 * Analizza le performance dei tuoi dispositivi di storage visualizzando il formato grafico dei dati delle performance.
 * Ottieni informazioni su hardware e software scaduti o prossimi alla scadenza entro i prossimi 6 mesi.
