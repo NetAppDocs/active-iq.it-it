@@ -16,7 +16,7 @@ summary: Fornisce informazioni sulla dashboard, sul punteggio di sostenibilità,
 
 
 [role="lead"]
-La dashboard Sustainability fornisce una valutazione ambientale del tuo sistema storage e informazioni utilizzabili per il miglioramento sotto forma di azioni consigliate da NetApp.
+La dashboard Sustainability fornisce una valutazione ambientale dei tuoi sistemi storage e informazioni utilizzabili per il miglioramento sotto forma di azioni consigliate da NetApp.
 
 image:get_started_sustainability_dashboard.png["Uno screenshot dell'interfaccia utente che mostra il dashboard Sustainability."]
 
@@ -35,14 +35,13 @@ Puoi vedere la rappresentazione grafica del punteggio fino a 5 settimane, che vi
 
 image:sustainability_score.png["Una schermata che mostra il punteggio di sostenibilità insieme al grafico."]
 
-*Indicatori ambientali*: Visualizza le proiezioni relative all'alimentazione, all'utilizzo diretto del carbonio e all'emissione di calore per valutare lo stato di salute ambientale del sistema di storage. Queste proiezioni si basano sui valori di potenza effettivi, se non disponibili, tipici. È possibile visualizzare queste proiezioni mensilmente, trimestrali o annuali selezionando l'opzione desiderata dal menu a discesa nell'angolo superiore destro di questa sezione.
+*Indicatori ambientali*: Visualizza le proiezioni relative alla potenza, all'utilizzo diretto del carbonio e all'emissione di calore per valutare la salute ambientale dei sistemi di stoccaggio. Queste proiezioni si basano sui valori di potenza effettivi, se non disponibili, tipici. È possibile visualizzare queste proiezioni mensilmente, trimestrali o annuali selezionando l'opzione desiderata dal menu a discesa nell'angolo superiore destro di questa sezione.
 
 *Carbon mitigation percentuali*: Visualizza la percentuale di riduzione del carbonio in ogni sito/città e i valori di riferimento presentati si basano sulla tua posizione. È possibile regolare la percentuale di riduzione del carbonio per siti specifici facendo clic su image:edit_icon_1.png["Una schermata che mostra un'icona modificabile."] accanto ai valori percentuali, i numeri di carbone vengono regolati automaticamente.
 
 image:carbon_mitigation_percentage.png["Una schermata che mostra la percentuale di attenuazione del carbonio dei siti e come modificare questa percentuale."]
 
-*Azioni consigliate*: Visualizza l'elenco delle azioni consigliate per migliorare il punteggio di sostenibilità del sistema storage. Queste azioni possono essere eseguite immediatamente o in un secondo momento.
-Per ulteriori informazioni su come migliorare il punteggio di sostenibilità, vedere link:improve_sustainability_score.html["Migliorare il punteggio di sostenibilità"].
+*Azioni consigliate*: Visualizza l'elenco delle azioni consigliate per migliorare il punteggio di sostenibilità dei sistemi storage. Queste azioni possono essere eseguite immediatamente o in un secondo momento. Per ulteriori informazioni su come migliorare il punteggio di sostenibilità, vedere link:improve_sustainability_score.html["Migliorare il punteggio di sostenibilità"].
 
 *Ambienti di lavoro*: Visualizza nella tabella i parametri ambientali che possono aiutare a identificare i cluster per il passaggio a uno storage più efficiente. Da questa tabella è possibile:
 
