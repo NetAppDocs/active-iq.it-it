@@ -89,8 +89,6 @@
   <block id="729ee1fe065c2a9eddbc991953f9e9ea" category="paragraph">Di seguito sono riportati i tipi di report disponibili in Digital Advisor:</block>
   <block id="fb988f484e2c15b2a450e5b4c6255e46" category="cell">Nome report</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Descrizione</block>
-  <block id="0c9c13cde9e8b69be84ca36dee87f611" category="cell">Piani Upgrade Advisor 7-Mode</block>
-  <block id="997e7cc095a9554f17d93457daa42a47" category="cell">Fornisce un report sul piano di upgrade Advisor per i sistemi 7-mode. Questo report include informazioni sul partner ha.</block>
   <block id="206b11a774f63418bae21625e6f6d2fb" category="cell">Inventario di Ansible</block>
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">Fornisce un file di inventario Ansible che elenca tutti i dettagli di inventario del sistema per regione o sito. Questo file può essere utilizzato per l'automazione.</block>
   <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">Capacità ed efficienza</block>
@@ -1076,7 +1074,6 @@
   <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">Nodo *</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">Supportato su tutte le piattaforme</block>
   <block id="28e26766a62bd9ef329986f7963b6357" category="cell">Aggiunta di capacità</block>
-  <block id="b892c2b3bdaaf51bbf65f75ef159ae10" category="cell">Supportato solo su piattaforme ONTAP (Data ONTAP in 7-Mode e Clustered Data ONTAP)</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">Supportato solo su Clustered Data ONTAP</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">Aggiornamenti</block>
   <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Documentazione di Digital Advisor</block>
@@ -1529,4 +1526,8 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="8352fdd61dbba9f97925bd7797c4eb47" category="paragraph">La sostenibilità è ora supportata dai sistemi e-Series e StorageGRID. È possibile visualizzare un elenco delle azioni consigliate e degli indicatori ambientali che visualizzano le proiezioni relative all'alimentazione, all'utilizzo diretto di carbonio e al calore dal dashboard Sustainability di questi sistemi. Per ulteriori informazioni, fare riferimento a <block ref="8ef455a63dd9427c902954b8e3c7f21b" category="inline-link-macro-rx"></block>.</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
   <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
+  <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">21 agosto 2024</block>
+  <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Supporto della versione software</block>
+  <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Aggiornamento dei sistemi di storage Data ONTAP 7-Mode</block>
+  <block id="bebf3b3af19cc5d4d44b97e70e8b3ffb" category="paragraph">Il report *7-Mode Upgrade Advisor Plans* non è più disponibile in quanto i sistemi 7-Mode hanno raggiunto la fine del supporto limitato. Per ulteriori informazioni, vedere <block ref="20732c2f8b67b7236a6509e096709359" category="inline-link-macro-rx"></block>. Ulteriori informazioni su <block ref="ee2cd00409c56591f09249cc9e682f11" category="inline-link-macro-rx"></block>.</block>
 </blocks>

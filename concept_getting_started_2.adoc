@@ -40,7 +40,7 @@ Leggere le seguenti informazioni per conoscere i widget supportati dal sistema d
 | Rinnovi | Supportato su tutte le piattaforme | Supportato su tutte le piattaforme | Supportato su tutte le piattaforme 
 
 
-| Aggiunta di capacità | Supportato solo su piattaforme ONTAP (Data ONTAP in 7-Mode e Clustered Data ONTAP) | Supportato solo su piattaforme ONTAP (Data ONTAP in 7-Mode e Clustered Data ONTAP) | Supportato solo su piattaforme ONTAP (Data ONTAP in 7-Mode e Clustered Data ONTAP) 
+| Aggiunta di capacità | Supportato solo su Clustered Data ONTAP | Supportato solo su Clustered Data ONTAP | Supportato solo su Clustered Data ONTAP 
 
 
 | Inventario | Supportato su tutte le piattaforme | Supportato solo su Clustered Data ONTAP | Supportato solo su Clustered Data ONTAP 
