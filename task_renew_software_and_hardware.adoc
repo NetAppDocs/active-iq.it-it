@@ -4,7 +4,7 @@ permalink: task_renew_software_and_hardware.html
 keywords: renew, hardware, software 
 summary: 'Fornisce informazioni per rinnovare il software e l"hardware del sistema storage.' 
 ---
-= Rinnova il software e l'hardware del tuo sistema storage
+= Rinnova software e hardware del tuo sistema storage
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
