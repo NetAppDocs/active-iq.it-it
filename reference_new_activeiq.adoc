@@ -20,6 +20,16 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 23 settembre 2024
+
+
+
+=== Offerte di supporto
+
+L'offerta di servizi NetApp SupportEdge Basic ora include tutte le funzionalità di consulente digitale disponibili in SupportEdge Advisor e SupportEdge Expert, ad eccezione della topologia full-stack (VMware), che non fornisce visibilità sul monitoring full-stack di VMware, anche se abilitato.
+
+
+
 == 21 agosto 2024
 
 
