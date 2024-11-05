@@ -1,0 +1,9 @@
+= Dashboard sulla sostenibilità
+:allow-uri-read: 
+
+
+
+
+=== Dashboard sulla sostenibilità
+
+Gli indicatori ambientali che forniscono informazioni approfondite sulla salute ambientale dei sistemi di storage forniscono ora valori più precisi per l'utilizzo previsto dell'energia, l'utilizzo diretto del carbonio e l'emissione di calore basati su un modello predittivo avanzato. Per ulteriori informazioni, fare riferimento a link:https://docs.netapp.com/us-en/active-iq/BlueXP_sustainability_dashboard_overview.html["Panoramica della dashboard Sustainability"].
