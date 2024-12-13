@@ -22,8 +22,7 @@ Puoi generare piani di upgrade automatici e senza interruzioni per un singolo cl
 
 [NOTE]
 ====
-* Per ogni cluster in una configurazione MetroCluster, genera un piano di upgrade individuale per ottenere istruzioni complete.
-
+Per ogni cluster in una configurazione MetroCluster, genera un piano di upgrade individuale per ottenere istruzioni complete.
 
 ====
 Prima di generare un piano di aggiornamento, è necessario prepararsi per un aggiornamento di ONTAP. Una preparazione adeguata aiuta a identificare e ridurre i potenziali rischi o blocchi di aggiornamento prima di iniziare il processo di aggiornamento. Per ulteriori informazioni, vedere link:https://docs.netapp.com/us-en/ontap/upgrade/prepare.html["Prepararsi per un aggiornamento di ONTAP"^].
