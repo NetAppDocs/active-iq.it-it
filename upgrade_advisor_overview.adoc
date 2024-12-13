@@ -23,7 +23,6 @@ Puoi generare piani di upgrade automatici e senza interruzioni per un singolo cl
 [NOTE]
 ====
 * Per ogni cluster in una configurazione MetroCluster, genera un piano di upgrade individuale per ottenere istruzioni complete.
-* Per i cluster che eseguono ONTAP 9,6 o versioni precedenti, puoi visualizzare informazioni su nuove funzionalità e miglioramenti nei consigli sull'upgrade. Il report di controllo pre-aggiornamento e il riepilogo dei rischi non sono disponibili ed è possibile generare un piano di upgrade nel formato precedente.
 
 
 ====
