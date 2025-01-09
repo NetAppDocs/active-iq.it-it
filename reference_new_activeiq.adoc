@@ -30,6 +30,16 @@ Ora puoi vedere il firmware dello storage, il firmware SP/BMC e il pacchetto Aut
 
 
 
+== 04 dicembre 2024
+
+
+
+=== Widget AutoSupport
+
+Il widget AutoSupport è stato aggiunto alla schermata principale del dashboard per avvisare i clienti dei problemi relativi allo stato di AutoSupport.
+
+
+
 == 23 settembre 2024
 
 

@@ -1538,4 +1538,13 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">Fare clic su *Visualizza raccomandazioni* per visualizzare l'elenco delle raccomandazioni.</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">Nella colonna *Stato aggiornamento*, fare clic su *See Progress* (Visualizza avanzamento) per visualizzare i cluster idonei per un aggiornamento.</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">In caso di problemi, fare clic sui rispettivi collegamenti per visualizzare i passaggi per mitigare i problemi.</block>
+  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">Widget AutoSupport</block>
+  <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">Il widget AutoSupport è stato aggiunto alla schermata principale del dashboard per avvisare i clienti dei problemi relativi allo stato di AutoSupport.</block>
+  <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">Il widget AutoSupport non è disponibile per i numeri di serie e del cluster</block>
+  <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">Il widget AutoSupport non fornisce avvisi per ricerche di cluster e numeri di serie.</block>
+  <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">Il widget AutoSupport non è in grado di eseguire il drill-down dei dettagli AutoSupport a livello seriale</block>
+  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">Nella pagina rapporti AutoSupport, facendo clic su uno degli stati, sui sistemi che hanno recentemente interrotto l'invio o sui sistemi con AutoSupport disattivato, non viene visualizzata la schermata controllo integrità.</block>
+  <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">Il filtraggio e l'ordinamento non sono disponibili nel widget inventario</block>
+  <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">Non è possibile filtrare e ordinare i dati nel widget dell'inventario. Se si seleziona ONTAP AFF, ONTAP ASA, ONTAP Edge o ONTAP Select nel menu a discesa "Filtra per", non viene visualizzato alcun dato.</block>
+  <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">04 dicembre 2024</block>
 </blocks>

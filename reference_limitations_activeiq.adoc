@@ -46,3 +46,21 @@ I report pianificati sono disponibili solo con un contratto di supporto SupportE
 == I rischi riconosciuti e non riconosciuti possono richiedere 60 minuti per riflettere in Digital Advisor
 
 Lo stato dei rischi riconosciuti e non riconosciuti non si riflette immediatamente in Digital Advisor. Potrebbero essere necessari fino a 60 minuti affinché le modifiche si riflettano in Digital Advisor e nel report del benessere.
+
+
+
+== Il widget AutoSupport non è disponibile per i numeri di serie e del cluster
+
+Il widget AutoSupport non fornisce avvisi per ricerche di cluster e numeri di serie.
+
+
+
+== Il widget AutoSupport non è in grado di eseguire il drill-down dei dettagli AutoSupport a livello seriale
+
+Nella pagina rapporti AutoSupport, facendo clic su uno degli stati, sui sistemi che hanno recentemente interrotto l'invio o sui sistemi con AutoSupport disattivato, non viene visualizzata la schermata controllo integrità.
+
+
+
+== Il filtraggio e l'ordinamento non sono disponibili nel widget inventario
+
+Non è possibile filtrare e ordinare i dati nel widget dell'inventario. Se si seleziona ONTAP AFF, ONTAP ASA, ONTAP Edge o ONTAP Select nel menu a discesa "Filtra per", non viene visualizzato alcun dato.
