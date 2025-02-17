@@ -20,49 +20,61 @@ Digital Advisor offre una vasta gamma di opzioni di reporting che consentono di 
 
 Di seguito sono riportati i tipi di report disponibili in Digital Advisor:
 
-[cols="30,70"]
+[cols="20,50,10,10,10"]
 |===
-| Nome report | Descrizione 
+| Nome report | Descrizione | Disponibile in ONTAP | Disponibile in e-Series | Disponibile in StorageGRID 
 
 
-| Inventario di Ansible | Fornisce un file di inventario Ansible che elenca tutti i dettagli di inventario del sistema per regione o sito. Questo file può essere utilizzato per l'automazione. 
+| Inventario di Ansible | Fornisce un file di inventario Ansible che elenca tutti i dettagli di inventario del sistema per regione o sito. Questo file può essere utilizzato per l'automazione. | Sì | No | No 
 
 
-| Capacità ed efficienza | Fornisce informazioni sulla capacità e sull'efficienza a livello di cluster, cliente, sito, gruppo, elenco di controllo e nodo. 
+| Capacità ed efficienza | Fornisce informazioni sulla capacità e sull'efficienza a livello di cluster, cliente, sito, gruppo, elenco di controllo e nodo. | Sì | Sì | Sì 
 
 
-| Report di ClusterViewer | Fornisce informazioni su uno o più cluster a livello di cliente e lista di controllo. È possibile generare questo report solo per la lista di controllo con un massimo di 100 nodi. 
+| Consigli sul cloud | Fornisce approfondimenti e consigli per l'ottimizzazione delle risorse cloud. Include dettagli su disaster recovery, backup, tiering e migrazione. | Sì | No | No 
 
 
-| FabricPool | Fornisce informazioni su inattivo, freddo, attivo, caldo, su più livelli, e dati non monitorati. Questo report include anche il playbook Ansible per l'abilitazione di report di dati inattivi su aggregati disabilitati. 
+| ClusterViewer | Fornisce informazioni su uno o più cluster a livello di cliente e lista di controllo. È possibile generare questo report solo per la lista di controllo con un massimo di 100 nodi. | Sì | No | No 
 
 
-| Inventario | Fornisce informazioni sulla base di installazione per un elenco di controllo, un cliente, un sito o livelli di gruppo selezionati. Questo report può essere generato sia come download diretto dalla pagina Dettagli inventario che come generazione dalla pagina Report. 
+| Deriva config | Consente agli utenti di stabilire una "linea di base dorata" per le configurazioni di sistema e avvisa quando si verificano deviazioni da questa linea di base. Aiuta a identificare e gestire le modifiche di configurazione che possono influire sulle prestazioni o sulla sicurezza del sistema. | Sì | No | No 
 
 
-| Densità io | Io Density Report fornisce informazioni sui picchi delle operazioni input-output per i clienti in termini di consumo e densità di dati e metadati. 
+| Logistica di consegna | Fornisce informazioni sulla logistica della fornitura di prodotti e servizi. | Sì | Sì | No 
 
 
-| Report sulle performance | Fornisce informazioni, a livello di elenco di controllo, sulle performance di un cluster, nodo, Tier locale (aggregato) e volume. È possibile generare questo report solo per la lista di controllo con un massimo di 100 nodi. 
+| Riepilogo esecutivo della valutazione dello stato | Fornisce informazioni sui vari KPI Active IQ in formato PowerPoint (PPT), con KPI diversi descritti in diapositive diverse. | Sì | Sì | No 
 
 
-| Configurazione consigliata | Fornisce informazioni sui vari gap di configurazione consigliati per la configurazione della gestione remota, le unità di riserva e i dischi, la coppia ha e lo stato di salute SVM. 
+| Inventario | Fornisce informazioni sulla base di installazione per un elenco di controllo, un cliente, un sito o livelli di gruppo selezionati. Questo report può essere generato sia come download diretto dalla pagina Dettagli inventario che come generazione dalla pagina Report. | Sì | Sì | Sì 
 
 
-| Contratti di supporto / hardware EOS | Fornisce informazioni sull'elenco di controller, shelf e dischi che hanno raggiunto la fine del supporto (EOS). 
+| Densità io | Io Density Report fornisce informazioni sui picchi delle operazioni input-output per i clienti in termini di consumo e densità di dati e metadati. | Sì | No | No 
 
 
-| Dettagli tecnici del caso | Fornisce un report annuale su tutti i casi tecnici e sul loro stato. 
+| Performance | Fornisce informazioni, a livello di elenco di controllo, sulle performance di un cluster, nodo, Tier locale (aggregato) e volume. È possibile generare questo report solo per la lista di controllo con un massimo di 100 nodi. | Sì | Sì | No 
 
 
-| Consigli per l'aggiornamento (SW e FW) | Report multi-tabbed sulla valuta del software e del firmware e sulle versioni consigliate per ciascun controller o seriale nei criteri di ricerca. 
+| Digest periodico | Riepiloga periodicamente le metriche e le informazioni chiave. Include i dati sulle performance, la capacità e l'efficienza del sistema. | Sì | No | No 
 
 
-| Report sulle performance dei volumi | Fornisce informazioni sui dettagli delle performance dei volumi a livello di cluster. 
+| Configurazione consigliata | Fornisce informazioni sui vari gap consigliati di configurazione per configurazione di gestione remota, spare e dischi, coppia ha, SVM Health, stato della batteria e avvisi di recovery guru. | Sì | Sì | No 
 
 
-| Benessere | Fornisce informazioni sui rischi in sospeso e riconosciuti, sui dettagli dei rischi, sulle azioni correttive e sui sistemi interessati. 
+| Contratti di supporto / hardware EOS | Fornisce informazioni sui dettagli del contratto e sull'elenco di controller, shelf e dischi che hanno raggiunto la fine del supporto (EOS). | Sì | Sì | No 
 
 
-| Benessere – aggregato | Fornisce un riepilogo dei rischi in sospeso e del numero di sistemi interessati. 
+| Dettagli tecnici del caso | Fornisce un report annuale su tutti i casi tecnici e sul loro stato. | Sì | Sì | Sì 
+
+
+| Piano di aggiornamento | Offre consigli per gli aggiornamenti di software e firmware. Include dettagli sulle ultime versioni consigliate, potenziali problemi e passaggi per l'esecuzione degli aggiornamenti. | Sì | No | No 
+
+
+| Consigli per l'aggiornamento (SW e FW) | Report multi-tabbed sulla valuta del software e del firmware e sulle versioni consigliate per ciascun controller o seriale nei criteri di ricerca. | Sì | Sì | No 
+
+
+| Performance dei volumi | Fornisce informazioni sui dettagli delle performance dei volumi a livello di cluster. | Sì | No | No 
+
+
+| Benessere | Fornisce informazioni sui rischi in sospeso e riconosciuti, sui dettagli dei rischi, sulle azioni correttive e sui sistemi interessati. | Sì | Sì | Sì 
 |===

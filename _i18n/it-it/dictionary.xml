@@ -92,30 +92,21 @@
   <block id="f34a643181d75dbba89d10d14f0d8041" category="cell">Fornisce un file di inventario Ansible che elenca tutti i dettagli di inventario del sistema per regione o sito. Questo file può essere utilizzato per l'automazione.</block>
   <block id="2d99f2b259d1d48f91090cd494f911f9" category="cell">Capacità ed efficienza</block>
   <block id="5da3b92de536337b0597bb58ef5868ac" category="cell">Fornisce informazioni sulla capacità e sull'efficienza a livello di cluster, cliente, sito, gruppo, elenco di controllo e nodo.</block>
-  <block id="7ba03c87de2b2098f95107674c8477ff" category="cell">Report di ClusterViewer</block>
   <block id="acaaa059ccc549a29b26a0c1ad515bba" category="cell">Fornisce informazioni su uno o più cluster a livello di cliente e lista di controllo. È possibile generare questo report solo per la lista di controllo con un massimo di 100 nodi.</block>
-  <block id="55449fd175613962d882ab450cfc5f3c" category="cell">FabricPool</block>
-  <block id="7eaee357275d531796b5348076c7abaa" category="cell">Fornisce informazioni su inattivo, freddo, attivo, caldo, su più livelli, e dati non monitorati. Questo report include anche il playbook Ansible per l'abilitazione di report di dati inattivi su aggregati disabilitati.</block>
   <block id="4d604dd8f008145471dc845683399189" category="cell">Inventario</block>
   <block id="2a414d2cb2f384ea04369dd0623dab64" category="cell">Fornisce informazioni sulla base di installazione per un elenco di controllo, un cliente, un sito o livelli di gruppo selezionati. Questo report può essere generato sia come download diretto dalla pagina Dettagli inventario che come generazione dalla pagina Report.</block>
   <block id="e5f2463f379aba48a0f9ca6c913203cc" category="cell">Densità io</block>
   <block id="7f5c8fc8352c3e254ac3f5c7cf32c466" category="cell">Io Density Report fornisce informazioni sui picchi delle operazioni input-output per i clienti in termini di consumo e densità di dati e metadati.</block>
-  <block id="f7ced170f0a650cade73ee4d9d2d75de" category="cell">Report sulle performance</block>
   <block id="a26bfd54d2d0360c1432f1b51ff336ad" category="cell">Fornisce informazioni, a livello di elenco di controllo, sulle performance di un cluster, nodo, Tier locale (aggregato) e volume. È possibile generare questo report solo per la lista di controllo con un massimo di 100 nodi.</block>
   <block id="8a12eef10db15850c4fa22387e8a4ff9" category="cell">Configurazione consigliata</block>
-  <block id="c829d71ff8f116d3f11dc69d03aa4c34" category="cell">Fornisce informazioni sui vari gap di configurazione consigliati per la configurazione della gestione remota, le unità di riserva e i dischi, la coppia ha e lo stato di salute SVM.</block>
   <block id="02e55cfbe6e55152bef274ca4a6a3d14" category="cell">Contratti di supporto / hardware EOS</block>
-  <block id="945bdabc5825ce732fb5d22e7dd80610" category="cell">Fornisce informazioni sull'elenco di controller, shelf e dischi che hanno raggiunto la fine del supporto (EOS).</block>
   <block id="fca571dd1b59c732f4bccd0d20435b5d" category="cell">Dettagli tecnici del caso</block>
   <block id="d6cb167525a6b69100791b38c109bfe9" category="cell">Fornisce un report annuale su tutti i casi tecnici e sul loro stato.</block>
   <block id="5cbae6debb1f76f9bf4bec9196da5dc6" category="cell">Consigli per l'aggiornamento (SW e FW)</block>
   <block id="9932f2379db681a01520e32c482a3ddb" category="cell">Report multi-tabbed sulla valuta del software e del firmware e sulle versioni consigliate per ciascun controller o seriale nei criteri di ricerca.</block>
-  <block id="7780a058aaed86fab91b6e7629c71e93" category="cell">Report sulle performance dei volumi</block>
   <block id="2bc63cd07b97ee266354dc14df194285" category="cell">Fornisce informazioni sui dettagli delle performance dei volumi a livello di cluster.</block>
   <block id="32a07c6643e39bb3fe494292db9ae233" category="cell">Benessere</block>
   <block id="8d4f3dea5577dce7739de17b3c022f16" category="cell">Fornisce informazioni sui rischi in sospeso e riconosciuti, sui dettagli dei rischi, sulle azioni correttive e sui sistemi interessati.</block>
-  <block id="117d48eb5d133fd5a508d66f884c3c85" category="cell">Benessere – aggregato</block>
-  <block id="df67990129d3bd9cbda01755e666bbee" category="cell">Fornisce un riepilogo dei rischi in sospeso e del numero di sistemi interessati.</block>
   <block id="181b78869ff3c2e1d0f13fbb85809980" category="summary">Fornisce informazioni su come eseguire Ansible Playbook utilizzando l'immagine del docker.</block>
   <block id="23ed0325a3e4b1fb0cb88618017f6637" category="doc">Esegui Ansible Playbook senza immagine di NetApp Docker</block>
   <block id="a7f5f35426b927411fc9231b56382173" category="inline-link-macro">Python</block>
@@ -1547,4 +1538,22 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">Il filtraggio e l'ordinamento non sono disponibili nel widget inventario</block>
   <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">Non è possibile filtrare e ordinare i dati nel widget dell'inventario. Se si seleziona ONTAP AFF, ONTAP ASA, ONTAP Edge o ONTAP Select nel menu a discesa "Filtra per", non viene visualizzato alcun dato.</block>
   <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">04 dicembre 2024</block>
+  <block id="1ae1cd0b4937cfa4a52d9dd9c59a7bff" category="cell">Disponibile in ONTAP</block>
+  <block id="eda9493cdedf376a22ce96af673b5ce1" category="cell">Disponibile in e-Series</block>
+  <block id="ae816a91a9239284b014c29def79b1a9" category="cell">Disponibile in StorageGRID</block>
+  <block id="93cba07454f06a4a960172bbd6e2a435" category="cell">Sì</block>
+  <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="cell">No</block>
+  <block id="9c575f87ce93324cdc7902925f6337cc" category="cell">Fornisce approfondimenti e consigli per l'ottimizzazione delle risorse cloud. Include dettagli su disaster recovery, backup, tiering e migrazione.</block>
+  <block id="710106984647f0730faca0e1eaeeee6d" category="cell">Consente agli utenti di stabilire una "linea di base dorata" per le configurazioni di sistema e avvisa quando si verificano deviazioni da questa linea di base. Aiuta a identificare e gestire le modifiche di configurazione che possono influire sulle prestazioni o sulla sicurezza del sistema.</block>
+  <block id="cb8da66b45b686427a31e5d56a8122db" category="cell">Logistica di consegna</block>
+  <block id="d0606acb5c07dedf89ff7c2b06144f81" category="cell">Fornisce informazioni sulla logistica della fornitura di prodotti e servizi.</block>
+  <block id="fbd781a535485932684e2fdb756c3913" category="cell">Riepilogo esecutivo della valutazione dello stato</block>
+  <block id="0cb0fa6009199e89058c343d1d127fda" category="cell">Fornisce informazioni sui vari KPI Active IQ in formato PowerPoint (PPT), con KPI diversi descritti in diapositive diverse.</block>
+  <block id="83009b6eb15f65a7b4a558c0e23269c3" category="cell">Digest periodico</block>
+  <block id="f4786124ed46b14b49d37f9f8c042ce4" category="cell">Riepiloga periodicamente le metriche e le informazioni chiave. Include i dati sulle performance, la capacità e l'efficienza del sistema.</block>
+  <block id="17b58822f294ceb27e2330591b9224e4" category="cell">Fornisce informazioni sui vari gap consigliati di configurazione per configurazione di gestione remota, spare e dischi, coppia ha, SVM Health, stato della batteria e avvisi di recovery guru.</block>
+  <block id="67049dbeb0547988bdd3bb265ef87afc" category="cell">Fornisce informazioni sui dettagli del contratto e sull'elenco di controller, shelf e dischi che hanno raggiunto la fine del supporto (EOS).</block>
+  <block id="9622c46ac664d07f743905654edd5f26" category="cell">Piano di aggiornamento</block>
+  <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">Offre consigli per gli aggiornamenti di software e firmware. Include dettagli sulle ultime versioni consigliate, potenziali problemi e passaggi per l'esecuzione degli aggiornamenti.</block>
+  <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">Performance dei volumi</block>
 </blocks>
