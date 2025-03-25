@@ -20,6 +20,18 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 05 marzo 2025
+
+
+
+=== Upgrade Advisor
+
+* Utilizzando il Disk Qualification Package (DQP), è ora possibile aggiornare automaticamente i controller del disco e il firmware del dispositivo di archiviazione in base a criteri predefiniti di integrità e prestazioni. Ciò riduce i potenziali guasti e migliora l'affidabilità generale del sistema.
+* Il database dei fusi orari (DB) è stato introdotto per mantenere automaticamente l'allineamento del sistema con le definizioni dei fusi orari più recenti. Ciò garantisce che le operazioni dipendenti dal tempo continuino senza problemi anche quando le regole del fuso orario cambiano.
+
+
+
+
 == 12 dicembre 2024
 
 

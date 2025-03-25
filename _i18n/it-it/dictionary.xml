@@ -1556,4 +1556,7 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="9622c46ac664d07f743905654edd5f26" category="cell">Piano di aggiornamento</block>
   <block id="1a9aef730533c89cbf56cb32b9856a4a" category="cell">Offre consigli per gli aggiornamenti di software e firmware. Include dettagli sulle ultime versioni consigliate, potenziali problemi e passaggi per l'esecuzione degli aggiornamenti.</block>
   <block id="a86c1de3e38559902af8a77c138a08f4" category="cell">Performance dei volumi</block>
+  <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">Utilizzando il Disk Qualification Package (DQP), è ora possibile aggiornare automaticamente i controller del disco e il firmware del dispositivo di archiviazione in base a criteri predefiniti di integrità e prestazioni. Ciò riduce i potenziali guasti e migliora l'affidabilità generale del sistema.</block>
+  <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">Il database dei fusi orari (DB) è stato introdotto per mantenere automaticamente l'allineamento del sistema con le definizioni dei fusi orari più recenti. Ciò garantisce che le operazioni dipendenti dal tempo continuino senza problemi anche quando le regole del fuso orario cambiano.</block>
+  <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">05 marzo 2025</block>
 </blocks>
