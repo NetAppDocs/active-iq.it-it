@@ -20,6 +20,28 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 08 maggio 2025
+
+
+
+=== Widget AutoSupport
+
+Il widget AutoSupport è stato migliorato per includere una finestra a comparsa per fornire dettagli sui sistemi che hanno interrotto l'invio di dati AutoSupport. L'abilitazione di AutoSupport riduce i rischi di downtime e supporta una gestione proattiva dello stato del sistema.
+
+
+
+=== Report contratti di supporto
+
+Il report dei contratti di supporto è stato migliorato per includere il nuovo campo flag ASP/LSG. Questo campo consente di filtrare e identificare i sistemi coperti da un partner di supporto autorizzato, noto anche come Lifecycle Services Certified.
+
+
+
+=== Dashboard sulla sostenibilità
+
+È ora possibile avviare il dashboard Sustainability utilizzando il collegamento incluso nella presentazione Sustainability.
+
+
+
 == 05 marzo 2025
 
 

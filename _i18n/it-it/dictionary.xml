@@ -1529,7 +1529,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">Fare clic su *Visualizza raccomandazioni* per visualizzare l'elenco delle raccomandazioni.</block>
   <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">Nella colonna *Stato aggiornamento*, fare clic su *See Progress* (Visualizza avanzamento) per visualizzare i cluster idonei per un aggiornamento.</block>
   <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">In caso di problemi, fare clic sui rispettivi collegamenti per visualizzare i passaggi per mitigare i problemi.</block>
-  <block id="998e01ff2383d2b9e06b55738a27346b" category="doc">Widget AutoSupport</block>
   <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">Il widget AutoSupport è stato aggiunto alla schermata principale del dashboard per avvisare i clienti dei problemi relativi allo stato di AutoSupport.</block>
   <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">Il widget AutoSupport non è disponibile per i numeri di serie e del cluster</block>
   <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">Il widget AutoSupport non fornisce avvisi per ricerche di cluster e numeri di serie.</block>
@@ -1559,4 +1558,10 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="5542dbcb72159ed44fa6bf922b45c1e8" category="list-text">Utilizzando il Disk Qualification Package (DQP), è ora possibile aggiornare automaticamente i controller del disco e il firmware del dispositivo di archiviazione in base a criteri predefiniti di integrità e prestazioni. Ciò riduce i potenziali guasti e migliora l'affidabilità generale del sistema.</block>
   <block id="90dd6f07c096c3965dc62d991f80f7fd" category="list-text">Il database dei fusi orari (DB) è stato introdotto per mantenere automaticamente l'allineamento del sistema con le definizioni dei fusi orari più recenti. Ciò garantisce che le operazioni dipendenti dal tempo continuino senza problemi anche quando le regole del fuso orario cambiano.</block>
   <block id="1b4189ae198caba09051ca2138497fc7" category="section-title">05 marzo 2025</block>
+  <block id="4503a1a889a3b7c3dc4f3af490b089c6" category="doc">Widget AutoSupport</block>
+  <block id="41e1c349288a8b454c83244a4a28b8f7" category="paragraph">Il widget AutoSupport è stato migliorato per includere una finestra a comparsa per fornire dettagli sui sistemi che hanno interrotto l'invio di dati AutoSupport. L'abilitazione di AutoSupport riduce i rischi di downtime e supporta una gestione proattiva dello stato del sistema.</block>
+  <block id="dc82c5b795e4118bc2472e86475bf5da" category="section-title">Report contratti di supporto</block>
+  <block id="6877ece75d4d613c107eed29f14b3975" category="paragraph">Il report dei contratti di supporto è stato migliorato per includere il nuovo campo flag ASP/LSG. Questo campo consente di filtrare e identificare i sistemi coperti da un partner di supporto autorizzato, noto anche come Lifecycle Services Certified.</block>
+  <block id="80604874cd369ef578265c67a223d997" category="paragraph">È ora possibile avviare il dashboard Sustainability utilizzando il collegamento incluso nella presentazione Sustainability.</block>
+  <block id="9b6594622a22e82296250ca296e7a0b3" category="section-title">08 maggio 2025</block>
 </blocks>
