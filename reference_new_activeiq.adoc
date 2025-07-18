@@ -20,6 +20,24 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 09 luglio 2025
+
+
+
+=== Upgrade Advisor
+
+* È stata inclusa un'opzione di download multiformato per i piani Upgrade Advisor, per semplificare la pianificazione degli aggiornamenti ONTAP e risolvere potenziali problemi o avvisi. Ora è possibile scaricare i piani Upgrade Advisor nei formati Excel, PDF e JSON.
+* Nel formato Excel del piano Upgrade Advisor sono stati apportati i seguenti miglioramenti:
++
+** È possibile visualizzare i controlli preliminari eseguiti sul cluster, contrassegnando i risultati con indicatori come "Superato", "Non superato" o "Saltato". Questo garantisce che il cluster sia in condizioni ottimali per completare l'aggiornamento ONTAP .
+** È possibile visualizzare gli ultimi aggiornamenti firmware consigliati e applicabili al cluster, insieme alla versione fornita con la versione di destinazione ONTAP .
+** È stata aggiunta una nuova scheda che offre controlli di interoperabilità per i cluster SAN. Fornisce una visualizzazione delle versioni del sistema operativo host supportate per la versione ONTAP di destinazione selezionata.
+
+
+
+
+
+
 == 08 maggio 2025
 
 
