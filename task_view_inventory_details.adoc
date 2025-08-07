@@ -16,11 +16,15 @@ summary: 'Fornisce informazioni sull"inventario complessivo di proprietà dell"u
 
 
 [role="lead"]
-Il widget *Inventory* ti offre un rollup dei sistemi totali che possiedi. Sono inclusi prodotti abilitati e non abilitati per Digital Advisor.
+Il widget *Inventario* fornisce un riepilogo di tutti i sistemi e degli switch autorizzati al supporto di cui sei proprietario.  Sono inclusi sia i prodotti abilitati che quelli non abilitati Digital Advisor .
 
 È inoltre possibile generare il report dell'elenco di controllo selezionato e inviarlo via email a un massimo di 5 destinatari.
 
 video::ttbpbT5uTBI[youtube,width=848,height=480]
+
+
+== Visualizza i dettagli del sistema
+
 .Fasi
 . Nel widget *Inventory* (inventario), fare clic su *Systems* (sistemi) per visualizzare le informazioni di sistema di tutte le piattaforme oppure fare clic sul tipo di piattaforma, quindi su *Systems* (sistemi) per visualizzare i sistemi specifici di tale piattaforma.
 . Fare clic sul nodo o sul cluster per visualizzare informazioni dettagliate sul sistema.
@@ -29,4 +33,12 @@ video::ttbpbT5uTBI[youtube,width=848,height=480]
 +
 I file Ansible Inventory possono essere utilizzati con file Ansible Playbook personalizzati per apportare modifiche alla configurazione dell'infrastruttura.
 
+
+
+
+
+== Visualizza i dettagli del supporto autorizzato
+
+.Fasi
+. Nel widget *Inventario*, fare clic su *Switch autorizzati al supporto* per visualizzare informazioni su tutti gli switch autorizzati al supporto.
 

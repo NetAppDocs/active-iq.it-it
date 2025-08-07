@@ -18,6 +18,9 @@ summary: Fornisce una panoramica della funzione dei servizi API.
 [role="lead"]
 I servizi API di Digital Advisor utilizzano l'automazione per aggiungere efficienza ai tuoi flussi di lavoro. All'interno dei servizi API si trova il *Catalogo API*, che descrive oltre 100 endpoint API diversi raggruppati in oltre 20 aree di servizio diverse. Queste API sono disponibili per i clienti NetApp e coprono diverse aree di interesse, come informazioni di sistema, efficienza dello storage, performance, salute e upgrade.
 
+
+NOTE: NetApp Digital Advisor sta passando dalle API REST a GraphQL come piattaforma API principale per migliorare prestazioni, flessibilità e scalabilità.  La transizione avverrà in fasi, con un periodo di sovrapposizione tra le API REST e le API GraphQL.  Per ogni API REST deprecata, verrà pubblicato un avviso di deprecazione nel catalogo API Digital Advisor e avrai 6 mesi di tempo per migrare quell'endpoint specifico a GraphQL.  Per rivedere l'elenco delle API programmate per la deprecazione, vai a *Servizi API -> Sfoglia -> API deprecate*
+
 Le API sono interfacce che consentono di scrivere codice semplice che può contattare a livello di programmazione Digital Advisor e riportare i dati nell'ambiente di calcolo. Puoi scrivere il codice in modo che contatti ogni giorno Digital Advisor e riporti i dati più recenti nelle aree che ti interessano. Puoi quindi utilizzare questi dati per popolare il tuo sistema di ticketing o per creare dashboard, pagine web o report personalizzati. Il catalogo API di Digital Advisor contiene sia esempi di codice che una funzione per provare le API nel browser.
 
 L'automazione con le API è un ottimo modo per aggiungere efficienza e precisione alle attività quotidiane o settimanali. Consente di liberare risorse per eseguire attività più complesse o automatizzare nuovi flussi di lavoro. Ad esempio, se i rischi per la salute del sistema devono essere risolti, è possibile automatizzare almeno l'estrazione di tali elementi da Digital Advisor e l'inserimento nel sistema di ticketing.
@@ -35,5 +38,3 @@ Entrambe le viste consentono all'utente di sfogliare gli elementi disponibili ut
 == Utilizzando le API
 
 Una volta autorizzati e in grado di generare token, è possibile sfruttare i token per eseguire query programmatiche e recuperare i dati. È inoltre possibile testare un'API dal catalogo API per vedere in prima persona come funziona la query e il tipo di dati restituiti. Questo è un ottimo modo per assicurarsi di comprendere il funzionamento di un'API prima di creare il framework di codice nel sistema.
-
-video::GQskCeCrtQA[youtube,width=848,height=480]

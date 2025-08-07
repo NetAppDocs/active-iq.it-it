@@ -20,13 +20,35 @@ Il catalogo API consente di sfogliare le categorie e le API disponibili all'inte
 
 Utilizzando un token di accesso valido e gli input corretti per i campi obbligatori, è possibile effettuare una chiamata di prova per un'API.
 
+
+
+== Accedi alle API GraphQL
+
 .Fasi
 . Dal menu *Quick Links* (Collegamenti rapidi), fare clic su *API Services* (servizi API).
 . Fare clic su link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*Sfoglia*"^] Sotto l'icona *API Catalog*.
 +
 Viene visualizzato il catalogo API.
 
-. Selezionare un'API qualsiasi
+. Fare clic su *GraphQL* e consultare la documentazione.
+. Accessolink:https://gql.aiq.netapp.com/["Schema di revisione e endpoint API GraphQL"^]
+. Prova le API GraphQL utilizzando le query di esempio pronte per l'esecuzione sulink:https://studio.apollographql.com/public/ActiveIQ-Graph-Prd-API/variant/current/explorer?collectionId=251c50ce-797e-4549-bb9c-f6557ef5a176OPERATION_COLLECTIONfocusCollectionId=251c50ce-797e-4549-bb9c-f6557ef5a176["Digital Advisor GraphQL Studio"^] .
+. Fornire un token utente selezionando il campo di autorizzazione nell'intestazione della richiesta API
+. Fornire le variabili richieste
+. Esegui la query e rivedi l'output
+
+
+
+
+== Accedi alle API REST
+
+.Fasi
+. Dal menu *Quick Links* (Collegamenti rapidi), fare clic su *API Services* (servizi API).
+. Fare clic su link:https://activeiq.netapp.com/catalog/internal/api-reference/introduction["*Sfoglia*"^] Sotto l'icona *API Catalog*.
++
+Viene visualizzato il catalogo API.
+
+. Fare clic su *ActiveIQ-Public* e selezionare un'API qualsiasi
 . Nella parte superiore della pagina, spostare il pulsante su "Experiment" (esperimento).
 . Dalla barra di navigazione a sinistra, espandere le categorie e selezionare qualsiasi API per visualizzare informazioni dettagliate.
 . Espandere l'API.

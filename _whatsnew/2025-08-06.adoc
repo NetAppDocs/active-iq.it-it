@@ -1,0 +1,27 @@
+= Supporta gli switch autorizzati
+:allow-uri-read: 
+
+
+
+
+=== Supporta gli switch autorizzati
+
+Ora è possibile visualizzare le informazioni sugli switch SAN Fibre Channel Brocade che hanno diritto al supporto.  Sono inclusi dettagli sul modello dello switch, sul numero di serie e sullo stato del supporto. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Scopri come visualizzare gli switch autorizzati al supporto"] .
+
+
+
+=== Soglia per i dati RSS AutoSupport
+
+Il limite di invio recentemente interrotto (RSS), nel widget AutoSupport , è stato esteso da 48 ore (2 giorni) a 216 ore (9 giorni) prima che un sistema venga contrassegnato come RSS.  Ciò avviene per supportare piattaforme come StorageGRID che inviano solo dati AutoSupport settimanali.
+
+
+
+=== Sezione API obsoleta nel catalogo API Digital Advisor
+
+Una nuova sezione API obsoleta è disponibile nel catalogo API Digital Advisor .  Elenca le API programmate per essere deprecate, insieme alle tempistiche di deprecazione e alle API alternative.
+
+
+
+=== Obsolescenza dei moduli API V2 e End of Support per la previsione della capacità
+
+I moduli API di previsione della capacità V2 e di fine supporto sono programmati per essere dismessi.  Per accedere alle API deprecate o per conoscere le tempistiche di deprecazione e le API alternative, vai su *Servizi API -> Sfoglia -> API deprecate*.
