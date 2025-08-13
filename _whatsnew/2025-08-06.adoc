@@ -6,7 +6,7 @@
 
 === Supporta gli switch autorizzati
 
-Ora è possibile visualizzare le informazioni sugli switch SAN Fibre Channel Brocade che hanno diritto al supporto.  Sono inclusi dettagli sul modello dello switch, sul numero di serie e sullo stato del supporto. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Scopri come visualizzare gli switch autorizzati al supporto"] .
+Ora è possibile visualizzare le informazioni sugli switch SAN Fibre Channel Brocade che hanno diritto al supporto. Sono inclusi dettagli sul modello dello switch, sul numero di serie e sullo stato del supporto. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Scopri come visualizzare gli switch autorizzati al supporto"] .
 
 
 
