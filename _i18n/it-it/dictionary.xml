@@ -276,7 +276,6 @@
   <block id="40626d7035cc7f4a6caa9d104fd7d387" category="paragraph">Il catalogo API consente di sfogliare le categorie e le API disponibili all'interno di ciascuna di queste categorie.</block>
   <block id="2b033bd9dec6fb568acb85aff511102a" category="paragraph">Utilizzando un token di accesso valido e gli input corretti per i campi obbligatori, è possibile effettuare una chiamata di prova per un'API.</block>
   <block id="1b041cdfdc19a7bdb36e4bb710521c3b" category="list-text">Dal menu *Quick Links* (Collegamenti rapidi), fare clic su *API Services* (servizi API).</block>
-  <block id="1dce9bd049d6c9e9c500be142e33de38" category="inline-link-macro">*Sfoglia*</block>
   <block id="54e7835f3f1f70bc142c9b5e847e6ec9" category="paragraph">Viene visualizzato il catalogo API.</block>
   <block id="04c8967b6880007c6fea1e2c0e66614d" category="list-text">Nella parte superiore della pagina, spostare il pulsante su "Experiment" (esperimento).</block>
   <block id="835a43b0478137c574edbef583d126a1" category="list-text">Dalla barra di navigazione a sinistra, espandere le categorie e selezionare qualsiasi API per visualizzare informazioni dettagliate.</block>
@@ -1112,7 +1111,6 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="ae60d74a912ddc26168a3645463cc941" category="list-text"><block ref="ae60d74a912ddc26168a3645463cc941" category="inline-link-macro-rx"></block></block>
   <block id="801b554762e480a183c2424cbe8c2fb6" category="list-text"><block ref="801b554762e480a183c2424cbe8c2fb6" category="inline-link-macro-rx"></block></block>
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Il server Web può essere configurato in diversi modi. Per istruzioni su come configurare un semplice server Web utilizzando Python, fare riferimento a. <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>.</block>
-  <block id="713451159dacf58d1a99e356169dfb3f" category="list-text">Fare clic su <block ref="9b2adf8ad12dd16d4d2b3750ca65e5de" category="inline-link-macro-rx"></block> Sotto l'icona *API Catalog*.</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">Accedere alla <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> pagina di accesso.</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">Per i sistemi ONTAP, AutoSupport viene attivato per impostazione predefinita quando si configura il sistema di storage per la prima volta. Dovresti <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> Sui sistemi ONTAP per controllare la modalità di invio delle informazioni AutoSupport al supporto tecnico e all'organizzazione di supporto interna.</block>
   <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
@@ -1579,8 +1577,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06 agosto 2025</block>
   <block id="51aa04f109d45d42868cc0b36f25fd52" category="section-title">Accedi alle API GraphQL</block>
   <block id="6bdcd3c5aba802a9e7d2f1d96dd5aff5" category="list-text">Fare clic su *GraphQL* e consultare la documentazione.</block>
-  <block id="9d4615fe1d2320cc19b894b5d333d7c1" category="inline-link-macro">Schema di revisione e endpoint API GraphQL</block>
-  <block id="b546d5412fcbcd954e28c950fb2a6ca4" category="list-text">Accesso<block ref="89a08dcaa38ea8d40daf6964132bb7ee" category="inline-link-macro-rx"></block></block>
   <block id="e306bcdfb9b3334cf7659705e8358e27" category="inline-link-macro">Digital Advisor GraphQL Studio</block>
   <block id="b1e54092f36831f6a814e51a7c93bdd8" category="list-text">Prova le API GraphQL utilizzando le query di esempio pronte per l'esecuzione su<block ref="ae67cca60092e176d8c2dddd34356b5e" category="inline-link-macro-rx"></block> .</block>
   <block id="637bbe10a2e1fa5eea6be6cb23319cca" category="list-text">Fornire un token utente selezionando il campo di autorizzazione nell'intestazione della richiesta API</block>
@@ -1593,4 +1589,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">Nel widget *Inventario*, fare clic su *Switch autorizzati al supporto* per visualizzare informazioni su tutti gli switch autorizzati al supporto.</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Scopri come visualizzare gli switch autorizzati al supporto</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Ora è possibile visualizzare le informazioni sugli switch SAN Fibre Channel Brocade che hanno diritto al supporto. Sono inclusi dettagli sul modello dello switch, sul numero di serie e sullo stato del supporto. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
+  <block id="1b9abf135ccb7ed2f2cd9c155137c351" category="inline-link-macro">Sfoglia</block>
+  <block id="2981195e7f0b7a603227ab0ab32a8349" category="list-text">Clic<block ref="3dddd0be9b2e921fda9092125563366a" category="inline-link-macro-rx"></block> sotto l'icona *Catalogo API*.</block>
 </blocks>
