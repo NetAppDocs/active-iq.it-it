@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: improve_sustainability_score.html 
-keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level 
+keywords: activeiq, sustainability dashboard, recommended actions, digital advisor, bluexp, sustainability core, cluster level, NetApp Console 
 summary: Fornisce le fasi necessarie per migliorare il punteggio di sostenibilità attraverso le azioni consigliate. 
 ---
 = Migliorare il punteggio di sostenibilità
@@ -19,7 +19,7 @@ summary: Fornisce le fasi necessarie per migliorare il punteggio di sostenibilit
 La dashboard Sustainability fornisce le azioni consigliate che puoi implementare per migliorare il punteggio complessivo di sostenibilità e il punteggio di sostenibilità a livello di cluster.
 
 
-NOTE: Per ottenere i migliori risultati dalla dashboard, devi attivare AutoSupport. Se AutoSupport non è abilitato, i dati saranno basati sulle specifiche del prodotto. Per ottenere dettagli sull'alimentazione in tempo reale, è necessario attivare Cloud Insights. Per ulteriori informazioni su come attivare Cloud Insights, vedere link:https://docs.netapp.com/us-en/cloudinsights/task_getting_started_with_cloud_insights.html["Cloud Insights"^].
+NOTE: Per ottenere i migliori risultati dalla dashboard, è necessario abilitare AutoSupport.  Se AutoSupport non è abilitato, i dati saranno basati sulle specifiche del prodotto.  Per ottenere dettagli sull'alimentazione in tempo reale, è necessario abilitare Data Infrastructure Insights.  Per ulteriori informazioni su come abilitare Data Infrastructure Insights, vederelink:https://docs.netapp.com/us-en/data-infrastructure-insights/task_getting_started_with_cloud_insights.html["Data Infrastructure Insights"^] .
 
 
 
@@ -40,9 +40,9 @@ Puoi seguire queste istruzioni per migliorare il punteggio complessivo di sosten
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
-. Vai a *Sustainability* dalla categoria *Governance* disponibile nella navigazione a sinistra di BlueXP.
+. Vai a *Sostenibilità* dalla categoria *Salute* disponibile nella barra di navigazione a sinistra della Console.
 . Andare alla scheda *azioni consigliate*.
 +
 ** È possibile selezionare *Correggi* per eseguire queste azioni immediatamente o selezionare *più tardi* per risolvere queste azioni in un secondo momento.
@@ -101,10 +101,10 @@ Puoi seguire questa procedura per migliorare il punteggio di sostenibilità a li
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
-. Vai a *Sustainability* dalla categoria *Governance* disponibile nella navigazione a sinistra di BlueXP.
-. Andare alla tabella *ambienti di lavoro*.
+. Vai a *Sostenibilità* dalla categoria *Salute* disponibile nella barra di navigazione a sinistra della Console.
+. Vai alla tabella *Sistemi*.
 . Fare clic sul numero di azioni nella colonna *azioni consigliate* per il cluster di destinazione.
 +
 image:recommended_actions_cluster.png["Una schermata che mostra il numero di azioni."]
@@ -121,14 +121,14 @@ image:recommended_actions_list.png["Una schermata che fornisce i dettagli delle 
 
 
 
-TIP: È possibile aggiungere o rimuovere i parametri ambientali nella tabella *ambienti di lavoro* utilizzando image:add_icon.png["Un'icona più per aggiungere o rimuovere i parametri"] e può esportare questa tabella in formato .csv (comma-separated values) utilizzando image:download_icon.png["Un simbolo di download per esportare il parametro"] icona.
+TIP: È possibile aggiungere o rimuovere i parametri ambientali nella tabella *Sistemi* utilizzandoimage:add_icon.png["Un'icona più per aggiungere o rimuovere i parametri"] icona e puoi esportare questa tabella in formato valori separati da virgole (.csv) utilizzando ilimage:download_icon.png["Un simbolo di download per esportare il parametro"] icona.
 
 --
 .Consulente digitale
 --
-. Vai a *Sustainability* dalla categoria *STORAGE HEALTH* disponibile nella navigazione a sinistra del dashboard di Digital Advisor.
+. Vai a *Sostenibilità* disponibile nella barra di navigazione a sinistra della dashboard di Digital Advisor .
 . Andare alla scheda *azioni consigliate*.
-. Andare alla tabella *ambienti di lavoro*.
+. Vai alla tabella *Sistemi*.
 . Fare clic sul numero di azioni nella colonna *azioni consigliate* per il cluster di destinazione.
 +
 image:recommended_actions_cluster.png["Una schermata che mostra il numero di azioni."]
@@ -145,7 +145,7 @@ image:recommended_actions_list.png["Una schermata che fornisce i dettagli delle 
 
 
 
-TIP: È possibile aggiungere o rimuovere i parametri ambientali nella tabella *ambienti di lavoro* utilizzando image:add_icon.png["Un'icona più per aggiungere o rimuovere i parametri"] e può esportare questa tabella in formato .csv (comma-separated values) utilizzando image:download_icon.png["Un simbolo di download per esportare il parametro"] icona.
+TIP: È possibile aggiungere o rimuovere i parametri ambientali nella tabella *Sistemi* utilizzandoimage:add_icon.png["Un'icona più per aggiungere o rimuovere i parametri"] icona e puoi esportare questa tabella in formato valori separati da virgole (.csv) utilizzando ilimage:download_icon.png["Un simbolo di download per esportare il parametro"] icona.
 
 --
 ====

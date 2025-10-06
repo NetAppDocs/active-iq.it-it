@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar 
 permalink: get_started_sustainability_dashboard.html 
-keywords: activeiq, sustainability dashboard, bluexp login, sustainability dashboard login, bluexp 
-summary: Inizia subito con il dashboard di sostenibilità BlueXP accedendo a BlueXP o Digital Advisor. 
+keywords: activeiq, sustainability dashboard, sustainability dashboard login, bluexp, NetApp Console 
+summary: Per iniziare a utilizzare la dashboard sulla sostenibilità, accedi alla NetApp Console o Digital Advisor. 
 ---
 = Iniziate con il dashboard Sustainability
 :hardbreaks:
@@ -16,22 +16,18 @@ summary: Inizia subito con il dashboard di sostenibilità BlueXP accedendo a Blu
 
 
 [role="lead"]
-La dashboard Sustainability fornisce report e punteggi abilitati per AIOps con informazioni utili per migliorare la postura di sostenibilità. Puoi accedere al dashboard Sustainability tramite NetApp BlueXP o Digital Advisor.
+La dashboard sulla sostenibilità fornisce report e punteggi abilitati da AIOps con informazioni fruibili per migliorare la tua posizione in materia di sostenibilità.  È possibile accedere alla dashboard sulla sostenibilità tramite NetApp Console o Digital Advisor.
 
 [role="tabbed-block"]
 ====
-.BlueXP
+.Console NetApp
 --
-Per accedere a BlueXP, puoi utilizzare le credenziali del sito di supporto NetApp oppure iscriverti per un login cloud NetApp utilizzando la tua email e una password. Scopri di più link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["Accesso a BlueXP"^].
+Per accedere alla Console, puoi utilizzare le credenziali del sito di supporto NetApp oppure registrarti per accedere alla Console NetApp utilizzando il tuo indirizzo email e una password. Scopri di più su link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-logging-in.html["accesso alla Console"^] .
 
 .Fasi
-. Aprire un browser Web e accedere al link:https://console.bluexp.netapp.com/["Console BlueXP"^].
-Viene visualizzata la pagina di accesso a NetApp BlueXP.
-. Accedere a BlueXP.
-. Dal menu di navigazione a sinistra di BlueXP, selezionare *Governance* > *Sustainability*.
-  Viene visualizzato il dashboard Sustainability.
-  +
-image:sustainability_dashboard_bluexp.png["Uno screenshot dell'interfaccia utente che offre una panoramica della dashboard Sustainability in BlueXP."]
+. Apri un browser web e vai sulink:https://console.netapp.com/["Consolle"^] .  Viene visualizzata la pagina di accesso alla console.
+. Accedi alla Console.
+. Dal menu di navigazione a sinistra della Console, seleziona *Salute* > *Sostenibilità*.  Viene visualizzata la dashboard Sostenibilità. +image:sustainability_dashboard_console.png["Uno screenshot dell'interfaccia utente che fornisce una panoramica della dashboard sulla sostenibilità nella Console."]
 
 
 
@@ -45,7 +41,7 @@ Per accedere a Digital Advisor, è possibile utilizzare le credenziali del sito 
 .Fasi
 . Aprire un browser Web e accedere al link:https://activeiq.netapp.com/?source=onlinedocs["Consulente digitale"^] pagina di accesso.
 . Inserisci il tuo nome utente e la password e fai clic su *Accedi*.
-. Dal menu di navigazione a sinistra, selezionare *INTEGRITÀ ARCHIVIAZIONE* > *Sostenibilità*.
+. Dalla barra di navigazione a sinistra, seleziona *Sostenibilità*.
 +
 image:sustainability_dashboard.png["Uno screenshot dell'interfaccia utente che fornisce una panoramica del dashboard Sustainability."]
 

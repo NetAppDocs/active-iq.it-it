@@ -19,6 +19,6 @@ summary: 'Fornisce informazioni per valutare l"aggiornamento tecnologico del con
 Per sapere se si consiglia un aggiornamento tecnologico per il contratto di supporto tecnico o per l'hardware, è possibile utilizzare l'opzione di aggiornamento tecnologico.
 
 
-NOTE: È possibile accedere a questa funzionalità tramite l'efficienza economica di BlueXP (*Governance > efficienza economica > aggiornamento tecnico*) o tramite il consulente digitale di NetApp (*Dashboard > widget di pianificazione > aggiornamento tecnico*).
+NOTE: È possibile accedere a questa funzionalità tramite la pianificazione del ciclo di vita (*Archiviazione* > *Pianificazione del ciclo di vita*) o tramite Digital Advisor (*Dashboard > Widget di pianificazione > Aggiornamento tecnologico*).
 
-Per ulteriori informazioni su questa funzione, vedere link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Valutazione di un refresh tecnologico"] Nella documentazione BlueXP.
+Per maggiori informazioni su questa funzionalità, vederelink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Valutazione di un refresh tecnologico"] nella documentazione della Console.

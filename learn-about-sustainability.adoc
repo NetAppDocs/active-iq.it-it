@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: learn-about-sustainability.html 
+keywords: activeiq, sustainability, sustainability score, sustainability dashboard, bluexp, benefits, ONTAP, NetApp Console 
+summary: Fornisce informazioni sulla sostenibilità che consentono di ridurre il consumo energetico e di raggiungere i propri obiettivi ambientali. 
+---
+= Scopri la sostenibilità
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+La sostenibilità ti consente di ridurre il consumo energetico e di lavorare per raggiungere i tuoi obiettivi ambientali.  Ciò consente di allineare i sistemi di stoccaggio alle pratiche ecocompatibili e di raggiungere gli obiettivi di sostenibilità.
+
+È possibile visualizzare il punteggio di sostenibilità e l'utilizzo previsto di energia, emissioni di carbonio dirette e calore dalla dashboard Sostenibilità.  È possibile regolare la percentuale di mitigazione del carbonio per siti specifici.  È anche possibile visualizzare il punteggio di sostenibilità a livello di cluster.  Sulla base del punteggio di sostenibilità, è possibile valutare la posizione di sostenibilità e implementare le azioni consigliate da NetApp per migliorare il punteggio.  Per saperne di più sulla dashboard della sostenibilità, vai alink:sustainability-dashboard-overview.html["Panoramica della dashboard Sustainability"] .
+
+
+NOTE: La sostenibilità è supportata dai sistemi Cloud Volumes ONTAP, AFF (A-Series e C-Series), e-Series, FAS e StorageGRID.
+
+È possibile visualizzare il seguente video per comprendere il dashboard Sustainability:
+
+video::yNRHeOvbGX8[youtube,width=848,height=480]
+
+
+== Vantaggi della sostenibilità
+
+La sostenibilità offre i seguenti vantaggi:
+
+* Accelera le performance riducendo il numero di dispositivi storage su cui memorizzare la stessa quantità di dati.
+* Ridurre i costi di storage ottimizzando l'utilizzo dei sistemi di storage.
+* Riduzione dell'impronta di carbonio utilizzando l'energia rinnovabile nei data center.
+* Migliorare l'efficienza energetica attuando politiche efficienti dal punto di vista energetico.
+

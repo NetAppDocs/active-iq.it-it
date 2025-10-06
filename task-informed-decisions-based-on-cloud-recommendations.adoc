@@ -19,7 +19,7 @@ summary: Fornisce consigli in base ai quali è possibile prendere decisioni info
 Digital Advisor analizza costantemente il sistema e fornisce consigli per migliorare le performance, l'efficienza e lo stato di salute del sistema.
 
 
-NOTE: Digital Advisor ti consente di accedere a BlueXP per implementare i suggerimenti.
+NOTE: Digital Advisor ti indirizza alla NetApp Console per implementare i consigli.
 
 
 
@@ -39,7 +39,7 @@ Per la migrazione a Cloud Volumes ONTAP (CVO) e Cloud Volumes Service (CVS), si 
 .Fasi
 . Nel riquadro di sinistra, fare clic su *Cloud Recommendations*.
 . Fare clic su un collegamento qualsiasi nel riquadro *Migration* (migrazione).
-. Fare clic su *Migra al cloud* per avviare *BlueXP*.
+. Fare clic su *Migra al cloud* per avviare la *Console*.
 
 
 
@@ -62,7 +62,7 @@ Per il tiering si consigliano i volumi che soddisfano i seguenti criteri:
 .Fasi
 . Nel riquadro di sinistra, fare clic su *Cloud Recommendations*.
 . Fare clic su un collegamento qualsiasi nel riquadro *Tiering*.
-. Fare clic su *Tier Data* per avviare *BlueXP*.
+. Fare clic su *Dati livello* per avviare la *Console*.
 
 
 Per ulteriori informazioni su FabricPool, fare riferimento a. link:https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["Best practice FabricPool"^].
@@ -82,7 +82,7 @@ Per il backup nel cloud si consigliano i volumi che soddisfano i seguenti criter
 .Fasi
 . Nel riquadro di sinistra, fare clic su *Cloud Recommendations*.
 . Fare clic su un collegamento qualsiasi nel riquadro *Backup & Archive*.
-. Fare clic su *Backup nel cloud* per avviare *BlueXP*.
+. Fare clic su *Backup su cloud* per avviare la *Console*.
 
 
 
@@ -101,5 +101,5 @@ Per la replica nel cloud si consigliano i volumi che soddisfano i seguenti crite
 .Fasi
 . Nel riquadro di sinistra, fare clic su *Cloud Recommendations*.
 . Fare clic su un collegamento qualsiasi nel riquadro *Disaster Recovery*.
-. Fare clic su *Replicate to Cloud* per avviare *BlueXP*.
+. Fare clic su *Replica sul cloud* per avviare la *Console*.
 
