@@ -186,5 +186,5 @@ sidebar:
   - title: Note legali
     url: "/legal-notices.html"
 product-family:
-  name: Netapp Console
+  name: NetApp Console
   repo: console-family
