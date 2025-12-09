@@ -18,6 +18,17 @@ summary: Fornisce i passaggi necessari per generare un piano di upgrade per un u
 [role="lead"]
 È possibile utilizzare Upgrade Advisor per visualizzare l'elenco dei cluster idonei o non idonei per un aggiornamento. Puoi vedere consigli di upgrade per un cluster idoneo e generare un piano di upgrade. Puoi risolvere i problemi con un cluster non idoneo per renderlo idoneo per un upgrade.
 
+
+
+== Prima di iniziare
+
+Prima di generare un piano di aggiornamento, dovresti:
+
+* Assicurarsi che AutoSupport (ASUP) sia abilitato e configurato correttamente e che tutte le sezioni richieste siano incluse. Per maggiori informazioni, vedere link:hhttps://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["Guida alla risoluzione di ONTAP AutoSupport"].
+* Verificare che i membri del cluster AutoSupport corrispondano alla configurazione del cluster SAP.  Per maggiori informazioni,link:https://kb.netapp.com/Support/NSS/Support_Site/How_to_open_a_non-technical_case["aprire un caso non tecnico"] .
+
+
+.Fasi
 È possibile seguire questa procedura per generare un piano di upgrade per un singolo cluster e più cluster:
 
 [role="tabbed-block"]
