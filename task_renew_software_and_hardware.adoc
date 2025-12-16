@@ -4,7 +4,7 @@ permalink: task_renew_software_and_hardware.html
 keywords: renew, hardware, software 
 summary: 'Fornisce informazioni per rinnovare il software e l"hardware del sistema storage.' 
 ---
-= Rinnova software e hardware del tuo sistema storage
+= Identifica i rinnovi software e hardware per il tuo sistema di archiviazione da Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,11 +16,11 @@ summary: 'Fornisce informazioni per rinnovare il software e l"hardware del siste
 
 
 [role="lead"]
-È possibile identificare in modo proattivo il software e l'hardware scaduti o prossimi alla scadenza nei prossimi 6 mesi e inviare una richiesta di rinnovo dell'hardware e del software.
+Puoi identificare in modo proattivo il software e l'hardware del tuo sistema di archiviazione che sono scaduti o stanno per scadere nei prossimi 6 mesi e inviare una richiesta di rinnovo dell'hardware e del software.
 
 .Fasi
 . Fare clic su *Renewals* (rinnovi) dal widget *Planning* (Pianificazione).
-. Selezionare i sistemi che si desidera rinnovare e fare clic su *Rinnova*.
+. Seleziona i sistemi di archiviazione che desideri rinnovare e clicca su *Rinnova*.
 . Facoltativamente, fornire commenti aggiuntivi.
 . Fare clic su *Invia*.
 

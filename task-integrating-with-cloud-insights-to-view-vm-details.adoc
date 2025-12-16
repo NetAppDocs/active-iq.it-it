@@ -4,7 +4,7 @@ permalink: task-integrating-with-cloud-insights-to-view-vm-details.html
 keywords: Cloud Insights, VMs, virtual machines, Data Infrastructure Insights 
 summary: Fornisce informazioni sulle macchine virtuali in Data Infrastructure Insights 
 ---
-= Integrazione con Data Infrastructure Insights per visualizzare i dettagli delle macchine virtuali
+= Utilizzare Digital Advisor per visualizzare i dati delle macchine virtuali disponibili in Data Infrastructure Insights
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

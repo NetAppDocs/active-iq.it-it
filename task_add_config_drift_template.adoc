@@ -4,7 +4,7 @@ permalink: task_add_config_drift_template.html
 keywords: config deviation, drift, configuration, add template 
 summary: Fornisce informazioni per aggiungere un modello di deriva della configurazione. 
 ---
-= Aggiungere un modello di drift di configurazione
+= Aggiungi un modello di configurazione per il tuo sistema di archiviazione in Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

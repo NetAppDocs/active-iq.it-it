@@ -4,7 +4,7 @@ permalink: task_view_wellness_history.html
 keywords: wellness history, risks, wellness, view all actions, risk history, 
 summary: Fornisce informazioni sui rischi di sistema e su come visualizzare la cronologia delle condizioni di salute. 
 ---
-= Visualizza la cronologia del benessere
+= Visualizza la cronologia dei rischi del tuo sistema di archiviazione in Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary: Fornisce informazioni sui rischi di sistema e su come visualizzare la c
 
 
 [role="lead"]
-È possibile visualizzare i rischi di sistema che si verificano negli ultimi tre mesi, in modo da poter apprendere come si stanno facendo straordinari.
+È possibile visualizzare i rischi del sistema di archiviazione verificatisi negli ultimi tre mesi, in modo da poter capire come si stanno comportando nel tempo.
 
 Questi rischi sono classificati in quattro tipi di rischi: *Non risolti*, *nuovi*, *risolti* e *riconosciuti*. Sono rappresentati da colori diversi. Il riepilogo di questi rischi è rappresentato da un grafico *Risk History*.
 

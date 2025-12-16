@@ -4,7 +4,7 @@ permalink: task_hosting_firmware_files_using_web_server.html
 keywords: firmware, web server, hosting 
 summary: 'Fornisce informazioni sull"hosting dei file del firmware mediante un server Web.' 
 ---
-= Ospitare i file del firmware utilizzando il server Web
+= Ospitare i file del firmware AFF e FAS su un server web
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

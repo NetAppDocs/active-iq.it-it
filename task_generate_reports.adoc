@@ -4,7 +4,7 @@ permalink: task_generate_reports.html
 keywords: reports, generate reports 
 summary: Fornisce informazioni per generare report. 
 ---
-= Generare report
+= Genera o pianifica un report in Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

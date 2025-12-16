@@ -4,7 +4,7 @@ permalink: view-firmware-update-recommendations.html
 keywords: Upgrade Advisor, firmware recommendations, storage firmware, SP/BMC firmware, system files, security files 
 summary: Consulta le raccomandazioni di aggiornamento del firmware dello storage, del firmware SP/BMC, dei file di sistema e dei file di sicurezza. 
 ---
-= Visualizzare le raccomandazioni per l'aggiornamento del firmware
+= Visualizza i consigli per l'aggiornamento del firmware in Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

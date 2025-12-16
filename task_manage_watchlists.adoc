@@ -4,7 +4,7 @@ permalink: task_manage_watchlists.html
 keywords: dashboard, watchlist, add watchlist 
 summary: Fornisce informazioni per la gestione delle liste di controllo. 
 ---
-= Gestire una lista di controllo
+= Gestisci una watchlist in Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

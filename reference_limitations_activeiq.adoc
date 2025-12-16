@@ -4,7 +4,7 @@ permalink: reference_limitations_activeiq.html
 keywords: limitation, issues, not supported, drawbacks 
 summary: Fornisce informazioni sulle limitazioni della release. 
 ---
-= Limitazioni note
+= Limitazioni note in Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 

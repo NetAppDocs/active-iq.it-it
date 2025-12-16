@@ -4,7 +4,7 @@ permalink: task_subscribe_to_wellness_review_email.html
 keywords: wellness, wellness review subscription, unsubscribe, supportedge expert, supportedge advisor 
 summary:  
 ---
-= Iscriviti all'e-mail di revisione del benessere
+= Iscriviti alle notifiche sullo stato del sistema di archiviazione da Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,7 +16,7 @@ summary:
 
 
 [role="lead"]
-Puoi iscriverti all'e-mail di revisione del benessere per ricevere un'e-mail mensile che riepiloga lo stato del benessere, i sistemi che stanno per essere rinnovati, i sistemi che richiedono un upgrade per i prodotti NetApp della tua base installata. Riceverai un'e-mail di revisione del benessere per visualizzare un riepilogo mensile e intraprendere azioni per i tuoi sistemi. Sono inoltre disponibili opzioni per visualizzare, modificare, condividere ed eliminare le sottoscrizioni. In qualsiasi momento, se decidi di non ricevere l'e-mail, puoi annullare l'iscrizione anche per ricevere l'e-mail.
+Puoi iscriverti all'email di revisione del benessere per ricevere un'email mensile che riassume lo stato di benessere, i sistemi di storage che si avvicinano alla data di rinnovo e i sistemi di storage che richiedono un aggiornamento per i prodotti NetApp nella tua base installata. Riceverai un'e-mail di verifica dello stato di salute, così potrai visualizzare un riepilogo mensile e intervenire sui tuoi sistemi di archiviazione. Hai anche la possibilità di visualizzare, modificare, condividere ed eliminare i tuoi abbonamenti. In qualsiasi momento, se decidi di non ricevere più l'email, puoi annullare l'iscrizione alla ricezione delle email.
 
 Una volta attivato l'abbonamento, selezionare una data di inizio quando si aggiunge un abbonamento. Il riepilogo mensile dell'e-mail fornisce una panoramica delle azioni di verifica dello stato di salute, rinnovo, aggiornamento e verifica dello stato di salute. È possibile confermare l'indirizzo e-mail e l'e-mail viene inviata all'indirizzo e-mail specificato. È inoltre possibile eliminare gli abbonamenti.
 

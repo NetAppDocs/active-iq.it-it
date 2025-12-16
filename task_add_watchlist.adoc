@@ -4,7 +4,7 @@ permalink: task_add_watchlist.html
 keywords: dashboard, watchlist, add watchlist 
 summary: Fornisce informazioni per aggiungere un elenco di controllo alla dashboard. 
 ---
-= Creare una lista di controllo
+= Crea una watchlist in Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,10 +16,10 @@ summary: Fornisce informazioni per aggiungere un elenco di controllo alla dashbo
 
 
 [role="lead"]
-È possibile creare una lista di controllo per accedere a un set di sistemi in modo rapido e semplice. È possibile aggiungere i sistemi in base alla categoria o al numero di serie.
+È possibile creare una watchlist per accedere in modo rapido e semplice a un set di sistemi di archiviazione. È possibile aggiungere i sistemi di archiviazione in base alla categoria o al numero di serie.
 
 
-NOTE: È possibile aggiungere un massimo di 15,000 sistemi in una categoria e 500 sistemi con un numero di serie.
+NOTE: È possibile aggiungere un massimo di 15.000 sistemi di archiviazione in una categoria e 500 sistemi di archiviazione in un numero di serie.
 
 .Fasi
 . Nel riquadro di sinistra, fare clic su *Watchlist*
@@ -28,7 +28,7 @@ Viene visualizzata la schermata *Manage Watchlist* (Gestisci lista di controllo)
 
 . Fare clic su *Create Watchlist* (Crea lista di controllo).
 . Fornire un nome per la lista di controllo.
-. Selezionare una delle seguenti opzioni per aggiungere i sistemi all'elenco di controllo:
+. Selezionare una delle seguenti opzioni per aggiungere sistemi di archiviazione alla lista di controllo:
 +
 ** *Categoria*: Questa opzione consente di aggiungere l'intero inventario associato a una categoria specifica, ad esempio gli abbonamenti a clienti, siti, gruppi o Keystone, alla tua lista di controllo.
 +

@@ -4,7 +4,7 @@ permalink: task_manage_template.html
 keywords: templates, share template, clone template, edit template, delete template 
 summary: Fornisce informazioni per la gestione dei modelli. 
 ---
-= Gestire un modello
+= Gestisci i modelli di deriva della configurazione in Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
