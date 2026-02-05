@@ -1615,4 +1615,12 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="aae53b31f1046bfeb5ca553426f2d07e" category="sidebar">Scarica il pacchetto Ansible del firmware AFF e FAS</block>
   <block id="b3b883fb818b35e0c1f7289c9e15f2a7" category="sidebar">Convalida l'installazione del firmware AFF e FAS sul sistema di archiviazione</block>
   <block id="737d0abe4f71a75181ee9d78766bb60f" category="sidebar">Genera o pianifica un report</block>
+  <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">Nuovo Security Report per una supervisione completa della sicurezza</block>
+  <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor ora include un Security Report che fornisce una visione unificata dei rischi per la sicurezza di ONTAP nell'ambiente di storage. Questo report consente una rilevazione più rapida di configurazioni errate, lacune di conformità e problemi di sicurezza su cluster, SVM e volumi, aiutandoti a mantenere un'infrastruttura di storage sicura.</block>
+  <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">Supporto avanzato di Upgrade Advisor per livelli di patch misti</block>
+  <block id="8e292f1433a531a16782fe2593062c78" category="paragraph">Upgrade Advisor ora genera report di aggiornamento per i cluster in cui i nodi eseguono diversi livelli di patch all'interno della stessa major release di ONTAP. Questo miglioramento garantisce che i clienti possano procedere con gli aggiornamenti senza problemi, purché il cluster non sia distribuito su più versioni principali, offrendo una maggiore flessibilità nella pianificazione degli aggiornamenti.</block>
+  <block id="07fc7b1ed8439edcf0a98beca0a29711" category="section-title">Supporto esteso per le versioni ONTAP fuori dal supporto limitato</block>
+  <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor ora supporta la generazione di piani di aggiornamento per le versioni di ONTAP che hanno raggiunto la fine del supporto limitato, con un grace period di 9 mesi. Questa funzionalità aiuta i clienti a intervenire tempestivamente ed evitare interruzioni negli aggiornamenti, fornendo indicazioni chiare durante il periodo di transizione.</block>
+  <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">Fornisce una panoramica completa ed esportabile dei rischi per la sicurezza dello storage ONTAP e delle lacune di conformità tra cluster, SVM e volumi.</block>
+  <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">04 febbraio 2026</block>
 </blocks>

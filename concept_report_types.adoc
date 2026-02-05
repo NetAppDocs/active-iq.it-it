@@ -61,6 +61,9 @@ Di seguito sono riportati i tipi di report disponibili in Digital Advisor:
 | Configurazione consigliata | Fornisce informazioni sui vari gap consigliati di configurazione per configurazione di gestione remota, spare e dischi, coppia ha, SVM Health, stato della batteria e avvisi di recovery guru. | Sì | Sì | No 
 
 
+| Sicurezza | Fornisce una panoramica completa ed esportabile dei rischi per la sicurezza dello storage ONTAP e delle lacune di conformità tra cluster, SVM e volumi. | Sì | No | No 
+
+
 | Contratti di supporto / hardware EOS | Fornisce informazioni sui dettagli del contratto e sull'elenco di controller, shelf e dischi che hanno raggiunto la fine del supporto (EOS). | Sì | Sì | No 
 
 
