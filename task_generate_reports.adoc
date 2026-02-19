@@ -43,7 +43,7 @@ summary: Fornisce informazioni per generare report.
 
 
 
-NOTE: Il report viene salvato in Digital Advisor per 3 giorni.
+NOTE: Il report viene salvato in Digital Advisor per 3 mesi.
  a| 
 . Fare clic sulla scheda *Schedule Report* (Pianifica report).
 . Selezionare il tipo di report e fornire i valori richiesti per il report.

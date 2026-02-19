@@ -786,7 +786,6 @@
   <block id="cf2b00ffa5bd73f45aa8d81c2b6127eb" category="list-text">Fare clic su *Create Report* (Crea report) per generare un nuovo report.</block>
   <block id="bb8c427c31e76f816f767bd2cad87cfc" category="list-text">Selezionare il tipo di report e fornire i valori richiesti per il report.</block>
   <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">Selezionare il formato del report.</block>
-  <block id="b38cbc17f5d9a4695d51db9473e7dffd" category="admonition">Il report viene salvato in Digital Advisor per 3 giorni.</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">I report pianificati esistenti verranno sostituiti quando vengono generati i nuovi report.</block>
   <block id="23fc079b14c319bb82e85f2e815d0f03" category="summary">Fornisce informazioni su come generare un token per accedere alle API.</block>
   <block id="3a2fdf84bfcc3c891b43f0d51724ccde" category="paragraph">È facile registrarsi ai servizi API e generare token.</block>
@@ -1623,4 +1622,5 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="362a5eae56271693fedd19383a4aad7b" category="paragraph">Upgrade Advisor ora supporta la generazione di piani di aggiornamento per le versioni di ONTAP che hanno raggiunto la fine del supporto limitato, con un grace period di 9 mesi. Questa funzionalità aiuta i clienti a intervenire tempestivamente ed evitare interruzioni negli aggiornamenti, fornendo indicazioni chiare durante il periodo di transizione.</block>
   <block id="b16c048e2cbb1f91610daa0a614ff050" category="cell">Fornisce una panoramica completa ed esportabile dei rischi per la sicurezza dello storage ONTAP e delle lacune di conformità tra cluster, SVM e volumi.</block>
   <block id="3cdc57c34ce94785332eb57eb2d8d56d" category="section-title">04 febbraio 2026</block>
+  <block id="3741bac3a7c9d89c366100cd1cba5405" category="admonition">Il report viene salvato in Digital Advisor per 3 mesi.</block>
 </blocks>
