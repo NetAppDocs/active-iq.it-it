@@ -38,3 +38,5 @@ Entrambe le viste consentono all'utente di sfogliare gli elementi disponibili ut
 == Utilizzando le API
 
 Una volta autorizzati e in grado di generare token, è possibile sfruttare i token per eseguire query programmatiche e recuperare i dati. È inoltre possibile testare un'API dal catalogo API per vedere in prima persona come funziona la query e il tipo di dati restituiti. Questo è un ottimo modo per assicurarsi di comprendere il funzionamento di un'API prima di creare il framework di codice nel sistema.
+
+Per informazioni su come accedere e utilizzare le API di Digital Advisor, vedere link:https://docs.netapp.com/us-en/digital-advisor-automation/["NetApp Digital Advisor documentazione API"].
