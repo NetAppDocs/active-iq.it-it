@@ -24,7 +24,7 @@ summary: Fornisce i passaggi necessari per generare un piano di upgrade per un u
 
 Prima di generare un piano di aggiornamento, dovresti:
 
-* Assicurarsi che AutoSupport (ASUP) sia abilitato e configurato correttamente e che tutte le sezioni richieste siano incluse. Per maggiori informazioni, vedere link:hhttps://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["Guida alla risoluzione di ONTAP AutoSupport"].
+* Assicurarsi che AutoSupport (ASUP) sia abilitato e configurato correttamente, e che siano incluse tutte le sezioni richieste. Per ulteriori informazioni, consultare link:https://kb.netapp.com/on-prem/ontap/Ontap_OS/OS-KBs/ONTAP_AutoSupport_Resolution_Guide["Guida alla risoluzione di ONTAP AutoSupport"].
 * Verificare che i membri del cluster AutoSupport corrispondano alla configurazione del cluster SAP.  Per maggiori informazioni,link:https://kb.netapp.com/Support/NSS/Support_Site/How_to_open_a_non-technical_case["aprire un caso non tecnico"] .
 
 
