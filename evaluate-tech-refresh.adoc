@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: evaluate-tech-refresh.html 
-keywords: tech refresh, tech support contract, hardware 
-summary: 'Fornisce informazioni per valutare l"aggiornamento tecnologico del contratto o dell"hardware del supporto tecnico' 
+keywords: tech refresh, tech support contract, hardware, system refresh 
+summary: 'Fornisce informazioni per valutare il refresh del sistema del contratto di supporto tecnico o dell"hardware' 
 ---
-= Determina se è consigliato un aggiornamento tecnologico per il tuo sistema di archiviazione in Digital Advisor
+= Determina se è consigliato un aggiornamento del sistema per il tuo sistema storage in Digital Advisor
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
@@ -16,8 +16,8 @@ summary: 'Fornisce informazioni per valutare l"aggiornamento tecnologico del con
 
 
 [role="lead"]
-Per sapere se si consiglia un aggiornamento tecnologico per il contratto di supporto tecnico o per l'hardware, è possibile utilizzare l'opzione di aggiornamento tecnologico.
+Se desideri verificare se è consigliabile un aggiornamento del sistema per il tuo contratto di assistenza tecnica o per l'hardware in uso, puoi utilizzare l'opzione di aggiornamento del sistema.
 
-È possibile accedere a questa funzionalità tramite la pianificazione del ciclo di vita (*Archiviazione* > *Pianificazione del ciclo di vita*) o tramite Digital Advisor (*Dashboard > Widget di pianificazione > Aggiornamento tecnologico*).
+È possibile accedere a questa funzionalità tramite la pianificazione del ciclo di vita (*Storage* > *Lifecycle planning*) oppure tramite Digital Advisor (*Dashboard > Planning widget > System Refresh*).
 
-Per maggiori informazioni su questa funzionalità, vederelink:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Valutazione di un refresh tecnologico"] nella documentazione della Console.
+Per ulteriori informazioni su questa funzionalità, consultare link:https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Valutare un aggiornamento del sistema"] nella documentazione della Console.

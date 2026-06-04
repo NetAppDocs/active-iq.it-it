@@ -113,8 +113,8 @@ sidebar:
         url: "/task_identify_capacity_system.html"
       - title: Gestisci le soglie di capacità di archiviazione del volume
         url: "/task_avoid_a_volume_filling_up_to_prevent_an_outage.html"
-      - title: Determinare se è consigliato un aggiornamento tecnologico per il sistema
-          di archiviazione
+      - title: Determinare se è consigliato un aggiornamento del sistema per sistema
+          storage
         url: "/evaluate-tech-refresh.html"
       - title: Rinnovare il software e l'hardware del sistema di archiviazione
         url: "/task_renew_software_and_hardware.html"

@@ -212,7 +212,6 @@
   <block id="e1ceb514961568f187bb88fa116f776f" category="list-text">Mailto:ng-active-iq-feedback@netapp.com[e-mail]</block>
   <block id="ededec00f7d24950f152983df2ad1f73" category="list-text">Pulsante Support in Digital Advisor per supporto e feedback.</block>
   <block id="834e689bebc0737b35009981790fcddc" category="summary">Fornisce informazioni sullo stato di salute e sui tipi di rischio, che consentono di migliorare il sistema storage.</block>
-  <block id="16ae463ae4f1266939a871f237f322a5" category="paragraph">Il widget Wellness fornisce informazioni dettagliate sul sistema storage. Fornisce informazioni sui diversi attributi del sistema storage, ad esempio performance ed efficienza, capacità, impostazioni di configurazione, vulnerabilità di sicurezza, rinnovi, e altri.</block>
   <block id="fce1523be4b4cc1966774ce59fd20610" category="inline-image-macro">workflow di wellness</block>
   <block id="32a4a6962e2e1ab900312c2d4eefa0de" category="paragraph"><block ref="32a4a6962e2e1ab900312c2d4eefa0de" category="inline-image-macro-rx" type="image"></block></block>
   <block id="15d214cfadac5e15f2d227c604756873" category="paragraph">Il widget wellness fornisce inoltre informazioni sui rischi e sulle azioni da intraprendere per mitigare il rischio per ciascun attributo wellness. Di seguito sono riportati i tipi di rischi e le relative conseguenze per ciascun rischio:</block>
@@ -668,7 +667,6 @@
   <block id="7a02010f1fdbb3243b633245324dbadf" category="list-text">*Widget inventario:* Visualizza l'inventario dei sistemi StorageGRID disponibili nel livello selezionato.</block>
   <block id="b9928cfa30ad75fb5efb2c79cc8b812e" category="list-text">*Widget benessere:* Visualizza tutti i rischi e le azioni, inclusi quelli relativi a StorageGRID, se applicabili in base alle regole ARS esistenti per i sistemi disponibili.</block>
   <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">*Widget Pianificazione:*</block>
-  <block id="5ad57484a0088c331d00073cc0508f63" category="list-text">*Aggiunta di capacità:* per tutti i siti GRID che superano la soglia del 70% della capacità esistente, verrà inviata una notifica. È possibile aggiungere capacità per StorageGRID nel sito per i prossimi 1, 3 e 6 mesi se la soglia di capacità è probabilmente superiore al 70%.</block>
   <block id="b1022932a0a6c2bc62b19907e4e14bea" category="list-text">*Rinnovi:* per tutti i sistemi StorageGRID per i quali il contratto di licenza è scaduto o sta per scadere nei prossimi 6 mesi, riceverai una notifica. È possibile selezionare uno o più sistemi per inoltrare una richiesta al team di supporto NetApp per il rinnovo.</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">*DASHBOARD DELLA GRIGLIA:* la dashboard DELLA GRIGLIA fornisce informazioni sullo stato di salute, sulla pianificazione e sulla configurazione della GRIGLIA selezionata.</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">*Widget di configurazione:* fornisce i dettagli di base del StorageGRID selezionato nel widget, ad esempio Nome GRIGLIA, Nome host, numero di serie, modello, versione del sistema operativo, Nome del cliente, luogo di spedizione e dettagli di contatto.</block>
@@ -845,9 +843,6 @@
   <block id="0f4f0d8eb7497054f3f3160501e62e20" category="list-text">*Correggi:* corregge i rischi per il sistema utilizzando Active IQ 9.7 o versioni successive. Fare clic su questo pulsante per avviare UM ed eseguire i passaggi per ridurre i rischi.</block>
   <block id="acf7d20d0268fb3265f641fbc7ac8d68" category="list-text">*Inventory widget:* Visualizza un rollup dei sistemi totali in tuo possesso. Sono inclusi prodotti abilitati e non abilitati per Digital Advisor.</block>
   <block id="70997d9cb46f1884262203c0386ee9ba" category="list-text">*Generare un report:* genera il report della lista di controllo selezionata e lo invia via email a un massimo di 5 destinatari.</block>
-  <block id="4f34ff28c8e6e0459e7e8b7c218ea60a" category="list-text">*Planning widget:* Visualizza informazioni sull'aggiunta di capacità, sul software e sull'hardware da rinnovare.</block>
-  <block id="f455a78311af3f0899cacd26d802aabd" category="list-text">*Aggiunta di capacità:* identifica i sistemi che hanno superato o stanno per essere vicini al 90% di capacità e i siti DI RETE che hanno superato o stanno per essere vicini al 70% di capacità. È possibile inoltrare una richiesta per aumentare la capacità del sistema di storage.</block>
-  <block id="a14095eb1402d18db0b8da516449039e" category="list-text">*Rinnovi:* fornisce informazioni sul software e sull'hardware scaduti o prossimi alla scadenza nei prossimi 6 mesi.</block>
   <block id="893c77a9be3c9d01629801789ac3c684" category="list-text">*Il widget Upgrades (aggiornamenti):* fornisce il numero di aggiornamenti disponibili per i sistemi ONTAP ed e-Series:</block>
   <block id="802c8daa153570ef0dadaf2d8be9ee78" category="list-text">Per i sistemi ONTAP, è possibile visualizzare informazioni sul numero di sistemi che richiedono un aggiornamento e richiedere un piano di aggiornamento.</block>
   <block id="ac697c7fc74ba789f9ec5a46df7312c6" category="list-text">Per i sistemi e-Series, è possibile visualizzare solo informazioni sul numero di sistemi che richiedono un aggiornamento.</block>
@@ -951,7 +946,6 @@
   <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">Scheda di correzione</block>
   <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">Il rischio viene risolto in ONTAP 9.7P8 e versioni successive.<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ca249192c36cc85e44209b65bfb3ec3d" category="list-text">Il passaggio più importante consiste nel pianificare l'aggiornamento del sistema operativo in *Upgrade Advisor* di Digital Advisor.</block>
-  <block id="86592c16b8e8d8d0b3cfdda42cfb12b9" category="list-text">Fare clic su *Renewals* (rinnovi) dal widget *Planning* (Pianificazione).</block>
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">Facoltativamente, fornire commenti aggiuntivi.</block>
   <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">Fare clic su *Invia*.</block>
   <block id="4bf24111ed7846edf31112cd54f977f7" category="summary">Aiuta a comprendere i flussi di lavoro e a iniziare a utilizzare Digital Advisor.</block>
@@ -968,7 +962,6 @@
   <block id="f72e303ceb317ddb2d49f55359f01d75" category="cell">*Cluster*</block>
   <block id="04eaef0c64f7604067332b0b05e598d3" category="cell">Nodo *</block>
   <block id="fe40d8b49a8a95c2a28179b7ef3039d6" category="cell">Supportato su tutte le piattaforme</block>
-  <block id="28e26766a62bd9ef329986f7963b6357" category="cell">Aggiunta di capacità</block>
   <block id="7c3098d5e7bbe4908e01ab684d9cd021" category="cell">Supportato solo su Clustered Data ONTAP</block>
   <block id="240f9686efc9548a1d556d924c143924" category="cell">Aggiornamenti</block>
   <block id="c8a6259aed44fea9ff6723eeb59cce9e" category="sidebar">Documentazione di Digital Advisor</block>
@@ -1259,9 +1252,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="ff40d476eb35d6d339a7a745c5825109" category="sidebar">Portale Web di Digital Advisor</block>
   <block id="4238f8b700953551a4ce57636e1b3b11" category="sidebar">Video di Digital Advisor</block>
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Community NetApp – Consulente digitale</block>
-  <block id="a05a52081b0fa90b1547ef6f59f35788" category="summary">Fornisce informazioni per valutare l'aggiornamento tecnologico del contratto o dell'hardware del supporto tecnico</block>
-  <block id="33a9c4b5f0c522c38ff9b1b46ebd1498" category="doc">Valutazione di un refresh tecnologico</block>
-  <block id="2d6605eb73e95419014e86f084d39681" category="paragraph">Per sapere se si consiglia un aggiornamento tecnologico per il contratto di supporto tecnico o per l'hardware, è possibile utilizzare l'opzione di aggiornamento tecnologico.</block>
   <block id="ef2753666e2bb535cdbdfcab50c1a017" category="list-text">*Sicurezza e difesa dal ransomware:* fornisce informazioni sui rischi e sulle azioni correttive associate alle vulnerabilità di sicurezza, al rilevamento, alla prevenzione e al ripristino del ransomware.</block>
   <block id="1f4882587636b2511732cfb3b14bfbcf" category="list-text">*Sustainability:* Visualizza il numero di azioni consigliate per migliorare il punteggio di sostenibilità a livello di cliente, lista di controllo, sito e gruppo.</block>
   <block id="0235bcf89237278317e178c8c295ac74" category="list-text">Fare clic su *azioni* nel widget *sicurezza e difesa dal ransomware*.
@@ -1303,14 +1293,12 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">Impossibile accedere a determinate funzioni o richiedere assistenza per qualsiasi funzione di Digital Advisor</block>
   <block id="71ba49d3e291eb6557085c00a26f1f0e" category="paragraph">Identifica in modo proattivo i sistemi che stanno raggiungendo i limiti di capacità e invia una richiesta per aumentare la capacità del tuo sistema storage.</block>
   <block id="64c0215a49227967002da65613b613e8" category="paragraph">Per ONTAP, è possibile visualizzare sistemi che hanno superato il 90% della capacità o che devono superare il 90% della capacità nei mesi di 1, 3 e 6. Per StorageGRID, è possibile visualizzare sistemi che hanno superato il 70% della capacità o che devono superare il 70% della capacità nei mesi di 1, 3 e 6.</block>
-  <block id="c8a74c1549aa26d254c47b2fe445b5be" category="list-text">Nel widget *Pianificazione*, fare clic su *aggiunte di capacità*.</block>
   <block id="6af6f792a8c574d32c21182caaac6294" category="paragraph">Per impostazione predefinita, vengono visualizzati i sistemi ONTAP che hanno superato il 90% della capacità o si stanno avvicinando al 90% della capacità.</block>
   <block id="8774a5436b96ad3e78450845bce43111" category="list-text">Fare clic sulla scheda *StorageGRID* per visualizzare i sistemi StorageGRID che hanno superato il 70% della capacità o si stanno avvicinando al 70% della capacità.</block>
   <block id="cd521d4f21b981f0132bcab8c1cd1129" category="list-text">Selezionare i sistemi per i quali si desidera aumentare la capacità.</block>
   <block id="6aeda814c1d41515a83e1377f67f46b6" category="list-text">Fare clic su *View Capacity forecast* (Visualizza previsione capacità) per visualizzare la previsione della capacità per i prossimi 6 mesi.</block>
   <block id="8d79993c5d29c4e1c65aa5714a30b889" category="list-text">Fare clic su *richiesta di aggiunta capacità*.</block>
   <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">Se lo desideri, fornisci eventuali commenti.</block>
-  <block id="1b4b8457b3e396737f084de0f45936c7" category="list-text">Fare clic su *Invia* per inviare la richiesta al team di archiviazione NetApp per fornire assistenza sull'aggiunta di capacità per i sistemi selezionati.</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">15 maggio 2024</block>
   <block id="e5ec30fe5fd65ba8d529a625838c30d8" category="admonition">La sostenibilità è supportata dai sistemi Cloud Volumes ONTAP, AFF (A-Series e C-Series), e-Series, FAS e StorageGRID.</block>
   <block id="f78aea7a273ac10c7cb721f1b73054d6" category="paragraph">La dashboard Sustainability fornisce una valutazione ambientale dei tuoi sistemi storage e informazioni utilizzabili per il miglioramento sotto forma di azioni consigliate da NetApp.</block>
@@ -1430,8 +1418,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="70eb71406501e224ffe5e1e4571fcc65" category="list-text">Apri un browser web e vai su<block ref="24972d13214bf960aed8a7602883d866" category="inline-link-macro-rx"></block> .</block>
   <block id="5bf5d855aa43f8908638c956b6a6ef8b" category="paragraph">Se in precedenza hai creato un accesso alla Console utilizzando un indirizzo email e una password, dovrai continuare a utilizzare tale opzione di accesso.</block>
   <block id="e55f1920f154b5cf14dc8dc4428d7185" category="paragraph">Questo accesso è diverso dall'accesso completato nel passaggio 2.  Nel passaggio 2 hai effettuato l'accesso alla Console.  Ora stai effettuando l'accesso a Digital Advisor.</block>
-  <block id="53d31668ff4a0d2a40cc587f9c13ec8e" category="admonition">È possibile accedere a questa funzionalità tramite la pianificazione del ciclo di vita (*Archiviazione* &gt; *Pianificazione del ciclo di vita*) o tramite Digital Advisor (*Dashboard &gt; Widget di pianificazione &gt; Aggiornamento tecnologico*).</block>
-  <block id="81726c1bdc965a2834b9dcfa001ef6b0" category="paragraph">Per maggiori informazioni su questa funzionalità, vedere<block ref="a230b818a44a7d13155b37e12838fa41" category="inline-link-macro-rx"></block> nella documentazione della Console.</block>
   <block id="251a116e3518821c4cb40f8abb066a2f" category="summary">Per iniziare a utilizzare la dashboard sulla sostenibilità, accedi alla NetApp Console o Digital Advisor.</block>
   <block id="eb78fdcbf8bbae675c7ee0f97a884a74" category="paragraph">La dashboard sulla sostenibilità fornisce report e punteggi abilitati da AIOps con informazioni fruibili per migliorare la tua posizione in materia di sostenibilità.  È possibile accedere alla dashboard sulla sostenibilità tramite NetApp Console o Digital Advisor.</block>
   <block id="f5d302c73eacff7b76d482bf489706b0" category="inline-link-macro">accesso alla Console</block>
@@ -1484,7 +1470,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="570719b584e6e69c4931e958bef6979e" category="doc">Scopri le funzionalità Digital Advisor</block>
   <block id="8083f9b299587af579ece9bb64335b08" category="doc">Scopri di più sulla dashboard Health Check in Digital Advisor</block>
   <block id="e5961c9ba5d2ded320c587ca2be451d3" category="doc">Aggiorna il file di inventario per l'aggiornamento del firmware AFF e FAS</block>
-  <block id="17cf57a799d9d94a0c583f49a7f30df1" category="doc">Determina se è consigliato un aggiornamento tecnologico per il tuo sistema di archiviazione in Digital Advisor</block>
   <block id="2aa63ba789e73b06bdbb2c2a977b1a63" category="doc">Genera un piano di aggiornamento ONTAP per cluster singoli e multipli in Digital Advisor</block>
   <block id="c1f1e34afc313dc547fc394981f53ffd" category="doc">Accedi alla dashboard Sostenibilità in Digital Advisor</block>
   <block id="6a67202f32080d987cdaf104a007ea9f" category="doc">Migliora il punteggio di sostenibilità del tuo sistema di archiviazione con Digital Advisor</block>
@@ -1560,7 +1545,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="d89f3b8963bef2ec6e2b190588136909" category="sidebar">Gestisci i requisiti di capacità del sistema di archiviazione con il widget Pianificazione</block>
   <block id="670c1f5b09d4ee058170a248707f6cf0" category="sidebar">Identificare i sistemi di stoccaggio che si avvicinano ai limiti di capacità</block>
   <block id="670d5d545130d51748bc5083b6b61b03" category="sidebar">Gestisci le soglie di capacità di archiviazione del volume</block>
-  <block id="619122f60cc5d0d60681fb618a43634b" category="sidebar">Determinare se è consigliato un aggiornamento tecnologico per il sistema di archiviazione</block>
   <block id="38ce951a3b0659ec3d5cbbb32de780f8" category="sidebar">Rinnovare il software e l'hardware del sistema di archiviazione</block>
   <block id="df1499afb39a1c2cf9d675ff51761e59" category="sidebar">Analizza lo stato del sistema di archiviazione con i consigli del cloud</block>
   <block id="29da45b00d724bc9c112a3904192176a" category="sidebar">Rilevare deviazioni di configurazione per il sistema di archiviazione</block>
@@ -1593,4 +1577,29 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="ed124d5bdf3fe0a1c3c145d0a44b1707" category="list-text">Assicurarsi che AutoSupport (ASUP) sia abilitato e configurato correttamente, e che siano incluse tutte le sezioni richieste. Per ulteriori informazioni, consultare <block ref="40cef9e2460f87a6d015a209e1716d2b" category="inline-link-macro-rx"></block>.</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">A partire da luglio 2026, la funzionalità di revisione del benessere non sarà più disponibile in Digital Advisor. Per qualsiasi domanda, inviare un'e-mail a mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">18 maggio 2026</block>
+  <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Aggiornamenti del nome del widget di Digital Advisor</block>
+  <block id="10db272222005cd4785bf41eb8f2d16f" category="paragraph">Le seguenti funzionalità di Digital Advisor hanno cambiato nome:</block>
+  <block id="c1e03330b4662e637d1bbe6857651076" category="inline-link-macro">valutare un aggiornamento del sistema</block>
+  <block id="7e46c4cf133c5a7da9a1738efe1b7df3" category="list-text">La funzione Aggiornamento tecnico ora si chiama Aggiornamento di sistema. Scopri come <block ref="b9c9fb213cb3859574b8b90c3e01e8f8" category="inline-link-macro-rx"></block>.</block>
+  <block id="ffbdf4857ebb280d918de41e3ecebb17" category="inline-link-macro">Widget di Digital Advisor</block>
+  <block id="7b68bc21ce78c08210db229203879260" category="list-text">La funzione di aggiunta di capacità ora si chiama espansione dello storage. Scopri di più <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>.</block>
+  <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">La funzione Rinnovi ora si chiama Support Renewals. Scopri di più <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>.</block>
+  <block id="4e48390599cbc0039283bd380eac0cdd" category="cell">Rinnovi del supporto</block>
+  <block id="a6622e39d0619e452c435935de0631a7" category="cell">Espansione dello storage</block>
+  <block id="51b0c2b7b72e87dd0bf515df5f9e6f5e" category="list-text">*Widget di pianificazione:* Visualizza informazioni sull'espansione dello storage, sul software e sull'hardware che devono essere rinnovati.</block>
+  <block id="72249fa940a7ec954e6f3d3abf4091cf" category="list-text">*Espansione dello storage:* Identifica i sistemi che hanno superato o si stanno avvicinando al 90% della capacità e i siti GRID che hanno superato o si stanno avvicinando al 70% della capacità. È possibile inviare una richiesta per aumentare la capacità del proprio sistema storage.</block>
+  <block id="4147677b5e66a7db19581c18353c5d87" category="list-text">*Rinnovi dell'assistenza:* Fornisce informazioni sul software e sull'hardware scaduti o in scadenza nei prossimi 6 mesi.</block>
+  <block id="05990f83c518983518d1838e09f090e8" category="paragraph">Il widget Benessere fornisce informazioni dettagliate sul sistema storage. Offre informazioni su diversi attributi del sistema storage, come prestazioni ed efficienza, capacità, impostazioni di configurazione, vulnerabilità di sicurezza, rinnovi dell'assistenza e altro ancora.</block>
+  <block id="9b9e31bebddf0b3c6a491e94b6ef64b5" category="summary">Fornisce informazioni per valutare il refresh del sistema del contratto di supporto tecnico o dell'hardware</block>
+  <block id="c4d91836762c79f24882b84639da9ecd" category="doc">Determina se è consigliato un aggiornamento del sistema per il tuo sistema storage in Digital Advisor</block>
+  <block id="ae7c8af4913d5ed60eee9eba144d34f2" category="paragraph">Se desideri verificare se è consigliabile un aggiornamento del sistema per il tuo contratto di assistenza tecnica o per l'hardware in uso, puoi utilizzare l'opzione di aggiornamento del sistema.</block>
+  <block id="b673e7cded650c08d6c0289225510337" category="paragraph">È possibile accedere a questa funzionalità tramite la pianificazione del ciclo di vita (*Storage* &gt; *Lifecycle planning*) oppure tramite Digital Advisor (*Dashboard &gt; Planning widget &gt; System Refresh*).</block>
+  <block id="dcd5d8e34e28517df35c9ef34326b7f8" category="inline-link-macro">Valutare un aggiornamento del sistema</block>
+  <block id="4b6c29e1e0ca5888882f9afb85d41460" category="paragraph">Per ulteriori informazioni su questa funzionalità, consultare <block ref="60246966bc8fb02ea32471ffe11e7654" category="inline-link-macro-rx"></block> nella documentazione della Console.</block>
+  <block id="ded0a309adbbd30fc9482b49a9ac79cd" category="section-title">3 giugno 2026</block>
+  <block id="2014a31fd7c5aa735efd9b3eab46bae2" category="list-text">*Aumento della capacità:* Riceverai una notifica per tutti i siti GRID che superano la soglia del 70% della capacità esistente. Avrai la possibilità di aggiungere capacità per gli StorageGRID presenti nel sito, per i prossimi 1, 3 e 6 mesi, qualora si preveda che la soglia di capacità superi il 70%.</block>
+  <block id="0cd056bd26e169de7bcb1a020c6b1264" category="list-text">Nel widget *Pianificazione*, fai clic su *Espansione dello storage*.</block>
+  <block id="2e703d88e9f579295840057715d9e123" category="list-text">Fai clic su *Invia* per inviare la richiesta al team di storage NetApp per ottenere assistenza con l'espansione dello storage per i sistemi selezionati.</block>
+  <block id="9db2bee503b4dd39ee519c9d3147cd82" category="list-text">Fai clic su *Rinnovi di supporto* nel widget *Pianificazione*.</block>
+  <block id="ac7c07737d772453b955c31ac43f2b1f" category="sidebar">Determinare se è consigliato un aggiornamento del sistema per sistema storage</block>
 </blocks>

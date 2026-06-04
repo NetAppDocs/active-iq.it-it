@@ -67,10 +67,10 @@ Quando inizi a utilizzare Digital Advisor, è importante comprendere alcuni dei 
 ** *Generare un report:* genera il report della lista di controllo selezionata e lo invia via email a un massimo di 5 destinatari.
 
 
-* *Planning widget:* Visualizza informazioni sull'aggiunta di capacità, sul software e sull'hardware da rinnovare.
+* *Widget di pianificazione:* Visualizza informazioni sull'espansione dello storage, sul software e sull'hardware che devono essere rinnovati.
 +
-** *Aggiunta di capacità:* identifica i sistemi che hanno superato o stanno per essere vicini al 90% di capacità e i siti DI RETE che hanno superato o stanno per essere vicini al 70% di capacità. È possibile inoltrare una richiesta per aumentare la capacità del sistema di storage.
-** *Rinnovi:* fornisce informazioni sul software e sull'hardware scaduti o prossimi alla scadenza nei prossimi 6 mesi.
+** *Espansione dello storage:* Identifica i sistemi che hanno superato o si stanno avvicinando al 90% della capacità e i siti GRID che hanno superato o si stanno avvicinando al 70% della capacità. È possibile inviare una richiesta per aumentare la capacità del proprio sistema storage.
+** *Rinnovi dell'assistenza:* Fornisce informazioni sul software e sull'hardware scaduti o in scadenza nei prossimi 6 mesi.
 
 
 * *Il widget Upgrades (aggiornamenti):* fornisce il numero di aggiornamenti disponibili per i sistemi ONTAP ed e-Series:

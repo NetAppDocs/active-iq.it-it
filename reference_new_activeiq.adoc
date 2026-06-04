@@ -20,6 +20,21 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+== 3 giugno 2026
+
+
+
+=== Aggiornamenti del nome del widget di Digital Advisor
+
+Le seguenti funzionalità di Digital Advisor hanno cambiato nome:
+
+* La funzione Aggiornamento tecnico ora si chiama Aggiornamento di sistema. Scopri come link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["valutare un aggiornamento del sistema"].
+* La funzione di aggiunta di capacità ora si chiama espansione dello storage. Scopri di più link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widget di Digital Advisor"].
+* La funzione Rinnovi ora si chiama Support Renewals. Scopri di più link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widget di Digital Advisor"].
+
+
+
+
 == 18 maggio 2026
 
 
@@ -939,7 +954,7 @@ Questa versione offre le seguenti funzionalità:
 * *Widget benessere:* Visualizza tutti i rischi e le azioni, inclusi quelli relativi a StorageGRID, se applicabili in base alle regole ARS esistenti per i sistemi disponibili.
 * *Widget Pianificazione:*
 +
-** *Aggiunta di capacità:* per tutti i siti GRID che superano la soglia del 70% della capacità esistente, verrà inviata una notifica. È possibile aggiungere capacità per StorageGRID nel sito per i prossimi 1, 3 e 6 mesi se la soglia di capacità è probabilmente superiore al 70%.
+** *Aumento della capacità:* Riceverai una notifica per tutti i siti GRID che superano la soglia del 70% della capacità esistente. Avrai la possibilità di aggiungere capacità per gli StorageGRID presenti nel sito, per i prossimi 1, 3 e 6 mesi, qualora si preveda che la soglia di capacità superi il 70%.
 ** *Rinnovi:* per tutti i sistemi StorageGRID per i quali il contratto di licenza è scaduto o sta per scadere nei prossimi 6 mesi, riceverai una notifica. È possibile selezionare uno o più sistemi per inoltrare una richiesta al team di supporto NetApp per il rinnovo.
 
 
