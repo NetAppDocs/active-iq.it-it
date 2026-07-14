@@ -20,6 +20,7 @@ Le seguenti domande forniscono risposte alle domande frequenti su Digital Adviso
 
 
 
+[[technical-case]]
 == Caso tecnico
 
 *Quando si crea un caso tecnico?*
@@ -45,6 +46,7 @@ I casi tecnici vengono creati per richiedere assistenza con qualsiasi prodotto N
 
 
 
+[[non-technical-case]]
 == Caso non tecnico
 
 *Cos'è un caso non tecnico?*
@@ -78,6 +80,7 @@ Per fornire feedback o porre domande, invia un'email a mailto:ng-activeiq-feedba
 
 
 
+[[storage-efficiency]]
 == Efficienza dello storage
 
 *Come posso accedere all'efficienza dello storage in Digital Advisor?*
@@ -221,6 +224,7 @@ La riduzione dei dati viene mostrata più in alto quando nel nodo sono presenti 
 
 
 
+[[inventory]]
 == Inventario
 
 *Perché non riesco a trovare alcuni sistemi in Digital Advisor?*
@@ -236,6 +240,7 @@ Se non riesci a visualizzare i sistemi per altri motivi, hai domande o desideri 
 
 
 
+[[capacity]]
 == Capacità
 
 *Come vengono calcolate le capacità in Digital Advisor?* le capacità in Digital Advisor vengono calcolate per cluster e nodo, escluse le copie root e Snapshot incluse
@@ -344,6 +349,7 @@ Per StorageGRID, le capacità sono visualizzate nella base 10 e l'unità di capa
 
 
 
+[[miscellaneous]]
 == Varie
 
 *Perché le funzioni in STATO DI ARCHIVIAZIONE nel riquadro di spostamento di sinistra sono disattivate?*

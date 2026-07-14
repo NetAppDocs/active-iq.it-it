@@ -4,6 +4,7 @@
 
 
 
+[[sustainability-dashboard]]
 === Dashboard sulla sostenibilità
 
 Gli indicatori ambientali che forniscono informazioni sullo stato di salute ambientale dei sistemi di accumulo ora forniscono valori più precisi per il consumo energetico previsto, l'utilizzo diretto di carbonio e le emissioni di calore, sulla base di un modello predittivo avanzato. Per saperne di più, fare riferimento alink:https://docs.netapp.com/us-en/active-iq/sustainability-dashboard-overview.html["Panoramica della dashboard Sustainability"] .

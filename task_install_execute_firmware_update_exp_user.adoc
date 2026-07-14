@@ -20,6 +20,7 @@ Gli utenti esperti possono installare ed eseguire rapidamente il pacchetto di au
 
 
 
+[[firmware-update-with-ansible-using-netapp-docker-image]]
 == Aggiornamento del firmware con Ansible utilizzando NetApp Docker Image
 
 .Fasi
@@ -75,6 +76,7 @@ NOTE: Se gli URL del firmware del disco, del firmware dello shelf e del firmware
 
 
 
+[[firmware-update-if-ansible-is-already-used]]
 == Aggiornamento del firmware se Ansible è già in uso
 
 .Fasi

@@ -22,6 +22,7 @@ Utilizzando la Console, gli esperti IT e gli architetti cloud possono gestire ce
 
 
 
+[[netapp-console]]
 == Console NetApp
 
 È possibile accedere a Digital Advisor tramite la NetApp Console.

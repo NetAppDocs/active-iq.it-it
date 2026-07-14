@@ -27,6 +27,7 @@ L'automazione con le API è un ottimo modo per aggiungere efficienza e precision
 
 
 
+[[api-catalog]]
 == Catalogo API
 
 Il pulsante nella parte superiore della pagina consente all'utente di passare da una modalità all'altra per visualizzare il catalogo. La vista Code (Codice) si concentra sui parametri di input necessari, sul contenuto e sul formato dei dati restituiti e sugli esempi di codice per consentire all'utente di iniziare a implementare il codice. La vista dell'esperimento offre all'utente la possibilità di "provare" l'API nel browser utilizzando un token generato dalla pagina principale dei servizi API.
@@ -35,6 +36,7 @@ Entrambe le viste consentono all'utente di sfogliare gli elementi disponibili ut
 
 
 
+[[using-the-apis]]
 == Utilizzando le API
 
 Una volta autorizzati e in grado di generare token, è possibile sfruttare i token per eseguire query programmatiche e recuperare i dati. È inoltre possibile testare un'API dal catalogo API per vedere in prima persona come funziona la query e il tipo di dati restituiti. Questo è un ottimo modo per assicurarsi di comprendere il funzionamento di un'API prima di creare il framework di codice nel sistema.

@@ -20,6 +20,7 @@ Prima di eseguire il manuale Ansible, assicurarsi che il file *NetApp_Ansible_**
 
 
 
+[[before-you-begin]]
 == Prima di iniziare
 
 Prima di eseguire Ansible Playbook con NetApp docker, devi:

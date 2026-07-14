@@ -23,6 +23,7 @@ NOTE: Digital Advisor ti indirizza alla NetApp Console per implementare i consig
 
 
 
+[[migration]]
 == Migrazione
 
 Fornisce informazioni sui diversi tipi di carichi di lavoro disponibili all'interno del sistema storage e identifica i carichi di lavoro pronti per il cloud. Lo spostamento dei carichi di lavoro nel cloud consente di risparmiare sui costi e offre il disaster recovery del cloud.
@@ -44,6 +45,7 @@ Per la migrazione a Cloud Volumes ONTAP (CVO) si consigliano i volumi che soddis
 
 
 
+[[tiering]]
 == Tiering
 
 Fornisce informazioni sui dati di Tier locale inattivi (aggregati), sui dati di volume inattivi, sui dati a più livelli e sui dati non monitorati. È possibile ridurre l'impatto dello storage e i costi associati monitorando e tiering i dati inattivi o a freddo in livelli di storage a oggetti a basso costo.
@@ -69,6 +71,7 @@ Per ulteriori informazioni su FabricPool, fare riferimento a. link:https://www.n
 
 
 
+[[backup-archive]]
 == Backup e archiviazione
 
 Fornisce informazioni sui sistemi di cui eseguire il backup nel cloud. È possibile utilizzare NetApp Cloud Backup per proteggere i sistemi e ripristinarli quando necessario.
@@ -87,6 +90,7 @@ Per il backup nel cloud si consigliano i volumi che soddisfano i seguenti criter
 
 
 
+[[replication]]
 == Replica
 
 Fornisce informazioni sui dati che devono essere replicati nel cloud per aiutare in caso di disastri.

@@ -23,6 +23,7 @@ Il widget *Inventario* fornisce un riepilogo di tutti i sistemi e degli switch a
 video::ttbpbT5uTBI[youtube,width=848,height=480]
 
 
+[[view-system-details]]
 == Visualizza i dettagli del sistema
 
 .Fasi
@@ -37,6 +38,7 @@ I file Ansible Inventory possono essere utilizzati con file Ansible Playbook per
 
 
 
+[[view-support-entitled-switch-details]]
 == Visualizza i dettagli del supporto autorizzato
 
 .Fasi

@@ -28,6 +28,7 @@ NOTE: La sostenibilità è supportata dai sistemi Cloud Volumes ONTAP, AFF (A-Se
 video::yNRHeOvbGX8[youtube,width=848,height=480]
 
 
+[[benefits-of-sustainability]]
 == Vantaggi della sostenibilità
 
 La sostenibilità offre i seguenti vantaggi:

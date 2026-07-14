@@ -23,6 +23,7 @@ NOTE: Per ottenere i migliori risultati dalla dashboard, è necessario abilitare
 
 
 
+[[sustainability-score-computation]]
 == Calcolo del punteggio di sostenibilità
 
 Il punteggio di sostenibilità viene calcolato in base a un insieme di regole correlate ai sistemi storage e ciascuna regola consente di gestire rischi specifici e fornire le azioni consigliate per la mitigazione. A ogni regola viene assegnato un punteggio per riflettere la sua importanza. Ad esempio, se esistono tre regole associate ai sistemi di stoccaggio: Mantenimento della temperatura ambiente, garanzia di un utilizzo ottimale della capacità e utilizzo di un alimentatore al titanio, con punteggi rispettivamente di 30, 40 e 30 punti. L'aggiunta di questi punteggi dà un totale di 100 punti, che agisce come denominatore.
@@ -34,6 +35,7 @@ NOTE: Il punteggio di sostenibilità viene inizialmente calcolato a livello di c
 
 
 
+[[improve-overall-sustainability-score]]
 == Migliorare il punteggio generale di sostenibilità
 
 Puoi seguire queste istruzioni per migliorare il punteggio complessivo di sostenibilità, concentrandoti sugli sforzi di sostenibilità a livello aziendale:
@@ -95,6 +97,7 @@ image:actions_for_later.png["Una schermata che mostra le azioni consigliate con 
 ====
 
 
+[[improve-sustainability-score-at-cluster-level]]
 == Migliorare il punteggio di sostenibilità a livello di cluster
 
 Puoi seguire questa procedura per migliorare il punteggio di sostenibilità a livello di cluster incentrato sul miglioramento della sostenibilità per un cluster specifico:

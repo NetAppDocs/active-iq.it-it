@@ -789,7 +789,6 @@
   <block id="dd2f14a8d126300e4d4b5f68789f76c1" category="admonition">L'aggiunta manuale di cluster o controller non è supportata.</block>
   <block id="ba5f7135032775c8c999ecabfd7ec65b" category="summary">Fornisce ulteriori informazioni su Digital Advisor.</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="inline-link-macro">Community NetApp</block>
-  <block id="2250dada69ecec08ffc29ac659683495" category="inline-link-macro">Risorse di documentazione</block>
   <block id="2fc27556f44d8a6724ac003effded441" category="inline-link-macro">Sicurezza e privacy dei dati di telemetria NetApp</block>
   <block id="338fec277abf8dd8a9f3f83288b2911d" category="inline-link-macro">ONTAP AutoSupport e AutoSupport on-demand</block>
   <block id="d30bc95f114574e4f302ff7d56c38197" category="summary">Fornisce informazioni sull'hosting dei file del firmware mediante un server Web.</block>
@@ -1019,7 +1018,6 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="373fd27c1797dca500c6c9dbce1225f7" category="paragraph">Il server Web può essere configurato in diversi modi. Per istruzioni su come configurare un semplice server Web utilizzando Python, fare riferimento a. <block ref="303512ecf00930b786dea080d96799d8" category="inline-link-macro-rx"></block>.</block>
   <block id="d3b731ac977fc38e625943ab24125e73" category="list-text">Accedere alla <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block> pagina di accesso.</block>
   <block id="2cf504c669255f96f48e417bf3c86399" category="paragraph">Per i sistemi ONTAP, AutoSupport viene attivato per impostazione predefinita quando si configura il sistema di storage per la prima volta. Dovresti <block ref="03ce3f8b24f3ba6194d1a4f01375a3eb" category="inline-link-macro-rx"></block> Sui sistemi ONTAP per controllare la modalità di invio delle informazioni AutoSupport al supporto tecnico e all'organizzazione di supporto interna.</block>
-  <block id="836b35da2a4494ce20730d485e090b9b" category="list-text"><block ref="836b35da2a4494ce20730d485e090b9b" category="inline-link-macro-rx"></block></block>
   <block id="58789b5243f3cbb2a8a30f59de135896" category="list-text"><block ref="58789b5243f3cbb2a8a30f59de135896" category="inline-link-macro-rx"></block></block>
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">Per ulteriori informazioni su FabricPool, fare riferimento a. <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>.</block>
   <block id="c9a7e25beb9575351b078da21d059517" category="list-text">*Casi tecnici*: Fornisce una vista dettagliata della cronologia tecnica del caso, in base al tipo di caso e allo stato aperto o chiuso, in intervalli di tempo selezionabili.  È possibile analizzare i gruppi di casi e visualizzare i dettagli del caso tramite <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> o altri portali di casi.</block>
@@ -1029,7 +1027,6 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
   <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
-  <block id="847b7c4d19d7d7ef0daee103975b7b83" category="list-text"><block ref="847b7c4d19d7d7ef0daee103975b7b83" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Panoramica della dashboard Sustainability</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">Una schermata che mostra la percentuale di attenuazione del carbonio dei siti e come modificare questa percentuale.</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1310,7 +1307,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="8e4743bb176d909e65d015847fc93346" category="admonition">Il punteggio di sostenibilità viene inizialmente calcolato a livello di cluster, quindi viene aggregato ad altri livelli, ad esempio a livello di cliente o di watchlist.</block>
   <block id="a6cba69e97a9115b21cbf35b24b33d83" category="section-title">04 luglio 2024</block>
   <block id="2a4b13cd943c24cfe2735c05922d1427" category="list-text"><block ref="2a4b13cd943c24cfe2735c05922d1427" category="inline-link-macro-rx"></block></block>
-  <block id="7581b2408d4adfb3df4e98d5f1f96473" category="list-text"><block ref="7581b2408d4adfb3df4e98d5f1f96473" category="inline-link-macro-rx"></block></block>
   <block id="788b77f1903c86b79d6ab3fa3aeac01e" category="section-title">21 agosto 2024</block>
   <block id="fc1d748db1b5b488ce7af7d17ea15d55" category="inline-link-macro">Supporto della versione software</block>
   <block id="846815401f996d92d6775164d37e6015" category="inline-link-macro">Aggiornamento dei sistemi di storage Data ONTAP 7-Mode</block>
@@ -1618,4 +1614,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="e20432694f9004583c0756c875ad9910" category="cell">Sistemi che non hanno inviato un AutoSupport negli ultimi 30 giorni</block>
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">Riattiva AutoSupport sui sistemi interessati sopra elencati per ripristinare i dati correnti nelle viste di Health Check.</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">29 giugno 2026</block>
+  <block id="78c07c506154e08621f506935129d56b" category="list-text"><block ref="78c07c506154e08621f506935129d56b" category="inline-link-macro-rx"></block></block>
+  <block id="47f181ab6ea1bbd9a2696556081c4ba8" category="list-text"><block ref="47f181ab6ea1bbd9a2696556081c4ba8" category="inline-link-macro-rx"></block></block>
 </blocks>

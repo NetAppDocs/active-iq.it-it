@@ -20,6 +20,7 @@ summary: Fornisce i passaggi necessari per generare un piano di upgrade per un u
 
 
 
+[[before-you-begin]]
 == Prima di iniziare
 
 Prima di generare un piano di aggiornamento, dovresti:

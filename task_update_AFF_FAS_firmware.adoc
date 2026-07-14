@@ -20,6 +20,7 @@ summary: Fornisce informazioni su come aggiornare il firmware AFF e FAS.
 
 
 
+[[before-you-begin]]
 == Prima di iniziare
 
 Prima di aggiornare il firmware AFF e FAS utilizzando Ansible, è necessario:

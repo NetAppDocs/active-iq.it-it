@@ -22,6 +22,7 @@ Per l'aggiornamento del firmware del Service Processor, i nomi host dei nodi e l
 
 
 
+[[inventory-file-format]]
 == Formato del file di inventario
 
 Di seguito viene riportato un esempio di formato di file di inventario con aggiornamenti del firmware di dischi e shelf:
@@ -51,6 +52,7 @@ Nell'esempio, gli aggiornamenti del firmware per shelf e disco sono applicabili 
 
 
 
+[[delete-a-cluster-from-the-inventory-file]]
 == Eliminare un cluster dal file di inventario
 
 Se non si desidera applicare gli aggiornamenti del firmware su un cluster specifico, è possibile rimuovere il cluster dal file di inventario.
