@@ -1331,7 +1331,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="39ca8580b0e6a065fa25faac2a2acc86" category="inline-link-macro">Scopri come visualizzare i suggerimenti per l'aggiornamento del firmware</block>
   <block id="af79dd5dc56c84e383198dba47e6f6fe" category="paragraph">Ora puoi vedere il firmware dello storage, il firmware SP/BMC e il pacchetto Autonomous ransomware (ARP) consigliato per un update. <block ref="bb189956f648b21665d5198deffedcc8" category="inline-link-macro-rx"></block>.</block>
   <block id="e3f867c1e04dce86520c139a0ae60b18" category="section-title">12 dicembre 2024</block>
-  <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">Consulta le raccomandazioni di aggiornamento del firmware dello storage, del firmware SP/BMC, dei file di sistema e dei file di sicurezza.</block>
   <block id="432405c0f2c1d2289f6d8e3b11ebfd8b" category="doc">Visualizzare le raccomandazioni per l'aggiornamento del firmware</block>
   <block id="789b0be6ddd32dcc2218519990c16b5c" category="paragraph">I clienti possono ora risparmiare tempo e fatica consentendo a Control Tower di aggiornare automaticamente i propri sistemi con le versioni più recenti del firmware, eliminando la necessità di interventi o pianificazioni manuali. Questo aggiornamento riduce il rischio di problemi dovuti a versioni firmware obsolete o incompatibili, garantendo prestazioni, stabilità e protezione ottimali del sistema.</block>
   <block id="715a43f582d65ce08f118788f9800f7d" category="paragraph">I clienti riceveranno notifiche e avvisi tempestivi sullo stato degli aggiornamenti firmware, con opzioni per attivare le impostazioni AutoSupport e di aggiornamento automatico.</block>
@@ -1501,7 +1500,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="72b48ce9fe92eb0c8e3daa730f3b40d4" category="list-text">Seleziona i sistemi di archiviazione che desideri rinnovare e clicca su *Rinnova*.</block>
   <block id="af8b8a799d4d3f00f43e2a15c03d0b3e" category="doc">Rinnova i tuoi contratti di supporto in Digital Advisor</block>
   <block id="fec0069eb53aaf302edb450eb9a816d9" category="doc">Iscriviti alle notifiche sullo stato del sistema di archiviazione da Digital Advisor</block>
-  <block id="f7f16f63ab4db119d5fadbab01ead079" category="paragraph">Puoi iscriverti all'email di revisione del benessere per ricevere un'email mensile che riassume lo stato di benessere, i sistemi di storage che si avvicinano alla data di rinnovo e i sistemi di storage che richiedono un aggiornamento per i prodotti NetApp nella tua base installata. Riceverai un'e-mail di verifica dello stato di salute, così potrai visualizzare un riepilogo mensile e intervenire sui tuoi sistemi di archiviazione. Hai anche la possibilità di visualizzare, modificare, condividere ed eliminare i tuoi abbonamenti. In qualsiasi momento, se decidi di non ricevere più l'email, puoi annullare l'iscrizione alla ricezione delle email.</block>
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">Scarica il pacchetto Ansible del firmware AFF e FAS da Digital Advisor</block>
   <block id="36d1684f85846e6901819bfb095f4fc7" category="doc">Aggiorna la tua offerta di supporto in Digital Advisor</block>
   <block id="6c96fdceac3302fe4a465f308ef622a1" category="doc">Convalida l'installazione del firmware AFF e FAS sul tuo sistema di archiviazione</block>
@@ -1616,4 +1614,11 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">29 giugno 2026</block>
   <block id="78c07c506154e08621f506935129d56b" category="list-text"><block ref="78c07c506154e08621f506935129d56b" category="inline-link-macro-rx"></block></block>
   <block id="47f181ab6ea1bbd9a2696556081c4ba8" category="list-text"><block ref="47f181ab6ea1bbd9a2696556081c4ba8" category="inline-link-macro-rx"></block></block>
+  <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Avviso di disattivazione per Wellness Review</block>
+  <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">La funzionalità "Revisione del benessere" è stata deprecata e non è più disponibile in Digital Advisor a partire da luglio 2026.</block>
+  <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Per domande o per condividere feedback, mailto:ng-activeiq-feedback@netapp.com[contatta il team di Active IQ].</block>
+  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">15 luglio 2026</block>
+  <block id="0e1f11a16da786670316988e6939f0dc" category="paragraph">Puoi iscriverti all'email di revisione dello stato di salute per ricevere un'email mensile che riassume lo stato di salute, i sistemi di storage che stanno per raggiungere la data di rinnovo e i sistemi di storage che richiedono un aggiornamento per i prodotti NetApp nella tua base installata. Riceverai un'email di revisione dello stato di salute così potrai visualizzare un riepilogo mensile e intervenire sui tuoi sistemi di storage.</block>
+  <block id="5dc75508ba4ef965dd5e67e824749acf" category="paragraph">Hai inoltre la possibilità di visualizzare, modificare, condividere ed eliminare i tuoi abbonamenti. In qualsiasi momento, se decidi di non voler più ricevere email, puoi annullare l'iscrizione alle email.</block>
+  <block id="9700c329d00878c280440dc2e026802a" category="summary">Visualizza i suggerimenti per l'aggiornamento del firmware dello storage, del firmware SP e BMC, dei file di sistema e dei file di sicurezza.</block>
 </blocks>
