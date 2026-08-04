@@ -18,7 +18,7 @@ summary:
 [role="lead"]
 Quando accedi a Digital Advisor, puoi visualizzare le *azioni* evidenziate nel widget *sicurezza e difesa dal ransomware*, che mostra i conteggi dei rischi.
 
-È possibile visualizzare i rischi di creazione, conservazione e ONTAP FPolicy di Snapshot, quindi intraprendere azioni per risolverli.
+Puoi visualizzare i rischi relativi alla creazione e alla conservazione degli snapshot e i rischi di ONTAP FPolicy, e poi intraprendere azioni per risolverli.
 
 .Fasi
 . Accedere a Digital Advisor.

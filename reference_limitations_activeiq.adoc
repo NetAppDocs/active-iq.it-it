@@ -18,17 +18,6 @@ summary: Fornisce informazioni sulle limitazioni della release.
 [role="lead"]
 Le limitazioni note identificano piattaforme, dispositivi o funzioni non supportate da questa versione del prodotto o che non interagiscono correttamente con esso. Esaminare attentamente queste limitazioni.
 
-Esistono le seguenti limitazioni:
-
-* Per i sistemi storage Data ONTAP che operano solo in 7-Mode (i sistemi storage Data ONTAP che operano in 7-Mode stanno per scadere)
-+
-** Grafici delle performance
-** Efficienza dello storage
-
-
-* Upgrade Advisor non supporterà i piani di upgrade per Clustered ONTAP precedenti al 9.0.
-
-
 
 
 [[editing-a-watchlist-may-take-60-minutes-to-reflect-in-digital-advisor]]

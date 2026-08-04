@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: concept_understand_health_check_dashboard.html 
-keywords: activeiq, health check, health, HCA, health check dashboard, health check score 
+keywords: activeiq, health check, health, hca, health check dashboard, health check score 
 summary: Fornisce informazioni per acquisire dimestichezza con la dashboard di controllo dello stato di salute. 
 ---
 = Scopri di più sulla dashboard Health Check in Digital Advisor

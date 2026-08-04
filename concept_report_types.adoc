@@ -43,7 +43,7 @@ Di seguito sono riportati i tipi di report disponibili in Digital Advisor:
 | Logistica di consegna | Fornisce informazioni sulla logistica della fornitura di prodotti e servizi. | Sì | Sì | No 
 
 
-| Riepilogo esecutivo della valutazione dello stato | Fornisce informazioni sui vari KPI Active IQ in formato PowerPoint (PPT), con KPI diversi descritti in diapositive diverse. | Sì | Sì | No 
+| Riepilogo esecutivo della valutazione dello stato | Fornisce informazioni su vari KPI di Digital Advisor in formato PowerPoint (PPT), con i diversi KPI descritti in diapositive diverse. | Sì | Sì | No 
 
 
 | Inventario | Fornisce informazioni sulla base di installazione per un elenco di controllo, un cliente, un sito o livelli di gruppo selezionati. Questo report può essere generato sia come download diretto dalla pagina Dettagli inventario che come generazione dalla pagina Report. | Sì | Sì | Sì 

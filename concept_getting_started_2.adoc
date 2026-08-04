@@ -40,11 +40,13 @@ Leggere le seguenti informazioni per conoscere i widget supportati dal sistema d
 | Rinnovi del supporto | Supportato su tutte le piattaforme | Supportato su tutte le piattaforme | Supportato su tutte le piattaforme 
 
 
-| Espansione dello storage | Supportato solo su Clustered Data ONTAP | Supportato solo su Clustered Data ONTAP | Supportato solo su Clustered Data ONTAP 
+| Espansione dello storage | Supportato solo su ONTAP | Supportato solo su ONTAP | Supportato solo su ONTAP 
 
 
-| Inventario | Supportato su tutte le piattaforme | Supportato solo su Clustered Data ONTAP | Supportato solo su Clustered Data ONTAP 
+| Inventario | Supportato su tutte le piattaforme | Supportato solo su ONTAP | Supportato solo su ONTAP 
 
 
-| Aggiornamenti | Supportato solo su Clustered Data ONTAP | Supportato solo su Clustered Data ONTAP | Supportato solo su Clustered Data ONTAP 
+| Aggiornamenti | Supportato solo su ONTAP | Supportato solo su ONTAP | Supportato solo su ONTAP 
 |===
+
+NOTE: Tutte le piattaforme significa ONTAP, E-Series, StorageGRID, ONTAP Select e Cloud Volumes ONTAP.
