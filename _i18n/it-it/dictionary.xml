@@ -469,7 +469,6 @@
   <block id="202e46041652836ed8241309090e3360" category="inline-link-macro">creare un caso non tecnico</block>
   <block id="8e52de0d4b03d5fe87dc88da09616c7f" category="inline-xref">qui.</block>
   <block id="bbca9981d6b0f3a88a20d77f9f0b515e" category="summary">Fornisce informazioni sull'utilizzo della capacità con l'abbonamento NetApp Keystone.</block>
-  <block id="9ca3a412ada6ce6666248783cc1577f6" category="summary">Fornisce informazioni sulle nuove funzioni della release.</block>
   <block id="ddd5bde8e3e027f9a9efab7fcfa90542" category="doc">Novità di Digital Advisor</block>
   <block id="67b15699a3be9f040c8687b7005f0de8" category="paragraph">Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:</block>
   <block id="7002d0318dc4f195c464ca83f3d2ca86" category="section-title">22 febbraio 2023</block>
@@ -979,7 +978,6 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">Per ulteriori informazioni sul comando *ansible-playbook*, fare riferimento a. <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> E per eseguire il manuale Ansible in modalità check (dry run), fare riferimento a. <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>.</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
-  <block id="2eb6f862ee3ec494c6f43826c23b83da" category="list-text"><block ref="2eb6f862ee3ec494c6f43826c23b83da" category="inline-link-macro-rx"></block></block>
   <block id="8934fed115a0b826a4b438906a11bfa9" category="doc">Panoramica della dashboard Sustainability</block>
   <block id="e3667627bec4bfd6e60dea46e855352c" category="inline-image-macro">Una schermata che mostra la percentuale di attenuazione del carbonio dei siti e come modificare questa percentuale.</block>
   <block id="369583cace99a57a955a633843c9e566" category="paragraph"><block ref="369583cace99a57a955a633843c9e566" category="inline-image-macro-rx" type="image"></block></block>
@@ -1617,4 +1615,9 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="7c1309f4b0731ed18fb594c6d632c067" category="paragraph">Il pannello di controllo dell'efficienza dello storage visualizza il rapporto di riduzione dei dati, lo spazio logico utilizzato, lo spazio fisico utilizzato e il totale dei dati risparmiati. Il rapporto di riduzione dei dati e il risparmio possono essere visualizzati con e senza copie snapshot per sistemi AFF, sistemi non AFF o entrambi. Il totale dei dati risparmiati sull'intero storage dei clienti può essere visualizzato per ciascuna funzionalità di efficienza, come la deduplicazione dei volumi, la compressione dei volumi, la compaction, i volumi FlexClone e le copie snapshot. Puoi visualizzare i 5 sistemi storage con il miglior rapporto di efficienza. Puoi anche visualizzare l'efficienza SAN e NAS senza copie snapshot a livello di nodo per i sistemi ONTAP, inclusi AFF A-Series, AFF C190, All SAN Array e FAS500.</block>
   <block id="6bb86861540256654ad78af590cbca2e" category="paragraph">Puoi visualizzare i rischi relativi alla creazione e alla conservazione degli snapshot e i rischi di ONTAP FPolicy, e poi intraprendere azioni per risolverli.</block>
   <block id="85384a7ec038b3ed06c50841a285d5fc" category="summary">Visualizza i suggerimenti di aggiornamento del firmware dello storage, del firmware SP/BMC, dei file di sistema e dei file di sicurezza.</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Avviso di deprecazione per Config Drift</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">La funzionalità Config Drift verrà deprecata in Digital Advisor a settembre 2026.</block>
+  <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
+  <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">Scopri le nuove funzionalità e i miglioramenti di Digital Advisor.</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12 agosto 2026</block>
 </blocks>
