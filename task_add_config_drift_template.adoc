@@ -50,9 +50,9 @@ Gli attributi di un modello di drift di configurazione sono modificabili e i seg
 Utilizzando un'espressione regolare, un utente può creare un report di deriva della configurazione che include derive derivanti da incongruenze di denominazione di volumi, aggregati, cluster e così via. Ad esempio, se viene menzionata un'espressione regolare *nome-aggr** per l'attributo *Nome* della sezione *AGGR-INFO.XML* nel gruppo *AGGREGATO*, i valori dell'attributo senza il prefisso *nome-aggr* vengono contrassegnati come deriva quando viene generato il report di deriva della configurazione.
 
 .Fasi
-. Nel riquadro di sinistra, fare clic su *Config Drift*.
-. Fare clic su *Aggiungi modello*.
+. Nel riquadro a sinistra, seleziona *Config Drift*.
+. Seleziona *Aggiungi modello*.
 . Fornire i valori richiesti.
 . Facoltativo: È possibile personalizzare il modello modificando i gruppi o eliminando i gruppi non richiesti per un modello.
-. Fare clic su *Aggiungi modello*.
+. Seleziona *Aggiungi modello*.
 

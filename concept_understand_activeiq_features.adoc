@@ -38,6 +38,7 @@ Di seguito sono riportate alcune delle funzioni di Digital Advisor:
 * Fornire informazioni e informazioni cross-stack utili per la risoluzione dei problemi, le valutazioni degli upgrade, la convalida della soluzione e la migrazione.
 * Verificare la compatibilità degli host e fornire consigli sugli aggiornamenti per i sistemi operativi host, i driver e .
 * Ottieni esattamente ciò che vuoi trovare in modo più intelligente e veloce.
+* link:concept_value_insights.html["Scopri Value Insights"]che fornisce informazioni generali sullo stato di salute, sul risparmio, sulla stabilità e sulla sicurezza per il tuo sistema ONTAP.
 
 
 

@@ -1,0 +1,125 @@
+---
+sidebar: sidebar 
+permalink: task_view_value_insights_dashboard.html 
+keywords: value insights, health, savings, stability, security, ontap systems 
+summary: Consulta la dashboard Value Insights per accedere alle informazioni su stato di salute, risparmi, stabilità e sicurezza del tuo sistema ONTAP. 
+---
+= Visualizza la dashboard di Value Insights
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Consulta la dashboard Value Insights per accedere alle informazioni su stato di salute, risparmi, stabilità e sicurezza del tuo sistema ONTAP.
+
+.Fasi
+. Seleziona *Customer Success > Value Insights*.
+. Nell'area *Stato di salute generale e come NetApp può aiutarti*, puoi visualizzare il punteggio di salute generale del tuo sistema ONTAP come percentuale. Questo punteggio si basa sui KPI.
++
+** Seleziona *Altri consigli* per vedere tutti i KPI:
++
+[cols="2*"]
+|===
+| KPI | Descrizione 
+
+
+| Suggerimenti per operazioni sostenibili | Fornisce raccomandazioni per un funzionamento sostenibile del sistema. 
+
+
+| Risolvi i rischi di hardening della sicurezza sui tuoi cluster | Valuta i rischi per la sicurezza associati a ciascun sistema. 
+
+
+| Pianifica gli aggiornamenti del firmware e dei file di sistema | Verifica se i sistemi eseguono il firmware più recente e suggerisce gli aggiornamenti. Questo include una visualizzazione dettagliata per pianificare gli aggiornamenti del firmware. 
+
+
+| Esamina le opzioni di tech refresh (EOL) | Valuta la necessità di tech refresh. 
+
+
+| Abilitare AutoSupport (ASUP) sui cluster | Monitora lo stato di AutoSupport (ASUP) sui cluster. 
+
+
+| Pianifica l'upgrade alla versione ONTAP più recente consigliata | Valuta la versione del software dei sistemi e consiglia gli aggiornamenti. 
+
+
+| Valuta le opzioni di espansione dello storage | Valuta l'efficienza attuale dello storage e le esigenze di espansione. Fornisce previsioni sui requisiti di capacità futuri. 
+
+
+| Rinnovi di contratto | Valuta lo stato dei contratti di supporto e fornisce raccomandazioni per i rinnovi. 
+
+
+| Monitora in modo proattivo per prevenire tempi di inattività imprevisti del cluster | Fornisce il numero di tempi di inattività non pianificati tra i cluster. 
+|===
+** Seleziona *Come viene calcolato?* per i calcoli specifici dei KPI. Scorri verso il basso per i dettagli del sistema, inclusi: punteggio pieno, punteggio parziale e punteggio zero.
+
+
+. Seleziona *NetApp delivered savings and stability* per visualizzare i dettagli sul tuo Return on Investment (ROI).
++
+[cols="2*"]
+|===
+| Caratteristica | Descrizione 
+
+
+| image:edit_icon.png["Immagine del pulsante Modifica"] | Seleziona per modificare il costo o la spesa per TiB. 
+
+
+| Valore di efficienza dello storage | Seleziona per aprire la dashboard del ROI. 
+
+
+| valore di uptime dello storage | Visualizza il valore e seleziona il valore del numero di sistema per maggiori dettagli. 
+
+
+| ID ASUP | Se applicabile, seleziona per visualizzare il problema o l'evento che ha causato il downtime o un'interruzione. 
+
+
+| Rischi individuati e prevenuti | Seleziona per visualizzare i dati associati degli ultimi 3 mesi. 
+
+
+| Visualizza la cronologia del benessere | Seleziona per una visualizzazione riassuntiva. 
+
+
+| Valore del rischio | Seleziona ciascun valore di rischio per accedere ai dati associati degli ultimi 3 mesi. 
+|===
+. Seleziona l'area *Sicurezza e pianificazione per il futuro* per visualizzare le informazioni sulla sicurezza.
++
+[cols="2*"]
+|===
+| Caratteristica | Descrizione 
+
+
+| Minacce alla sicurezza neutralizzate | Seleziona per visualizzare i dettagli di sicurezza. 
+
+
+| Problemi di sicurezza risolti | Seleziona per aprire la pagina della cronologia Wellness. 
+
+
+| Aggiornamenti automatici del firmware | Seleziona per aprire i tipi di firmware e i dettagli dell'aggiornamento. 
+
+
+| Modello AI/ML di protezione autonoma contro i ransomware | Seleziona per aprire i dettagli sul modello. 
+
+
+| Risparmi previsti derivanti dall'efficienza  a| 
+** Seleziona l'icona image:edit_icon.png["Immagine del pulsante Modifica"] accanto a "Risparmio previsto in termini di efficienza dello storage" per modificare il costo per PiB.
+** Seleziona la percentuale di margine di capacità dello storage per aprire la pagina Capacità ed efficienza.
+** Seleziona *Pianificazione del ciclo di vita*.
+** Seleziona i valori degli strumenti per aprire le rispettive pagine di dettaglio ONTAP: Aggiornamento del sistema, Espansione dello storage e Rinnovo del supporto.
++
+
+NOTE: Questa funzionalità è esclusiva dei sistemi ONTAP e non è disponibile per piattaforme come Cloud Volumes ONTAP, ONTAP Select, StorageGRID o E-Series.
+
+
+
+|===
+. Seleziona *Come massimizzare il valore dell'infrastruttura* per visualizzare informazioni sulle funzionalità attive e sulle opzioni di ottimizzazione disponibili.
++
+** Seleziona *Funzionalità attive* per visualizzare i dettagli del sistema.
+** Seleziona *Opportunità di ottimizzazione disponibili* per visualizzare i suggerimenti.
+
+
+

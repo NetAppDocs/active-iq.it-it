@@ -28,10 +28,10 @@ Una volta attivato l'abbonamento, selezionare una data di inizio quando si aggiu
 NOTE: Questa funzione è disponibile solo attraverso le offerte di servizi NetApp SupportEdge Advisor e SupportEdge Expert.
 
 .Fasi
-. Nel riquadro di sinistra, fare clic su *Wellness Review*.
-. Fare clic su *Aggiungi abbonamento*.
+. Nel riquadro a sinistra, seleziona *Revisione del benessere*.
+. Seleziona *Aggiungi abbonamento*.
 . Inserire le informazioni richieste nei campi *Nome abbonamento*, *Scegli categoria*, *Ricerca cliente* e *e-mail* della finestra di dialogo *Aggiungi nuovo abbonamento*.
-. Fare clic su *Subscribe* (Iscriviti).
+. Seleziona *Iscriviti*.
 +
 Una volta completata l'iscrizione, riceverai un messaggio *l'abbonamento è stato aggiunto*.
 

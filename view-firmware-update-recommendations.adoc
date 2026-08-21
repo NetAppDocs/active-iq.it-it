@@ -21,8 +21,8 @@ I clienti possono ora risparmiare tempo e fatica consentendo a Control Tower di 
 I clienti riceveranno notifiche e avvisi tempestivi sullo stato degli aggiornamenti firmware, con opzioni per attivare le impostazioni AutoSupport e di aggiornamento automatico.
 
 .Fasi
-. Nella pagina del dashboard, fare clic su *altre raccomandazioni* nel widget *Upgrade Advisor*.
-. Fare clic su *Visualizza raccomandazioni* per visualizzare l'elenco delle raccomandazioni.
-. Nella colonna *Stato aggiornamento*, fare clic su *See Progress* (Visualizza avanzamento) per visualizzare i cluster idonei per un aggiornamento.
-. In caso di problemi, fare clic sui rispettivi collegamenti per visualizzare i passaggi per mitigare i problemi.
+. Nella pagina del pannello di controllo, seleziona *Altri consigli* nel widget *Upgrade Advisor*.
+. Seleziona *Visualizza consigli* per visualizzare l'elenco dei consigli.
+. Nella colonna *Stato aggiornamento*, seleziona *Vedi avanzamento* per visualizzare i cluster idonei all'aggiornamento.
+. In caso di problemi, seleziona i rispettivi link per visualizzare i passaggi per risolverli.
 

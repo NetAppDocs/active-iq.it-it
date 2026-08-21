@@ -20,15 +20,15 @@ I grafici delle performance consentono di analizzare le performance dei disposit
 
 È possibile impostare le preferenze, ad esempio visualizzare un grafico per tre nodi o due grafici per tre nodi.
 
-Quando il grafico viene visualizzato per la prima volta, viene preselezionata una scheda di 1 settimana che presenta i dati per una settimana in un formato grafico per facilitare la comprensione di grandi quantità di dati e della relativa relazione tra diverse serie di dati. Se si desidera reimpostare l'intervallo di date, ad esempio, è possibile fare clic sulla scheda 1-Month (1 mese) e selezionare le date nel calendario.
+Quando il grafico viene visualizzato per la prima volta, la scheda "1 settimana" è preselezionata e presenta i dati relativi a 1 settimana in formato grafico per facilitare la comprensione di grandi quantità di dati e delle relazioni tra le diverse serie di dati. Se vuoi reimpostare l'intervallo di date, ad esempio, puoi selezionare la scheda "1 mese" e scegliere le date nel calendario.
 
 È inoltre disponibile un'opzione per ingrandire il grafico delle prestazioni; vengono visualizzati i singoli punti dati.
 
 video::fWrHYX17xT8[youtube,width=848,height=480]
 .Fasi
-. Nella dashboard, fare clic su *Performance* (prestazioni).
+. Nella dashboard, seleziona *Prestazioni*.
 +
-Per i sistemi ONTAP, è possibile fare clic sulla scheda *nodo* per visualizzare le prestazioni di un singolo nodo di un cluster ONTAP, fare clic sulla scheda *livello locale* per visualizzare le prestazioni del livello locale oppure fare clic sulla scheda *volume* per visualizzare le prestazioni del volume. Per impostazione predefinita, vengono visualizzate le prestazioni del cluster.
+Per i sistemi ONTAP, puoi selezionare la scheda *Nodo* per visualizzare le prestazioni di un singolo nodo di un cluster ONTAP, la scheda *Livello locale* per visualizzare le prestazioni del livello locale oppure la scheda *Volume* per visualizzare le prestazioni del volume. Per impostazione predefinita, vengono visualizzate le prestazioni del cluster.
 
 +
 Per i sistemi e-Series, è possibile visualizzare i grafici solo a livello di controller.

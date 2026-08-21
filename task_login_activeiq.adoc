@@ -27,5 +27,5 @@ link:https://kb.netapp.com/Support/General_Support/How_to_register_for_a_NetApp_
 +
 Digital Advisor mostra i sistemi con un contratto di supporto valido. Se i contratti scadono, viene assegnato un periodo di tolleranza di 90 giorni in cui i sistemi continuano a essere visibili. In seguito, i sistemi non possono essere ricercati o visualizzati in Digital Advisor.
 
-. Inserisci il tuo nome utente e la password e fai clic su *Accedi*.
+. Inserisci nome utente e password e seleziona *Accedi*.
 

@@ -40,7 +40,7 @@ Per accedere a Digital Advisor, è possibile utilizzare le credenziali del sito 
 
 .Fasi
 . Aprire un browser Web e accedere al link:https://activeiq.netapp.com/?source=onlinedocs["Consulente digitale"^] pagina di accesso.
-. Inserisci il tuo nome utente e la password e fai clic su *Accedi*.
+. Inserisci nome utente e password e seleziona *Accedi*.
 . Dalla barra di navigazione a sinistra, seleziona *Sostenibilità*.
 +
 image:sustainability_dashboard.png["Uno screenshot dell'interfaccia utente che fornisce una panoramica del dashboard Sustainability."]

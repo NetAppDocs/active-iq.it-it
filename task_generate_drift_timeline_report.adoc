@@ -19,7 +19,7 @@ summary: Fornisce informazioni per generare report sulla timeline di deriva.
 È possibile confrontare i dati AutoSupport degli ultimi 90 giorni e generare un report che fornisce informazioni sugli eventi e sulle deviazioni di configurazione verificatesi.
 
 .Fasi
-. Nel riquadro di sinistra, fare clic su *Config Drift*.
+. Nel riquadro a sinistra, seleziona *Config Drift*.
 . Selezionare il tipo di report *Drift Timeline*.
 . Generare un report sulla timeline di deriva
 +
@@ -35,16 +35,16 @@ summary: Fornisce informazioni per generare report sulla timeline di deriva.
  a| 
 . Selezionare una categoria e fornire i valori richiesti per il report.
 . Selezionare l'opzione *include only drift* (Includi solo derive) per scaricare solo le modifiche della deviazione di configurazione.
-. Fare clic su *Invia*.
+. Seleziona *Invia*.
 . link:task_generate_reports.html["Scarica e visualizza il report sulla timeline di deriva"].
 
  a| 
-. Fare clic sulla scheda *Schedule Report* (Pianifica report).
+. Seleziona la scheda *Programma report*.
 . Selezionare una categoria e fornire i valori richiesti per il report.
 . Selezionare l'opzione *include only drift* (Includi solo derive) per scaricare solo le modifiche della deviazione di configurazione.
 . Selezionare la frequenza del report.
 . Selezionare la data di inizio e la data di fine del report.
-. Fare clic su *Invia*.
+. Seleziona *Invia*.
 . link:task_generate_reports.html["Scarica e visualizza il report sulla timeline di deriva"].
 
 

@@ -20,6 +20,23 @@ Le seguenti funzioni e miglioramenti sono stati introdotti in Digital Advisor:
 
 
 
+[[20-august-2026]]
+== 20 agosto 2026
+
+
+
+[[introducing-value-insights]]
+=== Presentazione di Value Insights
+
+La funzionalità Value Insights consolida le informazioni generali su stato di salute, risparmi, stabilità e sicurezza dei sistemi ONTAP. Puoi usare queste informazioni per migliorare lo stato di salute e le prestazioni del sistema attraverso una visione continua e basata sui dati del tuo ambiente ONTAP.
+
+
+NOTE: Value Insights è disponibile solo per i sistemi ONTAP.
+
+Scopri di più su link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"].
+
+
+
 [[12-august-2026]]
 == 12 agosto 2026
 
@@ -342,7 +359,7 @@ La versione precedente di Upgrade Advisor è ora obsoleta. Puoi utilizzare la ve
 [[wellness]]
 === Benessere
 
-* Il flusso di lavoro Wellness ora include il widget Sostenibilità, che fornisce il conteggio delle azioni consigliate a livello di cliente, lista di controllo, sito e gruppo.  È possibile fare clic sul numero di azioni per una visualizzazione dettagliata di queste azioni consigliate nella dashboard Sostenibilità. Per saperne di più, fare riferimento alink:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analizza la sostenibilità dei tuoi sistemi storage"] .
+* Il flusso di lavoro Benessere ora include il widget Sostenibilità, che fornisce il conteggio delle azioni consigliate a livello di cliente, watchlist, sito e gruppo. Puoi selezionare il numero di azioni per visualizzare nel dettaglio queste azioni consigliate nella dashboard Sostenibilità. Per saperne di più, consulta link:https://docs.netapp.com/us-en/active-iq/learn-about-sustainability.html["Analizza la sostenibilità dei tuoi sistemi storage"].
 * I widget vulnerabilità di sicurezza e Difesa ransomware nel flusso di lavoro Wellness sono combinati in un unico widget, che ora è chiamato sicurezza e difesa dal ransomware.
 
 
@@ -987,7 +1004,7 @@ Laddove i cluster hanno modelli di hardware misto, la versione del sistema opera
 [[recommended-configuration-storage-virtual-machine-svm-health-volume-level-summary]]
 === Configurazione consigliata / Storage Virtual Machine (SVM) Health: Riepilogo a livello di volume
 
-Facendo clic sulla casella blu "Riepilogo volumi" nella tabella SVM, si apre una finestra a comparsa che mostra informazioni dettagliate sui volumi ospitati o collegati allo specifico numero di serie o nodo fisico.
+Selezionando la casella blu "Riepilogo volumi" nella tabella SVM, si apre una finestra a comparsa che visualizza informazioni dettagliate sui volumi ospitati o collegati al numero di serie o al nodo fisico specifico.
 
 
 
@@ -1187,9 +1204,9 @@ Questa versione offre le seguenti funzionalità:
 
 * *DASHBOARD DELLA GRIGLIA:* la dashboard DELLA GRIGLIA fornisce informazioni sullo stato di salute, sulla pianificazione e sulla configurazione della GRIGLIA selezionata.
 * *Widget di configurazione:* fornisce i dettagli di base del StorageGRID selezionato nel widget, ad esempio Nome GRIGLIA, Nome host, numero di serie, modello, versione del sistema operativo, Nome del cliente, luogo di spedizione e dettagli di contatto.
-* *GRID Viewer:* dal widget *Configuration*, è possibile visualizzare la configurazione DELLA GRIGLIA in dettaglio facendo clic sul collegamento *GRID Viewer*. Dal widget *Configurazione*, è possibile scaricare i dettagli del sito e della capacità per il StorageGRID selezionato facendo clic sul pulsante *Scarica* nella schermata *Visualizzatore griglia*.
+* *Visualizzatore GRID*: Dal widget *Configurazione*, puoi visualizzare la configurazione GRID in dettaglio selezionando il link *Visualizzatore GRID*. Dal widget *Configurazione*, puoi scaricare i dettagli del sito e i dettagli della capacità per lo StorageGRID selezionando il pulsante *Scarica* nella schermata *Visualizzatore GRID*.
 * *Dettagli del sito:* questa scheda fornisce il riepilogo della griglia e i nodi di storage disponibili per ciascun sito.
-* *GRID summary:* contiene informazioni di base, come tipo di licenza, capacità di licenza, numero di nodi installati, durata del supporto (data di cessazione del contratto di licenza), nodo di amministrazione primario e sito primario del nodo di amministrazione primario. Questa scheda fornisce anche il nome del sito e il numero di nodi di storage contrassegnati sotto il sito corrispondente. In questa release, è possibile visualizzare l'elenco dei nomi dei nodi facendo clic sul collegamento ipertestuale disponibile per la visualizzazione dei nodi di storage per il sito corrispondente.
+* *Riepilogo GRID:* Contiene informazioni di base, come License Type, License Capacity, numero di nodi installati, Support Term (Date of termination of license contract), Primary Admin Node e Primary Site del Primary Admin Node. Questa scheda fornisce anche il nome del sito e il numero di storage node associati al sito corrispondente. In questa release, puoi visualizzare l'elenco dei nomi dei nodi selezionando il hyperlink disponibile per visualizzare gli storage node per il sito corrispondente.
 * *Scheda Capacity Details (Dettagli capacità):* fornisce i dettagli relativi al livello di griglia e alla capacità del sito configurati per LA GRIGLIA. I dettagli relativi alla capacità, ad esempio capacità di storage installata, capacità di storage disponibile, capacità di storage totale utilizzata e capacità utilizzata per dati e metadati. Questi dettagli sono disponibili sia a livello di griglia che di sito.
 
 

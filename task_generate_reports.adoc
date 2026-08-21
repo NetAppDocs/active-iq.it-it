@@ -24,8 +24,8 @@ summary: Fornisce informazioni per generare report.
 
 
 .Fasi
-. Nel riquadro di sinistra, fare clic su *Report*.
-. Fare clic su *Create Report* (Crea report) per generare un nuovo report.
+. Dal riquadro a sinistra, seleziona *Report*.
+. Seleziona *Crea report* per generare un nuovo report.
 +
 È possibile generare un report immediatamente o pianificarne la generazione su base settimanale o mensile.
 
@@ -39,18 +39,18 @@ summary: Fornisce informazioni per generare report.
  a| 
 . Selezionare il tipo di report e fornire i valori richiesti per il report.
 . Selezionare il formato del report.
-. Fare clic su *Invia*.
+. Seleziona *Invia*.
 
 
 
 NOTE: Il report viene salvato in Digital Advisor per 3 mesi.
  a| 
-. Fare clic sulla scheda *Schedule Report* (Pianifica report).
+. Seleziona la scheda *Programma report*.
 . Selezionare il tipo di report e fornire i valori richiesti per il report.
 . Selezionare il formato del report.
 . Selezionare la frequenza del report.
 . Selezionare la data di inizio e la data di fine del report.
-. Fare clic su *Invia*.
+. Seleziona *Invia*.
 
 
 

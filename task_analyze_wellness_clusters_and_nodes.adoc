@@ -25,6 +25,6 @@ ClusterViewer fornisce informazioni, come diagrammi di stack dei nodi, utilizzo 
 video::FVbb2bbIY9E[youtube,width=848,height=480]
 .Fasi
 . Nel widget *Inventory*, selezionare il cluster o il nodo (host) desiderato.
-. A livello di cluster o nodo, fare clic su *ClusterViewer* accanto al widget *Configuration*.
-. Fare clic sulla scheda *visualizzazione* per visualizzare una rappresentazione grafica del cluster.
+. A livello di cluster o di nodo, seleziona *ClusterViewer* accanto al widget *Configuration*.
+. Seleziona la scheda *Visualizzazione* per visualizzare una rappresentazione grafica del cluster.
 

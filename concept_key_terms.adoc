@@ -59,7 +59,7 @@ Quando inizi a utilizzare Digital Advisor, è importante comprendere alcuni dei 
 ** *Wellness History:* Visualizza le informazioni sui rischi di sistema che si verificano negli ultimi tre mesi, in modo da poter apprendere come si stanno verificando gli straordinari.
 ** *Acknowledge Risks (Ack):* consente di riconoscere i rischi e i sistemi interessati. È possibile riconoscere questi rischi e acquisire familiarità con le azioni che è possibile eseguire per mitigarli.
 ** *Unaccosed Risks (Unaccosed Risks) (Annulla riconoscimento rischi):* consente di annullare il riconoscimento dei rischi e dei sistemi riconosciuti.
-** *Risolvi il problema:* Risolve i rischi per il sistema utilizzando Active IQ Unified Manager. Fai clic su questo pulsante per avviare Unified Manager ed eseguire i passaggi per mitigare i rischi.
+** *Risolvi il problema:* Risolve i rischi per il sistema utilizzando Active IQ Unified Manager. Seleziona questo pulsante per avviare Unified Manager ed eseguire i passaggi per mitigare i rischi.
 
 
 * *Inventory widget:* Visualizza un rollup dei sistemi totali in tuo possesso. Sono inclusi prodotti abilitati e non abilitati per Digital Advisor.

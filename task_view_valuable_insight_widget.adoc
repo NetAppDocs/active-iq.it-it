@@ -20,8 +20,8 @@ Il widget *preziose informazioni* fornisce informazioni sul numero di casi di su
 
 video::QPJY2TWnRxQ[youtube,width=848,height=480]
 .Fasi
-. Nel widget *Inventory* (inventario), fare clic su *Systems* (sistemi) per visualizzare le informazioni di sistema di tutte le piattaforme oppure fare clic sul tipo di piattaforma, quindi su *Systems* (sistemi) per visualizzare i sistemi specifici di tale piattaforma.
-. Fare clic sul nodo o sul cluster per visualizzare informazioni dettagliate sul sistema.
+. Nel widget *Inventario*, seleziona *Sistemi* per visualizzare le informazioni di sistema di tutte le piattaforme oppure seleziona il tipo di piattaforma e poi seleziona *Sistemi* per visualizzare i sistemi specifici di quella piattaforma.
+. Seleziona il nodo o il cluster per visualizzare informazioni dettagliate sul sistema.
 +
 Il widget *preziose informazioni* è disponibile nella dashboard.
 

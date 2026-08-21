@@ -19,8 +19,8 @@ summary: 'Fornisce informazioni per rinnovare il software e l"hardware del siste
 Puoi identificare in modo proattivo il software e l'hardware del tuo sistema di archiviazione che sono scaduti o stanno per scadere nei prossimi 6 mesi e inviare una richiesta di rinnovo dell'hardware e del software.
 
 .Fasi
-. Fai clic su *Rinnovi di supporto* nel widget *Pianificazione*.
-. Seleziona i sistemi di archiviazione che desideri rinnovare e clicca su *Rinnova*.
+. Seleziona *Rinnovi di supporto* dal widget *Pianificazione*.
+. Seleziona i sistemi storage che vuoi rinnovare e seleziona *Renew*.
 . Facoltativamente, fornire commenti aggiuntivi.
-. Fare clic su *Invia*.
+. Seleziona *Invia*.
 

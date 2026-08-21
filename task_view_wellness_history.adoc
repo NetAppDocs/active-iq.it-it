@@ -21,11 +21,11 @@ summary: Fornisce informazioni sui rischi di sistema e su come visualizzare la c
 Questi rischi sono classificati in quattro tipi di rischi: *Non risolti*, *nuovi*, *risolti* e *riconosciuti*. Sono rappresentati da colori diversi. Il riepilogo di questi rischi è rappresentato da un grafico *Risk History*.
 
 .Fasi
-. Nella dashboard, nel riquadro *Wellness*, fare clic su *View All Actions* (Visualizza tutte le azioni).
-. Fare clic su *Wellness History*.
-. Nel grafico *Risk History*, fare clic sulla categoria per la quale si desidera visualizzare la cronologia dei rischi.
+. Nella dashboard, nel riquadro *Wellness*, seleziona *View All Actions*.
+. Seleziona *Cronologia benessere*.
+. Nel grafico *Cronologia dei rischi*, seleziona la categoria per cui vuoi vedere la cronologia dei rischi.
 +
-Quando si passa il mouse sulle barre colorate, vengono visualizzate informazioni sul numero di rischi in ciascuna categoria. Facendo clic sulla rispettiva categoria di rischio, le informazioni vengono visualizzate nella tabella *informazioni sul rischio*.
+Passando il mouse sopra le barre colorate, vengono visualizzate informazioni sul numero di rischi in ciascuna categoria. Quando selezioni la rispettiva categoria di rischio, le informazioni vengono visualizzate nella tabella *Risk Information*.
 
 +
 Puoi anche scaricare il riepilogo dei rischi in un foglio Excel.

@@ -51,7 +51,7 @@ Il widget AutoSupport non fornisce avvisi per ricerche di cluster e numeri di se
 [[autosupport-widget-not-able-to-drill-down-to-serial-level-autosupport-details]]
 == Il widget AutoSupport non è in grado di eseguire il drill-down dei dettagli AutoSupport a livello seriale
 
-Nella pagina rapporti AutoSupport, facendo clic su uno degli stati, sui sistemi che hanno recentemente interrotto l'invio o sui sistemi con AutoSupport disattivato, non viene visualizzata la schermata controllo integrità.
+Nella pagina di segnalazione AutoSupport, selezionando uno qualsiasi degli stati, dei sistemi che hanno smesso di inviare di recente o dei sistemi che hanno AutoSupport disattivato, non si accede alla schermata Health Check.
 
 
 

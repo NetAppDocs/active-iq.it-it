@@ -37,7 +37,7 @@ image:sustainability_score.png["Una schermata che mostra il punteggio di sosteni
 
 *Indicatori ambientali*: Visualizza le proiezioni relative alla potenza, all'utilizzo diretto del carbonio e all'emissione di calore per valutare la salute ambientale dei sistemi di stoccaggio. Queste proiezioni si basano sui valori di potenza effettivi, se non disponibili, tipici. È possibile visualizzare queste proiezioni mensilmente, trimestrali o annuali selezionando l'opzione desiderata dal menu a discesa nell'angolo superiore destro di questa sezione.
 
-*Carbon mitigation percentuali*: Visualizza la percentuale di riduzione del carbonio in ogni sito/città e i valori di riferimento presentati si basano sulla tua posizione. È possibile regolare la percentuale di riduzione del carbonio per siti specifici facendo clic su image:edit_icon_1.png["Una schermata che mostra un'icona modificabile."] accanto ai valori percentuali, i numeri di carbone vengono regolati automaticamente.
+*Percentuali di mitigazione del carbonio*: Mostra la percentuale di mitigazione del carbonio in ogni sito/città e i valori di riferimento presentati si basano sulla tua posizione. Puoi regolare la percentuale di mitigazione del carbonio per siti specifici selezionando l'icona image:edit_icon_1.png["Una schermata che mostra un'icona modificabile."] accanto ai valori percentuali e i numeri relativi al carbonio si aggiorneranno automaticamente di conseguenza.
 
 image:carbon_mitigation_percentage.png["Una schermata che mostra la percentuale di attenuazione del carbonio dei siti e come modificare questa percentuale."]
 

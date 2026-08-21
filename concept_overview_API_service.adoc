@@ -32,7 +32,7 @@ L'automazione con le API è un ottimo modo per aggiungere efficienza e precision
 
 Il pulsante nella parte superiore della pagina consente all'utente di passare da una modalità all'altra per visualizzare il catalogo. La vista Code (Codice) si concentra sui parametri di input necessari, sul contenuto e sul formato dei dati restituiti e sugli esempi di codice per consentire all'utente di iniziare a implementare il codice. La vista dell'esperimento offre all'utente la possibilità di "provare" l'API nel browser utilizzando un token generato dalla pagina principale dei servizi API.
 
-Entrambe le viste consentono all'utente di sfogliare gli elementi disponibili utilizzando il riquadro di navigazione a sinistra. Gli elementi sono organizzati in ordine alfabetico in base al servizio. All'interno di un determinato servizio, è possibile espandere l'intestazione per visualizzare i singoli endpoint API. Facendo clic sull'intestazione del servizio o su un endpoint API si apre la sezione del catalogo nel riquadro centrale.
+Entrambe le visualizzazioni ti permettono di esplorare gli elementi disponibili usando il riquadro di navigazione a sinistra. Gli elementi sono organizzati per servizio in ordine alfabetico. All'interno di un determinato servizio, puoi espandere l'intestazione per mostrare i singoli endpoint API. Selezionando l'intestazione del servizio o un endpoint API, vai a quella sezione del Catalog nel riquadro centrale.
 
 
 

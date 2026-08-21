@@ -58,9 +58,7 @@ image:recommended_actions.png["Una schermata che mostra l'elenco delle azioni ne
 ** Se si prevede di eseguire le azioni in un secondo momento, selezionare *più tardi*.
 +
 *** Se si seleziona *più tardi*, l'azione consigliata selezionata viene spostata nella scheda *azioni successive*. L'azione selezionata verrà rinviata di 30 giorni. Dopo 30 giorni, questa azione passerà alla scheda *azioni consigliate*.
-*** È inoltre possibile rivedere le azioni posticipate in qualsiasi momento e fare clic su *considerare* per spostarle nella scheda *azioni consigliate*.
- +
-image:actions_for_later.png["Una schermata che mostra le azioni consigliate con l'opzione considera."]
+*** Puoi anche esaminare le azioni posticipate in qualsiasi momento e selezionare *Considera* per spostarle nella scheda *Azioni consigliate*. + image:actions_for_later.png["Una schermata che mostra le azioni consigliate con l'opzione considera."]
 
 
 
@@ -84,9 +82,7 @@ image:recommended_actions.png["Una schermata che mostra l'elenco delle azioni ne
 ** Se si prevede di eseguire le azioni in un secondo momento, selezionare *più tardi*.
 +
 *** Se si seleziona *più tardi*, l'azione consigliata selezionata viene spostata nella scheda *azioni successive*. L'azione selezionata verrà rinviata di 30 giorni. Dopo 30 giorni, questa azione passerà alla scheda *azioni consigliate*.
-*** È inoltre possibile rivedere le azioni posticipate in qualsiasi momento e fare clic su *considerare* per spostarle nella scheda *azioni consigliate*.
- +
-image:actions_for_later.png["Una schermata che mostra le azioni consigliate con l'opzione considera."]
+*** Puoi anche esaminare le azioni posticipate in qualsiasi momento e selezionare *Considera* per spostarle nella scheda *Azioni consigliate*. + image:actions_for_later.png["Una schermata che mostra le azioni consigliate con l'opzione considera."]
 
 
 
@@ -108,7 +104,7 @@ Puoi seguire questa procedura per migliorare il punteggio di sostenibilità a li
 --
 . Vai a *Sostenibilità* dalla categoria *Salute* disponibile nella barra di navigazione a sinistra della Console.
 . Vai alla tabella *Sistemi*.
-. Fare clic sul numero di azioni nella colonna *azioni consigliate* per il cluster di destinazione.
+. Seleziona il numero di azioni dalla colonna *Azioni consigliate* per il cluster di destinazione.
 +
 image:recommended_actions_cluster.png["Una schermata che mostra il numero di azioni."]
 
@@ -118,7 +114,7 @@ image:recommended_actions_cluster.png["Una schermata che mostra il numero di azi
 image:recommended_actions_list.png["Una schermata che fornisce i dettagli delle azioni consigliate con l'opzione di correzione e successive."]
 
 ** Se si seleziona *più tardi*, l'azione consigliata selezionata viene spostata nella scheda *azioni successive*. L'azione selezionata verrà rinviata di 30 giorni. Dopo 30 giorni, questa azione passerà alla scheda *azioni consigliate*.
-** È inoltre possibile rivedere le azioni posticipate in qualsiasi momento e fare clic su *considerare* per spostarle nella scheda *azioni consigliate*.
+** Puoi anche rivedere le azioni posticipate in qualsiasi momento e selezionare *Considera* per spostarle nella scheda *Azioni consigliate*.
 
 
 
@@ -132,7 +128,7 @@ TIP: È possibile aggiungere o rimuovere i parametri ambientali nella tabella *S
 . Vai a *Sostenibilità* disponibile nella barra di navigazione a sinistra della dashboard di Digital Advisor .
 . Andare alla scheda *azioni consigliate*.
 . Vai alla tabella *Sistemi*.
-. Fare clic sul numero di azioni nella colonna *azioni consigliate* per il cluster di destinazione.
+. Seleziona il numero di azioni dalla colonna *Azioni consigliate* per il cluster di destinazione.
 +
 image:recommended_actions_cluster.png["Una schermata che mostra il numero di azioni."]
 
@@ -142,7 +138,7 @@ image:recommended_actions_cluster.png["Una schermata che mostra il numero di azi
 image:recommended_actions_list.png["Una schermata che fornisce i dettagli delle azioni consigliate con l'opzione di correzione e successive."]
 
 ** Se si seleziona *più tardi*, l'azione consigliata selezionata viene spostata nella scheda *azioni successive*. L'azione selezionata verrà rinviata di 30 giorni. Dopo 30 giorni, questa azione passerà alla scheda *azioni consigliate*.
-** È inoltre possibile rivedere le azioni posticipate in qualsiasi momento e fare clic su *considerare* per spostarle nella scheda *azioni consigliate*.
+** Puoi anche rivedere le azioni posticipate in qualsiasi momento e selezionare *Considera* per spostarle nella scheda *Azioni consigliate*.
 
 
 

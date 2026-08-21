@@ -22,10 +22,10 @@ Puoi visualizzare i rischi relativi alla creazione e alla conservazione degli sn
 
 .Fasi
 . Accedere a Digital Advisor.
-. Fare clic su *azioni* nel widget *sicurezza e difesa dal ransomware*.
+. Seleziona *Azioni* sul widget *Sicurezza e difesa dal ransomware*.
 . Deselezionare la casella di controllo *vulnerabilità di protezione*.
 . Per i rischi visualizzati, controllare il livello di impatto e seguire le azioni consigliate.
-. Fare clic sulla scheda rischi univoci e sul collegamento nella colonna *azione correttiva*.
-. Fare clic sulla scheda *sistemi interessati* per visualizzare i sistemi con rischi.
-. Seguire le azioni correttive consigliate per proteggere i sistemi.
+. Seleziona la scheda *Rischi specifici* e seleziona il collegamento nella colonna *Azioni correttive*.
+. Seleziona la scheda *Sistemi interessati* per visualizzare i sistemi con rischi.
+. Seleziona le azioni correttive consigliate per proteggere i sistemi.
 

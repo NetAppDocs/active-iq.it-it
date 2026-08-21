@@ -10,8 +10,6 @@
   <block id="c1328ee3765b6fd9ea6ec610e680fd21" category="list-text">L'età del sistema è superiore a 1 anno</block>
   <block id="a6d684c1e9500a6c9c813745e8e2c394" category="list-text">Il contratto di supporto termina tra 6 mesi</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">Fasi</block>
-  <block id="fb59e0db05d49dc1ab77a214f215e7c3" category="list-text">Nel riquadro di sinistra, fare clic su *Cloud Recommendations*.</block>
-  <block id="610e13ad770f2052e464b10bf6ea8527" category="list-text">Fare clic su un collegamento qualsiasi nel riquadro *Migration* (migrazione).</block>
   <block id="337c62c6b6eb7319bae58701105e889c" category="section-title">Tiering</block>
   <block id="02c463794e84ded5d1c10c4e83bcc812" category="paragraph">Fornisce informazioni sui dati di Tier locale inattivi (aggregati), sui dati di volume inattivi, sui dati a più livelli e sui dati non monitorati. È possibile ridurre l'impatto dello storage e i costi associati monitorando e tiering i dati inattivi o a freddo in livelli di storage a oggetti a basso costo.</block>
   <block id="1ba52d4e13f2ee111637763e8fc34e61" category="admonition">È possibile attivare Inactive Data Reporting (IDR) per generare un file zip con un file Ansible Playbook. Queste informazioni sono disponibili presso cliente, sito, gruppo, elenco di controllo, cluster, e i livelli dei nodi.</block>
@@ -19,26 +17,20 @@
   <block id="c9386bad11bf78c9c46c82639aed3b42" category="list-text">I volumi devono utilizzare il protocollo NFS, SMB o CIFS</block>
   <block id="e59435b98864e38b0a5fd790ad3f9213" category="list-text">I dati inattivi sono superiori al 50%</block>
   <block id="3785a1cc5e81e3b99e7d2b0287e9c3b0" category="list-text">La capacità aggregata è superiore al 50%</block>
-  <block id="c052aa26952758956923ba904ca5f96a" category="list-text">Fare clic su un collegamento qualsiasi nel riquadro *Tiering*.</block>
   <block id="8d051a62e2d203f6829d7d7282bfaad2" category="inline-link-macro">Best practice FabricPool</block>
   <block id="f2b4569bc3667af0074e035180a43ef3" category="section-title">Backup e archiviazione</block>
   <block id="ed0d607dcab8c81dc440cde601ff66d5" category="paragraph">Fornisce informazioni sui sistemi di cui eseguire il backup nel cloud. È possibile utilizzare NetApp Cloud Backup per proteggere i sistemi e ripristinarli quando necessario.</block>
   <block id="711f2c81f17519fb6501c1fd6a2ec0bf" category="paragraph">Per il backup nel cloud si consigliano i volumi che soddisfano i seguenti criteri:</block>
   <block id="58fd2779462a85717972aef01a3e851e" category="list-text">I volumi di origine, i sistemi di destinazione e i volumi che dispongono di backup SnapVault sono esclusi.</block>
-  <block id="8e508c78b6f8cdee2edbb3ccef2f99e0" category="list-text">Fare clic su un collegamento qualsiasi nel riquadro *Backup &amp; Archive*.</block>
   <block id="8c340dc334134096f68b880b42a8692c" category="section-title">Replica</block>
   <block id="a1ca393b9475ac14fc86fe05bb65fa30" category="paragraph">Fornisce informazioni sui dati che devono essere replicati nel cloud per aiutare in caso di disastri.</block>
   <block id="8a442914a9cdda78003d67734f13fd54" category="paragraph">Per la replica nel cloud si consigliano i volumi che soddisfano i seguenti criteri:</block>
   <block id="c54cd2366c0770abd7582f7fd94c3e4d" category="list-text">I volumi di origine di SnapMirror sono esclusi</block>
   <block id="4cb8aabcf131d734977ab53c8a2ca120" category="list-text">I volumi di destinazione di SnapMirror (tipo di volume LS e DP) sono esclusi</block>
-  <block id="a883cf21600271d7200622fa1132d9b8" category="list-text">Fare clic su un collegamento qualsiasi nel riquadro *Disaster Recovery*.</block>
   <block id="204efaf5593d9e611dc3c30f114be675" category="summary">Fornisce informazioni sulle prestazioni.</block>
   <block id="665087aa09840ccfb70bca045f36d8db" category="paragraph">I grafici delle performance consentono di analizzare le performance dei dispositivi storage. È possibile visualizzare grafici dettagliati delle prestazioni per un cluster ONTAP o più nodi di un cluster ONTAP e controller e-Series. Questi grafici forniscono dati storici sulle performance, che possono essere utilizzati per comprendere l'analisi delle tendenze delle performance e dei modelli. È possibile selezionare una data dal calendario per visualizzare i grafici delle performance per un giorno, una settimana, un mese, due mesi e dodici mesi. È possibile selezionare più nodi per visualizzare un particolare grafico contemporaneamente.</block>
   <block id="be879ac697bce0956116e49ae0638f3d" category="paragraph">È possibile impostare le preferenze, ad esempio visualizzare un grafico per tre nodi o due grafici per tre nodi.</block>
-  <block id="076450bd5493fb3f2b96a170a0dd6c27" category="paragraph">Quando il grafico viene visualizzato per la prima volta, viene preselezionata una scheda di 1 settimana che presenta i dati per una settimana in un formato grafico per facilitare la comprensione di grandi quantità di dati e della relativa relazione tra diverse serie di dati. Se si desidera reimpostare l'intervallo di date, ad esempio, è possibile fare clic sulla scheda 1-Month (1 mese) e selezionare le date nel calendario.</block>
   <block id="ad3bed6f42a6ad4a8833910809d6869a" category="paragraph">È inoltre disponibile un'opzione per ingrandire il grafico delle prestazioni; vengono visualizzati i singoli punti dati.</block>
-  <block id="6c21725c2fee517428d56fd28be8dce6" category="list-text">Nella dashboard, fare clic su *Performance* (prestazioni).</block>
-  <block id="5d92b2431ee288652fa8215751a358ff" category="paragraph">Per i sistemi ONTAP, è possibile fare clic sulla scheda *nodo* per visualizzare le prestazioni di un singolo nodo di un cluster ONTAP, fare clic sulla scheda *livello locale* per visualizzare le prestazioni del livello locale oppure fare clic sulla scheda *volume* per visualizzare le prestazioni del volume. Per impostazione predefinita, vengono visualizzate le prestazioni del cluster.</block>
   <block id="6fe197718e793119bb42e7711e87af78" category="paragraph">Per i sistemi e-Series, è possibile visualizzare i grafici solo a livello di controller.</block>
   <block id="0903dad68c16a638b10bd1ddb1e0174c" category="list-text">Selezionare 1 giorno, 1 settimana, 1 mese, 2 mesi o 12 mesi, nel calendario, per visualizzare i dati delle performance in un formato grafico.</block>
   <block id="7f563b85c5584569a5e770f9c808574e" category="paragraph">Ad esempio, selezionare la scheda 2 mesi per visualizzare i dati per 2 mesi. In questo modo è possibile visualizzare dati specifici per una durata in base ai requisiti di performance.</block>
@@ -63,16 +55,11 @@
   <block id="79e6bb72bf3b27322743b85d46e7028f" category="summary">Fornisce informazioni su come evitare il downtime e la possibile perdita di dati.</block>
   <block id="a66a2f6647458a57d2e6fc1df3f920bf" category="paragraph">Quando accedi a Digital Advisor e noterai il badge rosso sul widget *Availability and Protection*, puoi intraprendere azioni per risolvere i rischi critici. Senza la correzione del firmware, questi dischi sono vulnerabili a diventare inutilizzabili dopo un certo numero di ore di accensione. Risolvere questo problema eviterebbe sia il downtime che la possibile perdita di dati.</block>
   <block id="7668feb1d998cf5c94c1e24359309154" category="list-text">Accedere a Digital Advisor.</block>
-  <block id="a9d1a3c661cd780de1547f8874ba7fa9" category="inline-image-macro">Disponibilità &amp;amp; widget di protezione</block>
-  <block id="4b5886406c71d9a6478bc858959901d2" category="list-text">Fare clic su *azioni* nel widget *disponibilità e protezione*.<block ref="5a8b574aaf1c16ebb902595925228ace" category="inline-image-macro-rx" type="image"></block></block>
   <block id="4e91f704233072d4cd24a403d5175cfc" category="paragraph">Per i rischi di protezione ad alto impatto, seguire l'azione consigliata per aggiornare il firmware del disco.</block>
   <block id="586072113125e441fad32377fb3b55fc" category="inline-image-macro">Riepilogo dei rischi</block>
-  <block id="36ae45e0f51d582bd7ecffce242361dd" category="list-text">Fare clic sul collegamento *Risk Name* per visualizzare il riepilogo dei rischi.<block ref="961d5eee8f3900b106dbb0a2777f7ace" category="inline-image-macro-rx" type="image"></block></block>
   <block id="57b854162d6caadf0053934ab77436cd" category="inline-image-macro">Azione correttiva</block>
-  <block id="194764f556fc1cef4cadf0744c5dc483" category="list-text">Fare clic sulla scheda *rischi unici*, quindi fare clic sul collegamento nella colonna *azione correttiva*.<block ref="40b4aae1cc80ba37a700a5a58756afdd" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eea107c69ccee0cbe0becace353b156f" category="paragraph">Digital Advisor genera script o playbook personalizzati Ansible per aggiornare il firmware del disco richiesto, inclusi i file del firmware del disco.</block>
   <block id="0a6792a12eae97ba02fc8390bfc77b8c" category="inline-image-macro">Firmware AFF e FAS</block>
-  <block id="03ad1b597ecef769f82b062d6ca40935" category="list-text">Fare clic sull'icona *Ansible "A"* per generare e scaricare gli script.<block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7fffffd83e81207eb469a895955d2d8a" category="summary">Fornisce informazioni sui diversi tipi di report disponibili per l'utente.</block>
   <block id="0e7d981aa2a68d23eec3e0bd5998b81a" category="paragraph">Digital Advisor offre una vasta gamma di opzioni di reporting che consentono di monitorare e gestire lo stato di salute del sistema e il successo delle operazioni.</block>
   <block id="729ee1fe065c2a9eddbc991953f9e9ea" category="paragraph">Di seguito sono riportati i tipi di report disponibili in Digital Advisor:</block>
@@ -116,8 +103,6 @@
   <block id="05bffae7acee1d751495fb2f8a0701fe" category="list-text">Visibilità sul monitoraggio full-stack VMware</block>
   <block id="c1541ad2124531ef89e365336511a23e" category="list-text">Risparmi di produttività per i clienti grazie a controlli automatizzati dell'interoperabilità per agevolare la pianificazione dell'upgrade di ONTAP. Ciò consente aggiornamenti ONTAP più fluidi e riduce i rischi di incompatibilità con gli host.</block>
   <block id="ed4e4f8de723a17e6e6c4047c2858152" category="admonition">Questa funzione è disponibile solo per i contratti di aggiornamento di SupportEdge Advisor, SupportEdge Expert e Digital Advisor.</block>
-  <block id="5292d19ab11993bca39a0810f62fdc4d" category="list-text">Fare clic sulla scheda *Panoramica macchina virtuale*.</block>
-  <block id="e0c81bd049581387caad2e365f631ca6" category="list-text">Fare clic su *numero di host ESX* per visualizzare le informazioni sull'host.</block>
   <block id="18e4b799fc66943cb5ca094c22421d14" category="paragraph">Prima di eseguire il manuale Ansible, assicurarsi che il file *NetApp_Ansible_**.*zip* sia stato estratto e che il server Web con i file del firmware del disco o dello shelf sia pronto.</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="section-title">Prima di iniziare</block>
   <block id="2e539a8b55656611ca1f039b25d5987b" category="paragraph">Prima di eseguire Ansible Playbook con NetApp docker, devi:</block>
@@ -136,17 +121,9 @@
   <block id="5d44c7cc6a90a9fcb8dbd1a194e216bf" category="summary">Fornisce informazioni per la gestione delle liste di controllo.</block>
   <block id="6e963896d19c6e8365735dbf8e7f8cba" category="doc">Gestire una lista di controllo</block>
   <block id="aa3fb4a2f751f4c503a02c5e91433d10" category="paragraph">È possibile visualizzare la dashboard per diverse liste di controllo, modificare i dettagli di una lista di controllo esistente ed eliminare una lista di controllo.</block>
-  <block id="ec42a36485bf0b7690ac95ac39ea08f3" category="list-text">Nel riquadro di sinistra, fare clic su *Watchlist*.</block>
   <block id="ba76cc75fba1482c23f5d61fcf99fc47" category="paragraph">Viene visualizzata la schermata *Manage Watchlist* (Gestisci lista di controllo).</block>
-  <block id="c533a451e2ebd63cf7629e613a0e5483" category="list-text">Fare clic sul nome dell'elenco di controllo per visualizzare i dettagli della dashboard dell'elenco di controllo.</block>
-  <block id="170bb6f16db0d4bbf5962cd0bdb83cdc" category="list-text">Fare clic su *Edit* (Modifica) per aggiornare i dettagli della lista di controllo.</block>
-  <block id="71c11d072ed3800acd07298b9da0447f" category="list-text">Fare clic su *Delete* (Elimina) per eliminare la lista di controllo.</block>
   <block id="e4f7548bfc57cb05ec15b81412fadffb" category="summary">Fornisce informazioni sull'inventario complessivo di proprietà dell'utente.</block>
   <block id="95cc9b63edd3c2016f97c0476635528a" category="paragraph">È inoltre possibile generare il report dell'elenco di controllo selezionato e inviarlo via email a un massimo di 5 destinatari.</block>
-  <block id="7a7d4a4667b4536acd427d4c99b2e845" category="list-text">Nel widget *Inventory* (inventario), fare clic su *Systems* (sistemi) per visualizzare le informazioni di sistema di tutte le piattaforme oppure fare clic sul tipo di piattaforma, quindi su *Systems* (sistemi) per visualizzare i sistemi specifici di tale piattaforma.</block>
-  <block id="da7363bcf69f8ff499f5f44a09b9c4ac" category="list-text">Fare clic sul nodo o sul cluster per visualizzare informazioni dettagliate sul sistema.</block>
-  <block id="2a533baae54ffebd2a7ae449c7f45df9" category="list-text">Scarica il report *Inventory* per visualizzare i dettagli del sistema in formato .xls.</block>
-  <block id="c97def108b37d464e0c4a724252e49d9" category="list-text">Scarica il report *Ansible Inventory* per visualizzare i dettagli del sistema nei formati .yml e .ini a livello di area geografica o sito.</block>
   <block id="cf9a05044c598886b8421db3045b9edd" category="paragraph">I file Ansible Inventory possono essere utilizzati con file Ansible Playbook personalizzati per apportare modifiche alla configurazione dell'infrastruttura.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">Le note legali forniscono l'accesso a dichiarazioni di copyright, marchi, brevetti e altro ancora.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">Note legali</block>
@@ -158,51 +135,34 @@
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">Direttiva sulla privacy</block>
   <block id="36b9a40607be4fe5327a83c15f10355e" category="summary">Fornisce informazioni per confrontare un modello di deriva della configurazione.</block>
   <block id="5a8fec4938d8693af6506cce2afba55d" category="paragraph">È possibile confrontare le configurazioni del sistema e del cluster e rilevare le deviazioni di configurazione quasi in tempo reale.</block>
-  <block id="610f90ca909a7ffba0cca7c8587ce0c7" category="list-text">Nel riquadro di sinistra, fare clic su *Config Drift*.</block>
-  <block id="3d768fbe606a71f8b806879ad00eba22" category="list-text">Selezionare uno dei modelli esistenti o fare clic su *Add Template* (Aggiungi modello) per aggiungere un nuovo modello.</block>
   <block id="0f4b62d6f9a595aef4041b063db627c2" category="list-text">Generare un report di deriva della configurazione</block>
   <block id="94d8a7699e6d9a94b8c7f9284a38e5c3" category="paragraph">È possibile generare un report immediatamente o pianificarne la generazione su base settimanale o mensile.</block>
   <block id="8037e16862d84c161a0376bf3349c34f" category="cell">Per generare immediatamente un report</block>
   <block id="d281137a49a54aa7802aec878d399810" category="cell">Per pianificare la generazione del report su base settimanale o mensile</block>
   <block id="d998ded6956eac23bfe161c9afe0ea0e" category="list-text">Selezionare una categoria e fornire i valori richiesti per il report.</block>
   <block id="812ad8b6bb127213d73d9d6bcd0ec8d0" category="list-text">Selezionare l'opzione *include only drift* (Includi solo derive) per scaricare solo le modifiche della deviazione di configurazione.</block>
-  <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">Fare clic su *Invia*.</block>
   <block id="e5a357b5d9e14c026e56b048d8d30481" category="inline-link-macro">Scarica e visualizza il report di deriva della configurazione</block>
   <block id="3fe3e6cae45cdc7f363823f66ac8cff4" category="list-text"><block ref="9904fa624af53322bf0cb3a29f4aca11" category="inline-link-macro-rx"></block>.</block>
   <block id="385c42157f7dfc3d457c05af35c0f3e3" category="list-text">Eseguire Ansible Playbook (incluso nel report di deriva della configurazione) per ridurre le derive.</block>
-  <block id="3d238a330bc38f038dc62d179d5a04fb" category="list-text">Fare clic sulla scheda *Schedule Report* (Pianifica report).</block>
   <block id="0462e15ed17cd7dc971f1fa1cb455fff" category="list-text">Selezionare la frequenza del report.</block>
   <block id="1d644c91a129f4fee67bbeac164d1355" category="list-text">Selezionare la data di inizio e la data di fine del report.</block>
   <block id="da46c99001fe56b84201c7d1c1bb16f1" category="paragraph">Viene inviata un'e-mail con i dettagli della deviazione di configurazione tra i sistemi selezionati.</block>
   <block id="f839cdbae8d80bc224d943c9c45a46f0" category="summary">Fornisce informazioni per visualizzare e analizzare lo stato di salute del sistema storage e mitigarne i rischi.</block>
   <block id="0e3a68f1f6b2f1d1d9fe331b11c5efa2" category="paragraph">È possibile analizzare gli attributi di benessere del sistema storage visualizzando le azioni e i rischi associati. È necessario visualizzare le azioni correttive associate e mitigare manualmente il rischio.</block>
-  <block id="9bbf83543e304f4973370a44626c0d09" category="list-text">Fare clic sul widget *Wellness* nella dashboard o fare clic su *View All Actions* (Visualizza tutte le azioni) per visualizzare l'elenco di tutte le azioni e i rischi.</block>
   <block id="09cf3ca5d8f7efac34773df93eb9049a" category="list-text">Visualizzare le voci *azioni* e *rischi* associate all'attributo wellness.</block>
-  <block id="fc9f98aa0c178e3deb4bbfb52980b9ee" category="list-text">Fare clic su *azioni* per visualizzare i rischi associati alle azioni, fare clic su *rischi* per visualizzare tutti i rischi oppure fare clic su *sistemi interessati* per visualizzare i sistemi che richiedono attenzione.</block>
-  <block id="4c1501034b347258e5d755cf7e7fb1a3" category="list-text">Fare clic sul nome del rischio per visualizzare le informazioni sul rischio.</block>
-  <block id="f2681bd59cd373759d660366f9539908" category="list-text">Fare clic sulle azioni correttive associate e seguire le informazioni per risolvere il rischio.</block>
   <block id="05bc37729c4a94d83e8b67e8d6af6202" category="paragraph">I passaggi per mitigare i rischi sono gli stessi per tutti gli attributi di benessere. È possibile visualizzare il seguente video per monitorare e risolvere i problemi relativi alla sicurezza:</block>
   <block id="2ddb7471f4505c6b0aa8e3464634debc" category="summary">Fornisce informazioni su ClusterViewer.</block>
   <block id="964f0ca73e7ebb063af3a2240b8483fb" category="paragraph">È possibile analizzare lo stato di salute dei cluster e dei nodi utilizzando ClusterViewer, un'unica fonte di informazioni sulla configurazione fisica e logica dei cluster e dei nodi.</block>
   <block id="6db3885477641d8e5ca59335970bf0b0" category="paragraph">ClusterViewer fornisce informazioni, come diagrammi di stack dei nodi, utilizzo ed efficienza dello storage, spazio di crescita nella capacità hardware e così via, che consentono di prendere decisioni informate per migliorare il benessere di cluster e nodi.</block>
   <block id="acc7732ef13d215f323b715a75c23913" category="paragraph">È possibile visualizzare visualizzazioni o rappresentazioni grafiche della configurazione fisica dei nodi a livello di cavi, stack e dischi RAID. Puoi anche scaricare le visualizzazioni in formato SVG.</block>
   <block id="2d57c025a86cbb3c18376b2e6594182b" category="list-text">Nel widget *Inventory*, selezionare il cluster o il nodo (host) desiderato.</block>
-  <block id="05f9cea794823bcfe9edd186fcb424a3" category="list-text">A livello di cluster o nodo, fare clic su *ClusterViewer* accanto al widget *Configuration*.</block>
-  <block id="6551f219e2490db3bc60a0ba2bac261d" category="list-text">Fare clic sulla scheda *visualizzazione* per visualizzare una rappresentazione grafica del cluster.</block>
   <block id="79e58a59d5d9e700b34093a1d2e53ffb" category="summary">Fornisce informazioni per visualizzare i rischi che possono essere risolti automaticamente utilizzando Unified Manager.</block>
   <block id="45eee928d91988f1092c821e200e91e7" category="paragraph">Puoi analizzare il tuo sistema di storage visualizzando le azioni e i rischi e mitigarli utilizzando Active IQ Unified Manager o il manuale Ansible.</block>
-  <block id="da48e8a594a1d177bf4a0a523841c6bb" category="list-text">Fare clic su *View All Actions* (Visualizza tutte le azioni) nella dashboard.</block>
   <block id="a07983e266ae35893ec0d3fb2fbe58ad" category="inline-image-macro">Chiave</block>
   <block id="1aff53cee8a7c38fb4ee3ddb6173f4e7" category="inline-image-macro">Aggiorna Ansible</block>
   <block id="3dd705058f6fd7884922146ffb1b552a" category="paragraph">Se il rischio può essere mitigato utilizzando Active IQ Unified Manager, il <block ref="b36bd34ef127641c1d7dc29907e63c31" category="inline-image-macro-rx" type="image"></block> Viene evidenziata e se il rischio può essere mitigato utilizzando Ansible Playbook, il <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> viene evidenziata.</block>
   <block id="9be4ecab9993242061ef9bd0e3582d94" category="cell">Per ridurre i rischi con Unified Manager</block>
   <block id="a877d704a3d55f5485ebeade7e3d7202" category="cell">Ridurre i rischi utilizzando Ansible Playbook</block>
-  <block id="7fcc42d3ab47d6970d0745fc70a10ae3" category="list-text">Fare clic su <block ref="b36bd34ef127641c1d7dc29907e63c31" category="inline-image-macro-rx" type="image"></block> icona.</block>
-  <block id="f54fc4e92c7c9524bc86ce760eeac730" category="list-text">Fare clic su *Correggi* per avviare Active IQ Unified Manager.</block>
-  <block id="4b1c75d59fccd48f1c20cdbf5faf3645" category="list-text">Fare clic su *Installa* per installare Active IQ Unified Manager 9.7 o versione successiva e utilizzare l'opzione *Correggi*.</block>
-  <block id="55065a8829503555cfbba421bd638a00" category="list-text">Fare clic su *Aggiorna* per eseguire l'aggiornamento a Active IQ Unified Manager 9.7 o versione successiva e utilizzare l'opzione *Correggi*.</block>
-  <block id="d159511cf27ee3a3fa24f2d31ff80434" category="list-text">Fare clic su <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> icona.</block>
-  <block id="e8999980f2d5f8e5a193a82965648f09" category="list-text">Fare clic su *Download* per scaricare il pacchetto di automazione Ansible del firmware AFF e FAS.</block>
   <block id="f05b4b84106eafcc5aad0f438b841dff" category="admonition">Per utilizzare l'opzione *Correggi* e le funzionalità del manuale Ansible, è necessario un contratto SupportEdge Advisor o SupportEdge Expert.</block>
   <block id="75fb68630cabac33011c445584315dfc" category="summary">Fornisce ulteriori informazioni su Ansible.</block>
   <block id="bf07f432276ee2fe7e55f9ea12c2ba5a" category="doc">Ulteriori informazioni</block>
@@ -235,19 +195,12 @@
   <block id="f4c12685c854edc2a70b55cda1355928" category="list-text">L'accesso ai modelli condivisi può essere revocato in qualsiasi momento.</block>
   <block id="604e4b03afa73e998c83987a965bf62f" category="list-text">Gli utenti condivisi possono eliminare questo modello dal proprio account in qualsiasi momento.</block>
   <block id="d329fd777726c300d7a044e482b967e7" category="inline-image-macro">clonare</block>
-  <block id="6f2f86dbd151feaab096b96a9b0c37eb" category="list-text">Fare clic su <block ref="3b55c23dfb4079e2af5dd3be6ef65a9e" category="inline-image-macro-rx" type="image"></block> per eseguire una copia del modello.</block>
   <block id="85e47ac07ac9d6416168a97e33fa969a" category="inline-image-macro">condividere</block>
-  <block id="30486c4de149468d64f86f131cbfba0a" category="list-text">Fare clic su <block ref="e99ba43207c50943c58f4200e8020746" category="inline-image-macro-rx" type="image"></block> e immettere i nomi utente con cui si desidera condividere il modello.</block>
   <block id="595120ebe2be774fab22543291877b24" category="admonition">Se si immette l'indirizzo e-mail dell'utente invece del nome utente, il modello non verrà condiviso.</block>
   <block id="de95b43bceeb4b998aed4aed5cef1ae7" category="inline-image-macro">modifica</block>
-  <block id="0865a774e1174481df7273cee252f86b" category="list-text">Fare clic su <block ref="d17ae34269ddc9b756c90c8b4fb41e88" category="inline-image-macro-rx" type="image"></block> per aggiornare i dettagli del modello.</block>
   <block id="099af53f601532dbd31e0ea99ffdeb64" category="inline-image-macro">eliminare</block>
-  <block id="a9345dca2427f7f88c526df2640684ed" category="list-text">Fare clic su <block ref="26fc5ebf2c3c934a9aae5c740ff267ef" category="inline-image-macro-rx" type="image"></block> per eliminare il modello.</block>
   <block id="cfe3edab2601e99b9745cec9fd8ad086" category="summary">Fornisce informazioni su come rinnovare i contratti di supporto per i sistemi.</block>
   <block id="55c259bf51c9908c5e33fc4b248b3f61" category="paragraph">È possibile visualizzare il punteggio e il riepilogo di tutti i contratti di assistenza attivi nella dashboard. È possibile intraprendere azioni in base ai suggerimenti principali forniti in ordine di priorità.</block>
-  <block id="4dc41be6abef4ee242883df1a57fb262" category="list-text">Nella dashboard Health Check, fare clic sul widget *Support &amp; Entitlements*.</block>
-  <block id="195a1e51a63db10df6d13350df648daf" category="list-text">Se uno dei contratti di supporto del sistema è scaduto o sta per scadere, fare clic sul widget *contratti di supporto attivi*.</block>
-  <block id="f166a7d8aa57a3dbeef11dc2e8abe7a8" category="list-text">Selezionare le caselle di controllo e fare clic su *Renew* (Rinnova) per avviare il processo di rinnovo per i sistemi selezionati.</block>
   <block id="d33c547719b131d3de1a17847217be28" category="summary">Fornisce informazioni su come convalidare l'installazione del firmware.</block>
   <block id="43cf401c92f61570be3a8b8af451acf3" category="paragraph">Dopo l'esecuzione del manuale, accedere al cluster come amministratore del cluster.</block>
   <block id="3d4609be21bd67626ea8848d17b975ec" category="section-title">Convalidare l'installazione del firmware del disco</block>
@@ -268,43 +221,31 @@
   <block id="2eba3fd530b8be90290c1ea2652f4310" category="paragraph">L'automazione con le API è un ottimo modo per aggiungere efficienza e precisione alle attività quotidiane o settimanali. Consente di liberare risorse per eseguire attività più complesse o automatizzare nuovi flussi di lavoro. Ad esempio, se i rischi per la salute del sistema devono essere risolti, è possibile automatizzare almeno l'estrazione di tali elementi da Digital Advisor e l'inserimento nel sistema di ticketing.</block>
   <block id="272eb6d717938719a6643dde54a455f1" category="section-title">Catalogo API</block>
   <block id="609b94093c96779bd697e437a237dada" category="paragraph">Il pulsante nella parte superiore della pagina consente all'utente di passare da una modalità all'altra per visualizzare il catalogo. La vista Code (Codice) si concentra sui parametri di input necessari, sul contenuto e sul formato dei dati restituiti e sugli esempi di codice per consentire all'utente di iniziare a implementare il codice. La vista dell'esperimento offre all'utente la possibilità di "provare" l'API nel browser utilizzando un token generato dalla pagina principale dei servizi API.</block>
-  <block id="e06ee5f4d38e3f442020774d590dd8ae" category="paragraph">Entrambe le viste consentono all'utente di sfogliare gli elementi disponibili utilizzando il riquadro di navigazione a sinistra. Gli elementi sono organizzati in ordine alfabetico in base al servizio. All'interno di un determinato servizio, è possibile espandere l'intestazione per visualizzare i singoli endpoint API. Facendo clic sull'intestazione del servizio o su un endpoint API si apre la sezione del catalogo nel riquadro centrale.</block>
   <block id="32389560c3f1a6bf5e949c0c90761d9b" category="section-title">Utilizzando le API</block>
   <block id="39560be2ac4b28448572ca6aff31945e" category="paragraph">Una volta autorizzati e in grado di generare token, è possibile sfruttare i token per eseguire query programmatiche e recuperare i dati. È inoltre possibile testare un'API dal catalogo API per vedere in prima persona come funziona la query e il tipo di dati restituiti. Questo è un ottimo modo per assicurarsi di comprendere il funzionamento di un'API prima di creare il framework di codice nel sistema.</block>
   <block id="74bac88334325995c9ac3011aacb8ce6" category="paragraph">Una volta attivato l'abbonamento, selezionare una data di inizio quando si aggiunge un abbonamento. Il riepilogo mensile dell'e-mail fornisce una panoramica delle azioni di verifica dello stato di salute, rinnovo, aggiornamento e verifica dello stato di salute. È possibile confermare l'indirizzo e-mail e l'e-mail viene inviata all'indirizzo e-mail specificato. È inoltre possibile eliminare gli abbonamenti.</block>
   <block id="758be7d229b841d1130a3c7c210ffbdf" category="admonition">Questa funzione è disponibile solo attraverso le offerte di servizi NetApp SupportEdge Advisor e SupportEdge Expert.</block>
-  <block id="e7b254db09865dd430cfc8b7b0677352" category="list-text">Nel riquadro di sinistra, fare clic su *Wellness Review*.</block>
-  <block id="2e732ac605c2ed9156bbd850efb40083" category="list-text">Fare clic su *Aggiungi abbonamento*.</block>
   <block id="5fc44cddfe7ebd9f1c1db179221f47cf" category="list-text">Inserire le informazioni richieste nei campi *Nome abbonamento*, *Scegli categoria*, *Ricerca cliente* e *e-mail* della finestra di dialogo *Aggiungi nuovo abbonamento*.</block>
-  <block id="85bb97cf1fc6a37ea1a5e97e0e2e1a8b" category="list-text">Fare clic su *Subscribe* (Iscriviti).</block>
   <block id="59986442c027a30a72ff51fcf5ad3c9b" category="paragraph">Una volta completata l'iscrizione, riceverai un messaggio *l'abbonamento è stato aggiunto*.</block>
   <block id="8830ebf30b3e1ad7b344461753f7d3dd" category="summary">Fornisce informazioni per aumentare la capacità del sistema.</block>
   <block id="6566d0c64aca6f40a49a4420aa3d8883" category="summary">Fornisce informazioni sull'aggiornamento dell'offerta di supporto.</block>
   <block id="12dfd6dec7a5455387d9e6ce595e8907" category="paragraph">È possibile acquistare un aggiornamento all'offerta di supporto per accedere a più funzionalità e funzionalità di Digital Advisor.</block>
   <block id="81bee906866e738f7e8a54b6610f32e3" category="paragraph">Puoi aggiornare la tua attuale offerta di supporto per ottimizzare la base di installazione con l'aiuto di procedure e correzioni consigliate, automazione dell'upgrade con i playbook Ansible, report e recensioni pratici, supporto personalizzato e così via. L'aggiornamento può essere acquistato quando si rinnovano i contratti di supporto o in qualsiasi altro momento dalla dashboard del sistema (nodo).</block>
   <block id="4b0ff7d5bbadbf7074a8de3b40758350" category="admonition">Puoi scegliere l'aggiornamento AIQ solo se attualmente utilizzi le offerte di supporto sicuro di SupportEdge Premium o SupportEdge.</block>
-  <block id="7f59006fb633d44faf18e7aa72c20403" category="list-text">Fare clic su *View All Systems* (Visualizza tutti i sistemi) accanto al widget *Inventory* (inventario).</block>
   <block id="3d30fb3e89786aced41e8a9ad5e64a9b" category="list-text">Nella dashboard di inventario, selezionare il nodo (host) che si desidera aggiornare. Si viene reindirizzati alla dashboard di sistema o nodo.</block>
-  <block id="6d622bcce07deb96f1d4cea2024b0766" category="list-text">Fare clic su *Upgrade* nel widget *Configuration*.</block>
   <block id="ce18cbcf742aed8e35c658e5625fc984" category="inline-image-macro">Widget di configurazione</block>
   <block id="bf08cd4c1bc33720a5485c666caed145" category="paragraph"><block ref="bf08cd4c1bc33720a5485c666caed145" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="632064723404f7a0755249b947a55c6a" category="list-text">Facoltativamente, fare clic su *Confronta offerte di supporto* per visualizzare la tabella di confronto e scegliere l'offerta di supporto più adatta alle proprie esigenze. In alternativa, fare clic su *Support Offerings* (Offerte di supporto) nel menu di navigazione a sinistra per visualizzare la tabella di confronto.</block>
   <block id="88650e3130d602eb873c6cec8aa1b43d" category="list-text">Selezionare il tipo di aggiornamento desiderato.</block>
   <block id="6b1e028800580e41be7e09af7233c6ea" category="list-text">Aggiungi l'aggiornamento AIQ alle tue offerte di supporto sicuro SupportEdge Premium o SupportEdge</block>
   <block id="e151846aa3b308b87c9d25ba4b1deba4" category="list-text">Qualsiasi altra richiesta di upgrade</block>
-  <block id="0c152bcc14bc08edd4b0de34a463af86" category="list-text">Aggiungere eventuali commenti e fare clic su *Invia*. Una richiesta di acquisto dell'upgrade dell'offerta di supporto viene inviata al team dei rinnovi NetApp.</block>
   <block id="a789bbd5cd15d75a39f05ef8f875cf51" category="summary">Fornisce informazioni per rinnovare il software e l'hardware del sistema storage.</block>
   <block id="d05dbf74dd4a436186ee08c15e9b81d8" category="paragraph">È possibile visualizzare i dettagli della capacità e i risparmi in termini di efficienza dello storage del sistema e intraprendere le azioni appropriate. Le informazioni sulla capacità e sull'efficienza dello storage possono essere visualizzate a livello di cluster o di nodo.</block>
   <block id="17c1d72dbea38c3c03aed0e08dbb37f9" category="admonition">Questa funzione non è supportata nei sistemi e-Series.</block>
-  <block id="ee810de9566deba98dbe4a46fbcf7410" category="list-text">Nel riquadro di sinistra, fare clic su *capacità ed efficienza*.</block>
   <block id="672a98e16d598ad5d32b32f96bbf4db5" category="paragraph">Per impostazione predefinita, è selezionata la scheda *Capacity*.</block>
   <block id="283c169bd8b723905691a0368b1eaf2a" category="list-text">Visualizzare i dettagli della capacità a livello di cluster e nodo.</block>
   <block id="be131fcebf48482dd72ea96add51f0e0" category="list-text">Visualizza la previsione della capacità a livello di nodo.</block>
   <block id="c08f4fce6d9fc3b55b586bec7ed0c778" category="paragraph">Per i sistemi ONTAP, le informazioni sulla capacità RAW sono disponibili in ClusterViewer.</block>
-  <block id="03c660c2768c96f05e2acdb21cf61ebb" category="list-text">Fare clic su *Add Capacity* (Aggiungi capacità) per inviare una notifica a NetApp o al partner per aggiungere capacità.</block>
   <block id="6d01d6a00b896623fe1252dcd728f7d4" category="list-text">Visualizza l'efficienza dello storage e i risparmi sui dati del tuo sistema storage.</block>
-  <block id="f4211b7ee285529c0082b53f3b17de86" category="list-text">Se il rapporto di efficienza dello storage del tuo sistema è superiore al rapporto di efficienza dello storage medio, fai clic su *Condividi la tua storia di successo* per farci conoscere le Best practice seguite.</block>
-  <block id="7e4e265e9120fa2dfd6ce41588f5706a" category="list-text">Se il rapporto di efficienza dello storage del sistema è inferiore al rapporto di efficienza dello storage medio, fare clic su *Contattaci* per conoscere le configurazioni del sistema storage.</block>
   <block id="066ec3a176aff9b4f9af4ff3ece3ded7" category="inline-link-macro">Domande frequenti su Digital Advisor</block>
   <block id="ec51503b0f35cbc8702985e4aa3ca3c5" category="paragraph">Per ulteriori informazioni sulla capacità e sull'efficienza dello storage, vedere <block ref="de007cfc8081d514ce95fa7f06caeee8" category="inline-link-macro-rx"></block>.</block>
   <block id="fea651c80f853524fd5c34e4ec0610f8" category="summary">Fornisce informazioni su come installare ed eseguire l'aggiornamento del firmware utilizzando Ansible Playbook.</block>
@@ -363,7 +304,6 @@
   <block id="583d69a4a79378ddaf1cd955ffc0c3eb" category="cell">VOLUME.XML</block>
   <block id="0acf8be1231e24946c3d10b649fb576f" category="cell">vol</block>
   <block id="21f34cc44dc8079bb3c3e391a241dae2" category="paragraph">Utilizzando un'espressione regolare, un utente può creare un report di deriva della configurazione che include derive derivanti da incongruenze di denominazione di volumi, aggregati, cluster e così via. Ad esempio, se viene menzionata un'espressione regolare *nome-aggr** per l'attributo *Nome* della sezione *AGGR-INFO.XML* nel gruppo *AGGREGATO*, i valori dell'attributo senza il prefisso *nome-aggr* vengono contrassegnati come deriva quando viene generato il report di deriva della configurazione.</block>
-  <block id="88b68e34df9db916b4fe94948231ccbb" category="list-text">Fare clic su *Aggiungi modello*.</block>
   <block id="db3c8b301a3ce6ee5fa41ab7a54740f3" category="list-text">Fornire i valori richiesti.</block>
   <block id="2eb59240b774cdd59bd034ded7487a51" category="list-text">Facoltativo: È possibile personalizzare il modello modificando i gruppi o eliminando i gruppi non richiesti per un modello.</block>
   <block id="ef8a4ebca6f4cc3e64a7ad289ebd3eb6" category="summary">Fornisce informazioni su dashboard, elenchi di controllo, funzioni e widget.</block>
@@ -391,7 +331,6 @@
   <block id="8ddbb4960ae1ce3eafd141c7e16ad702" category="paragraph">*Come posso accedere all'efficienza dello storage in Digital Advisor?*</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="inline-link-macro">Consulente digitale</block>
   <block id="1f7190b58ba77336a9e9c5d8010a216d" category="list-text">Cercare un cliente, un sito, un gruppo, un cluster o un nodo dalla casella di ricerca in alto a destra per accedere alla relativa dashboard.</block>
-  <block id="f30fbe64196609d84d8615d57fc452c4" category="list-text">Fare clic su *Storage Efficiency* (efficienza dello storage) nella barra di navigazione a sinistra.</block>
   <block id="b9fc81c6a264c571164cb5ed34f3d618" category="admonition">Le dashboard create utilizzando una lista di controllo non verranno visualizzate nel widget Storage Efficiency (efficienza dello storage).</block>
   <block id="2206003195e83e7dfa4c2c9011926729" category="paragraph">*Digital Advisor visualizza i rapporti per tutti i sistemi ONTAP?*</block>
   <block id="83f45cad5e6f535ff10e564a526baad0" category="list-text">Deduplica</block>
@@ -631,9 +570,7 @@
   <block id="5c9ed548c23a9e1a91cf1c652e779a1a" category="list-text">*Widget Pianificazione:*</block>
   <block id="c4e80074735e6ff2daec051071dbc429" category="list-text">*DASHBOARD DELLA GRIGLIA:* la dashboard DELLA GRIGLIA fornisce informazioni sullo stato di salute, sulla pianificazione e sulla configurazione della GRIGLIA selezionata.</block>
   <block id="b71490eeea3abb6f9a0c159a3418dd5e" category="list-text">*Widget di configurazione:* fornisce i dettagli di base del StorageGRID selezionato nel widget, ad esempio Nome GRIGLIA, Nome host, numero di serie, modello, versione del sistema operativo, Nome del cliente, luogo di spedizione e dettagli di contatto.</block>
-  <block id="a22fe4c7486ab7ffb8d4bc05dcab6336" category="list-text">*GRID Viewer:* dal widget *Configuration*, è possibile visualizzare la configurazione DELLA GRIGLIA in dettaglio facendo clic sul collegamento *GRID Viewer*. Dal widget *Configurazione*, è possibile scaricare i dettagli del sito e della capacità per il StorageGRID selezionato facendo clic sul pulsante *Scarica* nella schermata *Visualizzatore griglia*.</block>
   <block id="8952273932d18fb81102eabf38cabbd1" category="list-text">*Dettagli del sito:* questa scheda fornisce il riepilogo della griglia e i nodi di storage disponibili per ciascun sito.</block>
-  <block id="666d5831344c81a6bb17a82cba51d507" category="list-text">*GRID summary:* contiene informazioni di base, come tipo di licenza, capacità di licenza, numero di nodi installati, durata del supporto (data di cessazione del contratto di licenza), nodo di amministrazione primario e sito primario del nodo di amministrazione primario. Questa scheda fornisce anche il nome del sito e il numero di nodi di storage contrassegnati sotto il sito corrispondente. In questa release, è possibile visualizzare l'elenco dei nomi dei nodi facendo clic sul collegamento ipertestuale disponibile per la visualizzazione dei nodi di storage per il sito corrispondente.</block>
   <block id="d2f225914092c41360983fad88f32684" category="list-text">*Scheda Capacity Details (Dettagli capacità):* fornisce i dettagli relativi al livello di griglia e alla capacità del sito configurati per LA GRIGLIA. I dettagli relativi alla capacità, ad esempio capacità di storage installata, capacità di storage disponibile, capacità di storage totale utilizzata e capacità utilizzata per dati e metadati. Questi dettagli sono disponibili sia a livello di griglia che di sito.</block>
   <block id="67cd8350911a2c5c4d5ea70ff9f7a77e" category="section-title">Consulente FabricPool</block>
   <block id="5c1cbbba646e78bf69e01be8602cbe41" category="section-title">Carichi di lavoro cloud ready</block>
@@ -717,19 +654,12 @@
   <block id="d9c7072ff9d902e7ac9964e95c163d94" category="paragraph">Consente di cercare parametri quali numero di serie, ID sistema, nome host, nome sito, nome gruppo, e il nome del cluster utilizzando la vista a sistema singolo. È inoltre possibile cercare un gruppo di sistemi, inoltre è possibile effettuare una ricerca in base al nome del cliente, al nome del sito o al nome del gruppo per gruppo di sistemi.</block>
   <block id="e02babead98c40fa29fb8fc1d8fdc331" category="summary">Fornisce informazioni per visualizzare e analizzare lo stato di salute del sistema storage e riconoscere i rischi.</block>
   <block id="271d577ec8f32c51ee101c1c091a870f" category="paragraph">È possibile analizzare gli attributi di benessere del sistema storage visualizzando le azioni e i rischi associati. È necessario visualizzare le azioni correttive e mitigare manualmente il rischio.</block>
-  <block id="c8c26be9319b332a2b6294dcfb6585b6" category="list-text">Fare clic sul widget degli attributi di benessere nella dashboard o fare clic su *View All Actions* (Visualizza tutte le azioni) per visualizzare l'elenco di tutte le azioni e i rischi.</block>
-  <block id="2c60e29192926ea042adbfd8b4ef0fbd" category="list-text">Fare clic sul rischio per visualizzare il riepilogo dei rischi.</block>
-  <block id="c6f1cb771fe8d368c81ecb4ae31f7c66" category="list-text">Fare clic su *Ack* per riconoscere il rischio.</block>
   <block id="747d136ecce6fb802da86b65cb0bad59" category="paragraph">Le informazioni dettagliate sul riepilogo dei rischi vengono fornite insieme alle azioni correttive che devono essere eseguite manualmente per mitigare il rischio.</block>
-  <block id="712521b43d0b848d99bf5f898ee9c033" category="list-text">Se non si desidera o non si è in grado di mitigare il rischio in questo momento, fornire i valori per i campi e fare clic su *Acknowledge* (Conferma).</block>
   <block id="6f93dec8e32211fde259c444ab2d63fb" category="paragraph">Il rischio verrà aggiunto ai rischi riconosciuti.</block>
-  <block id="862744f0ea49f8f06aab2a99ec7a3482" category="admonition">Se non si desidera più che un rischio venga riconosciuto, è possibile ignorare il rischio facendo clic su *un-Ack* e seguendo la stessa procedura.</block>
   <block id="e0f076d59e2092bdbab66e81920ec8bf" category="summary">Fornisce informazioni per generare report.</block>
   <block id="7ecd0726b721e17d74d280fdd93e49f8" category="doc">Generare report</block>
   <block id="c18954481ec7b1ca7731f10fe88f17e0" category="paragraph">È possibile generare report immediatamente o pianificare la generazione di report su base settimanale o mensile. I report possono essere generati in diversi formati. In base al report selezionato, vengono visualizzati i formati disponibili.</block>
   <block id="7b8ca3eb07a8240bd90e77dc0b6b4b64" category="list-text">Non è possibile modificare i report in Digital Advisor. Eliminare il report esistente e crearne uno nuovo.</block>
-  <block id="b9078cbffeaf57a288d7d58d7ed02317" category="list-text">Nel riquadro di sinistra, fare clic su *Report*.</block>
-  <block id="cf2b00ffa5bd73f45aa8d81c2b6127eb" category="list-text">Fare clic su *Create Report* (Crea report) per generare un nuovo report.</block>
   <block id="bb8c427c31e76f816f767bd2cad87cfc" category="list-text">Selezionare il tipo di report e fornire i valori richiesti per il report.</block>
   <block id="43c47648912b14ae2e4dae66c4c94e6f" category="list-text">Selezionare il formato del report.</block>
   <block id="fbdbbae9b17b34243807f99738e169e7" category="admonition">I report pianificati esistenti verranno sostituiti quando vengono generati i nuovi report.</block>
@@ -822,32 +752,21 @@
   <block id="87fb1e35365d1159833f632569b95ca4" category="paragraph">Vengono visualizzate tutte le tue liste di controllo e le configurazioni esistenti e ora puoi utilizzare Digital Advisor come di solito.</block>
   <block id="6c0397360aa8b37bbbe1fa3a38744674" category="list-text">Accedere a Digital Advisor.</block>
   <block id="5e0e2c126796ee31f891f0f923d864f9" category="list-text">Per i rischi visualizzati, controllare il livello di impatto e seguire le azioni consigliate.</block>
-  <block id="9468b2f5ff83e6a3ed59b51e8ca38dc2" category="list-text">Fare clic sulla scheda rischi univoci e sul collegamento nella colonna *azione correttiva*.</block>
-  <block id="719f031257428b8b9c9c34ee45a1c9ae" category="list-text">Fare clic sulla scheda *sistemi interessati* per visualizzare i sistemi con rischi.</block>
-  <block id="0733f4fb920038885a10cd7d7528474a" category="list-text">Seguire le azioni correttive consigliate per proteggere i sistemi.</block>
   <block id="f39b53c109ef22724fc3808f3709808c" category="summary">Fornisce informazioni per aggiungere un elenco di controllo alla dashboard.</block>
   <block id="19a1aa0085c346ac0453f3463cfe5ae0" category="doc">Creare una lista di controllo</block>
-  <block id="da2d66a259f4a63d3108ebfd2b3e72c3" category="list-text">Nel riquadro di sinistra, fare clic su *Watchlist*</block>
-  <block id="f93fd0b56ed95d156b42c479f821efef" category="list-text">Fare clic su *Create Watchlist* (Crea lista di controllo).</block>
   <block id="6e6456ff615835fa78db50bf4c134885" category="list-text">Fornire un nome per la lista di controllo.</block>
   <block id="4e8d1ca8d221cc5795ac4f7e56661686" category="paragraph">Viene visualizzata la dashboard dell'elenco di controllo.</block>
   <block id="e58b12802a7d54b8bca5c0033174b2d8" category="summary">Fornisce informazioni per l'accesso a Digital Advisor.</block>
   <block id="5a68b284b7bcd8f7a66fdc39f1dcbcd7" category="doc">Accedere a Digital Advisor</block>
   <block id="45b708abb9ee2f917c7896e31ae4c7b6" category="paragraph">Digital Advisor mostra i sistemi con un contratto di supporto valido. Se i contratti scadono, viene assegnato un periodo di tolleranza di 90 giorni in cui i sistemi continuano a essere visibili. In seguito, i sistemi non possono essere ricercati o visualizzati in Digital Advisor.</block>
-  <block id="1dce4feb01121addbdaf71931c469035" category="list-text">Inserisci il tuo nome utente e la password e fai clic su *Accedi*.</block>
   <block id="a0a811ca28574ec3a01b64693e2fe336" category="summary">Fornisce informazioni sulla dashboard, i punteggi di salute, le funzioni e i widget.</block>
   <block id="0283692678f3caa0a73dcdba11b167a0" category="paragraph">Questa dashboard fornisce un riepilogo immediato della base installata attraverso i seguenti widget:</block>
   <block id="5a203b8ad736b84e1741fd3d04b50fd8" category="list-text">*Recommended Configuration* (Configurazione consigliata): Visualizza i sistemi conformi e non conformi in base al widget *Recommended Configuration* (Configurazione consigliata). Ti aiuta a intraprendere azioni per garantire che i tuoi sistemi siano ben configurati nella tua base installata. È possibile visualizzare il punteggio fornito nella dashboard e intraprendere azioni in base ai suggerimenti principali forniti in ordine di priorità.</block>
   <block id="e94ebb58e29dcb4765fa5c479c8e07d7" category="list-text">*Software consigliato*: Visualizza un elenco consolidato di tutti gli aggiornamenti del software e del firmware e le raccomandazioni sulle valute. È possibile visualizzare i sistemi con AutoSupport abilitato che devono essere alla versione minima o più recente del software o del firmware.</block>
-  <block id="63d26e96496f498e8ddc517162407ad9" category="list-text">*Support &amp; Entitlements*: Visualizza i contratti di supporto scaduti e quelli che si stanno avvicinando alla scadenza entro 6 - 12 mesi. Visualizza piattaforme di fine supporto, dischi, shelf, conformità dei diritti, scadenze in sospeso, e la fine del supporto per piattaforma e hardware non è applicabile. È possibile visualizzare il punteggio del controllo dello stato di salute fornito nella dashboard e intraprendere azioni in base ai suggerimenti principali, forniti in ordine di priorità. Per visualizzare informazioni dettagliate sui contratti di assistenza, fare clic sul widget *Support &amp; Entitlements*. Puoi anche rinnovare i contratti di supporto utilizzando questo widget.</block>
   <block id="022a011d9b874fb921f0168799a144d0" category="list-text">*Best Practices*: Visualizza il punteggio del controllo dello stato di salute valutando gli attributi delle Best practice del sistema storage: Performance ed efficienza, disponibilità e protezione, capacità, configurazione e vulnerabilità di sicurezza. Le Best practice di NetApp aiutano a sostenere lo stato di salute del sistema, ottimizzando le performance della base installata.</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link-macro">Sito di supporto NetApp</block>
   <block id="81a8efa642a6a389343d5ea66b3628e4" category="summary">Fornisce informazioni sui rischi di sistema e su come visualizzare la cronologia delle condizioni di salute.</block>
   <block id="683c34920d11092541e7486d67c4de2d" category="paragraph">Questi rischi sono classificati in quattro tipi di rischi: *Non risolti*, *nuovi*, *risolti* e *riconosciuti*. Sono rappresentati da colori diversi. Il riepilogo di questi rischi è rappresentato da un grafico *Risk History*.</block>
-  <block id="c31d5a309fdc7a8394fd5eac13c0d06a" category="list-text">Nella dashboard, nel riquadro *Wellness*, fare clic su *View All Actions* (Visualizza tutte le azioni).</block>
-  <block id="d5eb5666e73a1145b1e29132fcbd61e7" category="list-text">Fare clic su *Wellness History*.</block>
-  <block id="a0131598041c59b5aec9b6bdcb8a9431" category="list-text">Nel grafico *Risk History*, fare clic sulla categoria per la quale si desidera visualizzare la cronologia dei rischi.</block>
-  <block id="5e1ec40828b897d199a44619b575caa9" category="paragraph">Quando si passa il mouse sulle barre colorate, vengono visualizzate informazioni sul numero di rischi in ciascuna categoria. Facendo clic sulla rispettiva categoria di rischio, le informazioni vengono visualizzate nella tabella *informazioni sul rischio*.</block>
   <block id="37c39a7ebbd06bad10e2b0f330cec68b" category="paragraph">Puoi anche scaricare il riepilogo dei rischi in un foglio Excel.</block>
   <block id="93ae395e2672dbc470bc375ec78e11e4" category="summary">Fornisce una panoramica della funzione di deriva della configurazione</block>
   <block id="1a4bd064e1cb8fcdad31574facf63def" category="paragraph">La funzione Config Drift identifica le deviazioni di configurazione confrontando un modello di sistema con un modello di sistema "Golden" o di base. È possibile pianificare report di deriva settimanali o mensili o generarli on-demand. È possibile ridurre alcune deviazioni utilizzando i Playbook Ansible, forniti nel report di deriva della configurazione.</block>
@@ -857,9 +776,6 @@
   <block id="bd7c8ab041a2ad665bf462b1a7a3644f" category="paragraph"><block ref="bd7c8ab041a2ad665bf462b1a7a3644f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="07bdeb694d8afc8ca3ac40f7f85ed9e7" category="paragraph">È possibile visualizzare il seguente video per generare ed eseguire un Ansible Playbook per correggere le deviazioni di configurazione:</block>
   <block id="6d70d8473310213564444d3b9fe477dd" category="summary">Fornisce informazioni su come evitare il riempimento di un volume per evitare un'interruzione del servizio.</block>
-  <block id="c185e2d804ea74628fccd45ec760120b" category="paragraph">Quando si accede a Digital Advisor e si nota il badge rosso sul widget *Configuration*. Facendo clic sul widget, il volume è pieno al 98% e questo potrebbe causare un'interruzione. La risoluzione di questo problema eviterebbe il riempimento di un volume, il che lo renderebbe di sola lettura, causando il crash e il guasto delle applicazioni che accedono all'IT.</block>
-  <block id="60436722270a4533c09cb8939f672895" category="list-text">Fare clic su *azioni* nel widget *Configurazione*.<block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eae8b28f90d4f0bef1cf3c21d4b34b89" category="list-text">Fare clic sulla scheda *rischi unici*. Facendo clic sul collegamento *azione correttiva*, è possibile modificare le soglie di avviso o allocare più spazio al volume.<block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="98fb6b15dbf8f4dbd1391e6345a22114" category="summary">Fornisce informazioni sul prezioso widget Insight.</block>
   <block id="b874a602a040f316e2805e898c0a9584" category="paragraph">Il widget *preziose informazioni* fornisce informazioni sul numero di casi di supporto, sugli aggiornamenti software in sospeso, sui risparmi in termini di efficienza dello storage, sui rischi mitigati e altro ancora. Inoltre, elenca in modo proattivo le notifiche di rischio dall'attributo *Wellness*.</block>
   <block id="6e8eb21f5c710d91b6fa76bd91af461f" category="paragraph">Il widget *preziose informazioni* è disponibile nella dashboard.</block>
@@ -870,10 +786,6 @@
   <block id="745230e54aaf2b7a27c00a64f7313bd5" category="inline-link-macro">Installare e configurare Ansible sul sistema storage</block>
   <block id="5c5c784bf4fbab90a4f6348de576d5da" category="inline-link-macro">Installare Ansible 2.9 con raccolte sul sistema storage</block>
   <block id="15236e2742dc8cb603caee435694fbe2" category="list-text">Configurare l'account con un ruolo di amministratore</block>
-  <block id="ffc6cdcd4e33637452d7cabcc86954ab" category="list-text">Fare clic su un widget wellness nella dashboard o fare clic su *View All Actions* (Visualizza tutte le azioni) per visualizzare un elenco di tutte le azioni e i rischi.</block>
-  <block id="cd6050a6bccf4f0492eade7e0a8b22b4" category="list-text">Fare clic su *firmware Upgrade* (aggiornamento firmware) per visualizzare tutti i rischi di aggiornamento del firmware.</block>
-  <block id="47629e856a7468c3fb4d1e1a69e972fe" category="list-text">Fare clic su *Update AFF and FAS firmware* (Aggiorna firmware e aggiornamento firmware) per visualizzare tutti i pacchetti di aggiornamento disponibili oppure fare clic su <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> accanto a ciascun rischio per aggiornare il pacchetto specifico in base a tale rischio.</block>
-  <block id="93a006c876b6eaa096cc468c6c5701c3" category="list-text">Fare clic su *Download* per scaricare i file zip e aggiornare il sistema di storage.</block>
   <block id="595cff17c33a5e83b1c88ca7a48f0cfd" category="paragraph">Il file zip contiene quanto segue:</block>
   <block id="25768194d367c4c25b7836beb6ba6a75" category="list-text">Ansible Playbook - un file YAML contenente lo script Ansible per eseguire gli aggiornamenti del firmware del disco, dello shelf e del processore di servizio.</block>
   <block id="ccc4f365b19456825f9b83309e5739f9" category="list-text">Inventario - un file YAML contenente i dettagli dei sistemi applicabili agli aggiornamenti del firmware.</block>
@@ -894,12 +806,10 @@
   <block id="9e49d2928b0f9c506afa91618789cc95" category="inline-image-macro">Widget Security Vulnerabilities</block>
   <block id="c17e33981c0b062b393672808567a4ab" category="paragraph">Per i rischi di protezione ad alto impatto, seguire l'azione consigliata per l'aggiornamento del sistema operativo.</block>
   <block id="75b13b2a3ff2cb52d35b06fcc7348713" category="inline-image-macro">Colonna azione correttiva</block>
-  <block id="d13ac08a85c268be8e12fb2c5fc6a61f" category="list-text">Fare clic sulla scheda *rischi unici*, quindi fare clic sul collegamento nella colonna *azione correttiva*.<block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ac7de22f816f2710cfe2e83f6abc78bf" category="inline-image-macro">Scheda di correzione</block>
   <block id="159d95fb8858b00a76199e1c9300be15" category="paragraph">Il rischio viene risolto in ONTAP 9.7P8 e versioni successive.<block ref="4975e5a0a99336b95db3342c05516170" category="inline-image-macro-rx" type="image"></block></block>
   <block id="ca249192c36cc85e44209b65bfb3ec3d" category="list-text">Il passaggio più importante consiste nel pianificare l'aggiornamento del sistema operativo in *Upgrade Advisor* di Digital Advisor.</block>
   <block id="f3a5f842bf6c3b73bcf58318a3511acf" category="list-text">Facoltativamente, fornire commenti aggiuntivi.</block>
-  <block id="2939fe6c5b77679da5984bbe596d4b9a" category="list-text">Fare clic su *Invia*.</block>
   <block id="4bf24111ed7846edf31112cd54f977f7" category="summary">Aiuta a comprendere i flussi di lavoro e a iniziare a utilizzare Digital Advisor.</block>
   <block id="9df05130b53153d473ac75b8468832e2" category="doc">Guida rapida di Digital Advisor</block>
   <block id="e343dbdc5c146bf7201ffb387c076db1" category="paragraph">Digital Advisor è stato migliorato e riprogettato per aiutarti a eseguire le attività in modo più efficace. L'interfaccia utente è stata sviluppata per guidare l'utente nell'esecuzione degli obiettivi desiderati.</block>
@@ -934,7 +844,6 @@
   <block id="124737733adb9db94833bf1012498225" category="inline-image-macro">Una schermata che mostra il punteggio di sostenibilità insieme al grafico.</block>
   <block id="a2bc2df13c5a3762142955fb95ab0af5" category="paragraph"><block ref="a2bc2df13c5a3762142955fb95ab0af5" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d934690f46f773b38d9c65526a88d2a1" category="inline-image-macro">Una schermata che mostra un'icona modificabile.</block>
-  <block id="88ff2e9a0a1bf07b4e3957199ef248f0" category="paragraph">*Carbon mitigation percentuali*: Visualizza la percentuale di riduzione del carbonio in ogni sito/città e i valori di riferimento presentati si basano sulla tua posizione. È possibile regolare la percentuale di riduzione del carbonio per siti specifici facendo clic su <block ref="58945c98e470d270455cd5912e91eb15" category="inline-image-macro-rx" type="image"></block> accanto ai valori percentuali, i numeri di carbone vengono regolati automaticamente.</block>
   <block id="707741d275e0975dc229329ccd426a07" category="inline-image-macro">Una schermata che mostra l'elenco delle azioni nella vista espansa.</block>
   <block id="e9cdfc3ff6e77bfb8ec195d6362f98f9" category="list-text">Visualizza più liste di controllo, utili e pratiche viste a colpo d'occhio delle informazioni.</block>
   <block id="6af161dea04328fb2cd0c0438e1f8355" category="list-text">Ottieni informazioni su tutti i rischi per il tuo sistema storage e sulle azioni per mitigarne i rischi.</block>
@@ -958,9 +867,7 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="90542ff9ec5b690c4ff349a953987a9f" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[show del modulo acp dello shelf di storage^].</block>
   <block id="c45f42f02d2bf7bd92e0d26534723c80" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp show^].</block>
   <block id="d2a56416e501bf47a267c5eb4f202014" category="paragraph">Per ulteriori informazioni sul comando, fare riferimento a {link-with-underscore}[storage shelf acp configure^].</block>
-  <block id="f3ffec30d4e62fd6b4663ba215a643ed" category="list-text">Fare clic su <block ref="92a15a62356fc979cd7db02d3dcebebf" category="inline-link-macro-rx"></block> Per aprire il "non-Technical Feedback Tool" sul sito del supporto NetApp.</block>
   <block id="3e77ec7dcefb3407f7a4b7c4b8051d1e" category="list-text">Aprire la home page di <block ref="6ea90873ff127896ae7a3eaf21cda455" category="inline-link-macro-rx"></block>.</block>
-  <block id="8dd3258635f25ed56f238af521960f2b" category="paragraph">Se non riesci a visualizzare i sistemi per altri motivi, hai domande o desideri richiedere l'accesso, <block ref="09587a48f092e0d3b236776f889d19c2" category="inline-link-macro-rx"></block>. Per ulteriori informazioni sul caso non tecnico, fare clic su <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
   <block id="ba117b364c26b06c871a54fc6945f641" category="list-text"><block ref="3eaf8bde6ca57cae1e0245ca6f31a246" category="inline-link-macro-rx"></block>.</block>
   <block id="472c223fae3612be8aadf50d73eb0809" category="paragraph">Per ulteriori informazioni sul comando di pull di docker, fare riferimento a. <block ref="4b16511182941b47e25fae103f9d15b4" category="inline-link-macro-rx"></block>.</block>
   <block id="793420e8298f81919bf32aff38b47ae2" category="paragraph">Il container si avvia e la console si trova nella shell bash del container. Per ulteriori informazioni sul comando Docker Run, fare riferimento a. <block ref="2e999d289da5bafdf839ad8763a0ba40" category="inline-link-macro-rx"></block>.</block>
@@ -997,20 +904,15 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="ad604077bec83942cadee9567a15375b" category="list-text">Se si prevede di eseguire le azioni in un secondo momento, selezionare *più tardi*.</block>
   <block id="316dd9caa4fca945eb485f1dcba3db1b" category="list-text">Se si seleziona *più tardi*, l'azione consigliata selezionata viene spostata nella scheda *azioni successive*. L'azione selezionata verrà rinviata di 30 giorni. Dopo 30 giorni, questa azione passerà alla scheda *azioni consigliate*.</block>
   <block id="17e537edb555d063fe1acab7ca85d6fc" category="inline-image-macro">Una schermata che mostra le azioni consigliate con l'opzione considera.</block>
-  <block id="c24f9daf3a159dfaed4c11baee5cd023" category="list-text">È inoltre possibile rivedere le azioni posticipate in qualsiasi momento e fare clic su *considerare* per spostarle nella scheda *azioni consigliate*.
- +
-<block ref="0dbc91ab2b9301aabf5d18bb049d2fe1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1d9eb6188c87dc4ea4c5f5759e3d7455" category="list-text">Vai a *Sustainability* dalla categoria *STORAGE HEALTH* disponibile nella navigazione a sinistra del dashboard di Digital Advisor.</block>
   <block id="0a6f9f8fb46f33ae6cc9e9839b8bf516" category="list-text">La vista dell'azione consigliata selezionata si espande. È inoltre possibile espandere la visualizzazione delle azioni consigliate utilizzando la freccia verso il basso. Nella vista espansa, è possibile visualizzare il nome del cluster, il punteggio di sostenibilità e il successivo aumento se si procede con l'opzione *Fix*.
   +
 <block ref="d1f34a9fa829d3045f1efbad48f775eb" category="inline-image-macro-rx" type="image"></block></block>
   <block id="53b68f8aebb769e06e32c1bf7f78512a" category="paragraph">Puoi seguire questa procedura per migliorare il punteggio di sostenibilità a livello di cluster incentrato sul miglioramento della sostenibilità per un cluster specifico:</block>
-  <block id="94c9c3d23e6440e42d8b6cd9db7e01f2" category="list-text">Fare clic sul numero di azioni nella colonna *azioni consigliate* per il cluster di destinazione.</block>
   <block id="946215be00757e3a0ed7e4125cca42f7" category="inline-image-macro">Una schermata che mostra il numero di azioni.</block>
   <block id="8e64c52acfc791ae8fe6c3547d04e4ce" category="paragraph"><block ref="8e64c52acfc791ae8fe6c3547d04e4ce" category="inline-image-macro-rx" type="image"></block></block>
   <block id="577c43012aa48226531ac9439f4c1bf7" category="inline-image-macro">Una schermata che fornisce i dettagli delle azioni consigliate con l'opzione di correzione e successive.</block>
   <block id="2395cbcb2989e9bb5fdcad6d1ccbb35b" category="paragraph"><block ref="2395cbcb2989e9bb5fdcad6d1ccbb35b" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4e70a12812942ad5ac5305a12880397a" category="list-text">È inoltre possibile rivedere le azioni posticipate in qualsiasi momento e fare clic su *considerare* per spostarle nella scheda *azioni consigliate*.</block>
   <block id="37cd424fb4c31937df9970a13be3fe53" category="inline-image-macro">Un'icona più per aggiungere o rimuovere i parametri</block>
   <block id="c8861916e6eb4a06944b90bf8c5ab56a" category="inline-image-macro">Un simbolo di download per esportare il parametro</block>
   <block id="df99fff5ad47295f7f49e20f556653f3" category="summary">Fornisce informazioni sulla sostenibilità che consentono di ridurre il consumo energetico e di raggiungere i propri obiettivi ambientali.</block>
@@ -1082,7 +984,6 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="0d2ad64b559232943585fd7b1d8a6a97" category="section-title">27 settembre 2023</block>
   <block id="f32be3299de249a0d2ea856582aaf567" category="list-text">È possibile accedere alla pagina di Upgrade Advisor per l'elenco di controllo predefinito utilizzando <block ref="2a9dc4897c9bae502dc40fd9fb7b1c92" category="inline-link-macro-rx"></block> collegamento.</block>
   <block id="d733f1a5970e5ea99d583388ac25e9cf" category="inline-link-macro">Scoprite come generare e visualizzare il piano di aggiornamento</block>
-  <block id="81ff79ba6c57be0faaf7131e8c633f75" category="list-text">Fare clic su *genera piano di aggiornamento*.</block>
   <block id="98f475d7aa8f966d87ccc93ba94fba94" category="sidebar">Analizza la sostenibilità dei tuoi sistemi storage</block>
   <block id="d36a1ccbf2d01a1ff61c0e50416882e9" category="section-title">04 ottobre 2023</block>
   <block id="ec795e7f7ea26d9d59bc0e1e031d4234" category="section-title">Widget di pianificazione</block>
@@ -1098,7 +999,6 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="4a33ef12db92e241992049db5250349e" category="paragraph">La dashboard Sustainability fornisce le azioni consigliate che puoi implementare per migliorare il punteggio complessivo di sostenibilità e il punteggio di sostenibilità a livello di cluster.</block>
   <block id="5e5fa64fce688126dbdf2ee76a2a88dc" category="paragraph">È possibile visualizzare il seguente video per comprendere il dashboard Sustainability:</block>
   <block id="d99a4bbfe0f45d32ff5e507f38f9f1a7" category="admonition">AutoSupport deve essere abilitato per un calcolo accurato del punteggio di sostenibilità.</block>
-  <block id="24fbd138c7dc295cdff7b25fb0003595" category="list-text">Nella dashboard, fai clic sul numero di cluster nel widget *Upgrade Advisor*.</block>
   <block id="bcc117d8c868654bdcb5b2de44d7fbf2" category="inline-image-macro">Uno screenshot che mostra il numero di cluster.</block>
   <block id="28c5b9b9eefe3c1e8c902c9d79cc6787" category="paragraph"><block ref="28c5b9b9eefe3c1e8c902c9d79cc6787" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a66487996a06c28a71be20aa0af1d26c" category="paragraph">Viene visualizzata la pagina *Upgrade Advisor-ONTAP*.</block>
@@ -1124,40 +1024,19 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="b8b6bd2d3e7273f469feb9820cd57266" category="inline-image-macro">Una schermata che mostra l'attivazione di Upgrade Advisor avanzato è attiva.</block>
   <block id="e5030f0aad42928362a1dd6d459850f1" category="paragraph"><block ref="e5030f0aad42928362a1dd6d459850f1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="97bf638dd7855f5b871198e3de655fb7" category="paragraph">Puoi visualizzare un elenco di cluster idonei e non idonei per un upgrade.</block>
-  <block id="b3264e5abfc7f8aa9cbe9bbf2bf2839e" category="list-text">Seleziona un cluster per un upgrade.
-La colonna *versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata. Fare clic su <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> Per selezionare un'altra versione del sistema operativo di destinazione di un cluster.</block>
   <block id="c25dba4666d739afcf74fafca0e16ec1" category="inline-image-macro">Un'immagine che mostra come selezionare la versione di destinazione.</block>
   <block id="df54a2761f4e27e29bd65d8ac649e3a9" category="paragraph"><block ref="df54a2761f4e27e29bd65d8ac649e3a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="33934d5a93267aecc3bf0f2c43482311" category="list-text">È possibile fare clic sul numero di nodi nella colonna *nodi* per visualizzare il riepilogo dei nodi di un cluster.</block>
   <block id="d4586bd723aa7ed4cd56bae25e8c11c6" category="inline-image-macro">Un'immagine che mostra il tipo di problema e la relativa risoluzione.</block>
-  <block id="e56c89382384db93bf68a52b43fa244d" category="list-text">È possibile fare clic su *Risolvi problemi* nella colonna *azione consigliata* per risolvere i problemi relativi a un cluster non idoneo e renderlo idoneo per un aggiornamento.
- +
-<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="6aa4c290298860f81a97d2d4eb92f157" category="list-text">Fare clic su *genera piano di aggiornamento*.
-Verrai reindirizzato alla pagina *Upgrade Recommendation*.</block>
   <block id="be3de2fbd923b98d3ddce6f87604687b" category="list-text">Nella pagina *Upgrade Recommendation*, è possibile visualizzare i dettagli dei rischi associati a un cluster tramite la scheda *Risk Advisor*. È possibile visualizzare i blocchi degli aggiornamenti, gli avvisi di aggiornamento e le azioni richieste tramite la scheda *verifica pre-aggiornamento* e le informazioni sulle nuove funzionalità e i miglioramenti relativi alla versione del sistema operativo di destinazione selezionata tramite la scheda *funzioni ONTAP migliorate e aggiornate*.</block>
   <block id="3968a0cc76421e54bc6b6ab94ab3ef6d" category="inline-image-macro">Una schermata che mostra la vista generale della pagina dei suggerimenti per l'aggiornamento.</block>
   <block id="8cb031ec78addd4251b0d98fadb1f16d" category="paragraph"><block ref="8cb031ec78addd4251b0d98fadb1f16d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7911af84e5893fc16119ebbbd79e0ddd" category="list-text">È possibile selezionare un'altra versione del sistema operativo di destinazione e visualizzare il riepilogo dei rischi, il report di controllo pre-aggiornamento e le informazioni sulle nuove funzionalità e sui miglioramenti correlati a tale versione del sistema operativo di destinazione.</block>
   <block id="5ff9a8a8f5a8e1185c269de1ae1f16fa" category="inline-image-macro">pulsante export (esporta)</block>
-  <block id="d0ff34d4ed0d434b63065177d69660b4" category="list-text">Fare clic su <block ref="db6dc66ed954c8de99897788c99c122a" category="inline-image-macro-rx" type="image"></block> Per esportare il riepilogo dei rischi in un foglio Excel.</block>
-  <block id="f4c01d8521810198d0aedeb1804292d2" category="list-text">Fare clic su *generate Upgrade Plan* (genera piano di aggiornamento) dalla pagina *Upgrade Recommendation* (raccomandazioni di aggiornamento).</block>
   <block id="391ae857ef756e131304172e405792b4" category="inline-image-macro">Una finestra a comparsa per compilare i dettagli per inviare la richiesta di generazione del piano di upgrade.</block>
   <block id="224d1474fa987e54a2ac30c76ea2e21e" category="list-text">Fornire i dettagli nella finestra a comparsa visualizzata.
   +
 <block ref="b84846bb39db1b32d099a86ab30da18d" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="ed103c2a26bede51077e4be32d323609" category="list-text">Fare clic su *generate* (genera).
-Viene visualizzata la pagina *rapporti*.</block>
-  <block id="d33dd907f0f2e416c58ccfa29cd01d18" category="inline-image-macro">Una schermata che mostra la posizione in cui si trova View Upgrade Advisor per fare clic. </block>
-  <block id="e6a714556ba607de0796b5ebf874022b" category="admonition">È possibile fare clic su *Visualizza report di Upgrade Advisor* per accedere alla pagina *rapporti*.
- +
-<block ref="17bf329c781a0dba1bb8097588dd3401" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9847c4aa92db55ca2d4698117caccc8b" category="list-text">Selezionare i cluster per un aggiornamento.
-La colonna *versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata.è possibile fare clic su <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> Per selezionare un'altra versione del sistema operativo di destinazione di un cluster.</block>
   <block id="02a1c6ad942cf70822b83555179da604" category="paragraph"><block ref="02a1c6ad942cf70822b83555179da604" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9fe2ae1dc4e08b83a8b63d06803dd564" category="list-text">È possibile fare clic su *Risolvi problemi* nella colonna *azione consigliata* per risolvere i problemi relativi ai cluster non idonei e renderli idonei per un aggiornamento.
- +
-<block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="b323017de005e05ca9af3f3a9807384d" category="list-text">Fornire i dettagli nella finestra a comparsa visualizzata.
   +
 <block ref="f898fc4c474d90827399fc16cb1ce540" category="inline-image-macro-rx" type="image"></block></block>
@@ -1192,8 +1071,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="3b4a117c34811a38cb16781ae299eb9e" category="sidebar">Community NetApp – Consulente digitale</block>
   <block id="ef2753666e2bb535cdbdfcab50c1a017" category="list-text">*Sicurezza e difesa dal ransomware:* fornisce informazioni sui rischi e sulle azioni correttive associate alle vulnerabilità di sicurezza, al rilevamento, alla prevenzione e al ripristino del ransomware.</block>
   <block id="1f4882587636b2511732cfb3b14bfbcf" category="list-text">*Sustainability:* Visualizza il numero di azioni consigliate per migliorare il punteggio di sostenibilità a livello di cliente, lista di controllo, sito e gruppo.</block>
-  <block id="0235bcf89237278317e178c8c295ac74" category="list-text">Fare clic su *azioni* nel widget *sicurezza e difesa dal ransomware*.
-<block ref="2fcb804d5a34085afa85e482ac09263f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="83dec637bc884dc4a2f4600da2ca5f4a" category="list-text">Deselezionare la casella di controllo *Difesa ransomware*.</block>
   <block id="434c0382d376982e5be3c7cf351f2ee1" category="section-title">15 marzo 2024</block>
   <block id="6dca4e9566164889a09a5302487f229a" category="list-text">I widget vulnerabilità di sicurezza e Difesa ransomware nel flusso di lavoro Wellness sono combinati in un unico widget, che ora è chiamato sicurezza e difesa dal ransomware.</block>
@@ -1201,7 +1078,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="15853c3ab7376c7041427b2140bbd504" category="paragraph">La timeline per i casi tecnici è stata migliorata per visualizzare lo storico completo dei casi per 6 o 12 mesi.</block>
   <block id="51832813a6cc95d32db002987711fdc7" category="paragraph">Ora puoi creare una watchlist basata sui numeri di abbonamento Keystone e cercare un abbonamento Keystone utilizzando i primi tre caratteri di un numero di iscrizione o il nome della watchlist.</block>
   <block id="994ea9e16920acdbe0ac6e35ae6fffad" category="paragraph">Quando accedi a Digital Advisor, puoi visualizzare le *azioni* evidenziate nel widget *sicurezza e difesa dal ransomware*, che mostra i conteggi dei rischi.</block>
-  <block id="e8563fdf2c4612622ba50a5e8cfcb99a" category="list-text">Fare clic su *azioni* nel widget *sicurezza e difesa dal ransomware*.</block>
   <block id="4d7b0b036dd7f28233ff7e59c3c1dbf5" category="list-text">Deselezionare la casella di controllo *vulnerabilità di protezione*.</block>
   <block id="fbf668c351539b8a0b137fcc8beb4b5e" category="paragraph">Puoi generare piani di upgrade automatici e senza interruzioni per un singolo cluster e più cluster. Puoi vedere consigli sull'upgrade per un singolo cluster, che include un elenco dei rischi associati a un cluster, un report di controllo pre-upgrade con un elenco di blocchi e avvisi degli upgrade e informazioni su nuove funzionalità e miglioramenti. I consigli sull'upgrade non sono disponibili per cluster multipli. Per ulteriori informazioni, vedere <block ref="41932a416de65dadbc9f715244a32fe5" category="inline-link-macro-rx"></block>.</block>
   <block id="83c0915932deaf70b0873b6eb47c3a28" category="section-title">28 marzo 2024</block>
@@ -1213,28 +1089,17 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="3a3fe5cea8eb171bc705034869baf974" category="paragraph">*Quando si crea un caso tecnico?*</block>
   <block id="34146078710488bcb88e2208ddabb74e" category="paragraph">I casi tecnici vengono creati per richiedere assistenza con qualsiasi prodotto NetApp su problemi tecnici correlati a interruzioni dell'hardware, scarse prestazioni, problemi di dati o richieste di informazioni tecniche.</block>
   <block id="8fa70b8a3fbd3112ebe49465f5e4f6f4" category="paragraph">*Come posso creare un caso tecnico?*</block>
-  <block id="74345213f8d76009dd92f861947ff81d" category="list-text">Fare clic su <block ref="a45cbd48db1a7657ddea8845179b9e30" category="inline-link-macro-rx"></block> Per aprire il sito del supporto NetApp.</block>
-  <block id="ab26c6ed73849626062a39e18c415af0" category="list-text">Dal menu superiore, fare clic su *casi personali*.</block>
-  <block id="97026494f28ea8b85c28720a5dcc49ba" category="list-text">Fare clic su *Crea un caso*.</block>
-  <block id="2017e57b58cd03255505cd1386833eda" category="list-text">Selezionare una categoria, fornire i dettagli richiesti e fare clic su *Nuova ricerca* per cercare un sistema dall'inventario.</block>
   <block id="3a7cf8f60b6dbf828b28e59d650f69c7" category="list-text">Dall'elenco dei sistemi visualizzati, selezionare il sistema per creare il caso.</block>
   <block id="d25803d7582f3b219af4a612ad2ec38a" category="list-text">Selezionare la priorità per il nuovo caso.</block>
   <block id="d58cf7db3887b590a8c6217f53660b52" category="list-text">Selezionare la categoria appropriata dall'elenco a discesa *Categoria problema*.</block>
-  <block id="5b2a1684bf941c030a190eeaca82ea46" category="list-text">Immettere la descrizione del problema nel campo Descrizione problema e fare clic su *Procedi*.</block>
   <block id="4f42268c65a397c8cddfe11341e788b6" category="list-text">Fornire ulteriori dettagli sul problema.</block>
-  <block id="0d105b5d8aad07987a8fc6ca830c5c98" category="list-text">Fare clic su *Seleziona file* per caricare i file o le immagini che possono aiutare a diagnosticare il problema.</block>
-  <block id="2f88e5cbd35ab951b0bce5a96b06bb36" category="list-text">Fare clic su *Procedi*.</block>
   <block id="dd270a8aa811a52ca44969147eaf4518" category="list-text">Fornisci i tuoi dettagli di contatto.</block>
-  <block id="06d3f9f9f2de449fd422952b01199c74" category="list-text">Fare clic su *Crea caso*.</block>
   <block id="04bfee7a9caf8ee1fb8cd6090edec89f" category="paragraph">*Quando si crea un caso non tecnico?*</block>
   <block id="748f6ba28053e4e8537665ce73aed705" category="list-text">Impossibile accedere a determinate funzioni o richiedere assistenza per qualsiasi funzione di Digital Advisor</block>
   <block id="71ba49d3e291eb6557085c00a26f1f0e" category="paragraph">Identifica in modo proattivo i sistemi che stanno raggiungendo i limiti di capacità e invia una richiesta per aumentare la capacità del tuo sistema storage.</block>
   <block id="64c0215a49227967002da65613b613e8" category="paragraph">Per ONTAP, è possibile visualizzare sistemi che hanno superato il 90% della capacità o che devono superare il 90% della capacità nei mesi di 1, 3 e 6. Per StorageGRID, è possibile visualizzare sistemi che hanno superato il 70% della capacità o che devono superare il 70% della capacità nei mesi di 1, 3 e 6.</block>
   <block id="6af6f792a8c574d32c21182caaac6294" category="paragraph">Per impostazione predefinita, vengono visualizzati i sistemi ONTAP che hanno superato il 90% della capacità o si stanno avvicinando al 90% della capacità.</block>
-  <block id="8774a5436b96ad3e78450845bce43111" category="list-text">Fare clic sulla scheda *StorageGRID* per visualizzare i sistemi StorageGRID che hanno superato il 70% della capacità o si stanno avvicinando al 70% della capacità.</block>
   <block id="cd521d4f21b981f0132bcab8c1cd1129" category="list-text">Selezionare i sistemi per i quali si desidera aumentare la capacità.</block>
-  <block id="6aeda814c1d41515a83e1377f67f46b6" category="list-text">Fare clic su *View Capacity forecast* (Visualizza previsione capacità) per visualizzare la previsione della capacità per i prossimi 6 mesi.</block>
-  <block id="8d79993c5d29c4e1c65aa5714a30b889" category="list-text">Fare clic su *richiesta di aggiunta capacità*.</block>
   <block id="db58d45951c63fe2dd675478f6b9865f" category="list-text">Se lo desideri, fornisci eventuali commenti.</block>
   <block id="93716955add4f66b2af685a33bac4789" category="section-title">15 maggio 2024</block>
   <block id="e5ec30fe5fd65ba8d529a625838c30d8" category="admonition">La sostenibilità è supportata dai sistemi Cloud Volumes ONTAP, AFF (A-Series e C-Series), e-Series, FAS e StorageGRID.</block>
@@ -1274,15 +1139,10 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="432405c0f2c1d2289f6d8e3b11ebfd8b" category="doc">Visualizzare le raccomandazioni per l'aggiornamento del firmware</block>
   <block id="789b0be6ddd32dcc2218519990c16b5c" category="paragraph">I clienti possono ora risparmiare tempo e fatica consentendo a Control Tower di aggiornare automaticamente i propri sistemi con le versioni più recenti del firmware, eliminando la necessità di interventi o pianificazioni manuali. Questo aggiornamento riduce il rischio di problemi dovuti a versioni firmware obsolete o incompatibili, garantendo prestazioni, stabilità e protezione ottimali del sistema.</block>
   <block id="715a43f582d65ce08f118788f9800f7d" category="paragraph">I clienti riceveranno notifiche e avvisi tempestivi sullo stato degli aggiornamenti firmware, con opzioni per attivare le impostazioni AutoSupport e di aggiornamento automatico.</block>
-  <block id="fe47ca91d8c9f313f60692015dd2b72c" category="list-text">Nella pagina del dashboard, fare clic su *altre raccomandazioni* nel widget *Upgrade Advisor*.</block>
-  <block id="d7e31a0bb5b5ba6257ea5fda3503a013" category="list-text">Fare clic su *Visualizza raccomandazioni* per visualizzare l'elenco delle raccomandazioni.</block>
-  <block id="11672318e1b710ceb9ea65a5a12aa393" category="list-text">Nella colonna *Stato aggiornamento*, fare clic su *See Progress* (Visualizza avanzamento) per visualizzare i cluster idonei per un aggiornamento.</block>
-  <block id="ea9fb85557d50ae07af62f60044c60d5" category="list-text">In caso di problemi, fare clic sui rispettivi collegamenti per visualizzare i passaggi per mitigare i problemi.</block>
   <block id="526c3ba007bad7c7b6408ba4672f5f6e" category="paragraph">Il widget AutoSupport è stato aggiunto alla schermata principale del dashboard per avvisare i clienti dei problemi relativi allo stato di AutoSupport.</block>
   <block id="92806a8b46867129d50cde3d86748bb6" category="section-title">Il widget AutoSupport non è disponibile per i numeri di serie e del cluster</block>
   <block id="03d676ea619bd44dde41c38b2851a15d" category="paragraph">Il widget AutoSupport non fornisce avvisi per ricerche di cluster e numeri di serie.</block>
   <block id="c0ac6b1bce52487f5b5af28ecef07c1f" category="section-title">Il widget AutoSupport non è in grado di eseguire il drill-down dei dettagli AutoSupport a livello seriale</block>
-  <block id="84262a27dab2047f1176d0c336762208" category="paragraph">Nella pagina rapporti AutoSupport, facendo clic su uno degli stati, sui sistemi che hanno recentemente interrotto l'invio o sui sistemi con AutoSupport disattivato, non viene visualizzata la schermata controllo integrità.</block>
   <block id="82a9da1ab6bff23f72740b42a10ddeb9" category="section-title">Il filtraggio e l'ordinamento non sono disponibili nel widget inventario</block>
   <block id="eeb5db985fd60cfebc33e606802e2112" category="paragraph">Non è possibile filtrare e ordinare i dati nel widget dell'inventario. Se si seleziona ONTAP AFF, ONTAP ASA, ONTAP Edge o ONTAP Select nel menu a discesa "Filtra per", non viene visualizzato alcun dato.</block>
   <block id="4b546cad2ee01a6cbf9ccc96b97242b6" category="section-title">04 dicembre 2024</block>
@@ -1329,7 +1189,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06 agosto 2025</block>
   <block id="b564cac98074bd875d810d6572dc9927" category="paragraph">Il widget *Inventario* fornisce un riepilogo di tutti i sistemi e degli switch autorizzati al supporto di cui sei proprietario.  Sono inclusi sia i prodotti abilitati che quelli non abilitati Digital Advisor .</block>
   <block id="9714b9edaef026c9c44f49389eb60d44" category="section-title">Visualizza i dettagli del supporto autorizzato</block>
-  <block id="e5449af777fdc7f9d2eec34f87da1138" category="list-text">Nel widget *Inventario*, fare clic su *Switch autorizzati al supporto* per visualizzare informazioni su tutti gli switch autorizzati al supporto.</block>
   <block id="617f2d0adf2001440f244bf5c45be277" category="inline-link-macro">Scopri come visualizzare gli switch autorizzati al supporto</block>
   <block id="ef3139c75debdd9ee259a4ea386083d3" category="paragraph">Ora è possibile visualizzare le informazioni sugli switch SAN Fibre Channel Brocade che hanno diritto al supporto. Sono inclusi dettagli sul modello dello switch, sul numero di serie e sullo stato del supporto. <block ref="de42528af60c9393a2c8b32539c694f1" category="inline-link-macro-rx"></block> .</block>
   <block id="56f48a0b7ef64f3dcd95534228f6c5f3" category="paragraph">Gli indicatori ambientali che forniscono informazioni sullo stato di salute ambientale dei sistemi di accumulo ora forniscono valori più precisi per il consumo energetico previsto, l'utilizzo diretto di carbonio e le emissioni di calore, sulla base di un modello predittivo avanzato. Per saperne di più, fare riferimento a<block ref="a9f485271892e0176d2cdaee960db816" category="inline-link-macro-rx"></block> .</block>
@@ -1363,7 +1222,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="07837f561e3ee48313730477a0ce7e0f" category="paragraph">La sostenibilità ti consente di ridurre il consumo energetico e di lavorare per raggiungere i tuoi obiettivi ambientali.  Ciò consente di allineare i sistemi di stoccaggio alle pratiche ecocompatibili e di raggiungere gli obiettivi di sostenibilità.</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">06 ottobre 2025</block>
   <block id="1ca03fcdf1edff8f13c5ab3d96f71ef4" category="paragraph">La sostenibilità è ora supportata sui sistemi E-Series e StorageGRID .  È possibile visualizzare un elenco di azioni consigliate e indicatori ambientali che mostrano proiezioni relative a energia, utilizzo diretto di carbonio e calore dalla dashboard Sostenibilità per questi sistemi. Per saperne di più, fare riferimento a<block ref="324fa1323a5d1b555b99e90b4dfa69b7" category="inline-link-macro-rx"></block> .</block>
-  <block id="e0bce4b165696e8af8dc9f23db141bb9" category="list-text">Il flusso di lavoro Wellness ora include il widget Sostenibilità, che fornisce il conteggio delle azioni consigliate a livello di cliente, lista di controllo, sito e gruppo.  È possibile fare clic sul numero di azioni per una visualizzazione dettagliata di queste azioni consigliate nella dashboard Sostenibilità. Per saperne di più, fare riferimento a<block ref="0cf51c2fcac81ed872c11f6f85a6fa1e" category="inline-link-macro-rx"></block> .</block>
   <block id="c0271ca41d216c76fc4707af387b19ff" category="paragraph">La dashboard sulla sostenibilità fornisce informazioni preziose sulla sostenibilità ambientale del tuo sistema di archiviazione.  È possibile visualizzare informazioni quali punteggio di sostenibilità, percentuale di mitigazione del carbonio, utilizzo previsto di energia, emissioni dirette di carbonio e calore.  È possibile regolare la percentuale di mitigazione del carbonio per siti specifici.  È anche possibile visualizzare il punteggio di sostenibilità a livello di cluster.  In base al punteggio di sostenibilità, puoi valutare l'efficienza complessiva del tuo sistema di storage e allinearla alle azioni consigliate da NetApp per migliorare la sostenibilità. <block ref="573ac558e55731509c8353e25f1ec473" category="inline-link-macro-rx"></block> .</block>
   <block id="f33417edb722273e609d7466e4031b36" category="summary">Fornisce informazioni sulla dashboard, sul punteggio di sostenibilità, sui sistemi e sulle azioni consigliate.</block>
   <block id="cc3f62c281ad35f63b6650989fb52283" category="paragraph"><block ref="cc3f62c281ad35f63b6650989fb52283" category="inline-image-macro-rx" type="image"></block></block>
@@ -1371,14 +1229,8 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="6edd347f3567227e4ce1c45122c2197a" category="paragraph"><block ref="6edd347f3567227e4ce1c45122c2197a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="92ea8af39382bb4f23cbd857138ba4e1" category="list-text">Abilitare il monitoraggio dalla colonna *Potenza in tempo reale* per visualizzare i dettagli sulla potenza in tempo reale a livello di cluster. Per ulteriori informazioni, consultare <block ref="7828191105a84c038a1de3643ae1bbea" category="inline-link-macro-rx"></block> .</block>
   <block id="f0f10feff8159ed4c58c13daef98da0e" category="admonition">Digital Advisor ti indirizza alla NetApp Console per implementare i consigli.</block>
-  <block id="1f584d23b3652cbe77f11b78950971de" category="list-text">Fare clic su *Migra al cloud* per avviare la *Console*.</block>
-  <block id="4389988617262741e0e52347136b74bb" category="list-text">Fare clic su *Dati livello* per avviare la *Console*.</block>
-  <block id="46bb48cd2d8ba3072152fddd39652880" category="list-text">Fare clic su *Backup su cloud* per avviare la *Console*.</block>
-  <block id="dca585924df6925f014c537785d04c0f" category="list-text">Fare clic su *Replica sul cloud* per avviare la *Console*.</block>
   <block id="7bc90abe1556491a7adc105773e5b4f5" category="summary">Fornisce informazioni sulle macchine virtuali in Data Infrastructure Insights</block>
   <block id="5e76877e0dc9fe309e6133171cf4f2c7" category="paragraph">Digital Advisor è ora integrato con la versione Basic Data Infrastructure Insights per fornire ai clienti un inventario completo e controlli di interoperabilità.</block>
-  <block id="685bbd026f2ca02a1ba1e629c16611de" category="list-text">Nel widget *Inventario*, fare clic su *Macchine virtuali* per visualizzare i dati disponibili in Data Infrastructure Insights.</block>
-  <block id="d4ec3e135a12bb96c4afe463cfa6cb07" category="list-text">Fare clic su *Nome ESX* per accedere a Data Infrastructure Insights e visualizzare ulteriori informazioni.</block>
   <block id="45c1e1a0501d6b75b99c21659e420c55" category="paragraph">Per la migrazione a Cloud Volumes ONTAP (CVO) si consigliano i volumi che soddisfano i seguenti criteri:</block>
   <block id="f53ebb0d19beec32f25d5bd12221adf7" category="paragraph">Prima di generare un piano di aggiornamento, dovresti:</block>
   <block id="9c8a06503c0fcff82a72b9a47d15fdd8" category="inline-link-macro">Guida alla risoluzione di ONTAP AutoSupport</block>
@@ -1427,7 +1279,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="6b8c1d667d3b152f62b23882186f49ef" category="doc">Proteggi i sistemi di archiviazione gestiti da Digital Advisor dai rischi ransomware</block>
   <block id="b89f83893f4727447716c66a3b51f536" category="doc">Identifica i rinnovi software e hardware per il tuo sistema di archiviazione da Digital Advisor</block>
   <block id="8c56611178fbe8b564f32305bee2660a" category="paragraph">Puoi identificare in modo proattivo il software e l'hardware del tuo sistema di archiviazione che sono scaduti o stanno per scadere nei prossimi 6 mesi e inviare una richiesta di rinnovo dell'hardware e del software.</block>
-  <block id="72b48ce9fe92eb0c8e3daa730f3b40d4" category="list-text">Seleziona i sistemi di archiviazione che desideri rinnovare e clicca su *Rinnova*.</block>
   <block id="af8b8a799d4d3f00f43e2a15c03d0b3e" category="doc">Rinnova i tuoi contratti di supporto in Digital Advisor</block>
   <block id="fec0069eb53aaf302edb450eb9a816d9" category="doc">Iscriviti alle notifiche sullo stato del sistema di archiviazione da Digital Advisor</block>
   <block id="35aedce653ee05a4fca3b7e9369bfd70" category="doc">Scarica il pacchetto Ansible del firmware AFF e FAS da Digital Advisor</block>
@@ -1520,9 +1371,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="b673e7cded650c08d6c0289225510337" category="paragraph">È possibile accedere a questa funzionalità tramite la pianificazione del ciclo di vita (*Storage* &gt; *Lifecycle planning*) oppure tramite Digital Advisor (*Dashboard &gt; Planning widget &gt; System Refresh*).</block>
   <block id="dcd5d8e34e28517df35c9ef34326b7f8" category="inline-link-macro">Valutare un aggiornamento del sistema</block>
   <block id="ded0a309adbbd30fc9482b49a9ac79cd" category="section-title">3 giugno 2026</block>
-  <block id="0cd056bd26e169de7bcb1a020c6b1264" category="list-text">Nel widget *Pianificazione*, fai clic su *Espansione dello storage*.</block>
-  <block id="2e703d88e9f579295840057715d9e123" category="list-text">Fai clic su *Invia* per inviare la richiesta al team di storage NetApp per ottenere assistenza con l'espansione dello storage per i sistemi selezionati.</block>
-  <block id="9db2bee503b4dd39ee519c9d3147cd82" category="list-text">Fai clic su *Rinnovi di supporto* nel widget *Pianificazione*.</block>
   <block id="ac7c07737d772453b955c31ac43f2b1f" category="sidebar">Determinare se è consigliato un aggiornamento del sistema per sistema storage</block>
   <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">Controllo dello stato di salute della migrazione GraphQL e miglioramenti dell'accuratezza dei dati</block>
   <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">Il modulo Health Check è stato migliorato con una maggiore precisione dei dati e raccomandazioni di versione allineate agli standard di attualità. Nell'ambito di questa release, è stata effettuata la migrazione dalla Public API a GraphQL, offrendo prestazioni migliorate, query flessibili e supporto a lungo termine.</block>
@@ -1551,10 +1399,8 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="03c5b42b885a94fc682f43b75d5086a9" category="doc">NetApp Console (precedentemente nota come BlueXP)</block>
   <block id="096e72f185cd5ba74fed5d48c1f555a9" category="paragraph">La NetApp Console, basata sulla piattaforma NetApp Console migliorata e ristrutturata, offre una gestione centralizzata dello storage NetApp e dei NetApp Data Services in ambienti on-premises e cloud di livello enterprise, offrendo insight in tempo reale, flussi di lavoro più rapidi e un'amministrazione semplificata, altamente sicura e conforme.</block>
   <block id="9a46da86154f0e764fc998d06fe64b60" category="paragraph">Per i dettagli su cosa è cambiato, vedi il <block ref="55233a601a39d3cf31ec58df3f760d9b" category="inline-link-rx"></block>.</block>
-  <block id="7d6ce3bee9fd5da819af4cfb0b2ade4f" category="list-text">*AutoSupport Adoption*: Mostra il numero e la percentuale di sistemi con AutoSupport abilitato. Puoi anche visualizzare i sistemi contrassegnati come "Declined", quelli con *HTTPS* e *AutoSupport on Demand* abilitati, così come *Loss of Signal* per quei sistemi che hanno smesso di inviare dati AutoSupport negli ultimi 7 giorni. Per vedere il tuo punteggio del controllo di integrità e le informazioni sui sistemi nella tua base installata, fai clic sul widget *AutoSupport Adoption*.</block>
   <block id="3730e1e889435130618fcdb87bf46f1c" category="cell">Supportato solo su ONTAP</block>
   <block id="1e6ddc0aa4336129b8430dfbbb3741bb" category="admonition">Tutte le piattaforme significa ONTAP, E-Series, StorageGRID, ONTAP Select e Cloud Volumes ONTAP.</block>
-  <block id="ba541209b2d31087fd8081e9f1a7235f" category="list-text">*Risolvi il problema:* Risolve i rischi per il sistema utilizzando Active IQ Unified Manager. Fai clic su questo pulsante per avviare Unified Manager ed eseguire i passaggi per mitigare i rischi.</block>
   <block id="a7c3a3c652c30011db60f3b6078330ce" category="list-text">*Efficienza dello storage:* Identifica il rapporto di efficienza dello storage e il risparmio del tuo sistema storage con e senza copie snapshot per sistemi AFF, sistemi non AFF o entrambi.</block>
   <block id="57fd96c602ee5183b4c64c101687c0a4" category="list-text">*Servizi API:* Ti permette di estrarre dati di interesse e integrarli direttamente nel flusso di lavoro della tua azienda.</block>
   <block id="fd7b263f8186cddb5aa64a9ee6549eec" category="list-text">*Cliente:* Ti permette di visualizzare e gestire la base installata presso i clienti. La Customer Dashboard è il portale centrale di Digital Advisor.</block>
@@ -1604,7 +1450,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="8de0b8b02d2bfd48482512c91fa6e18e" category="paragraph">Active IQ Digital Advisor viene rinominato Digital Advisor ed è ora integrato in NetApp Console, la console di gestione unificata di NetApp per ambienti multicloud ibridi. <block ref="7cc56b953de24cf166f6b18ad0920a18" category="inline-link-macro-rx"></block>.</block>
   <block id="c37f219aa571929728262a5acf740a28" category="paragraph">Gli utenti della NetApp Console possono ora aprire i link di Digital Advisor in nuove schede, ove applicabile, in modo simile alla funzionalità esistente in Digital Advisor.</block>
   <block id="a6c74eb040ea726fb2c4e5feca0368c2" category="list-text">Nell'email di Wellness Review, troverai informazioni sulla Ransomware Defense invece che sui Renewals.</block>
-  <block id="b6eeb808a3c1a36cdf1c37ebd476b922" category="paragraph">Facendo clic sulla casella blu "Riepilogo volumi" nella tabella SVM, si apre una finestra a comparsa che mostra informazioni dettagliate sui volumi ospitati o collegati allo specifico numero di serie o nodo fisico.</block>
   <block id="b9cf4e905e96b235770e49865f22f11e" category="list-text">*Aumento della capacità:* Riceverai una notifica per tutti i siti GRID che superano la soglia del 70% della capacità esistente. Hai la possibilità di aggiungere capacità per gli StorageGRID nel sito, per i prossimi 1, 3 e 6 mesi se è probabile che la soglia di capacità superi il 70%.</block>
   <block id="599bbd3b519be9802a8dfd330b44eee9" category="list-text">*Rinnovi:* Per tutti i sistemi StorageGRID il cui contratto di licenza è scaduto o sta per scadere nei prossimi 6 mesi, riceverai una notifica. Puoi selezionare uno o più sistemi per inviare una richiesta al team di supporto NetApp per il rinnovo.</block>
   <block id="5e3cf62c27b7f1398ad383a1c7dab255" category="paragraph">Il pulsante Tier Data è stato aggiunto alla dashboard di FabricPool e ti permette di suddividere i dati in livelli di storage a oggetti a basso costo usando la NetApp Console.</block>
@@ -1620,4 +1465,226 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="1cf5700bf190dbae716a593be587283a" category="list-text"><block ref="1cf5700bf190dbae716a593be587283a" category="inline-link-macro-rx"></block></block>
   <block id="d71ef8f8c3bc3420442db2005d522d56" category="summary">Scopri le nuove funzionalità e i miglioramenti di Digital Advisor.</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12 agosto 2026</block>
+  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Presentazione di Value Insights</block>
+  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">La funzionalità Value Insights consolida le informazioni generali su stato di salute, risparmi, stabilità e sicurezza dei sistemi ONTAP. Puoi usare queste informazioni per migliorare lo stato di salute e le prestazioni del sistema attraverso una visione continua e basata sui dati del tuo ambiente ONTAP.</block>
+  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights è disponibile solo per i sistemi ONTAP.</block>
+  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Value Insights</block>
+  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">Scopri di più su <block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>.</block>
+  <block id="7429618639864b9a43e033e15d62ca26" category="list-text">*AutoSupport Adoption*: Mostra il numero e la percentuale di sistemi con AutoSupport abilitato. Puoi anche visualizzare i sistemi contrassegnati come "Declined", quelli con *HTTPS* e *AutoSupport on Demand* abilitati, così come *Loss of Signal* per quei sistemi che hanno smesso di inviare dati AutoSupport negli ultimi 7 giorni. Per visualizzare il punteggio del controllo di integrità e le informazioni sui sistemi nella tua install base, seleziona il widget *AutoSupport Adoption*.</block>
+  <block id="231c79598bf0cd06157fd9b6bc8ebd97" category="list-text">*Support &amp; Entitlements*: Mostra i contratti di supporto scaduti e quelli che stanno per scadere entro 6 o 12 mesi. Mostra le piattaforme, i dischi, gli shelf a fine supporto, la conformità dei diritti, le scadenze imminenti e quando la fine del supporto per piattaforme e hardware non è applicabile. Puoi vedere il punteggio del controllo di integrità fornito nella dashboard e agire in base alle raccomandazioni chiave, che sono fornite in ordine di priorità. Per visualizzare informazioni dettagliate sui contratti di supporto, seleziona il widget *Support &amp; Entitlements*. Puoi anche rinnovare i tuoi contratti di supporto usando questo widget.</block>
+  <block id="a8c3535cbeee2a5498e557e8427ef727" category="list-text">*Risolvi il problema:* Risolve i rischi per il sistema utilizzando Active IQ Unified Manager. Seleziona questo pulsante per avviare Unified Manager ed eseguire i passaggi per mitigare i rischi.</block>
+  <block id="9c25a224441df7966ab602d0305af6ad" category="paragraph">Entrambe le visualizzazioni ti permettono di esplorare gli elementi disponibili usando il riquadro di navigazione a sinistra. Gli elementi sono organizzati per servizio in ordine alfabetico. All'interno di un determinato servizio, puoi espandere l'intestazione per mostrare i singoli endpoint API. Selezionando l'intestazione del servizio o un endpoint API, vai a quella sezione del Catalog nel riquadro centrale.</block>
+  <block id="fa7c3894d73b6a3ea889392651463f04" category="inline-link-macro">Scopri Value Insights</block>
+  <block id="6c972d629a4b8ce6dde8752e4413ad48" category="list-text"><block ref="b444585736ac78c423532d41fccd5521" category="inline-link-macro-rx"></block>che fornisce informazioni generali sullo stato di salute, sul risparmio, sulla stabilità e sulla sicurezza per il tuo sistema ONTAP.</block>
+  <block id="bca0dd4752d962832123c179d6f29ae3" category="summary">Fornisce informazioni sullo stato di salute generale, sui risparmi, sulla stabilità e sulle metriche di sicurezza per il tuo sistema ONTAP.</block>
+  <block id="17b21ea825fede0731081b59fb813a26" category="doc">Scopri Value Insights in Digital Advisor</block>
+  <block id="e810df921218b2ae3c2ae8c157e80003" category="paragraph">La funzionalità Value Insights consolida le informazioni generali su stato di salute, risparmi, stabilità e sicurezza per il tuo sistema ONTAP. Puoi usare queste informazioni per migliorare lo stato di salute e le prestazioni del sistema attraverso una visione continua e basata sui dati del tuo ambiente ONTAP.</block>
+  <block id="3970e17ab0355896a02ce146a4b6a41b" category="paragraph">Value Insights fornisce le seguenti informazioni:</block>
+  <block id="fb3197cd95658195a5685c80f2cf096f" category="list-text">Lo stato di salute generale del tuo sistema ONTAP è una metrica di punteggio sulla salute composta da nove indicatori chiave di prestazione. Ogni sezione presenta una ripartizione dettagliata dei KPI e del punteggio.</block>
+  <block id="071a5902c78d3712cf6ca92b6e3ffed7" category="list-text">I punteggi di risparmio e stabilità indicano come ottenere risparmi in termini di capacità e storage attraverso un utilizzo efficiente delle risorse. Accedi alle informazioni sulle tendenze relative all'uptime dello storage e ai tempi di inattività non pianificati, inclusa la possibilità di scaricare i file EMS.</block>
+  <block id="f23694bbe7451573bb87ca1b5c04b7d0" category="list-text">La pianificazione in materia di sicurezza e futuro illustra i rischi evitati e i problemi prevenuti. Il risparmio sui costi è calcolato in base alle efficienze dello storage.</block>
+  <block id="4d059f5635fea2016015f6e1469efea7" category="list-text">Massimizza il valore dell'infrastruttura consiglia funzionalità aggiuntive per migliorare ulteriormente le prestazioni dell'infrastruttura con la massima efficienza.</block>
+  <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">Cosa c'è dopo</block>
+  <block id="18d37f2da2174aafbe0c4c2defb9a5d6" category="inline-link-macro">Visualizza la dashboard di Value Insights</block>
+  <block id="b85c3f33cd8b3e7beb43416b99de1131" category="paragraph"><block ref="b85c3f33cd8b3e7beb43416b99de1131" category="inline-link-macro-rx"></block></block>
+  <block id="ab81328231d527187f44ce829019bed3" category="list-text">Nella dashboard, seleziona il numero di cluster nel widget *Upgrade Advisor*.</block>
+  <block id="f0d08ce55dd88fe6c90a5ac483644ddf" category="list-text">Seleziona un cluster per l'upgrade. La colonna *Target OS Version* mostra la versione del sistema operativo di destinazione consigliata. Puoi selezionare l'icona <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> per scegliere un'altra versione del sistema operativo di destinazione per un cluster.</block>
+  <block id="ad65ce8b480c48d8f6ff7c7cbf942b1d" category="list-text">Puoi selezionare il numero di nodi nella colonna *Nodi* per vedere il riepilogo dei nodi di un cluster.</block>
+  <block id="12f8688c8a681a5a997222c004101a29" category="list-text">Puoi selezionare *Risolvi problemi* dalla colonna *Azione consigliata* per risolvere i problemi di un cluster non idoneo e renderlo idoneo per un aggiornamento. + <block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="de7791c6adf25aee62afd7ce7f6cc9d7" category="list-text">Seleziona *Genera piano di aggiornamento*. Verrai reindirizzato alla pagina *Upgrade Recommendation*.</block>
+  <block id="4a1a205135d14e3da41f5df1274f7b36" category="list-text">Puoi selezionare l'icona <block ref="db6dc66ed954c8de99897788c99c122a" category="inline-image-macro-rx" type="image"></block> per esportare il riepilogo dei rischi in un foglio Excel.</block>
+  <block id="021243635e43e5042ab656af81576d7d" category="list-text">Seleziona *Genera piano di aggiornamento* dalla pagina *Raccomandazione di aggiornamento*.</block>
+  <block id="1a5b492d85739ef7b9dc87dbf437a553" category="list-text">Seleziona *Genera*. Verrai reindirizzato alla pagina *Report*.</block>
+  <block id="5b49dd4e8d34b31a598c097a88f03374" category="inline-image-macro">Uno screenshot che mostra la posizione in cui si trova View Upgrade Advisor per la selezione.</block>
+  <block id="cf6adbf5ffe49050ddf368340cf6efa4" category="admonition">Puoi selezionare *Visualizza report di Upgrade Advisor* per accedere alla pagina *Report*. + <block ref="c7bd4f5c59b15aff733af234f6bd704a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b3090dfee26780768bbd10558f14bd08" category="list-text">Seleziona i cluster da aggiornare. La colonna *Versione del sistema operativo di destinazione* visualizza la versione del sistema operativo di destinazione consigliata. Puoi selezionare l'icona <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> per scegliere un'altra versione del sistema operativo di destinazione per un cluster.</block>
+  <block id="0b7ce1367d4c0cdb9832f770300d6637" category="list-text">Puoi selezionare *Risolvi problemi* dalla colonna *Azione consigliata* per risolvere i problemi dei cluster non idonei e renderli idonei per un upgrade. + <block ref="dd4506ad5994ec27eaf432e5646257a2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="091618e3cea8ab8c2be66398a16d5a35" category="list-text">Seleziona *Genera Upgrade Plan*.</block>
+  <block id="ecef2737159ffa4ba0019a481c01846c" category="list-text">Inserisci nome utente e password e seleziona *Accedi*.</block>
+  <block id="942d04c17a32d1908c40c98d5e3f00ff" category="list-text">Puoi anche esaminare le azioni posticipate in qualsiasi momento e selezionare *Considera* per spostarle nella scheda *Azioni consigliate*. + <block ref="0dbc91ab2b9301aabf5d18bb049d2fe1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="32ef8eccaca52f044dcf09f84ef8d527" category="list-text">Seleziona il numero di azioni dalla colonna *Azioni consigliate* per il cluster di destinazione.</block>
+  <block id="6f5f86ae437de7aeb9cbd1580e2d6640" category="list-text">Puoi anche rivedere le azioni posticipate in qualsiasi momento e selezionare *Considera* per spostarle nella scheda *Azioni consigliate*.</block>
+  <block id="6b081bbbc9faa2e2bd9e1425936c330b" category="list-text">Seleziona <block ref="a45cbd48db1a7657ddea8845179b9e30" category="inline-link-macro-rx"></block> per aprire il sito di supporto NetApp.</block>
+  <block id="d103819471f490f66ef8e58c538f59d1" category="list-text">Dal menu in alto, seleziona *My Cases*.</block>
+  <block id="10f936818ffaf1a17895b85b1d68c064" category="list-text">Seleziona *Crea un caso*.</block>
+  <block id="7e258b91004251f5a62381f814cc6947" category="list-text">Seleziona una categoria, inserisci i dettagli richiesti e seleziona *Nuova ricerca* per cercare un sistema nel tuo inventario.</block>
+  <block id="f81985d06d4339a98b2a2a97c9ff68c7" category="list-text">Inserisci la descrizione del problema nel campo Descrizione del problema e seleziona *Procedi*.</block>
+  <block id="466693013f3c1b337538a1e337f264c0" category="list-text">Seleziona *Select Files* per caricare file o immagini che potrebbero aiutare a diagnosticare il problema.</block>
+  <block id="8cb15ce6c54092a253bd2c552317ad39" category="list-text">Seleziona *Procedi*.</block>
+  <block id="d90df33ddfe221985bdf5553abae7ef3" category="list-text">Seleziona *Crea caso*.</block>
+  <block id="a46a90e716a52fabe5a85b378abe0cd9" category="list-text">Seleziona <block ref="92a15a62356fc979cd7db02d3dcebebf" category="inline-link-macro-rx"></block> per aprire lo "Strumento di feedback non tecnico" sul sito di supporto NetApp.</block>
+  <block id="b623e6ded9a852f4e7cd9765578d0c08" category="list-text">Seleziona *Invia*.</block>
+  <block id="53bcb6b5209424926cc946d1df4cb170" category="list-text">Seleziona *Storage Efficiency* dal menu di navigazione a sinistra.</block>
+  <block id="1bc9acd9bfa0291187b8f23dbf3a362f" category="paragraph">Se non riesci a visualizzare i sistemi per altri motivi, hai domande o desideri richiedere l'accesso, <block ref="09587a48f092e0d3b236776f889d19c2" category="inline-link-macro-rx"></block>. Per saperne di più sui casi non tecnici, seleziona <block ref="cbc6291335aebce77afe28d818ce153c" category="inline-xref-macro-rx"></block></block>
+  <block id="06a85ee2018958123c480cf1f534e7f2" category="paragraph">Nella pagina di segnalazione AutoSupport, selezionando uno qualsiasi degli stati, dei sistemi che hanno smesso di inviare di recente o dei sistemi che hanno AutoSupport disattivato, non si accede alla schermata Health Check.</block>
+  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">20 agosto 2026</block>
+  <block id="41e720b88c1be16ac8a238019c318fc0" category="list-text">Il flusso di lavoro Benessere ora include il widget Sostenibilità, che fornisce il conteggio delle azioni consigliate a livello di cliente, watchlist, sito e gruppo. Puoi selezionare il numero di azioni per visualizzare nel dettaglio queste azioni consigliate nella dashboard Sostenibilità. Per saperne di più, consulta <block ref="0cf51c2fcac81ed872c11f6f85a6fa1e" category="inline-link-macro-rx"></block>.</block>
+  <block id="bc22ebe3a2801035eb402b28a282f000" category="paragraph">Selezionando la casella blu "Riepilogo volumi" nella tabella SVM, si apre una finestra a comparsa che visualizza informazioni dettagliate sui volumi ospitati o collegati al numero di serie o al nodo fisico specifico.</block>
+  <block id="fc59bac99adb61318147ef957d49ca9e" category="list-text">*Visualizzatore GRID*: Dal widget *Configurazione*, puoi visualizzare la configurazione GRID in dettaglio selezionando il link *Visualizzatore GRID*. Dal widget *Configurazione*, puoi scaricare i dettagli del sito e i dettagli della capacità per lo StorageGRID selezionando il pulsante *Scarica* nella schermata *Visualizzatore GRID*.</block>
+  <block id="9bd4377a0e7a29dfa86c90e160a8b977" category="list-text">*Riepilogo GRID:* Contiene informazioni di base, come License Type, License Capacity, numero di nodi installati, Support Term (Date of termination of license contract), Primary Admin Node e Primary Site del Primary Admin Node. Questa scheda fornisce anche il nome del sito e il numero di storage node associati al sito corrispondente. In questa release, puoi visualizzare l'elenco dei nomi dei nodi selezionando il hyperlink disponibile per visualizzare gli storage node per il sito corrispondente.</block>
+  <block id="0ff7d0b062dd5121bc5c7974e3b1ce37" category="paragraph">*Percentuali di mitigazione del carbonio*: Mostra la percentuale di mitigazione del carbonio in ogni sito/città e i valori di riferimento presentati si basano sulla tua posizione. Puoi regolare la percentuale di mitigazione del carbonio per siti specifici selezionando l'icona <block ref="58945c98e470d270455cd5912e91eb15" category="inline-image-macro-rx" type="image"></block> accanto ai valori percentuali e i numeri relativi al carbonio si aggiorneranno automaticamente di conseguenza.</block>
+  <block id="d91525a34374f3c384434d5ac31e59a1" category="list-text">Nel riquadro a sinistra, seleziona *Consigli per il cloud*.</block>
+  <block id="df625868919a9f4c2b7c82e82a92144b" category="list-text">Seleziona un qualsiasi collegamento nel riquadro *Migrazione*.</block>
+  <block id="7195818938a29511d75ba36d94c3b472" category="list-text">Seleziona *Migra al cloud* per avviare la *Console*.</block>
+  <block id="6788fdc54890a37fd0849fa3124544e5" category="list-text">Seleziona un collegamento qualsiasi nel riquadro *Livellamento*.</block>
+  <block id="ca1a154e70e264beeea3b48d9328f58c" category="list-text">Seleziona *Tier Data* per avviare la *Console*.</block>
+  <block id="4fc3833a830eeed213da97e2b0a09d35" category="list-text">Seleziona uno qualsiasi dei collegamenti nel riquadro *Backup &amp; Archive*.</block>
+  <block id="e86b74e0a1b8c4931491d20900f2d101" category="list-text">Seleziona *Backup to Cloud* per avviare la *Console*.</block>
+  <block id="46adab1d8ac82d1d77de75eb2a8868b4" category="list-text">Seleziona uno qualsiasi dei collegamenti nel riquadro *Ripristino di emergenza*.</block>
+  <block id="c9726831d2e2d716fb75d00b73314957" category="list-text">Seleziona *Replica sul cloud* per avviare la *Console*.</block>
+  <block id="28298314ccb0860bd1ef1e8ab3ce820b" category="list-text">Nel widget *Inventario*, seleziona *Macchine virtuali* per visualizzare i dati disponibili in Data Infrastructure Insights.</block>
+  <block id="7edfb807126dfc8677c4d1149cec3e98" category="list-text">Seleziona la scheda *Panoramica della macchina virtuale*.</block>
+  <block id="c012e1cda2e5e8aa26e2e5843e5ffd89" category="list-text">Seleziona *Numero di host ESX* per visualizzare le informazioni sull'host.</block>
+  <block id="272d3caafb417092764639b89bafcc52" category="list-text">Seleziona *Nome ESX* per accedere a Data Infrastructure Insights e visualizzare ulteriori informazioni.</block>
+  <block id="0ce2232da639f843c6b73d9970a52764" category="list-text">Nel riquadro a sinistra, seleziona *Config Drift*.</block>
+  <block id="cac4b64ffdedc8d6874f5961e3b22082" category="list-text">Seleziona *Aggiungi modello*.</block>
+  <block id="a2d1079782859963d67ced26429deac9" category="list-text">Dal riquadro a sinistra, seleziona *Watchlists*</block>
+  <block id="4f40826f81f98ce9360d7778fa779a52" category="list-text">Seleziona *Crea Watchlist*.</block>
+  <block id="cafcd44817bc7e5f5b0651f7e6b83cc9" category="list-text">Dal riquadro a sinistra, seleziona *Capacità ed efficienza*.</block>
+  <block id="311dcbc6b10bba67dabf6b9a67911679" category="list-text">Seleziona *Aggiungi capacità* per inviare una notifica a NetApp o al tuo partner per aggiungere capacità.</block>
+  <block id="9c9b219842bef91d2bce09db5e7d4831" category="list-text">Se il rapporto di efficienza di archiviazione del tuo sistema storage è superiore al rapporto di efficienza di archiviazione medio, seleziona *Condividi la tua storia di successo* per farci sapere quali best practice hai seguito.</block>
+  <block id="8e186e81bfa1647c68861debc5f06e51" category="list-text">Se il rapporto di efficienza dello storage del tuo sistema storage è inferiore al rapporto di efficienza dello storage medio, seleziona *Contact Us* per farci sapere le configurazioni del tuo sistema storage.</block>
+  <block id="a780e7a077439820eae9d02c27258285" category="list-text">A livello di cluster o di nodo, seleziona *ClusterViewer* accanto al widget *Configuration*.</block>
+  <block id="2adb3b86a242222ee35d01756ede6fe2" category="list-text">Seleziona la scheda *Visualizzazione* per visualizzare una rappresentazione grafica del cluster.</block>
+  <block id="610f679bc2146b4bb535b9e1a48fda58" category="paragraph">Quando accedi a Digital Advisor e noti il badge rosso sul widget *Configuration*. Selezionando il widget, vedi che il volume è pieno al 98% e questo potrebbe causare un'interruzione. Risolvere questo problema eviterebbe che il volume si riempia, diventando di sola lettura e facendo andare in crash e fallire le applicazioni che vi accedono.</block>
+  <block id="0cf16cf584f12226ef1d8cab2e1ee104" category="list-text">Seleziona *Azioni* nel widget *Configurazione*. <block ref="6aa7a8b05df22247419ddcea980afa15" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="ad30dfd9e3abc37ea5bda23c61250d50" category="list-text">Seleziona la scheda *Rischi unici*. Dopo aver selezionato il collegamento *Azioni correttive*, puoi modificare le soglie di avviso o allocare più spazio al volume. <block ref="bae9c6e4d72077c1f8c2b8eef31cbb4e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c3b7a77060816d46d0397fb6823b56f6" category="inline-image-macro">Widget Availability and Protection</block>
+  <block id="e6630d39340b4688724e5aef36cd412c" category="list-text">Seleziona *Azioni* nel widget *Disponibilità e protezione*. <block ref="d0dbe8068e3f0390698eccc9a5ef07df" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="667d27eb81920e8f2b48bc760e029607" category="list-text">Seleziona il collegamento *Nome del rischio* per visualizzare il riepilogo del rischio.<block ref="961d5eee8f3900b106dbb0a2777f7ace" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3540dd06d45f87290be242b437c0ca01" category="list-text">Seleziona la scheda *Rischi specifici* e poi seleziona il collegamento nella colonna *Azioni correttive*. <block ref="40b4aae1cc80ba37a700a5a58756afdd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="02e5a5b2ff4215e706068b528723179f" category="list-text">Seleziona l'icona *Ansible “A”* per generare e scaricare gli script. <block ref="de1b9e535c23b0fc7148d0cda53eb930" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="89fd02758b6b20051d33265c37640a9e" category="list-text">Seleziona uno dei modelli esistenti oppure seleziona *Aggiungi modello* per aggiungere un nuovo modello.</block>
+  <block id="7a7ed1a9a337477dab5b0640bf72ca42" category="list-text">Seleziona la scheda *Programma report*.</block>
+  <block id="6ff31857e94a46afad37436ea055f3b8" category="list-text">Dal riquadro a sinistra, seleziona *Report*.</block>
+  <block id="b7c62a8eefd6705b7ac3506d4d281740" category="list-text">Seleziona *Crea report* per generare un nuovo report.</block>
+  <block id="a33c20c018ebe1e32f519298c669d4ef" category="list-text">Nel widget *Pianificazione*, seleziona *espansione dello storage*.</block>
+  <block id="43132d95dcaa10b90f0aa108cd483d26" category="list-text">Seleziona la scheda *StorageGRID* per visualizzare i sistemi StorageGRID che hanno superato il 70% della capacità o si stanno avvicinando al 70% della capacità.</block>
+  <block id="706b32ac5bf876665ab5c69bc8ea2be4" category="list-text">Seleziona *Visualizza previsioni di capacità* per visualizzare la previsione di capacità per i prossimi 6 mesi.</block>
+  <block id="bd5af8815a27ad8cdcca6ecaded30abb" category="list-text">Seleziona *Richiedi aggiunta di capacità*.</block>
+  <block id="bb212cff4c3c49f30de079f77e3d50aa" category="list-text">Seleziona *Invia* per inviare la richiesta al team di storage NetApp per aiutarti con l'espansione dello storage per i sistemi selezionati.</block>
+  <block id="f2db6680f1e29912f732662aa1dd387e" category="list-text">Seleziona *Azioni* nel widget *Sicurezza e difesa dal ransomware*. <block ref="2fcb804d5a34085afa85e482ac09263f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1bcd76c13bba2fdbac42418ba923af8b" category="list-text">Seleziona la scheda *Rischi specifici* e poi seleziona il collegamento nella colonna *Azioni correttive*. <block ref="b8e4538a50e97a4603efab53e7672864" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bfadff1ef9760c824d8628458125b05c" category="list-text">Seleziona <block ref="3b55c23dfb4079e2af5dd3be6ef65a9e" category="inline-image-macro-rx" type="image"></block> per creare una copia del modello.</block>
+  <block id="d68857976f84b0795756f136d1810d62" category="list-text">Seleziona <block ref="e99ba43207c50943c58f4200e8020746" category="inline-image-macro-rx" type="image"></block> e inserisci i nomi utente con cui desideri condividere il modello.</block>
+  <block id="39bc20d66f528839a3dd237427386065" category="list-text">Seleziona <block ref="d17ae34269ddc9b756c90c8b4fb41e88" category="inline-image-macro-rx" type="image"></block> per aggiornare i dettagli del modello.</block>
+  <block id="9e391b9d557d0fca5de8932f0fa862d3" category="list-text">Seleziona <block ref="26fc5ebf2c3c934a9aae5c740ff267ef" category="inline-image-macro-rx" type="image"></block> per eliminare il modello.</block>
+  <block id="239cb158bb841067cfd336b36d90be03" category="list-text">Nel riquadro a sinistra, seleziona *Watchlists*.</block>
+  <block id="4c07191f74a45b21c59e3bfd2a229937" category="list-text">Seleziona il nome della watchlist per visualizzare i dettagli della dashboard della watchlist.</block>
+  <block id="03f58cfb8e241c8f0ba002dd85d537bb" category="list-text">Seleziona *Modifica* per aggiornare i dettagli della watchlist.</block>
+  <block id="d425735c4a8c11659e6c56038dac1c07" category="list-text">Seleziona *Elimina* per eliminare la watchlist.</block>
+  <block id="4896bea145ca90a5d1e69e3c9788ce41" category="list-text">Seleziona *Azioni* sul widget *Sicurezza e difesa dal ransomware*.</block>
+  <block id="6e2137aee1686e8f9fc2be52ecf15c83" category="list-text">Seleziona la scheda *Rischi specifici* e seleziona il collegamento nella colonna *Azioni correttive*.</block>
+  <block id="ffda6ab9841705d109b761ae13e91771" category="list-text">Seleziona la scheda *Sistemi interessati* per visualizzare i sistemi con rischi.</block>
+  <block id="8acc69f0146a26142bb07e45bdcd63dc" category="list-text">Seleziona le azioni correttive consigliate per proteggere i sistemi.</block>
+  <block id="0c35141a364b09286a3651b482a8bdba" category="list-text">Seleziona *Rinnovi di supporto* dal widget *Pianificazione*.</block>
+  <block id="6b4b75379beef7e7c2abe98a0b9a0dc2" category="list-text">Seleziona i sistemi storage che vuoi rinnovare e seleziona *Renew*.</block>
+  <block id="94f66866107911bd36ca9497f33cdf55" category="list-text">Seleziona *Invia*.</block>
+  <block id="8d42dbc56b232364f5fbc7ef878ab3f8" category="list-text">Nella dashboard di Health Check, seleziona il widget *Support &amp; Entitlements*.</block>
+  <block id="bc6196aada3e781dd91a3ed4f4c10ef9" category="list-text">Se uno qualsiasi dei tuoi contratti di supporto di sistema è scaduto o sta per scadere, seleziona il widget *Active Support Contracts*.</block>
+  <block id="cfb601a4dc901602c8bb7afdce8d6c79" category="list-text">Seleziona le caselle di controllo e seleziona *Rinnova* per avviare il processo di rinnovo per i sistemi selezionati.</block>
+  <block id="b434ca3b73a15a97f8557864de19d3f7" category="list-text">Nel riquadro a sinistra, seleziona *Revisione del benessere*.</block>
+  <block id="159d43e7f8a124385fd3d1fe2c65c6bb" category="list-text">Seleziona *Aggiungi abbonamento*.</block>
+  <block id="12975d5f412a47bef9db3c7a4d365814" category="list-text">Seleziona *Iscriviti*.</block>
+  <block id="35429e2dc21d5156d872730ed4a1094d" category="list-text">Seleziona un qualsiasi widget relativo al benessere nella dashboard oppure seleziona *Visualizza tutte le azioni* per visualizzare un elenco di tutte le azioni e i rischi.</block>
+  <block id="73083319a7a7021190b428f1bba13b62" category="list-text">Seleziona *Aggiornamento firmware* per visualizzare tutti i rischi relativi all'aggiornamento del firmware.</block>
+  <block id="be96b6408b34b172658b8e8046c8ff03" category="list-text">Seleziona *Aggiorna AFF e FAS Firmware* per visualizzare tutti i pacchetti di aggiornamento disponibili oppure seleziona <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block> accanto a ciascun rischio per aggiornare il pacchetto specifico per quel rischio.</block>
+  <block id="23e45138f7da960b1339e584ab459e0c" category="list-text">Seleziona *Download* per scaricare i file zip e aggiornare il tuo sistema storage.</block>
+  <block id="70e9b962388f213d011d9fada30e58be" category="list-text">Seleziona *Visualizza tutti i sistemi* accanto al widget *Inventario*.</block>
+  <block id="603b075ca41db43ebd04b2d36eb4ffef" category="list-text">Seleziona *Upgrade* nel widget *Configuration*.</block>
+  <block id="fc82e70acd236bac1c970f3a9b228285" category="list-text">Facoltativamente, seleziona *Confronta le offerte di supporto* per visualizzare la tabella comparativa e scegliere l'offerta di supporto più adatta alle tue esigenze.</block>
+  <block id="338a352a51ef165a25ef09eb6ecf70e9" category="list-text">In alternativa, puoi selezionare *Offerte di supporto* nel menu di navigazione a sinistra per visualizzare la tabella comparativa.</block>
+  <block id="b8ac33c9243a2e7fe445773eb614ba8f" category="list-text">Aggiungi eventuali commenti e seleziona *Invia*. Una richiesta di acquisto dell'upgrade dell'offerta di supporto viene inviata al team Rinnovi NetApp.</block>
+  <block id="f55a7370d8574311b3cb8f1b7f613234" category="list-text">Seleziona il widget dell'attributo benessere nella dashboard oppure seleziona *Visualizza tutte le azioni* per visualizzare l'elenco di tutte le azioni e i rischi.</block>
+  <block id="9144d157111ed7136f6ff742fd12683e" category="list-text">Seleziona *Azioni* per visualizzare i rischi associati alle azioni, seleziona *Rischi* per visualizzare tutti i rischi oppure seleziona *Sistemi interessati* per visualizzare i sistemi che richiedono attenzione.</block>
+  <block id="85e0f424ac1766c7d50926274623f727" category="list-text">Seleziona il rischio per visualizzare il riepilogo del rischio.</block>
+  <block id="a59c80e263b7887f0d81f3c2d16a2ec0" category="list-text">Seleziona *Ack* per accettare il rischio.</block>
+  <block id="5abb95d33aed71569992b0fd6b957298" category="list-text">Se non vuoi o non puoi mitigare il rischio in questo momento, inserisci i valori per i campi e seleziona *Confermo*.</block>
+  <block id="862159f793e1b0365c8c101382079499" category="admonition">Se non vuoi più che un rischio venga riconosciuto, puoi ignorare il rischio selezionando *Annulla conferma* e seguendo gli stessi passaggi.</block>
+  <block id="ae9062ae74a63707f6e56040405b29d0" category="list-text">Nel widget *Inventario*, seleziona *Sistemi* per visualizzare le informazioni di sistema di tutte le piattaforme oppure seleziona il tipo di piattaforma e poi seleziona *Sistemi* per visualizzare i sistemi specifici di quella piattaforma.</block>
+  <block id="b89039cb5fca55ab98183fe7e1dfbd80" category="list-text">Seleziona il nodo o il cluster per visualizzare informazioni dettagliate sul sistema.</block>
+  <block id="86b8e002a574fe4c44b860ffaff96996" category="list-text">Seleziona *Download* per scaricare il report *Inventory* e visualizzare i dettagli del sistema in formato .xls.</block>
+  <block id="dd25215a62befc345056b33da4dc0660" category="list-text">Seleziona *Scarica* per scaricare il report *Ansible Inventory* per visualizzare i dettagli del sistema nei formati .yml e .ini a livello di regione o sito.</block>
+  <block id="6bac1f9b3bcd8c6139310d92eb7c4719" category="list-text">Nel widget *Inventario*, seleziona *Switch con diritto all'assistenza* per visualizzare le informazioni su tutti gli switch con diritto all'assistenza.</block>
+  <block id="d40ccef89ee64d26acd946e4e536968d" category="paragraph">Quando il grafico viene visualizzato per la prima volta, la scheda "1 settimana" è preselezionata e presenta i dati relativi a 1 settimana in formato grafico per facilitare la comprensione di grandi quantità di dati e delle relazioni tra le diverse serie di dati. Se vuoi reimpostare l'intervallo di date, ad esempio, puoi selezionare la scheda "1 mese" e scegliere le date nel calendario.</block>
+  <block id="970692bbbd7a5b1ef9f2c3d89397ff8c" category="list-text">Nella dashboard, seleziona *Prestazioni*.</block>
+  <block id="74178ba0e62aba4b64fd5213375732bd" category="paragraph">Per i sistemi ONTAP, puoi selezionare la scheda *Nodo* per visualizzare le prestazioni di un singolo nodo di un cluster ONTAP, la scheda *Livello locale* per visualizzare le prestazioni del livello locale oppure la scheda *Volume* per visualizzare le prestazioni del volume. Per impostazione predefinita, vengono visualizzate le prestazioni del cluster.</block>
+  <block id="92332c13fc6ade653576a2187ec4b7ce" category="list-text">Seleziona il widget *Wellness* nella dashboard oppure seleziona *Visualizza tutte le azioni* per visualizzare l'elenco di tutte le azioni e i rischi.</block>
+  <block id="3960a42fc442c0bc2f5497884be47baf" category="list-text">Seleziona il nome del rischio per visualizzare le informazioni sul rischio.</block>
+  <block id="002a7aa1cc9cb538df76a8aac0b153d3" category="list-text">Seleziona le azioni correttive associate e segui le informazioni per risolvere il rischio.</block>
+  <block id="5fd667373031d59782b738e497b8ae6b" category="list-text">Seleziona *Visualizza tutte le azioni* nella dashboard.</block>
+  <block id="de4b52f2043a3ff959c3485432185216" category="list-text">Seleziona l'icona <block ref="b36bd34ef127641c1d7dc29907e63c31" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="6ab60595ef61e838973dfa78cedee016" category="list-text">Seleziona *Fix It* per avviare Active IQ Unified Manager.</block>
+  <block id="57ee2621f8a528c7a673d8c9ee41bfa9" category="list-text">Seleziona *Installa* per installare Active IQ Unified Manager 9.7 o versioni successive per usare l'opzione *Fix It*.</block>
+  <block id="f31b1f9ba89b9fc35c0a354381ec99de" category="list-text">Seleziona *Aggiorna* per passare ad Active IQ Unified Manager 9.7 o versioni successive per usare l'opzione *Risolvi*.</block>
+  <block id="42220c0dbeb0ff2a4b2e4500b6189b58" category="list-text">Seleziona l'icona <block ref="9d1b0d427955d96d4edc169551c295d5" category="inline-image-macro-rx" type="image"></block>.</block>
+  <block id="1f51cfdc5fa1daf48bec5fe331ef373d" category="list-text">Seleziona *Download* per scaricare il pacchetto di automazione Ansible del firmware AFF e FAS.</block>
+  <block id="bbd590fe13d8dd24702f484b96583127" category="summary">Consulta la dashboard Value Insights per accedere alle informazioni su stato di salute, risparmi, stabilità e sicurezza del tuo sistema ONTAP.</block>
+  <block id="f650563cfd75874602716b4ff731fff3" category="list-text">Seleziona *Customer Success &gt; Value Insights*.</block>
+  <block id="127eba23a5c4e6b42ae1b92d1960b6b7" category="list-text">Nell'area *Stato di salute generale e come NetApp può aiutarti*, puoi visualizzare il punteggio di salute generale del tuo sistema ONTAP come percentuale. Questo punteggio si basa sui KPI.</block>
+  <block id="431d370ffae7b3191357c28b56dcd569" category="list-text">Seleziona *Altri consigli* per vedere tutti i KPI:</block>
+  <block id="f2ba2dce0328465674c26a76d33915f0" category="cell">KPI</block>
+  <block id="40fd61ecb915e6889c685487160de14e" category="cell">Suggerimenti per operazioni sostenibili</block>
+  <block id="08bc4e784da68076497dcfbe16641f93" category="cell">Fornisce raccomandazioni per un funzionamento sostenibile del sistema.</block>
+  <block id="903e88fe0b2b9c82b474dd3094ac8f4c" category="cell">Risolvi i rischi di hardening della sicurezza sui tuoi cluster</block>
+  <block id="b8a94df1b03873710fc248c22e4e4774" category="cell">Valuta i rischi per la sicurezza associati a ciascun sistema.</block>
+  <block id="7e5bcb743be47157b9646d3e705309f6" category="cell">Pianifica gli aggiornamenti del firmware e dei file di sistema</block>
+  <block id="46fec9224e0854a8fa12cea53e8aebf1" category="cell">Verifica se i sistemi eseguono il firmware più recente e suggerisce gli aggiornamenti. Questo include una visualizzazione dettagliata per pianificare gli aggiornamenti del firmware.</block>
+  <block id="7c209a18632519636f49458f44bc1da3" category="cell">Esamina le opzioni di tech refresh (EOL)</block>
+  <block id="e35f9f0b3e1243d9369342740d728b1f" category="cell">Valuta la necessità di tech refresh.</block>
+  <block id="c0498173a296c44b0a41ddf2d8541c8d" category="cell">Abilitare AutoSupport (ASUP) sui cluster</block>
+  <block id="7bcb15913d0e5786042ab1abd8ba6c4f" category="cell">Monitora lo stato di AutoSupport (ASUP) sui cluster.</block>
+  <block id="a47e8fffa9973ac71e8756b5c429091d" category="cell">Pianifica l'upgrade alla versione ONTAP più recente consigliata</block>
+  <block id="ac0dc014b571765bfb9218fcceb2c0b2" category="cell">Valuta la versione del software dei sistemi e consiglia gli aggiornamenti.</block>
+  <block id="8570816d3c399972873fb1c27b762034" category="cell">Valuta le opzioni di espansione dello storage</block>
+  <block id="289696dc524d10193e275fc81f96e0e4" category="cell">Valuta l'efficienza attuale dello storage e le esigenze di espansione. Fornisce previsioni sui requisiti di capacità futuri.</block>
+  <block id="faa98d33711b21436a070316ba6b4549" category="cell">Rinnovi di contratto</block>
+  <block id="8cdbdbe425e554aafb075956569ebdec" category="cell">Valuta lo stato dei contratti di supporto e fornisce raccomandazioni per i rinnovi.</block>
+  <block id="af7fda7878d0353b52c6a4cde6798a04" category="cell">Monitora in modo proattivo per prevenire tempi di inattività imprevisti del cluster</block>
+  <block id="f5320f2ea36e3709920210750bc26cfd" category="cell">Fornisce il numero di tempi di inattività non pianificati tra i cluster.</block>
+  <block id="d1f743441021e988cfe68ef6d8853274" category="list-text">Seleziona *Come viene calcolato?* per i calcoli specifici dei KPI. Scorri verso il basso per i dettagli del sistema, inclusi: punteggio pieno, punteggio parziale e punteggio zero.</block>
+  <block id="371c4e75ef16f27cc606efebd8ddc450" category="list-text">Seleziona *NetApp delivered savings and stability* per visualizzare i dettagli sul tuo Return on Investment (ROI).</block>
+  <block id="21021ea0e52be8e9c599f4dff41e5be0" category="cell">Caratteristica</block>
+  <block id="94cf0a310bc1ba95ee82428676c1afeb" category="cell"><block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="736a705d784469689545b0eea833b4ea" category="cell">Seleziona per modificare il costo o la spesa per TiB.</block>
+  <block id="3d51d2c2a0ba75cfddeeaac3db4a08c3" category="cell">Valore di efficienza dello storage</block>
+  <block id="133145a1288f1ff4459c09ea91d9a279" category="cell">Seleziona per aprire la dashboard del ROI.</block>
+  <block id="0e00dee6c92a3ca20648d901ecbbc1f5" category="cell">valore di uptime dello storage</block>
+  <block id="04055b20add68e9dff4da8a956be6606" category="cell">Visualizza il valore e seleziona il valore del numero di sistema per maggiori dettagli.</block>
+  <block id="5112eff792aeb3045e8cfd88b790f78b" category="cell">ID ASUP</block>
+  <block id="2aa9ecf747a629c52f01d65bada7dd3f" category="cell">Se applicabile, seleziona per visualizzare il problema o l'evento che ha causato il downtime o un'interruzione.</block>
+  <block id="caf9ad6ed0edbab5fc74ee4e01e04d9f" category="cell">Rischi individuati e prevenuti</block>
+  <block id="2f4a82e35daf1bd8ceae13638aba00c4" category="cell">Seleziona per visualizzare i dati associati degli ultimi 3 mesi.</block>
+  <block id="aedc21ab40ffa5085f7e9bc68e9ec4b8" category="cell">Visualizza la cronologia del benessere</block>
+  <block id="d1de8771aa2f04c189f80a2438541aaa" category="cell">Seleziona per una visualizzazione riassuntiva.</block>
+  <block id="d77f051c73b9cbf7e633f235031d7576" category="cell">Valore del rischio</block>
+  <block id="3bd0cd02880d4802b56dbbf46a66886f" category="cell">Seleziona ciascun valore di rischio per accedere ai dati associati degli ultimi 3 mesi.</block>
+  <block id="199626525506db8f55394d3e30f16150" category="list-text">Seleziona l'area *Sicurezza e pianificazione per il futuro* per visualizzare le informazioni sulla sicurezza.</block>
+  <block id="d3112f106afbf2c408f82822d5e46290" category="cell">Minacce alla sicurezza neutralizzate</block>
+  <block id="6673d7a5c5f0cb9b4f36be9b69c563ea" category="cell">Seleziona per visualizzare i dettagli di sicurezza.</block>
+  <block id="6d7373bc5e070f8648ca95028be3b0f5" category="cell">Problemi di sicurezza risolti</block>
+  <block id="312ee17d867760f729d5e95aec0a0a3e" category="cell">Seleziona per aprire la pagina della cronologia Wellness.</block>
+  <block id="777f31feb36c253c00ecd33e83c38324" category="cell">Aggiornamenti automatici del firmware</block>
+  <block id="eb3cc90c941604b02387133d98926572" category="cell">Seleziona per aprire i tipi di firmware e i dettagli dell'aggiornamento.</block>
+  <block id="175ebb07f827bc9d5a4b0b3d5db0f764" category="cell">Modello AI/ML di protezione autonoma contro i ransomware</block>
+  <block id="b86bdafac80c92170d6c3e742f8ce8de" category="cell">Seleziona per aprire i dettagli sul modello.</block>
+  <block id="9f877b6459cdadc14aa380b332778b55" category="cell">Risparmi previsti derivanti dall'efficienza</block>
+  <block id="a04d24882fdf0b7c7f8f42e2c9dfc678" category="list-text">Seleziona l'icona <block ref="94cf0a310bc1ba95ee82428676c1afeb" category="inline-image-macro-rx" type="image"></block> accanto a "Risparmio previsto in termini di efficienza dello storage" per modificare il costo per PiB.</block>
+  <block id="da5d119d8dddcd0b1d6165118bb62c86" category="list-text">Seleziona la percentuale di margine di capacità dello storage per aprire la pagina Capacità ed efficienza.</block>
+  <block id="9100c4283aa59b4f569e087c9f99335a" category="list-text">Seleziona *Pianificazione del ciclo di vita*.</block>
+  <block id="432bba3060dc12d1babcfee63417b7f2" category="list-text">Seleziona i valori degli strumenti per aprire le rispettive pagine di dettaglio ONTAP: Aggiornamento del sistema, Espansione dello storage e Rinnovo del supporto.</block>
+  <block id="7ed73e5a4deebc042bd54da569358096" category="admonition">Questa funzionalità è esclusiva dei sistemi ONTAP e non è disponibile per piattaforme come Cloud Volumes ONTAP, ONTAP Select, StorageGRID o E-Series.</block>
+  <block id="cf07a5686fcf63a670d48bcea7c9e4f9" category="list-text">Seleziona *Come massimizzare il valore dell'infrastruttura* per visualizzare informazioni sulle funzionalità attive e sulle opzioni di ottimizzazione disponibili.</block>
+  <block id="47a0df045d55cf9faa11a9a47b197c14" category="list-text">Seleziona *Funzionalità attive* per visualizzare i dettagli del sistema.</block>
+  <block id="81b5003565efa9c569a9527ea493edbd" category="list-text">Seleziona *Opportunità di ottimizzazione disponibili* per visualizzare i suggerimenti.</block>
+  <block id="f80c1a65fc0f08c08229446f1a174966" category="list-text">Nella dashboard, nel riquadro *Wellness*, seleziona *View All Actions*.</block>
+  <block id="703299312bba3e83405426ef5ffd3bfb" category="list-text">Seleziona *Cronologia benessere*.</block>
+  <block id="1be82388ca5ff4ed68cded091a2ed9d3" category="list-text">Nel grafico *Cronologia dei rischi*, seleziona la categoria per cui vuoi vedere la cronologia dei rischi.</block>
+  <block id="7b9a794b2ff2a85fe5077dd94bf68627" category="paragraph">Passando il mouse sopra le barre colorate, vengono visualizzate informazioni sul numero di rischi in ciascuna categoria. Quando selezioni la rispettiva categoria di rischio, le informazioni vengono visualizzate nella tabella *Risk Information*.</block>
+  <block id="65f850610afa4fde5b35992694ff43b1" category="list-text">Nella pagina del pannello di controllo, seleziona *Altri consigli* nel widget *Upgrade Advisor*.</block>
+  <block id="c2481bead428edb94726c4e10ba02f6c" category="list-text">Seleziona *Visualizza consigli* per visualizzare l'elenco dei consigli.</block>
+  <block id="0373d29c3464da93362949dcb0dff44a" category="list-text">Nella colonna *Stato aggiornamento*, seleziona *Vedi avanzamento* per visualizzare i cluster idonei all'aggiornamento.</block>
+  <block id="681c88be2de4220c0cbacb47fed97b82" category="list-text">In caso di problemi, seleziona i rispettivi link per visualizzare i passaggi per risolverli.</block>
+  <block id="e7a471dd8d8c761a219d09c2091e92a1" category="sidebar">Scopri Value Insights</block>
+  <block id="729a2290f604400a065ab66e68e8365c" category="sidebar">Visualizza la dashboard di Value Insights</block>
 </blocks>

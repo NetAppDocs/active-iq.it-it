@@ -20,8 +20,8 @@ Puoi analizzare il tuo sistema di storage visualizzando le azioni e i rischi e m
 
 video::XusFvXM7h-E[youtube,width=848,height=480]
 .Fasi
-. Fare clic su *View All Actions* (Visualizza tutte le azioni) nella dashboard.
-. Fare clic su *azioni* per visualizzare i rischi associati alle azioni, fare clic su *rischi* per visualizzare tutti i rischi oppure fare clic su *sistemi interessati* per visualizzare i sistemi che richiedono attenzione.
+. Seleziona *Visualizza tutte le azioni* nella dashboard.
+. Seleziona *Azioni* per visualizzare i rischi associati alle azioni, seleziona *Rischi* per visualizzare tutti i rischi oppure seleziona *Sistemi interessati* per visualizzare i sistemi che richiedono attenzione.
 +
 Se il rischio può essere mitigato utilizzando Active IQ Unified Manager, il image:spanner.png["Chiave"] Viene evidenziata e se il rischio può essere mitigato utilizzando Ansible Playbook, il image:update_ansible.png["Aggiorna Ansible"] viene evidenziata.
 
@@ -33,14 +33,14 @@ Se il rischio può essere mitigato utilizzando Active IQ Unified Manager, il ima
 
 
  a| 
-. Fare clic su image:spanner.png["Chiave"] icona.
-. Fare clic su *Correggi* per avviare Active IQ Unified Manager.
-. Fare clic su *Installa* per installare Active IQ Unified Manager 9.7 o versione successiva e utilizzare l'opzione *Correggi*.
-. Fare clic su *Aggiorna* per eseguire l'aggiornamento a Active IQ Unified Manager 9.7 o versione successiva e utilizzare l'opzione *Correggi*.
+. Seleziona l'icona image:spanner.png["Chiave"].
+. Seleziona *Fix It* per avviare Active IQ Unified Manager.
+. Seleziona *Installa* per installare Active IQ Unified Manager 9.7 o versioni successive per usare l'opzione *Fix It*.
+. Seleziona *Aggiorna* per passare ad Active IQ Unified Manager 9.7 o versioni successive per usare l'opzione *Risolvi*.
 
  a| 
-. Fare clic su image:update_ansible.png["Aggiorna Ansible"] icona.
-. Fare clic su *Download* per scaricare il pacchetto di automazione Ansible del firmware AFF e FAS.
+. Seleziona l'icona image:update_ansible.png["Aggiorna Ansible"].
+. Seleziona *Download* per scaricare il pacchetto di automazione Ansible del firmware AFF e FAS.
 
 
 |===

@@ -19,11 +19,11 @@ summary: Fornisce informazioni per visualizzare e analizzare lo stato di salute 
 È possibile analizzare gli attributi di benessere del sistema storage visualizzando le azioni e i rischi associati. È necessario visualizzare le azioni correttive associate e mitigare manualmente il rischio.
 
 .Fasi
-. Fare clic sul widget *Wellness* nella dashboard o fare clic su *View All Actions* (Visualizza tutte le azioni) per visualizzare l'elenco di tutte le azioni e i rischi.
+. Seleziona il widget *Wellness* nella dashboard oppure seleziona *Visualizza tutte le azioni* per visualizzare l'elenco di tutte le azioni e i rischi.
 . Visualizzare le voci *azioni* e *rischi* associate all'attributo wellness.
-. Fare clic su *azioni* per visualizzare i rischi associati alle azioni, fare clic su *rischi* per visualizzare tutti i rischi oppure fare clic su *sistemi interessati* per visualizzare i sistemi che richiedono attenzione.
-. Fare clic sul nome del rischio per visualizzare le informazioni sul rischio.
-. Fare clic sulle azioni correttive associate e seguire le informazioni per risolvere il rischio.
+. Seleziona *Azioni* per visualizzare i rischi associati alle azioni, seleziona *Rischi* per visualizzare tutti i rischi oppure seleziona *Sistemi interessati* per visualizzare i sistemi che richiedono attenzione.
+. Seleziona il nome del rischio per visualizzare le informazioni sul rischio.
+. Seleziona le azioni correttive associate e segui le informazioni per risolvere il rischio.
 
 
 I passaggi per mitigare i rischi sono gli stessi per tutti gli attributi di benessere. È possibile visualizzare il seguente video per monitorare e risolvere i problemi relativi alla sicurezza:

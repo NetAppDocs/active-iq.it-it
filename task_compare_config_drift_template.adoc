@@ -19,8 +19,8 @@ summary: Fornisce informazioni per confrontare un modello di deriva della config
 È possibile confrontare le configurazioni del sistema e del cluster e rilevare le deviazioni di configurazione quasi in tempo reale.
 
 .Fasi
-. Nel riquadro di sinistra, fare clic su *Config Drift*.
-. Selezionare uno dei modelli esistenti o fare clic su *Add Template* (Aggiungi modello) per aggiungere un nuovo modello.
+. Nel riquadro a sinistra, seleziona *Config Drift*.
+. Seleziona uno dei modelli esistenti oppure seleziona *Aggiungi modello* per aggiungere un nuovo modello.
 . Generare un report di deriva della configurazione
 +
 È possibile generare un report immediatamente o pianificarne la generazione su base settimanale o mensile.
@@ -35,17 +35,17 @@ summary: Fornisce informazioni per confrontare un modello di deriva della config
  a| 
 . Selezionare una categoria e fornire i valori richiesti per il report.
 . Selezionare l'opzione *include only drift* (Includi solo derive) per scaricare solo le modifiche della deviazione di configurazione.
-. Fare clic su *Invia*.
+. Seleziona *Invia*.
 . link:task_generate_reports.html["Scarica e visualizza il report di deriva della configurazione"].
 . Eseguire Ansible Playbook (incluso nel report di deriva della configurazione) per ridurre le derive.
 
  a| 
-. Fare clic sulla scheda *Schedule Report* (Pianifica report).
+. Seleziona la scheda *Programma report*.
 . Selezionare una categoria e fornire i valori richiesti per il report.
 . Selezionare l'opzione *include only drift* (Includi solo derive) per scaricare solo le modifiche della deviazione di configurazione.
 . Selezionare la frequenza del report.
 . Selezionare la data di inizio e la data di fine del report.
-. Fare clic su *Invia*.
+. Seleziona *Invia*.
 . link:task_generate_reports.html["Scarica e visualizza il report di deriva della configurazione"].
 . Eseguire Ansible Playbook (incluso nel report di deriva della configurazione) per ridurre le derive.
 

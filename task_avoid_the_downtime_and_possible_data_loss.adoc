@@ -20,14 +20,14 @@ Quando accedi a Digital Advisor e noterai il badge rosso sul widget *Availabilit
 
 .Fasi
 . Accedere a Digital Advisor.
-. Fare clic su *azioni* nel widget *disponibilità e protezione*.image:Availability and protection_image 1 downtime and data loss.png["Disponibilità  widget di protezione"]
+. Seleziona *Azioni* nel widget *Disponibilità e protezione*. image:Availability and protection_image 1 downtime and data loss.png["Widget Availability and Protection"]
 +
 Per i rischi di protezione ad alto impatto, seguire l'azione consigliata per aggiornare il firmware del disco.
 
-. Fare clic sul collegamento *Risk Name* per visualizzare il riepilogo dei rischi.image:Risk summary_image 2 downtime and data loss.png["Riepilogo dei rischi"]
-. Fare clic sulla scheda *rischi unici*, quindi fare clic sul collegamento nella colonna *azione correttiva*.image:Corrective action_image 3 downtime and data loss.png["Azione correttiva"]
+. Seleziona il collegamento *Nome del rischio* per visualizzare il riepilogo del rischio.image:Risk summary_image 2 downtime and data loss.png["Riepilogo dei rischi"]
+. Seleziona la scheda *Rischi specifici* e poi seleziona il collegamento nella colonna *Azioni correttive*. image:Corrective action_image 3 downtime and data loss.png["Azione correttiva"]
 +
 Digital Advisor genera script o playbook personalizzati Ansible per aggiornare il firmware del disco richiesto, inclusi i file del firmware del disco.
 
-. Fare clic sull'icona *Ansible "A"* per generare e scaricare gli script.image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["Firmware AFF e FAS"]
+. Seleziona l'icona *Ansible “A”* per generare e scaricare gli script. image:Update AFF and FAS Firmware_image 4 downtime and data loss.png["Firmware AFF e FAS"]
 

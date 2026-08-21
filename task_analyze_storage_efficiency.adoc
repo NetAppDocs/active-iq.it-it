@@ -27,7 +27,7 @@ Il pannello di controllo dell'efficienza dello storage visualizza il rapporto di
 
 video::8Ge3_0qlyxA[youtube,width=848,height=480]
 .Fasi
-. Nel riquadro di sinistra, fare clic su *capacità ed efficienza*.
+. Dal riquadro a sinistra, seleziona *Capacità ed efficienza*.
 +
 Per impostazione predefinita, è selezionata la scheda *Capacity*.
 
@@ -37,13 +37,13 @@ Per impostazione predefinita, è selezionata la scheda *Capacity*.
 +
 Per i sistemi ONTAP, le informazioni sulla capacità RAW sono disponibili in ClusterViewer.
 
-.. Fare clic su *Add Capacity* (Aggiungi capacità) per inviare una notifica a NetApp o al partner per aggiungere capacità.
 
 
+. Seleziona *Aggiungi capacità* per inviare una notifica a NetApp o al tuo partner per aggiungere capacità.
 . Visualizza l'efficienza dello storage e i risparmi sui dati del tuo sistema storage.
 +
-.. Se il rapporto di efficienza dello storage del tuo sistema è superiore al rapporto di efficienza dello storage medio, fai clic su *Condividi la tua storia di successo* per farci conoscere le Best practice seguite.
-.. Se il rapporto di efficienza dello storage del sistema è inferiore al rapporto di efficienza dello storage medio, fare clic su *Contattaci* per conoscere le configurazioni del sistema storage.
+.. Se il rapporto di efficienza di archiviazione del tuo sistema storage è superiore al rapporto di efficienza di archiviazione medio, seleziona *Condividi la tua storia di successo* per farci sapere quali best practice hai seguito.
+.. Se il rapporto di efficienza dello storage del tuo sistema storage è inferiore al rapporto di efficienza dello storage medio, seleziona *Contact Us* per farci sapere le configurazioni del tuo sistema storage.
 
 
 

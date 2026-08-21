@@ -19,19 +19,19 @@ summary: Fornisce informazioni per visualizzare e analizzare lo stato di salute 
 È possibile analizzare gli attributi di benessere del sistema storage visualizzando le azioni e i rischi associati. È necessario visualizzare le azioni correttive e mitigare manualmente il rischio.
 
 .Fasi
-. Fare clic sul widget degli attributi di benessere nella dashboard o fare clic su *View All Actions* (Visualizza tutte le azioni) per visualizzare l'elenco di tutte le azioni e i rischi.
+. Seleziona il widget dell'attributo benessere nella dashboard oppure seleziona *Visualizza tutte le azioni* per visualizzare l'elenco di tutte le azioni e i rischi.
 . Visualizzare le voci *azioni* e *rischi* associate all'attributo wellness.
-. Fare clic su *azioni* per visualizzare i rischi associati alle azioni, fare clic su *rischi* per visualizzare tutti i rischi oppure fare clic su *sistemi interessati* per visualizzare i sistemi che richiedono attenzione.
-. Fare clic sul rischio per visualizzare il riepilogo dei rischi.
-. Fare clic su *Ack* per riconoscere il rischio.
+. Seleziona *Azioni* per visualizzare i rischi associati alle azioni, seleziona *Rischi* per visualizzare tutti i rischi oppure seleziona *Sistemi interessati* per visualizzare i sistemi che richiedono attenzione.
+. Seleziona il rischio per visualizzare il riepilogo del rischio.
+. Seleziona *Ack* per accettare il rischio.
 +
 Le informazioni dettagliate sul riepilogo dei rischi vengono fornite insieme alle azioni correttive che devono essere eseguite manualmente per mitigare il rischio.
 
-. Se non si desidera o non si è in grado di mitigare il rischio in questo momento, fornire i valori per i campi e fare clic su *Acknowledge* (Conferma).
+. Se non vuoi o non puoi mitigare il rischio in questo momento, inserisci i valori per i campi e seleziona *Confermo*.
 +
 Il rischio verrà aggiunto ai rischi riconosciuti.
 
 
 
 
-NOTE: Se non si desidera più che un rischio venga riconosciuto, è possibile ignorare il rischio facendo clic su *un-Ack* e seguendo la stessa procedura.
+NOTE: Se non vuoi più che un rischio venga riconosciuto, puoi ignorare il rischio selezionando *Annulla conferma* e seguendo gli stessi passaggi.
