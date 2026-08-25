@@ -28,7 +28,7 @@ sidebar:
       url: "/concept_understand_activeiq_features.html"
     - title: Accedi a Digital Advisor nella console NetApp
       url: "/digital-advisor-integration-with-console.html"
-    - title: Scopri di più su Digital Advisor
+    - title: Termini e definizioni chiave in Digital Advisor
       url: "/concept_key_terms.html"
     - title: Scopri di più su AutoSupport
       url: "/concept_autosupport.html"
@@ -154,8 +154,8 @@ sidebar:
         entries:
         - title: Scarica il pacchetto Ansible del firmware AFF e FAS
           url: "/task_update_AFF_FAS_firmware.html"
-        - title: Aggiornare il firmware AFF e FAS utilizzando un pacchetto Ansible
-            (utenti esperti)
+        - title: Aggiorna il firmware AFF e FAS usando un pacchetto Ansible per utenti
+            esperti
           url: "/task_install_execute_firmware_update_exp_user.html"
         - title: Installare ed eseguire il pacchetto di automazione Ansible del firmware
             AFF e FAS (principianti)
