@@ -1691,6 +1691,6 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="9331d73e3c99004c7679e085ea303447" category="sidebar">Visualizza i dati delle macchine virtuali disponibili in Data Infrastructure Insights</block>
   <block id="608a46677d36b132542feed4a0445c56" category="sidebar">Aggiorna il firmware AFF e FAS usando un pacchetto Ansible per utenti esperti</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">Avviso di deprecazione per la macchina virtuale</block>
-  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">La funzionalità Macchina virtuale è deprecata in Digital Advisor da ottobre 2026.</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">14 settembre 2026</block>
+  <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">La funzionalità Macchina virtuale verrà deprecata in Digital Advisor a ottobre 2026.</block>
 </blocks>
