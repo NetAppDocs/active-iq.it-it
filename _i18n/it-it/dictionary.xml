@@ -880,7 +880,6 @@ Potrebbe non essere possibile cercare alcuni sistemi o visualizzarli nella pagin
   <block id="155b92b0d3df6f08f7a22ee41987478d" category="paragraph">Per ulteriori informazioni su FabricPool, fare riferimento a. <block ref="95721715db0d24514cff915b8dac95f3" category="inline-link-macro-rx"></block>.</block>
   <block id="c9a7e25beb9575351b078da21d059517" category="list-text">*Casi tecnici*: Fornisce una vista dettagliata della cronologia tecnica del caso, in base al tipo di caso e allo stato aperto o chiuso, in intervalli di tempo selezionabili.  È possibile analizzare i gruppi di casi e visualizzare i dettagli del caso tramite <block ref="4052dc01853e78687038691ab3fc5cc0" category="inline-link-macro-rx"></block> o altri portali di casi.</block>
   <block id="0abfb28c0c42381f5bdaaa9ae0da77db" category="list-text">Installare <block ref="245307cfb046e79d0ebccdf0bb3e7396" category="inline-link-macro-rx"></block> e. <block ref="b37d22802e31da3263bb8117bdd516f1" category="inline-link-macro-rx"></block>.</block>
-  <block id="4bdc49aacf883a14a18411273872ee96" category="paragraph">Per ulteriori informazioni sul comando ansible-galaxy, fare riferimento a. <block ref="037b694376946e6e330c847bc4e48449" category="inline-link-macro-rx"></block> Per ulteriori informazioni su NetApp Ansible Collection, consultare <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>.</block>
   <block id="85da219929dec7990a12ce28aff47903" category="paragraph">Per ulteriori informazioni sul comando *ansible-playbook*, fare riferimento a. <block ref="8c04b73445737bcfc4025ef8f1a9a540" category="inline-link-macro-rx"></block> E per eseguire il manuale Ansible in modalità check (dry run), fare riferimento a. <block ref="81862bc1dc3b588f731b84b986e9994e" category="inline-link-macro-rx"></block>.</block>
   <block id="78c1cfc20c22b33386b17ebe2a0a7d64" category="list-text"><block ref="78c1cfc20c22b33386b17ebe2a0a7d64" category="inline-link-macro-rx"></block></block>
   <block id="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="list-text"><block ref="3aa7e8b41bd2bc3e8ab55a4e277f82ca" category="inline-link-macro-rx"></block></block>
@@ -1693,4 +1692,11 @@ La disponibilità delle funzioni in *STATO DI ARCHIVIAZIONE* dipende dal tipo e 
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">Avviso di deprecazione per la macchina virtuale</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">14 settembre 2026</block>
   <block id="947172fbf1812b374d2eb98557cca1c0" category="paragraph">La funzionalità Macchina virtuale verrà deprecata in Digital Advisor a ottobre 2026.</block>
+  <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Aggiornamento dei contenuti per la dashboard Value Insights</block>
+  <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">È stato pubblicato un aggiornamento della documentazione per la dashboard Value Insights.</block>
+  <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">come utilizzare la dashboard "Value Insights" in Digital Advisor</block>
+  <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph">Scopri di più su <block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>.</block>
+  <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">La funzionalità Config Drift è stata ritirata e non è più disponibile in Digital Advisor da settembre 2026.</block>
+  <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">25 settembre 2026</block>
+  <block id="1d2715b65bd9e5fca57122f543d61e60" category="paragraph">Per ulteriori informazioni sul comando ansible-galaxy, fai riferimento a <block ref="a42b19d985084b52ec12dfca2fc50aad" category="inline-link-macro-rx"></block> e per ulteriori informazioni sulla NetApp Ansible Collection, fai riferimento a <block ref="d786fc4574d9c68470d2f8b53d708c65" category="inline-link-macro-rx"></block>.</block>
 </blocks>
