@@ -16,14 +16,14 @@ summary: Fornisce informazioni sullo stato di salute generale, sui risparmi, sul
 
 
 [role="lead"]
-La funzionalità Value Insights consolida le informazioni generali su stato di salute, risparmi, stabilità e sicurezza per il tuo sistema ONTAP. Puoi usare queste informazioni per migliorare lo stato di salute e le prestazioni del sistema attraverso una visione continua e basata sui dati del tuo ambiente ONTAP.
+La funzionalità Value Insights consolida il punteggio di integrità complessivo, i risparmi, la stabilità e le informazioni sulla sicurezza per i tuoi sistemi E-Series, ONTAP e StorageGRID. Puoi usare queste informazioni per migliorare il punteggio di integrità e le prestazioni del sistema tramite una vista continua e basata sui dati del tuo ambiente E-Series, ONTAP e StorageGRID.
 
 
-NOTE: Value Insights è disponibile solo per i sistemi ONTAP.
+NOTE: Value Insights è disponibile per i sistemi E-Series, ONTAP e StorageGRID.
 
 Value Insights fornisce le seguenti informazioni:
 
-* Lo stato di salute generale del tuo sistema ONTAP è una metrica di punteggio sulla salute composta da nove indicatori chiave di prestazione. Ogni sezione presenta una ripartizione dettagliata dei KPI e del punteggio.
+* Lo stato di salute generale del sistema è un parametro di valutazione composto da nove indicatori chiave di prestazione (KPI). Ogni sezione presenta una ripartizione dettagliata dei KPI e del punteggio.
 * I punteggi di risparmio e stabilità indicano come ottenere risparmi in termini di capacità e storage attraverso un utilizzo efficiente delle risorse. Accedi alle informazioni sulle tendenze relative all'uptime dello storage e ai tempi di inattività non pianificati, inclusa la possibilità di scaricare i file EMS.
 * La pianificazione in materia di sicurezza e futuro illustra i rischi evitati e i problemi prevenuti. Il risparmio sui costi è calcolato in base alle efficienze dello storage.
 * Massimizza il valore dell'infrastruttura consiglia funzionalità aggiuntive per migliorare ulteriormente le prestazioni dell'infrastruttura con la massima efficienza.
